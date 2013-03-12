@@ -1,0 +1,33 @@
+{% load static %}
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<title>DND FOR JOCKS</title>
+	<link rel="stylesheet" href="{{ STATIC_URL }}/stylesheets/stylesheet.css" type="text/css" />
+	<!-- <link rel="stylesheet" href="{{ MEDIA_URL }}/stylesheets/stylesheet.css" type="text/css" /> -->
+</head>
+
+<body>
+	<section class="login_user">
+		<form action="" method="post">{% csrf_token %}
+			<fieldset>
+				<label class="form_error">{{ state }}</label>
+			</fieldset>
+			
+			<fieldset>
+				<input type="text" name="username" placeholder="username" required />
+			</fieldset>
+			
+			<fieldset>
+				<input type="password" name="password" placeholder="password" required />
+			</fieldset>
+			
+			<fieldset>
+				<button type="submit">Log In</button>
+				<a class="a_button" href="{% url users.views.create_user %}">Register</a>
+			</fieldset>
+		</form>
+	</section>
+</body>
+
+</html>
