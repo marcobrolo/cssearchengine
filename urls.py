@@ -6,6 +6,7 @@ from django.conf.urls.defaults import patterns, include, url
 
 urlpatterns = patterns('',
     (r'^$', 'engine.views.search_page'),
+    (r'^results/$', 'engine.views.results_page'),
     # Examples:
     # url(r'^$', 'cssearchengine.views.home', name='home'),
     # url(r'^cssearchengine/', include('cssearchengine.foo.urls')),

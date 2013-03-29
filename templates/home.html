@@ -1,16 +1,17 @@
+{% load static from staticfiles%}
 <!DOCTYPE HTML>
 <html lang="en-US">
 <head>
 	<meta charset="UTF-8">
 	<title></title>
-	<link rel="stylesheet" href="css/reset.css">
-  <link rel="stylesheet" href="css/home.css">
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/reset.css">
+  <link rel="stylesheet" href="{{ STATIC_URL }}css/home.css">
 </head>
 <body>
   <div id="wrapper">
     <div id="container">
       <div id="glass"></div>
-      <img src="images/logo.png" alt="SFU Computing Science Course Engine" id="logo">
+      <img src="{{ STATIC_URL }}images/logo.png" alt="SFU Computing Science Course Engine" id="logo">
       <div id="searchform_wrap">
         <form action="" id="searchform">
           <input type="text" id="query" placeholder='eg: "CMPT 300" or "Operating Systems"'>
@@ -20,9 +21,9 @@
       </div>
     </div>
   </div>
-	<script type="text/javascript" src="js/min/jquery.min.js"></script>
-  <script type="text/javascript" src="js/min/home.min.js"></script>
-	<script type="text/javascript" src="js/min/underscore.min.js"></script>
-	<script type="text/javascript" src="js/min/backbone.min.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/min/jquery.min.js"></script>
+  <script type="text/javascript" src="{{ STATIC_URL }}js/min/home.min.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/min/underscore.min.js"></script>
+	<script type="text/javascript" src="{{ STATIC_URL }}js/min/backbone.min.js"></script>
 </body>
 </html>
