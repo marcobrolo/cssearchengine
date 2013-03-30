@@ -14,3 +14,7 @@ class DmozItem(Item):
     title = Field()
     link = Field()
     desc = Field()
+
+class RateMyProfItem(Item):
+    prof_name = Field()
+    prof_link = Field()

@@ -1,0 +1,1926 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Please leave DOCTYPE tag on top of the page as it messes up layout on IE -->
+<!-- Moved the java code to outside html tag to show display from error page during invalid page occurence -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Greg&nbsp;Baker - Simon Fraser University - RateMyProfessors.com</title>
+<meta name="description" content="See ratings and read comments about professor Greg&nbsp;Baker from Simon Fraser University in BC." />
+<meta name="keywords" content="Professor, Professors, Rate My Professor, Ratings, Campus, University, College, Clarity, Hotness, Academic, Academia, Department, School, Quality, Chili Peppers, Rebuttal, Classes, Courses, Schedule, Semester, Grade, GPA, Pass, Fail" />
+
+<script type="text/javascript">
+ function logEvent(clicktype){
+           //Send a link event call
+            btg.Controller.sendLinkEvent(
+               {
+                  linkName:clicktype,
+                  linkType:'e'
+               }
+            );
+ }
+</script>
+
+<script language="JavaScript" type="text/javascript">	
+	function replace(str,searchFor,replaceWith){
+		x = str.indexOf(searchFor);
+		while(x!=-1){
+	    	j = x+searchFor.length;
+	    	str = str.substring(0,x)+replaceWith+str.substring(j,str.length);
+	    	x = str.indexOf(searchFor,x+replaceWith.length);
+		}
+		return str;
+	}
+	//TESTING for www4 issue
+	function translateEscaper(varName){
+		varName = replace(varName,"&quot\;","\"");
+		varName = replace(varName,"&gt\;",">");
+		varName = replace(varName,"&lt\;","<");
+		varName = replace(varName,"&#39;","'");
+		varName = replace(varName,"&amp;","&");
+		varName = replace(varName,"&~!","+");
+	
+		return varName;
+	}
+	
+	function doPrompt(url) {
+		var professor = "Baker"+" "+"Greg";
+		professor = translateEscaper(professor);		
+		var msgText='Copy the URL below into your RSS feed to see ratings for - "' + professor + '"';
+	    prompt(msgText, url)
+	}	
+
+	function RatingWarning(selfLogin) {
+		if(selfLogin) {
+			alert('Sorry, but as a professor, you are not allowed to rate yourself.');
+		} else {
+			alert('Sorry, but as a professor, you are not allowed to rate other professors.');
+		}
+	}
+	
+</script>
+
+<meta name="prof_name" content="Baker, Greg"/>
+<meta name="school_name" content="Simon Fraser University"/>
+<meta name="school_location" content="Burnaby, BC"/>
+<!-- 
+	<meta property="og:title" content="RateMyProfessors" />
+    <meta property="og:type" content="movie"/>
+    <meta property="og:url" content="http://www.imdb.com/title/tt0117500/"/>
+    <meta property="og:image" content="http://ia.media-imdb.com/rock.jpg"/>
+-->
+<!-- FaceBook sharing  RMPM-502-->
+<meta property="og:image" content="http://ratemyprofessors.mtvnimages.com/prof/t_Greg_Baker_31619.jpeg"/> 
+
+<!-- primary CSS -->
+<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/new-RMP-1.1.css" type="text/css" />
+<script src="http://platform.twitter.com/widgets.js" type="text/javascript"></script>
+<script src="http://static.ratemyprofessors.com/javascript/jquery-1.3.2.min.js" type="text/javascript"></script>
+<script src="http://static.ratemyprofessors.com/javascript/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>	
+<script src="http://static.ratemyprofessors.com/javascript/tooltip.js" type="text/javascript"></script>	
+<script src="/javascript/jquery.browser.min.js" type="text/javascript"></script>
+
+<link rel="stylesheet" href="/stylesheets/overlaymenu.css" type="text/css" />
+<!-- RMPM-500 Added for Comments and Ratings and Professors Rebuttal Tab -->  
+<link href="stylesheets/jquery-ui.css" rel="stylesheet" type="text/css"/>
+  <script>
+  $(document).ready(function() {
+    $("#tabs").tabs();
+
+     if($.browser.msie){
+        var elem = '<a class=facebook-recommend href=https://www.facebook.com/sharer.php?u=' + window.location.href + ' target=_new rel=nofollow></a>';
+        $('#fb_share_script').remove();
+        $('#fb_share').replaceWith(elem);
+     }
+  });
+  </script>
+<!--[if IE]>
+<script type="text/javascript" src="http://static.ratemyprofessors.com/javascript/DD_roundies_0.0.2a-min.js"></script>
+<script type="text/javascript">
+// DD_roundies.addRule('#quality', '5px');
+// DD_roundies.addRule('#easiness', '5px');
+// DD_roundies.addRule('#helpfulness', '5px');
+// DD_roundies.addRule('#clarity', '5px');
+// DD_roundies.addRule('#commentsBookToggle #commentsToggle h3 a', '5px 5px 0 0');
+// DD_roundies.addRule('#commentsBookToggle #commentsToggle h3 a', '5px 5px 0 0');
+// DD_roundies.addRule('#commentsBookToggle #booksToggle h3 a', '5px 5px 0 0');
+// DD_roundies.addRule('#commentsBookToggle #rebuttalToggle h3 a', '5px 5px 0 0');
+// DD_roundies.addRule('#hot', '5px');
+// DD_roundies.addRule('.smpromo', '5px');
+// DD_roundies.addRule('.graphicalLinks', '5px');
+// DD_roundies.addRule('#professor', '5px');
+</script>
+<![endif]-->
+
+
+</head>
+<body class="professorPage Baker&nbsp;Greg&nbsp;Simon Fraser University">
+
+
+<div id="rebuttalNotice" class="rebuttalNotice" style="display:none;">
+
+<div class="rebuttalCopy">
+
+<a class="hide" onclick="ShowHide(); return false;" href="#"><span>X</span> CLOSE</a>
+  
+<h2>Welcome Professors:</h2>
+
+<p>If you are a certified professor and want to make a rebuttal or add a photo to your profile, please<a href="/member"><strong> click here </strong></a> to log in.</p>
+
+<p>If you are a certified professor and you are already logged in you can <a href="/member/AddRebuttal.jsp"><strong>Add Rebuttal</strong></a>, <a href="/member/AddTeacherPicture.jsp"><strong>Add/Edit Photo</strong></a> or <a href=""><strong>Edit Account Settings</strong>.</a></p>
+
+<p>If you have an account on RateMyProfessors.com but have not yet become a certified professor, please <a href="/joinprof.jsp"><strong>click here</strong></a> to register as a certified professor. With a certified professor account you can post blog-like responses to your ratings, as well as add a photo to your professor page. Your rebuttals will accessible from a tab to the right of the "User Comments and Ratings" tab.</p>
+
+<p>If you don't have an account at all, please <a href="/join.jsp"> <strong>click here</strong> </a> to get started.</p>
+
+<p>Thank you.<br/>
+The RateMyProfessors Team</p>
+
+</div> <!-- closes rebuttal copy -->
+</div> <!-- closes rebuttal notice -->
+
+<div id="rebuttalNotice2" class="rebuttalNotice" style="display:none;">
+
+<div class="rebuttalCopy">
+
+<a class="hide" onclick="ShowHide3(); return false;" href="#"><span>X</span> CLOSE</a>
+  
+<h2>Already a registered professor?</h2>
+
+<p>Already have a Certified Professor Account? <br/><a href="/member/AddRebuttal.jsp"><strong>Add Rebuttal</strong></a>, <a href="/member/AddTeacherPicture.jsp"><strong>Add/Edit Photo</strong></a> or <a href=""><strong>Edit Account Settings</strong>.</a></p>
+	
+<p>If you are not registered as a certified professor, please <a href="/joinprof.jsp">click here</a> to register to become a certified professor.  With a certified professor account you can <strong>post blog-like responses</strong> to your ratings, as well as <strong>add a photo</strong> to your professor page. Your rebuttals will accessible from a tab to the right of the "User Comments and Ratings" tab.</p>
+
+<p>If you are not a professor and wish to register, please<a href="/join.jsp"> click here </a>for a standard account.</p>
+
+<p>Thank you.<br/>
+The RateMyProfessors Team</p>
+
+</div> <!-- closes rebuttal copy -->
+</div> <!-- closes rebuttal notice --><script type="text/javascript" charset="utf-8">
+		// for the header
+		function drop_country()
+		{
+			if(document.getElementById("down").style.display='none')
+			{
+				document.getElementById("down").style.display='block';
+			}
+		}
+		function onmousedrop_down()
+		{
+			if(document.getElementById("down").style.display='block')
+			{
+				document.getElementById("down").style.display='none';
+			}
+		}
+
+		var popUpWin=0;
+		function popUpWindow(URLStr, left, top, width, height)
+		{
+			if(popUpWin)
+			{
+				if(!popUpWin.closed) popUpWin.close();
+			}
+			popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menub ar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+'');
+		}
+		
+
+ 
+	var domainName = 'ratemyprofessors.com';
+	if (!domainName && domainName != "") {
+		document.domain=domainName;
+	}
+</script> 
+
+
+<!-- primary CSS -->
+<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/new-RMP-1.1.css" type="text/css" />
+<!-- Date: 2007-02-25 -->
+	<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<!-- Vic S: 5-16-08 -->
+	<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/srchBtn.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+
+
+<div id="siteWrapper">
+	
+<div id="header">
+<h1><a href="/">RateMyProfessors.com</a></h1>
+
+<div class="solrsearch1div">	  
+   <ul id="solrsearch1">
+   <form action="/search.jsp" name="searchForm1" id="searchForm1" onsubmit="javascript:beforeSearch(this.name,'query1','queryoption1');">
+   <li class="liInline1">
+      <input type="text" id="query1" name="query1" class="searchBox" x-webkit-speech />
+   </li>
+   <li class="liInline1">
+      <div class="searchSelect1">
+          <select name="queryoption1"  id="queryoption1">
+            <option value="TEACHER" selected="selected">Professors</option>
+            <option value="SCHOOL">Schools</option>
+          </select>
+      </div>
+   </li>
+   <li class="liInline1">
+      <input type="submit" id="search_submit1" name="search_submit1" value="Search" tabindex="2" class="searchButton1" />
+   </li>
+   <li class="liInline1">
+      <input type="button" value="Web" tabindex="3" class="webButton1" onclick="window.open('http://search.live.com/results.aspx?q=' + document.getElementById('query1').value + '&mkt=en-US&FORM=VCM018','_blank')" />
+   </li>
+   </form>
+</ul><!--
+<form action="/SearchProfs.jsp" id="search" name="search" method="get" onsubmit="if(search.letter.value == '') {alert( 'Please enter name of the professor you want to search for.' );search.letter.focus();return false ;}return true;">
+<input type="text" class="searchBox" onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}" value="Enter Last Name of Professor" style="color: gray;" tabindex="1" name="letter" id="rmp_navFindTextInput"/> 
+<input type="submit" class="searchButton" tabindex="2" value="Search" id="search_submit"/> 
+<input type="button" class="webSearchButton" tabindex="3" value="Web" id="web_submit" onclick="javascript: document.location = 'http://search.live.com/results.aspx?q=' + document.getElementById('rmp_navFindTextInput').value + '&mkt=en-US&FORM=VCM018'" /> 
+</form>
+-->
+</div><!-- closes search -->
+
+</div><!-- closes header -->
+
+<div id="nav" class="basicBorder"> 
+<ul>
+<li id="navHome"><a href="/">Home</a></li>
+<li id="navTAF"><a href="/About.jsp">About</a></li>
+<!--
+<li id="navSearch"><a href="/SearchProfs.jsp">Professors</a></li> 
+<li id="navSearch"><a href="/SearchSchool.jsp">Schools</a></li> 
+-->
+<li id="navSearch"><a href="/toplists/topLists.jsp">Top Lists</a></li> 
+<li id="navSearch"><a href="http://blog.ratemyprofessors.com/category/professors-strike-back/">Professors Strike Back</a></li> 
+<li id="logIn">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Login Page</title>
+</head>
+<body>
+<div id="sso"></div>
+<script language="Javascript">
+var loadsuccess=false;
+var ssousername='';
+// this shows dynamic script insertion
+document.write('<script src= "http://www.ratemyprofessors.com/member/jso.jsp" type="text/JavaScript"><\/script>');
+</script>
+
+<script language="Javascript">
+String.prototype.trim = function() {
+	return this.replace(/^\s+|\s+$/g,"");
+}
+String.prototype.ltrim = function() {
+	return this.replace(/^\s+/,"");
+}
+String.prototype.rtrim = function() {
+	return this.replace(/\s+$/,"");
+}
+
+function updatesignon(str){
+
+	if(str==''){		
+		document.getElementById("sso").innerHTML = "<p>Hi, <span>Guest!</span> [ <a href='http://www.ratemyprofessors.com/join.jsp'>create account</a> | <a href='http://www.ratemyprofessors.com/member/'>login</a> ]</p>";
+	}else{				
+		document.getElementById("sso").innerHTML = "<p>Hi, <span>" + str + "!</span> [ <a href='http://www.ratemyprofessors.com/member/'>my account</a> | <a href='http://www.ratemyprofessors.com/member/logout.jsp'>logout</a> ]</p>" ;
+	}
+}
+
+if (loadsuccess == true) {
+	updatesignon(ssousername);	
+} else {	
+	updatesignon('');
+}
+
+</script>
+</body>
+</html>
+</li>  
+</ul>
+
+</div><!-- closes nav -->
+<script type="text/javascript" src="http://btg.mtvnservices.com/aria/coda.html?site=ratemyprofessors.com"></script>
+<script src="http://www.mtv.com/global/scripts/special/projx.jhtml?channelname=RateMyProfessors"></script>
+
+<div id="ad728">	
+<script type="text/javascript">
+	//Place Ad
+	btg.Controller.placeAd(
+	{
+	  size:'728x90',
+	  isReloadable:true,
+	  sections:'/ShowRatings/1482/',
+	  reloadInterval:30000,
+	  keyValues:"!category=expand;!category=pop"       
+	}
+	);
+	</script>
+
+</div> <!-- closes 728 ad -->
+
+ 
+<div id="contentWrapper">
+
+<!-- END HEADER -->
+<!-- END HEADER -->
+<style type="text/css">
+#profInfo a:hover {
+	text-decoration:none;
+	color:black;
+}
+</style>
+
+
+<div id="breadcrumbs">
+<a href="/">Home</a> &raquo; 
+<a href="index.jsp?country=1">Canada</a> &raquo; 
+<a href="SelectSchool.jsp?country=1&amp;stateselect=BC">British Columbia</a> &raquo; 
+<a href="SelectTeacher.jsp?sid=1482">Simon Fraser University</a> &raquo; 
+Greg&nbsp;Baker</div>
+
+<div id="profContent">
+
+<div id="professor" style="padding: 30px 15px;">
+<!-- RMPM-447 Commenting rebuttal check as it has been provided in Professor Tools for Professors only -->
+<!-- RMPM-484 Display Professor Badge if uploaded by admin -->
+<div id="profName">
+<h2 id="profName" style="color:black;">Greg&nbsp;Baker</h2>
+</div>
+<div id="profPhoto">
+<img src="http://ratemyprofessors.mtvnimages.com/prof/t_Greg_Baker_31619.jpeg?width=200&height=200&host=ratemyprofessors.mtvnimages.com&overlay=prof/watermark/rmpwatermark.png" onerror="this.src='http://static.ratemyprofessors.com/images/no_photo.gif'" title="Greg&nbsp;Baker" alt="Greg&nbsp;Baker" class="rmp_prof"  />
+</div>
+
+<!-- script to show hide professor rebuttal -->
+<script type="text/javascript">
+function ShowHide(){$("#rebuttalNotice").animate({"opacity": "toggle"}, { duration: 200 });}
+function ShowHide2(){$("#rebuttalText").animate({"opacity": "toggle"}, { duration: 200 });}
+function ShowHide3(){$("#rebuttalNotice2").animate({"opacity": "toggle"}, { duration: 200 });}
+
+</script>
+
+
+<div id="profInfo">
+<ul>
+<!-- Changes made for RMPM-759 <li>Name: <strong>Greg&nbsp;Baker</strong></li> -->
+<li>School: <strong><a href="SelectTeacher.jsp?sid=1482">Simon Fraser University</a></strong></li>
+<li>Location: <strong>Burnaby, <a href="SelectSchool.jsp?country=1&amp;stateselect=BC">BC</a></strong></li>
+<li>Department: <strong>Computer Science</strong></li>
+</ul>
+</div>
+        
+
+<div id="scoreCard">
+<ul>
+<li class="tTip" id="quality" title="Overall Quality is determined by the average rating of the Helpfulness and Clarity given by all users." ><strong>3.3</strong><span>Overall Quality</span></li>
+<li class="tTip" id="helpfulness" title="Is this professor approachable, nice and easy to communicate with? How accessible is the professor and is he/she available during office hours or after class for additional help?"><strong>3.2</strong><span>Helpfulness</span></li>
+<li class="tTip" id="clarity" title="How well does the professor teach the course material? Were you able to understand the class topics based on the professor's teaching methods and style?"><strong>3.3</strong><span>Clarity</span></li>
+<li class="tTip" id="easiness" title="Is this class an easy A? How much work do you need to do in order to get a good grade?  Please note this category is NOT included in the &quot;Overall Quality&quot; rating."><strong>3.0</strong><span>Easiness</span></li>
+
+<script type="text/javascript">
+var status=0;
+if (status < 0){document.write('<li id="hot" class="status1 tTip" title="Is your professor hot?  Hot professors get a red chili pepper"><strong>0</strong><span>Hotness</span></li>');}
+else if (status == 0){document.write('<li id="hot" class="status1 tTip" title="Is your professor hot?  Hot professors get a red chili pepper"><strong>0</strong><span>Hotness</span></li>');}
+else if (status < 10){document.write('<li id="hot" class="status2 tTip" title="Is your professor hot?  Hot professors get a red chili pepper"><strong>0</strong><span>Hotness</span></li>');}
+else if (status < 20){document.write('<li id="hot" class="status3 tTip" title="Is your professor hot?  Hot professors get a red chili pepper"><strong>0</strong><span>Hotness</span></li>');}
+else if (status >= 20){document.write('<li id="hot" class="status4 tTip" title="Is your professor hot?  Hot professors get a red chili pepper"><strong>0</strong><span>Hotness</span></li>');}
+else{}
+</script>
+</ul>
+
+</div>
+
+<script>
+function externallinks() {
+if (!document.getElementsByTagName)
+return;
+var anchors = document.getElementsByTagName("a");
+for
+(var i=0; i<anchors.length; i++) {
+var anchor = anchors[i];
+if
+(anchor.getAttribute("href") == "")
+anchor.target = "_blank";
+}
+}
+window.onload = externallinks;
+</script>
+
+<div id="otherInfo">
+<!-- RMPM-447 Commenting following line as it has been moved to Professor Tools for Professors only -->
+<!-- <p id="profRSS"> <a href="http://feed.RateMyProfessors.com/rssTeacherRating.jsp?tid=31619"onclick="doPrompt('http://feed.RateMyProfessors.com/rssTeacherRating.jsp?tid=31619'); return false;" title="Subscribe to Greg&nbsp;Baker RSS Feed"> Get <acroynm title="Really Simple Syndication">RSS</acroynm> Updates </a> </p> -->
+
+<div id="reportProblem">
+	<p><span id="rateNumber">Number of ratings <strong>211</strong></span>
+	<a href="#" id="problemOpen">Submit a correction</a>
+	</p>
+	
+	<div id="problemBox">
+		<label>Please select the appropriate issue and enter the requested change. </label>
+		<a href="#" id="problemCloseA" style="float:right"><img src="http://static.ratemyprofessors.com/images/cancel.png" alt="Close"></a>
+		<form action="correctTeacher.jsp" method="post" id="correctionForm" name="myform" style="background:none" >
+				<input type="hidden" name="tidC" value="31619" />
+				<ul>
+					<li><label><input name="reportp" type="radio" value="1" tabindex="1"> Duplicate</label></li>
+					<li><label><input name="reportp" type="radio" value="2"> Name</label></li>
+					<li><label><input name="reportp" type="radio" value="3"> School</label></li>
+					<li><label><input name="reportp" type="radio" value="4"> Department</label></li>
+					<li><input id="problemText" name="problemText" type="text" size="62" maxlength="350" class="problemText"></li>
+					<li class="probName">
+					<!-- 	<label>Name:</label><input class="inputrow" id="nameCorr" name="nameCorr" type="text" size="18" maxlength="15" value="" /> --> 
+						<label>Email:</label><input class="inputrow" id="emailCorr" name="emailCorr" type="text" size="18" maxlength="75" value="" />
+					<!--RMP-482 Adding Captcha Field -->
+					<br><br>
+					<label><img src="/Kaptcha.jpg" id="kaptchaImage"><br/><a style="padding-bottom:15px;display:block;" href="javascript:void(0);" id="kaptchaLink">Generate New Image</a>
+<br>
+					Please type the number you see above:<br></label> 
+					<input type="text" name="code" size="20" maxlength="10" class="inputrow"><br/><br/>
+					<input type="button" onclick="return checkform()" value="Submit"><br/><br/>
+					</li>
+				</ul>
+		</form>
+		
+	<p class="probText">IMPORTANT: Before your requested correction is reflected on the site, your request will need to be verified and approved by the RMP Site Moderation Team.</p>
+	</div>
+</div>
+<script language="JavaScript"> 
+//RMPM-482 Adding code for captcha validation by Ajax
+var invokeurl = 'newSubmitCorrection.jsp?code='; 
+var captchaOK =2; // 2 - not yet checked, 1 - correct, 0 - failed 
+function getHTTPObject() { 
+	
+ try { 
+    req = new XMLHttpRequest();
+ }catch (err1) { 
+	try {
+		 req = new ActiveXObject("Msxml12.XMLHTTP");
+	 }catch (err2) {
+		  try { 
+			  req = new ActiveXObject("Microsoft.XMLHTTP"); 
+		  }catch (err3) {
+			  req = false;
+		  }
+	}
+ }
+return req; 
+} 
+var http = getHTTPObject(); 
+// We create the HTTP Object 
+function handleHttpResponse(){	
+	if (http.readyState == 4) {	
+	captchaOK = http.responseText;	
+	if(captchaOK != 1) {
+		 alert('Sorry, you entered incorrect characters. Please enter the characters in the displayed image.');
+		 document.myform.code.value='';
+		 document.myform.code.focus(); 
+		 return false; 
+	 }
+	document.myform.submit(); 
+	}
+}
+
+ function checkcode(thecode){
+ //Code is modified ajax post method	
+	 var parameters = "code="+thecode;
+	 http.open("POST", "/member/submitCorrectionpage.jsp", true);
+	 http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	 http.onreadystatechange = handleHttpResponse; 
+	 http.send(parameters);
+	  /*
+	  http.open("GET", invokeurl + escape(thecode), true); 
+	  http.onreadystatechange = handleHttpResponse; 
+	  http.send(null);
+	  */
+}
+
+function checkform(){ // First the normal form validation
+
+	if(!document.getElementsByName("reportp")[0].checked && !document.getElementsByName("reportp")[1].checked && !document.getElementsByName("reportp")[2].checked  && !document.getElementsByName("reportp")[3].checked )
+	{
+		alert("Please indicate if this is a Duplicate, Name, School or Department correction.");
+		return false;
+	}
+	else if(Trim(document.getElementById("problemText").value)=="" )
+	{
+		alert("Please provide a description of the correction.");
+		return false;
+	}
+	/*else if(Trim(document.getElementById("nameCorr").value)=="" )
+	{
+		alert("Please provide your Name.");
+		return false;
+	}*/
+	else if(Trim(document.getElementById("emailCorr").value)=="" )
+	{
+		alert("Please provide an Email Address.");
+		return false;
+	}
+	else
+	{
+		//document.forms['correctionForm'].submit();
+	}
+	
+    if(document.myform.code.value=='') 
+    { 
+	 alert('Please enter the characters from the displayed image'); 
+	 document.myform.code.value='';
+	 document.myform.code.focus();
+	 return false;
+    } 
+    // Now the Ajax CAPTCHA validation	 
+    checkcode(document.myform.code.value); 
+    return false;
+} 
+
+	
+	function LTrim(s) 
+	{
+		return(s.replace(/^\s*/,""));
+	}
+		
+	function RTrim(s) {
+		return(s.replace(/\s*$/,""));
+	}
+	
+	function Trim(s) {
+		return(RTrim(LTrim(s)));
+	}
+</script>
+<script language="Javascript">
+// dynamic script insertion so that page isn't cached
+document.write('<script src= "http://www.ratemyprofessors.com/member/profTools.jsp?teacherID=31619" type="text/JavaScript"><\/script>');
+</script>
+
+<div id='proftoolmenu' style="display: none;">
+	<ul id="rmp_menu" class="rmp_menu">
+		<li><a href="#"><img src="images/hammer_icon.png" alt="#" width="16" height="16"/>Professor Tools</a>
+			<div>
+				<ul>
+					<li><a href="member/AddRebuttal.jsp"><img src="images/megaphone_icon.png" alt="#"/><span>Add Feedback</span></a></li>
+					<li><a href="member/AddTeacherPicture.jsp"><img src="images/photo_icon.png" alt="#"/><span>Add/Edit Photo</span></a></li>
+					<li><a href="member/editAccount.jsp"><img src="images/twitter_icon.png" alt="#"/><span>Add Follow Button</span></a></li>
+					<li><a href="http://feed.RateMyProfessors.com/rssTeacherRating.jsp?tid=31619" onclick="doPrompt('http://feed.RateMyProfessors.com/rssTeacherRating.jsp?tid=31619'); return false;" title="Subscribe to Greg&nbsp;Baker RSS Feed"><img src="images/rss_icon.png" alt="#"/>Get <acroynm title="Really Simple Syndication">RSS</acroynm> Updates </a> </li>
+				</ul>
+			</div>
+		</li>
+	</ul>	
+</div>
+</div><!--closes otherInfo -->
+<script>
+$(document).ready(function(){
+
+$('#problemBox').hide();
+
+$('a#problemOpen').click(function(){
+$('#problemBox').show('slow');
+});
+
+$('a#problemCloseA').click(function(){
+$('#problemBox').hide('slow');
+})
+
+});
+$(document).ready(function(){
+	$('.tTip').betterTooltip({speed: 150, delay: 0});
+	
+});
+
+</script> 
+</div><!-- closes profContent -->
+
+<div class="graphicalLinks" style="margin:17px 0 0; width:585px">
+<div class="rateProfessor">
+<a href="AddRating.jsp?tid=31619&totRtgs=211">Rate this professor</a>
+</div>
+<div class="share">
+<div class="tellAFriend"><a href="referral.jsp?tid=31619&pgid=3">Email this page</a></div> <!--Changes made regarding RMPM-844 -->
+<div class="twitterShare"><a href="http://twitter.com/home?status=Check out Greg&nbsp;Baker from Simon Fraser University here http://www.ratemyprofessors.com/ShowRatings.jsp?tid=31619" target="_blank" title="Click to share this post on Twitter">Post this on Twitter</a></div>
+<div class="fbShare"><a id="fb_share" name="fb_share" type="button_count" href="http://www.facebook.com/sharer.php"></a><script id="fb_share_script" name="fb_share_script" src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></div>
+</div>
+</div>
+
+</div><!-- closes left -->
+
+<div id="sideBar">
+<div id="ad300">
+<script type="text/javascript">
+	//Place Ad
+	btg.Controller.placeAd(
+	{
+	  size:'300x250',
+	  isReloadable:true,
+	  sections:'/ShowRatings/1482/',
+	  reloadInterval:30000,
+	  keyValues:"!category=expand;!category=pop"       
+	}
+	);
+	</script>
+
+</div>
+
+<div class="withAds">
+<div id="targetedPromoDiv" onclick="javascript:logEvent('TgtPromoShoRClick');">
+	<html><head><style type= "text/css">
+#icons {
+background: #EFEFEF;
+border: 8px solid #CCCCCC;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+p.iconp {
+margin-top: 5px;
+margin-bottom: 3px;
+margin-left: 12px;
+margin-right: 12px;
+}
+.targhead {
+margin-top: 13px;
+}
+</style></head><body>&nbsp;<img width="210" class="targhead" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/followrmp.png"><br><div id="socialwrap"><div id="icons"><p class="iconp"><a target="_blank" href="http://facebook.com/ratemyprofessor"><img border="0" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/fb1.png" onmouseover="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/fb2.png'" onmouseout="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/fb1.png'"></a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://twitter.com/ratemyprofessor"><img border="0" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tw1.png" onmouseover="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tw2.png'" onmouseout="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tw1.png'"></a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://ratemyprofessors.tumblr.com"><img border="0" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tmb1.png" onmouseover="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tmb2.png'" onmouseout="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tmb1.png'"></a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://pinterest.com/ratemyprofessor"><img border="0" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/pn1.png" onmouseover="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/pn2.png'" onmouseout="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/pn1.png'"></a></p></div></div></body></html></div>
+
+</div>
+
+</div><!-- closes sideBar -->
+<div id="bottomLeft" style="padding-top: 10px;">
+
+ <div id="tabs" style="border:none">
+    <ul style=" border-bottom: 0px solid #005295">
+        <li><a href="#profRatings"><span>User Comments and Ratings</span></a></li>
+        <li><a href="#profRebuttals"><span>Professor Feedback</span></a></li>        
+    </ul>
+    
+    <!-- Professor Comments And Ratings Tab-->
+	<div  id="profRatings" style="padding:0px">
+	<script language="JavaScript1.2" type="text/javascript">
+	var IE = document.all?true:false;
+	if (!IE) document.captureEvents(Event.MOUSEMOVE)	
+	document.onmousemove = getMouseXY;
+	var tempX=0,tempY=0;
+	function getMouseXY(e) {
+		
+
+		if (IE) { // grab the x-y pos.s if browser is IE
+			tempX = event.clientX + document.documentElement.scrollLeft;
+			tempY = event.clientY + document.documentElement.scrollTop;	
+		}
+		else {  // grab the x-y pos.s if browser is NS
+			tempX = e.pageX;
+			tempY = e.pageY;
+		}  
+
+		if (tempX < 0){
+			tempX = 0;
+		}
+		if (tempY < 0){
+			tempY = 0;
+		}  
+		return true;
+	}
+	function hideShow()
+	{
+		var elem = document.getElementById('rmp_reb_notice');
+		if(elem.style.display=="none"){			
+			tempX = tempX - 600;
+			tempY = tempY - 300;
+			elem.style.top=tempY+'px';
+			elem.style.left=tempX+'px';	
+			elem.style.display="block";						
+		} else {
+			elem.style.display="none";
+		}		
+	}
+	function showRebuttals() {
+		mywindow=window.open('/ShowProfessorRebuttal.jsp?tid=31619','mywindow',
+		'width=440,height=225,toolbar=no,location=no,directories=no,status=no,menubar=no,scrollbars=no,copyhistory=no,resizable=no');		
+		var screenY = screen.height;
+		var screenX = screen.width;		
+		var leftvar = (screenX/2) - 220
+		var rightvar = (screenY/2) - 112
+		mywindow.moveTo(leftvar,rightvar);
+		mywindow.focus();
+	}
+</script>
+<style>
+#ratingTable .ratingTableHeader .date, #ratingTable .ratingTableHeader .class, #ratingTable .ratingTableHeader .rating, #ratingTable .ratingTableHeader .comment {
+    color:#000 ;
+}
+</style>
+
+<div id="ratingTable">
+
+<div class="ratingTableHeader">
+<div class="date">Date</div>
+<div class="class">Class</div>
+<div class="rating">Rating</div>
+<div class="comment" style="width:350px;">Comment</div>	
+</div>
+
+<div class="entry odd">
+<a name="20975421"></a>	
+
+<div class="date">12/6/12</div>
+<div class="class">CMPT165</div>
+<div class="rating">
+
+<p class="poorQuality">Poor Quality</p>
+<p class="rEasy status1"><strong>Easiness</strong><span>1</span></p>
+<p class="rHelpful status1"><strong>Helpfulness</strong><span>1</span></p>
+<p class="rClarity status1"><strong>Clarity</strong><span>1</span></p>
+<p class="rInterest status1"><strong>Rater Interest</strong><span>1</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Took distance Ed with Greg. He's non present during the course, and is pretty unhelpful at exams, bordering on rude.  That said, it's a distance course, so you can expect that</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20975421" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="20646485"></a>	
+
+<div class="date">9/16/12</div>
+<div class="class">CMPT383</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">One of few profs who still teach using an overhead, which is GOOD because it keeps the pace manageable. Learned two new prog langs, a new paradigm, and got more prolog practice from this course: well worth it. Weekly exercises and three fairly large assignments. Not too tough if you start early. Tests are programming heavy so be sure to practice!</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20646485" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="20600564"></a>	
+
+<div class="date">8/23/12</div>
+<div class="class">cmpt383</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">one of the best prof. explains everything really well. you will really learn a lot from this prof. Assignments exams were reasonable.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20600564" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="20577423"></a>	
+
+<div class="date">8/15/12</div>
+<div class="class">CMPT383</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status4"><strong>Rater Interest</strong><span>4</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Course material is valuable to all programmers, and Greg teaches it extremely well. The weekly exercises and assignments relate to the course notes, so you rarely feel lost. Highly recommended!</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20577423" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="20571275"></a>	
+
+<div class="date">8/13/12</div>
+<div class="class">CMPT383</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Haven't taken too many CMPT courses yet, but this was excellent. Lectures are at a pace that's really digestable and interesting. Assignments are very manageable once you start working on them. He's super friendly and gets to the point with what he's teaching. Exams are very fair; just review the notes and do all the exercises on paper for practice</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20571275" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+
+
+contact member section 
+<a class="member" href="/member/contactMember.jsp?rid=20571275">Registered User</a>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="20567175"></a>	
+
+<div class="date">8/12/12</div>
+<div class="class">CMPT383</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status4"><strong>Helpfulness</strong><span>4</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Both an excellent professor and topic. Lecture notes help you finish exercises which give you sufficient practice to find concepts intuitive. An easy course if you do your work, yet it teaches important topics. Greg is knowledgeable, apt and honest. He demonstrates concepts in class and knows industry trends. Very fun and informative class.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20567175" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="20567150"></a>	
+
+<div class="date">8/12/12</div>
+<div class="class">CMPT383</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">best class ever! weekly exercises give you practise. lecture material and exam/assignment material have high correlation. all required programming were fun and interesting. learned a lot about what's out there in the programming world, truly eye opening course. if you do your exers and asn, exams need not be prepared for</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20567150" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="20531265"></a>	
+
+<div class="date">7/31/12</div>
+<div class="class">CMPT383</div>
+<div class="rating">
+
+<p class="poorQuality">Poor Quality</p>
+<p class="rEasy status1"><strong>Easiness</strong><span>1</span></p>
+<p class="rHelpful status1"><strong>Helpfulness</strong><span>1</span></p>
+<p class="rClarity status1"><strong>Clarity</strong><span>1</span></p>
+<p class="rInterest status1"><strong>Rater Interest</strong><span>1</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Never take this course if you are not an expert in programming, there is no so much help, most of emails are no replying by TAs or prof, material are brutal hard and vague, every week you have exercises.Also you have 3 assignments each one with a weird language which even one of them even did teach. Prof speaks super fast. never take it.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20531265" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="20528086"></a>	
+
+<div class="date">7/30/12</div>
+<div class="class">CMPT383</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status4"><strong>Easiness</strong><span>4</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Great prof, clear lectures, interested in material, useful/interesting assignments.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20528086" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="20114304"></a>	
+
+<div class="date">4/24/12</div>
+<div class="class">CMPT165</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status4"><strong>Rater Interest</strong><span>4</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Took DIST ED, overall not hard if you have previous experience- more or less stuff you can learn on your own with ease especially if you are very computer savvy. Allowed a cheat sheet for exams, but I never brought one, still got an A.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20114304" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="20085298"></a>	
+
+<div class="date">4/20/12</div>
+<div class="class">CMPT383</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">He is the best lecturer I have met. You can benefit a lot from his interesting lectures. His weekly exercises are pretty helpful to understand materials. If you devote yourself into his notes and exercises during the term, you may spend very little time reviewing before the final. (I only spent 4 hours.) Do not hesitate to take his course!!!</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=20085298" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="19457717"></a>	
+
+<div class="date">12/11/11</div>
+<div class="class">CMPT120</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status3"><strong>Easiness</strong><span>3</span></p>
+<p class="rHelpful status4"><strong>Helpfulness</strong><span>4</span></p>
+<p class="rClarity status4"><strong>Clarity</strong><span>4</span></p>
+<p class="rInterest status3"><strong>Rater Interest</strong><span>3</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Greg is a nice guy and he's a good prof. Go to class, ask questions, attend the labs. He's young so he can relate to students.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=19457717" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="19002296"></a>	
+
+<div class="date">9/15/11</div>
+<div class="class">CMPT120</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status4"><strong>Helpfulness</strong><span>4</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status4"><strong>Rater Interest</strong><span>4</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Yes, as some mentioned, he is arrogant. He does not make you feel very confortable when you ask him questions. Nonetheless, he is the best lecturer I ever met in my life. I can follow him very well and can see how much effort and care he put into his lecture. He is very smart and he is into the stuff he teach. He is overall a great prof.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=19002296" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="18954216"></a>	
+
+<div class="date">8/26/11</div>
+<div class="class">CMPT120</div>
+<div class="rating">
+
+<p class="averageQuality">Average Quality</p>
+<p class="rEasy status3"><strong>Easiness</strong><span>3</span></p>
+<p class="rHelpful status1"><strong>Helpfulness</strong><span>1</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status4"><strong>Rater Interest</strong><span>4</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">To be honest, the man is incredibly condescending and arrogant. Not to mention incredibly useless when you ask him something. The course itself was easy, I didn't read his garbage text book to learn python though. I know he probably reads this because of his massive ego. One other thing: NOT ENOUGH EXAMPLES/RESOURCES.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=18954216" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="18927723"></a>	
+
+<div class="date">8/17/11</div>
+<div class="class">CMPT120</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status3"><strong>Easiness</strong><span>3</span></p>
+<p class="rHelpful status4"><strong>Helpfulness</strong><span>4</span></p>
+<p class="rClarity status4"><strong>Clarity</strong><span>4</span></p>
+<p class="rInterest status3"><strong>Rater Interest</strong><span>3</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">For a person with no cmpt background, this course can get quite challenging and time consuming as the course proceeds, especially the assignments. Use all the help you can get. His mt and quiz is easy, final is just long with a lot of functions. Lectures are all handwritten with no textbook. His notes are filled with words but not enough examples.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=18927723" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="18923948"></a>	
+
+<div class="date">8/16/11</div>
+<div class="class">CMPT165</div>
+<div class="rating">
+
+<p class="averageQuality">Average Quality</p>
+<p class="rEasy status3"><strong>Easiness</strong><span>3</span></p>
+<p class="rHelpful status2"><strong>Helpfulness</strong><span>2</span></p>
+<p class="rClarity status3"><strong>Clarity</strong><span>3</span></p>
+<p class="rInterest status3"><strong>Rater Interest</strong><span>3</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">First half of the material is easy and the instructions were clear but when it gets to python programming it got hard and you do need some help if you want to do well. (I took it as a distance ed) Expect the midterm and final to be hard(multiple questions were tricky). Overall it is an interesting course.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=18923948" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="18552976"></a>	
+
+<div class="date">5/8/11</div>
+<div class="class">CMPT470</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status3"><strong>Easiness</strong><span>3</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Great Prof, knows his stuff.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=18552976" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="18469454"></a>	
+
+<div class="date">4/26/11</div>
+<div class="class">CMPT470</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status3"><strong>Easiness</strong><span>3</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status5"><strong>Rater Interest</strong><span>5</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">A very useful course if you want to gain some more practical skills, as web app work is in high demand.  Useful material, well taught, as usual, by Greg.  Obviously, it's a group project, so pick your partners and the actual project well!</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=18469454" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry odd">
+<a name="18430982"></a>	
+
+<div class="date">4/18/11</div>
+<div class="class">CMPT165</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status2"><strong>Easiness</strong><span>2</span></p>
+<p class="rHelpful status4"><strong>Helpfulness</strong><span>4</span></p>
+<p class="rClarity status4"><strong>Clarity</strong><span>4</span></p>
+<p class="rInterest status3"><strong>Rater Interest</strong><span>3</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Third time with distance ed course, based on first impression of the textbook, it seemed fun and well organized. The latter is true. Figuring out hwk on my own is fun but time consuming but ONLY worth 50%; you get a cheatsheet for mt, but you're racing every second of it; above all, Baker, finally seeing him at the exams, is condescending and rude.</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=18430982" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+<div class="entry even">
+<a name="18401570"></a>	
+
+<div class="date">4/13/11</div>
+<div class="class">CMPT165</div>
+<div class="rating">
+
+<p class="goodQuality"> Good Quality</p>
+<p class="rEasy status5"><strong>Easiness</strong><span>5</span></p>
+<p class="rHelpful status5"><strong>Helpfulness</strong><span>5</span></p>
+<p class="rClarity status5"><strong>Clarity</strong><span>5</span></p>
+<p class="rInterest status2"><strong>Rater Interest</strong><span>2</span></p>
+</div>
+
+<div class="comment" style="width:350px;">
+
+<!-- comment section -->
+
+<p class="commentText">Great prof, definitely worth taking this course for a easy grade(if you are into computers/put in a little effort).</p>
+<div class="flagsIcons">
+<!-- flag comment section -->
+<a class="flagRating" href="flagRating.jsp?rid=18401570" title="Report this rating to the RMP Site Moderation team">Report this rating</a></p>
+<!--
+<span>&nbsp;</span>
+ -->
+</div>
+		
+</div><!-- closes comment -->
+</div><!-- closes even or odd -->
+
+</div><!-- closes rating table --><div class="graphicalLinks">
+	  <div class="rateProfessor">
+		<a href="AddRating.jsp?tid=31619&totRtgs=211">Rate this professor</a>
+		</div>
+	</div>	
+	
+	<!--  <div class="pagination">
+		<ul>Pages:
+		<li><a id="current" href="#">1</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=2">2</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=3">3</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=4">4</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=5">5</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=6">6</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=7">7</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=8">8</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=9">9</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=10">10</a></li>
+<li><a href="ShowRatings.jsp?tid=31619&page=11">11</a></li>
+<li><a  href="ShowRatings.jsp?tid=31619&all=true">Show All Ratings</a></li>
+</ul>
+	 </div> -->
+	<div class="pagination"><!-- Pagination uses the variables total, pageNo, pageUrl, displayText.
+total variable is used to get the total number of records returned from query.
+pageNo variable is used to get the current page for display.
+displayText variable is used to get the display name.
+PageUrl variable is used to redirect to the appropriate page.
+-->
+<div id="pagination">
+				<script type="text/javascript">
+					function reloadPageURL(){
+                                                // passing page url wasn't passing encoded value to js so grabbing directly from browser
+                                                var url = document.location.href.replace(/&pageNo=[0-9]+/,"");
+						var pageNumber = document.pagForm.elements["pageNo"].value;
+						document.location.href = url+"&pageNo="+pageNumber;
+					}
+				</script>
+				<form name="pagForm" action="javascript:reloadPageURL()">
+				<span>211 ratings</span>
+				<span class="pager-disabled">&laquo;</span>
+				<span class="pager-disabled">&lsaquo;</span>
+				<input type="text" name="pageNo" style="text-align:center;" size="2" value="1"/>
+				<span class="pager-disabled"> of </span>
+				<span class="pager-disabled">11</span>
+				
+				<a href="/ShowRatings.jsp?tid=31619&pageNo=2" class="next">&rsaquo;</a>
+				<a href="/ShowRatings.jsp?tid=31619&pageNo=11" class="last">&raquo;</a>
+				</form>
+			</div>	  
+
+			
+</div>
+		
+ </div>
+ 
+<div id="profRebuttals">
+<iframe id="rebuttalText" frameborder="0" scrolling="no"  allowtransparency="true" src="ShowProfessorRebuttalA.jsp?tid=31619&tfname=Greg&tlname=Baker&tdept=Computer Science"></iframe>
+</div>
+
+<!--
+<div id="BookRenter"  style="padding:0px;margin:0px">
+<iframe id="BookRenterFrame" frameborder="0" scrolling="auto"  allowtransparency="true" src="http://www.bookrenter.com/ratemyprofessors/search" width="100%" height="450px"></iframe>
+</div>
+-->
+
+
+  </div><!-- closes tab  -->
+
+</div><!-- closes bottom left -->
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-304376-1";
+urchinTracker();
+</script>
+<script type="text/javascript">
+
+		//var dispatcher=com.mtvi.reporting.Dispatcher;
+		//var dispatcher=new com.mtvi.reporting.Dispatcher();
+		var pn = location.pathname;
+		if(pn.charAt(pn.lastIndexOf("/")+1) == ""){
+		   pn= pn+"index.jsp";
+		   }
+		//var h1 = location.pathname.substring(1);
+		//var pagename= "< %=pagenamevalue%>";
+		var h2 = "professors/main";
+		var channel= "professors";
+	         
+                 btg.Controller.sendPageCall({
+                   pageName : pn,
+                   channel : channel,
+                   hier2 : h2,
+                   prop2 : "USA",
+		   prop3 : "Computer Science",
+                   prop5 : "BC",
+                   prop6 : "Simon Fraser University",
+                   prop7 : "Greg Baker",
+                   prop8 : "visitor",
+                   prop9: "1482",
+                   prop10: "31619"
+                });
+
+	
+</script>
+<!-- following file includes all the scripts and css related to solr -->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>-->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://static.ratemyprofessors.com/javascript/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/solr/js/jquery.livequery.js"></script>
+<link rel="stylesheet" type="text/css" href="/solr/css/rmp.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/solr/ext/jquery.autocomplete.css" media="screen" />
+<script type="text/javascript" src="/CookieUtility.js"></script>
+<script type="text/javascript" src="/solr/js/rmp.js"></script>
+<script type="text/javascript" src="/solr/core/Core.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractManager.js"></script>
+<script type="text/javascript" src="/solr/managers/Manager.jquery.js"></script>
+<script type="text/javascript" src="/solr/core/Parameter.js"></script>
+<script type="text/javascript" src="/solr/core/ParameterStore.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/ResultWidget.js"></script>
+<script type="text/javascript" src="/solr/helpers/jquery/ajaxsolr.theme.js"></script>
+<script type="text/javascript" src="/solr/widgets/jquery/PagerWidget.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractFacetWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/TagcloudWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/CurrentSearchWidget.js"></script>
+<!--
+<script type="text/javascript" src="/solr/widgets/TextWidget.js"></script>
+-->
+<script type="text/javascript" src="/solr/ext/jquery.solrautocomplete.js"></script>
+<script type="text/javascript" src="/solr/widgets/AutocompleteWidget.js"></script>
+<script type="text/javascript" src="/solr/js/rmp.theme.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://static.ratemyprofessors.com/javascript/imgZoom.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+
+
+        function getSitename() {
+          return "rmp";
+        }
+
+        function getTerm() {
+               if (document.getElementById("query") && document.getElementById("query").value){
+                  return document.getElementById("query").value;
+               }else if (document.getElementById("query1") && document.getElementById("query1").value){
+                  return document.getElementById("query1").value;
+               }else if (document.getElementById("query2") && document.getElementById("query2").value){
+                  return document.getElementById("query2").value;
+               }else{
+                  return "*:*";
+               }
+        }
+
+        function getValue(max, type) {
+               var columns = max.split("~~");
+                  var x = 0;
+                  var output = "";
+                  for (x=0; x<columns.length; x++) {
+                      if (columns[x].indexOf(type) != -1) {
+                           output = "";
+                           output = columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length);
+                           return output;
+                          }
+                  }
+                  return max;
+        }
+
+      function getSelectedValue(max, type) {
+             var columns = max.split("~~");
+                  var x = 0;
+                  for (x=0; x<columns.length; x++) {
+                      if (columns[x].indexOf(type) != -1) {
+                                  if(columns[columns.length-1].indexOf(type)!=-1){
+                                     return columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length);
+                                  }else{
+                                     return columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length) + columns[columns.length-1];
+                                  }
+                          }
+                  }
+                  return max;
+        }
+
+        function getHelp(){
+           var $helpDialog = $('#helpDialog').dialog({
+                                height: 440,
+                                width: 450,
+                                modal: true,
+                                position: 'center',
+                                autoOpen: false,
+                                title: 'Search Help',
+                                closeText:'xx'
+           });
+           $helpDialog.show();
+           $helpDialog.dialog("open");
+
+        }
+ 
+        function getParameter( name ){
+          name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+          var regexS = "[\\?&]"+name+"=([^&#]*)";
+          var regex = new RegExp( regexS );
+          var results = regex.exec( window.location.href );
+          if( results == null )    return "";
+          else    return (results[1]).replace(/\+/g,' ');
+        }
+
+
+        function beforeSearch(formname,sinput,soption){
+          // TODO: Store value of the form that was submitted
+          var sterm = $('#'+sinput).val() || '*:*';
+          var stype = $('#'+soption).val() || 'TEACHER';
+          reportSearch(sterm,stype);
+          //reportPageCall(sterm,stype); // it is being reported via omnitureExtension.jsp
+        }
+
+        function reportSearch(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"SEARCH",
+                   linkType:"o",
+                   eVar2:sterm,
+                   eVar3:stype
+           });
+        }
+
+        function reportFacetClick(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"FACET",
+                   linkType:"o",
+                   eVar2:sterm,
+                   eVar3:stype
+           });
+        }
+
+        function reportFailedSearch(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"SEARCH",
+                   linkType:"o",
+                   eVar3:stype,
+                   eVar4:sterm
+           });
+        }
+
+        function reportPageCall(sterm,stype){
+                btg.Controller.sendPageCall({
+                   pageName : location.pathname,
+                   channel : "search",
+                   hier2 : "search/"+stype,
+                   eVar2 : sterm,
+                   eVar3 : stype,
+                   prop2 : "",
+                   prop4 : "",
+                   prop5 : "",
+                   prop6 : "",
+                   prop7 : "",
+                   prop8 : ""
+                });
+
+        }
+
+        function hideSolrElements(){
+           $("#docs").hide();
+           $("#navigation").hide();
+           $(".facetDiv").hide();
+        }
+
+        function showSolrElements(){
+           $("#docs").show();
+           $("#navigation").show();
+           $(".facetDiv").show();
+        }
+
+$(document).ready( function() {
+/*
+        $('select[name^=queryoption]').each(function(){
+            $(this).change(function(){
+                 val = $('option:selected',this).text();
+                 $(this).next().text(val);
+            });
+        });
+*/
+ });
+
+</script>
+<!--<font color="white">mtvu-jboss-009</font> -->
+
+<center>
+	<!-- BEGIN FOOTER -->
+
+
+	</div>
+	<!-- closes content wrapper -->
+	<style>
+#footer .section ul li a {
+	float: none !important;
+}
+
+#footer .section ul li#twitter a {
+	float: none !important;
+}
+
+#footer .section ul li#facebook a {
+	float: none !important;
+}
+
+#footer .section {
+	height: 175px !important;
+}
+
+h1,h2,h3,h4,h5 {
+	color: #005295;
+	font-weight: bold !important;
+}
+
+#footer #social.section {
+	background: none !important;
+	border-right: medium none;
+}
+
+#footer .section ul li#twitter a {
+	font-size: 12px;
+}
+
+#footer .section ul li#facebook a {
+	font-size: 12px;
+}
+
+#footer .section {
+	border-left: 0px solid #C6C6C6;
+	border-right: 0px solid #FFFFFF;
+}
+
+#footer #copyright.copyright {
+	background: url("/images/rmp-footer-logo.png") no-repeat scroll 675px
+		4px transparent;
+	padding: 8px 0 8px 0px;
+}
+
+.copyright {
+	margin-bottom: 10px;
+}
+
+#footer #SiteSections.section {
+	width: 165px !important;
+	border-left: 0px solid #C6C6C6;
+}
+
+#footer #divider.section {
+	width: 1px !important;
+	height: 85px !important;
+	border-right: 1px solid #C6C6C6;
+	border-left: 1px solid #FFFFFF;
+	margin-left: 0px !important;
+	margin-top: 45px !important;
+	padding-left: 0px !important;
+}
+
+#footer #help.section {
+	width: 180px !important;
+}
+
+#footer #legal.section {
+	width: 240px !important;
+}
+
+#footer #social.section {
+	width: 240px !important;
+}
+
+#footer #SiteSections.section ul li a {
+	margin-left: 45px !important;
+}
+
+#footer #help.section ul li a {
+	margin-left: 55px !important;
+}
+
+#footer #legal.section ul li a {
+	width: 200px !important;
+	margin-left: 35px !important;
+}
+
+#footer #social.section ul li a {
+	margin-left: 45px !important;
+}
+
+.hr {
+	width: 0px;
+	height: 125px;
+	background-color: #cccccc;
+	position: relative;
+}
+
+ul li a:hover{ text-decoration: none; color: #black;}
+</style>
+	<div id="footer">
+</center>
+<div id="SiteSections" class="section">
+	<h4 ALIGN="CENTER">Site Sections</h4>
+	<br>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/About.jsp">About</a></li>
+		<!--<li><a href="/SearchProfs.jsp">Professors</a></li>
+		<li><a href="/referral.jsp">Tell a Friend</a></li>
+		<li><a href="/SearchSchool.jsp">Schools</a></li>-->
+		<li><a href="/toplists/topLists.jsp">Top Lists</a></li>
+                <li><a href="http://blog.ratemyprofessors.com/category/professors-strike-back/">Professors Strike Back</a></li>
+		<!--<li><a href="#">Search</a></li>-->
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="help" class="section">
+	<h4 ALIGN="CENTER">Help and Support</h4>
+	<br>
+	<ul>
+		<li><a href="/help.jsp">Help</a></li>
+		<li><a href="/faq.jsp">FAQ</a></li>
+		<li><a href="/ContactUs.jsp">Contact Us</a></li>
+		<li><a href="http://srp.mtvn.com/sitefaq.html" target="_blank">Ad Choices <img align="absmiddle" height="16px" src="/images/adchoice_icon.png"/></a></li>
+		<li><a href="/RSSHelp.jsp">What is RSS?</a></li>
+		<!--<li><a href="http://mtvpress.com/contacts/form">Press Inquiries</a></li>-->
+		<!--<li><a href="http://adspecs.mtvn.com/site/spec/my/mycontacts.html">Advertising Inquiries</a></li>-->
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="legal" class="section">
+	<h4 ALIGN="CENTER">Terms and
+		Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+	<br>
+	<ul>
+		<li><a href="/TermsOfUse_us.jsp">Terms of Use (6/30/2011)</a></li>
+		<li><a href="/PrivacyPolicy_us.jsp">Privacy Policy/Your CA Privacy Rights (6/30/2011)</a></li><br/>
+		<li><a href="/site_guidelines.jsp">Site Guidelines</a></li>
+		<li><a href="/copyright_comp_policy.jsp">Copyright Compliance
+				Policy</a></li>
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="social" class="section">
+	<h4 ALIGN="CENTER">Social</h4>
+	<br>
+	<ul>
+		<li id="facebook"><a
+			href="https://www.facebook.com/pages/Rate-My-Professors/144740972207883"
+			target="_blank">Like us on Facebook</a></li>
+		<li id="twitter"><a href="http://twitter.com/ratemyprofessor"
+			target="_blank">Follow us on Twitter</a></li>
+	</ul>
+</div>
+
+<div id="copyright" class="copyright">
+	<p class="copyright">
+		<br> <br>Copyright &copy; 2013 RateMyProfessors.com, LLC.
+		Powered by <span class="mtvU">mtvU</span> and <span class="MTVN">MTV
+			NETWORKS</span>
+	</p>
+</div>
+</div>
+<div id="footerSearch">
+<script type="text/javascript">
+ function logEvent(clicktype){
+           //Send a link event call
+            btg.Controller.sendLinkEvent(
+               {
+                  linkName:clicktype,
+                  linkType:'o'
+               }
+            );
+ }
+</script>
+	<div class="solrsearch2div">
+        <ul id="solrsearch2">
+   <form action="/search.jsp" name="searchForm2" id="searchForm2" onsubmit="javascript:beforeSearch(this.name,'query2','queryoption2');">
+   <li class="liInline2">
+      <input type="text" id="query2" name="query2" class="searchBox" />
+   </li>
+   <li class="liInline2">
+      <div class="searchSelect2">
+          <select name="queryoption2"  id="queryoption2">
+            <option value="TEACHER" selected="selected">Professors</option>
+            <option value="SCHOOL">Schools</option>
+          </select>
+      </div>
+   </li>
+   <li class="liInline2">
+      <input type="submit" id="search_submit2" name="search_submit2" value="Search" tabindex="31" class="searchButton2" />
+   </li>
+   <li class="liInline2">
+      <input type="button" value="Web" tabindex="32" class="webButton2" onclick="window.open('http://search.live.com/results.aspx?q=' + document.getElementById('query2').value + '&mkt=en-US&FORM=VCM018','_blank')" />
+   </li>
+   </form>
+</ul>
+
+<!--
+
+		<form id="search"
+			onsubmit="if(search.letter.value == '') {alert( 'Please enter name of the professor you want to search for.' );search.letter.focus();return false ;}return true;"
+			method="get" name="search" action="/SearchProfs.jsp">
+			<input id="rmp_navFindTextInput" class="searchBox" type="text"
+				name="letter" tabindex="1" style="color: black;"
+				value="Enter Last Name of Professor"
+				onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}">
+			<input id="search_submit" class="searchButton" type="submit"
+				value="Search" tabindex="2" onclick="javascript:logEvent('footerSearch');"> <input id="web_submit"
+				class="webSearchButton" type="button"
+				onclick="javascript: document.location = 'http://search.live.com/results.aspx?q=' + document.getElementById('rmp_navFindTextInput').value + '&mkt=en-US&FORM=VCM018'"
+				value="Web" tabindex="3">
+		</form>
+-->
+	</div>
+</div>
+</div>
+<!-- closes footer -->
+</div>
+<!-- closes site wrapper -->
+
+
+
+
+
+<style type="text/css">
+li#facebook a {
+	background:
+		url("http://static.ratemyprofessors.com/images/rmp-sprite.png")
+		-4px -352px no-repeat;
+	padding: 8px 0 8px 40px;
+}
+
+li#twitter a {
+	background:
+		url("http://static.ratemyprofessors.com/images/rmp-sprite.png")
+		-4px -404px no-repeat;
+	padding: 8px 0 8px 40px;
+}
+
+.flux4Widget .share .fixed.horizontalView .serviceList .serviceButton.twitter {
+  	width : 80px;
+}
+
+</style>
+
+
+ <script>
+  $(document).ready(function() {
+        $("#query1").bind("webkitspeechchange", function (e) {
+            //Send a link event call
+            btg.Controller.sendLinkEvent(
+               {
+                  linkName:'speechsearch',
+                  linkType:'o'
+               }
+            );
+        });
+        $('#kaptchaLink').click(function () { 
+           $('#kaptchaImage').hide()
+             .attr('src', '/Kaptcha.jpg?' + new Date().getTime())
+             .fadeIn(); 
+        });
+
+  });
+ </script>
+
+
+
+<script>
+	//alert(document.getElementById("upperAdvertisement").innerHTML.length);
+	//alert(document.getElementById("lowerAdvertisement").innerHTML.length);
+	//alert(document.getElementById("rightAdvertisement").innerHTML.length);
+	if (document.getElementById("rightAdvertisement") != null
+			&& document.getElementById("rightAdvertisement") != undefined
+			&& document.getElementById("rightAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("rightAdvertisement").style.display = "none";
+		document.getElementById("rightAdvertisementImg").style.display = "none";
+	}
+	if (document.getElementById("upperAdvertisement") != null
+			&& document.getElementById("upperAdvertisement") != undefined
+			&& document.getElementById("upperAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("upperAdvertisement").style.display = "none";
+		document.getElementById("upperAdvertisementImg").style.display = "none";
+	}
+	if (document.getElementById("lowerAdvertisement") != null
+			&& document.getElementById("lowerAdvertisement") != undefined
+			&& document.getElementById("lowerAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("lowerAdvertisement").style.display = "none";
+		document.getElementById("lowerAdvertisementImg").style.display = "none";
+	};
+</script>
+<!-- Start Quantcast tag -->
+
+<noscript>
+	<a href="http://www.quantcast.com/p-94wNw88f65Rhk" target="_blank"><img
+		src="http://pixel.quantserve.com/pixel/p-94wNw88f65Rhk.gif?labels=Viacom%20Domestic%2CMTVN%20Digital%2CMTVN%20Music%20and%20Logo%2CMTVN%20Music%20Group%2CmtvU%20Online"
+		style="display: none;" border="0" height="1" width="1" alt="Quantcast" /></a>
+</noscript>
+
+<!-- End Quantcast tag -->
+
+
+
+<!-- PAGEOK -->
+
+</body>
+</html>

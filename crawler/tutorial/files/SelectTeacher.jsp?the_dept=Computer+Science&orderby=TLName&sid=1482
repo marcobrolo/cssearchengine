@@ -1,0 +1,1919 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
+<title>Simon Fraser University - British Columbia</title>
+<meta name="description" content="See ratings and read comments about professors from Simon Fraser University in BC." />
+<meta name="keywords" content="Professor, Professors, Rate My Professor, Ratings, Campus, University, College, Clarity, Hotness, Academic, Academia, Department, School, Quality, Chili Peppers, Rebuttal, Classes, Courses, Schedule, Semester, Grade, GPA, Pass, Fail" />
+<meta property="og:image" content="http://www.ratemyprofessors.com/images/rmp_logo_fb.gif"/> 
+<!-- primary CSS -->
+<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/new-RMP-1.1.css" type="text/css" /> 
+<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.7.1/themes/base/jquery-ui.css">
+<script src="/javascript/rmp.js" type="text/javascript"></script>
+<!--  <script src="http://static.ratemyprofessors.com/javascript/jquery-1.3.2.min.js" type="text/javascript"></script> 
+<script src="/javascript/jquery-1.4.4.min.js" type="text/javascript"></script>-->
+<!-- RMPM-1068. upgraded to jquery 1.8. // TODO: streamline jquery imports and calls to files -->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://static.ratemyprofessors.com/javascript/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+<script src="http://static.ratemyprofessors.com/javascript/tooltip.js" type="text/javascript"></script>	
+<script src="/javascript/jquery.browser.min.js" type="text/javascript"></script>
+<link rel="stylesheet" href="/stylesheets/jquery.qtip.min.css" type="text/css" />
+<script src="/javascript/jquery.qtip.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+	$(document).ready(function() {
+		if($.browser.msie){
+			var elem = '<a class=facebook-recommend href=https://www.facebook.com/sharer.php?u=' + window.location.href + ' target=_new rel=nofollow></a>';
+			$('#fb_share_script').remove();
+			$('#fb_share').replaceWith(elem);
+		}
+	});
+</script>
+
+<script type="text/javascript">
+ function logEvent(clicktype){
+           //Send a link event call
+            btg.Controller.sendLinkEvent(
+               {
+                  linkName:clicktype,
+                  linkType:'o'
+               }
+            );
+ }
+</script>
+
+<style>
+.ui-widget-header {
+    background: #5CA9DA;
+    border: 1px solid #00416A;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.parentDiv {
+	overflow: hidden;
+	background: #EBF6FE;
+	border: #B2B2B2;
+	padding: 5px 10px;
+	margin: 15px 10px;
+}
+.parentDiv .searchdiv{
+	float: left;
+} 
+.parentDiv .searchdiv #query1{
+	width: 260px;
+}
+.parentDiv .departmentAddProfDiv{
+	float: right;
+	padding:5px 10px; 
+}
+#profInfo a:hover {
+	text-decoration:none;
+	color:black; 
+}
+/*#commentsBookToggle h3:hover {
+	text-decoration:none;
+	color:black; 
+}*/
+.schoolPage .pagination {
+	 /*margin: 15px 200px ! important; */
+	 width: 400px;
+}
+.nameSearch {
+	border: none;
+	background: url("http://static.ratemyprofessors.com/images/rmp-sprite.png") no-repeat scroll -300px -952px transparent;
+	height: 30px;
+	width: 88px;
+	margin-right: 5px;
+	text-indent: -9999px;
+}
+.paginateByLetter {
+	overflow: hidden;
+	background: #EBF6FE;
+	border: #B2B2B2;
+	padding: 5px 5px;
+	margin: 15px 5px;
+}
+.paginateByLetter ul {
+	text-align: center;
+}
+.paginateByLetter ul li {
+	display: inline;
+	text-align: center;
+	padding: 3px 0;
+	margin-bottom: 10px;
+}
+.paginateByLetter ul li a, .paginateByLetter ul li a:hover {
+	font-size: 12px;
+	padding: 0 5px;
+	line-height: 30px;
+	text-decoration: none;
+}
+.paginateByLetter ul li a:hover{
+        color:#000000;
+}
+.paginateByLetter ul li a#current {
+	background: #005295;
+	color: #fff;
+	text-decoration: none;
+}
+.qtip-bootstrap {
+	max-width: 370px;
+	border:6px solid #cccccc;
+	color: #000000;
+}
+</style>
+
+</head>
+<body class="schoolPage Simon-Fraser-UniversityBritish-Columbia" onload="acknowledge(document.getElementById('campusratingsubmit').value);">
+
+<div id="lockdialog" style="display:none;padding:10px;border:1px solid #005295">error msg</div>
+<script type="text/javascript" src="/javascript/campusRatings.js" charset="UTF-8"></script>
+
+<div id="rateSchoolForm" style="display:none;">
+	<div id="wrapper">
+	<iframe id="campusRatingForm" frameborder="0" height="400" width="650" allowtransparency="true" src="">Oops, there is a problem.</iframe>
+	</div>
+</div>
+
+<script type="text/javascript" charset="utf-8">
+		// for the header
+		function drop_country()
+		{
+			if(document.getElementById("down").style.display='none')
+			{
+				document.getElementById("down").style.display='block';
+			}
+		}
+		function onmousedrop_down()
+		{
+			if(document.getElementById("down").style.display='block')
+			{
+				document.getElementById("down").style.display='none';
+			}
+		}
+
+		var popUpWin=0;
+		function popUpWindow(URLStr, left, top, width, height)
+		{
+			if(popUpWin)
+			{
+				if(!popUpWin.closed) popUpWin.close();
+			}
+			popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menub ar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+'');
+		}
+		
+
+ 
+	var domainName = 'ratemyprofessors.com';
+	if (!domainName && domainName != "") {
+		document.domain=domainName;
+	}
+</script> 
+
+
+<!-- primary CSS -->
+<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/new-RMP-1.1.css" type="text/css" />
+<!-- Date: 2007-02-25 -->
+	<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<!-- Vic S: 5-16-08 -->
+	<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/srchBtn.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+
+
+<div id="siteWrapper">
+	
+<div id="header">
+<h1><a href="/">RateMyProfessors.com</a></h1>
+
+<div class="solrsearch1div">	  
+   <ul id="solrsearch1">
+   <form action="/search.jsp" name="searchForm1" id="searchForm1" onsubmit="javascript:beforeSearch(this.name,'query1','queryoption1');">
+   <li class="liInline1">
+      <input type="text" id="query1" name="query1" class="searchBox" x-webkit-speech />
+   </li>
+   <li class="liInline1">
+      <div class="searchSelect1">
+          <select name="queryoption1"  id="queryoption1">
+            <option value="TEACHER" selected="selected">Professors</option>
+            <option value="SCHOOL">Schools</option>
+          </select>
+      </div>
+   </li>
+   <li class="liInline1">
+      <input type="submit" id="search_submit1" name="search_submit1" value="Search" tabindex="2" class="searchButton1" />
+   </li>
+   <li class="liInline1">
+      <input type="button" value="Web" tabindex="3" class="webButton1" onclick="window.open('http://search.live.com/results.aspx?q=' + document.getElementById('query1').value + '&mkt=en-US&FORM=VCM018','_blank')" />
+   </li>
+   </form>
+</ul><!--
+<form action="/SearchProfs.jsp" id="search" name="search" method="get" onsubmit="if(search.letter.value == '') {alert( 'Please enter name of the professor you want to search for.' );search.letter.focus();return false ;}return true;">
+<input type="text" class="searchBox" onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}" value="Enter Last Name of Professor" style="color: gray;" tabindex="1" name="letter" id="rmp_navFindTextInput"/> 
+<input type="submit" class="searchButton" tabindex="2" value="Search" id="search_submit"/> 
+<input type="button" class="webSearchButton" tabindex="3" value="Web" id="web_submit" onclick="javascript: document.location = 'http://search.live.com/results.aspx?q=' + document.getElementById('rmp_navFindTextInput').value + '&mkt=en-US&FORM=VCM018'" /> 
+</form>
+-->
+</div><!-- closes search -->
+
+</div><!-- closes header -->
+
+<div id="nav" class="basicBorder"> 
+<ul>
+<li id="navHome"><a href="/">Home</a></li>
+<li id="navTAF"><a href="/About.jsp">About</a></li>
+<!--
+<li id="navSearch"><a href="/SearchProfs.jsp">Professors</a></li> 
+<li id="navSearch"><a href="/SearchSchool.jsp">Schools</a></li> 
+-->
+<li id="navSearch"><a href="/toplists/topLists.jsp">Top Lists</a></li> 
+<li id="navSearch"><a href="http://blog.ratemyprofessors.com/category/professors-strike-back/">Professors Strike Back</a></li> 
+<li id="logIn">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Login Page</title>
+</head>
+<body>
+<div id="sso"></div>
+<script language="Javascript">
+var loadsuccess=false;
+var ssousername='';
+// this shows dynamic script insertion
+document.write('<script src= "http://www.ratemyprofessors.com/member/jso.jsp" type="text/JavaScript"><\/script>');
+</script>
+
+<script language="Javascript">
+String.prototype.trim = function() {
+	return this.replace(/^\s+|\s+$/g,"");
+}
+String.prototype.ltrim = function() {
+	return this.replace(/^\s+/,"");
+}
+String.prototype.rtrim = function() {
+	return this.replace(/\s+$/,"");
+}
+
+function updatesignon(str){
+
+	if(str==''){		
+		document.getElementById("sso").innerHTML = "<p>Hi, <span>Guest!</span> [ <a href='http://www.ratemyprofessors.com/join.jsp'>create account</a> | <a href='http://www.ratemyprofessors.com/member/'>login</a> ]</p>";
+	}else{				
+		document.getElementById("sso").innerHTML = "<p>Hi, <span>" + str + "!</span> [ <a href='http://www.ratemyprofessors.com/member/'>my account</a> | <a href='http://www.ratemyprofessors.com/member/logout.jsp'>logout</a> ]</p>" ;
+	}
+}
+
+if (loadsuccess == true) {
+	updatesignon(ssousername);	
+} else {	
+	updatesignon('');
+}
+
+</script>
+</body>
+</html>
+</li>  
+</ul>
+
+</div><!-- closes nav -->
+<script type="text/javascript" src="http://btg.mtvnservices.com/aria/coda.html?site=ratemyprofessors.com"></script>
+<script src="http://www.mtv.com/global/scripts/special/projx.jhtml?channelname=RateMyProfessors"></script>
+
+<div id="ad728">	
+<script type="text/javascript">
+	//Place Ad
+	btg.Controller.placeAd(
+	{
+	  size:'728x90',
+	  isReloadable:true,
+	  sections:'/SelectTeacher/1482/',
+	  reloadInterval:30000,
+	  keyValues:"!category=expand;!category=pop"       
+	}
+	);
+	</script>
+
+</div> <!-- closes 728 ad -->
+
+ 
+<div id="contentWrapper">
+
+<!-- END HEADER -->
+<!-- //TESTING for www4 issue -->
+		
+<div id="breadcrumbs">
+<a href="/">Home</a> &raquo;  
+<a href="index.jsp?country=1">Canada</a> &raquo;   
+<a href="SelectSchool.jsp?country=1&stateselect=BC">British Columbia</a> &raquo;  Simon Fraser University</div>
+
+<div id="profContent">
+<div id="professor">
+<h2 style="color:black;"> Simon Fraser University</h2>
+<!-- RMPM-484 Display School Badge if uploaded by admin -->
+<div id="profInfo">
+<ul>
+<li>School's Webpage: <b><a href='http://www.sfu.ca' target='_blank'>http://www.sfu.ca</a></b></li>
+<li>Burnaby, British Columbia</li>
+<li>Wrong school? <a href="SelectSchool.jsp?country=1&stateselect=BC">Find your school</a></li>
+<li>Total professors: <strong>2075</strong></li>
+
+<!-- script type="text/javascript">
+$.getJSON("http://api.flickr.com/services/feeds/photos_public.gne?tags=SimonFraserUniversity&format=json&jsoncallback=?", function(data){
+  $.each(data.items, function(i,item){
+  i = 1;
+    $("<img/>").attr("src", item.media.m).appendTo("#images")
+      .wrap("<a href='" + item.link + "'></a>");
+
+  });
+});
+
+</script -->
+
+<!-- a href="/adminduties.jsp?sid=1482">Want to be this school's admin?</a><br / -->
+<!-- A href="http://db.ratemyprofessors.com/new/school.html##">Want to join the Review Crew?</A><br /-->
+</ul>
+</div>
+
+<div id="scoreCard">
+<ul>
+<li id="quality" class="tTip" title="This is an average of all the ratings of active professors at this school."><strong>3.51</strong> <span>Professor Average</span></li>
+</ul>
+</div>
+			  	 
+<div id="otherInfo">
+	
+<table>
+<tr>
+<td width="45%">	
+<p id="profRSS"><a href="http://feed.RateMyProfessors.com/rssSchoolTeachersRating.jsp?sid=1482" onClick='doPrompt("http://feed.RateMyProfessors.com/rssSchoolTeachersRating.jsp?sid=1482", "Simon Fraser University");return false;'><strong>Get <acroynm title="Really Simple Syndication">RSS</acroynm> Updates</strong></a> </p>
+</td>
+<td>
+        <strong><a href="campusRatings.jsp?sid=1482&totalCount=197">View Campus Ratings and Comments (197)</a></strong>
+    
+</td>
+</tr>
+</table>
+<div id="reportProblem" style="height:18px">
+	<p><a href="#" id="problemOpen">Submit a correction</a></p>
+	<div id="problemBox">
+		<label>Please describe your correction request below.</label>
+		<a href="#" id="problemCloseA" style="float:right"><img src="http://static.ratemyprofessors.com/images/cancel.png" alt="Close"></a>
+		<form action="correctSchool.jsp?redirect=SelectTeacher.jsp?sid=1482" method="post" id="correctionForm"  name="myform" style="background:none" >
+				<input type="hidden" name="tidC" value="1482" />
+				<ul>
+					<li><label><input name="reportp" type="radio" value="1" tabindex="1"> Duplicate</label></li>
+					<li><label><input name="reportp" type="radio" value="2"> Name</label></li>
+					<li><label><input name="reportp" type="radio" value="3"> School</label></li>
+					<li><label><input name="reportp" type="radio" value="4"> City</label></li>
+					<li><input id="problemText" name="problemText" type="text" size="62" maxlength="350" class="problemText"></li>
+					<li class="probName">
+					<!-- 	<label>Name:</label><input class="inputrow" id="nameCorr" name="nameCorr" type="text" size="18" maxlength="15" value="" /> --> 
+						<label>Email:</label><input class="inputrow" id="emailCorr" name="emailCorr" type="text" size="18" maxlength="75" value="" />
+				<!--  		<input type="button" onclick="verify.invoke()" value="Submit">
+				-->
+					<br><br>
+					<label><img src="/Kaptcha.jpg" id="kaptchaImage"><br/><a style="padding-bottom:15px;display:block;" href="javascript:void(0);" id="kaptchaLink">Generate New Image</a>
+<br>
+					Please type the number you see above:<br></label> 
+					<input type="text" name="code" size="20" maxlength="10" class="inputrow"><br/><br/>
+					<input type="button" onclick="return checkform()" value="Submit"><br/><br/>
+					</li>
+				</ul>
+		</form>
+	
+	<p class="probText">IMPORTANT: Before your requested correction is reflected on the site, your request will need to be verified and approved by the RMP Site Moderation Team.</p>
+	</div>
+</div> 
+
+<script language="JavaScript"> 
+//RMPM-482 Adding code for captcha validation by Ajax
+var invokeurl = 'newSubmitCorrection.jsp?code='; 
+var captchaOK =2; // 2 - not yet checked, 1 - correct, 0 - failed 
+function getHTTPObject() { 
+	
+ try { 
+    req = new XMLHttpRequest();
+ }catch (err1) { 
+	try {
+		 req = new ActiveXObject("Msxml12.XMLHTTP");
+	 }catch (err2) {
+		  try { 
+			  req = new ActiveXObject("Microsoft.XMLHTTP"); 
+		  }catch (err3) {
+			  req = false;
+		  }
+	}
+ }
+return req; 
+} 
+var http = getHTTPObject(); 
+// We create the HTTP Object 
+function handleHttpResponse(){	
+	if (http.readyState == 4) {	
+	captchaOK = http.responseText;	
+	if(captchaOK != 1) {
+		 alert('Sorry, you entered incorrect characters. Please enter the characters in the displayed image.');
+		 document.myform.code.value='';
+		 document.myform.code.focus(); 
+		 return false; 
+	 }
+	document.myform.submit(); 
+	}
+}
+
+ function checkcode(thecode){
+ //Code is modified ajax post method	
+	 var parameters = "code="+thecode;
+	 http.open("POST", "/member/submitCorrectionpage.jsp", true);
+	 http.setRequestHeader("Content-type", "application/x-www-form-urlencoded");
+	 http.onreadystatechange = handleHttpResponse; 
+	 http.send(parameters);
+	  /*
+	  http.open("GET", invokeurl + escape(thecode), true); 
+	  http.onreadystatechange = handleHttpResponse; 
+	  http.send(null);
+	  */
+}
+
+function checkform(){ // First the normal form validation
+
+	if(!document.getElementsByName("reportp")[0].checked && !document.getElementsByName("reportp")[1].checked && !document.getElementsByName("reportp")[2].checked  && !document.getElementsByName("reportp")[3].checked )
+	{
+		alert("Please indicate if this is a Duplicate, Name, School or Department correction.");
+		return false;
+	}
+	else if(Trim(document.getElementById("problemText").value)=="" )
+	{
+		alert("Please provide a description of the correction.");
+		return false;
+	}
+	/*else if(Trim(document.getElementById("nameCorr").value)=="" )
+	{
+		alert("Please provide your Name.");
+		return false;
+	}*/
+	else if(Trim(document.getElementById("emailCorr").value)=="" )
+	{
+		alert("Please provide an Email Address.");
+		return false;
+	}
+	else
+	{
+		//document.forms['correctionForm'].submit();
+	}
+	
+    if(document.myform.code.value=='') 
+    { 
+	 alert('Please enter the characters from the displayed image'); 
+	 document.myform.code.value='';
+	 document.myform.code.focus();
+	 return false;
+    } 
+    // Now the Ajax CAPTCHA validation	 
+    checkcode(document.myform.code.value); 
+    return false;
+} 
+
+	function checkSearchName(){
+	if (document.searchForm.searchName.value == "Professor's Last Name"){
+		alert("Please enter professor's last name.");
+		document.searchForm.searchName.value = '';
+		document.searchForm.searchName.focus();
+		return false ;
+	}
+	 	if(Trim(document.searchForm.searchName.value)==""){
+	    	alert("Please enter professors's last name.");
+	    	return false;
+	  	}
+	}
+
+	
+	function LTrim(s) 
+	{
+		return(s.replace(/^\s*/,""));
+	}
+		
+	function RTrim(s) {
+		return(s.replace(/\s*$/,""));
+	}
+	
+	function Trim(s) {
+		return(RTrim(LTrim(s)));
+	}
+</script>
+
+
+</div><!-- close otherinfo -->
+<script>
+$(document).ready(function(){
+
+$('#problemBox').hide();
+
+$('a#problemOpen').click(function(){
+$('#reportProblem').css('height','400px');
+$('#problemBox').show('slow');
+});
+
+$('a#problemCloseA').click(function(){
+$('#reportProblem').css('height','18px');
+$('#problemBox').hide('slow');
+});
+
+$(document).ready(function(){
+	$('.tTip').betterTooltip({speed: 150, delay: 0});
+});
+
+
+});
+var sname = "Simon Fraser University";
+
+</script>
+</div> <!-- closes professor -->
+
+<div class="graphicalLinks" style="width:585px;">
+<div class="rateProfessor"><a onClick="ShowHide(1, 1482, sname); return false;" href="#">Rate this School</a></div>
+<div class="share">
+<div class="fbShare"><a id="fb_share" name="fb_share" type="button_count" href="http://www.facebook.com/sharer.php"></a><script id="fb_share_script" name="fb_share_script" src="http://static.ak.fbcdn.net/connect.php/js/FB.Share" type="text/javascript"></script></div>
+<div class="twitterShare"><a href="http://twitter.com/home?status=Check out  here http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1482"  target="_blank" title="Click to share this post on Twitter">Post this on Twitter</a></div>
+<div class="tellAFriend"><a href="referral.jsp?sid=1482&pgid=2">Email this page</a></div>
+</div>
+</div>
+
+</div> <!-- closes professor content -->
+
+<div id="sideBar">
+<div id="ad300">
+<script type="text/javascript">
+	//Place Ad
+	btg.Controller.placeAd(
+	{
+	  size:'300x250',
+	  isReloadable:true,
+	  sections:'/SelectTeacher/1482/',
+	  reloadInterval:30000,
+	  keyValues:"!category=expand;!category=pop"       
+	}
+	);
+	</script>
+
+</div>
+<!-- RMPM-568
+<div class="withAds">
+<div class="friendly"><a href="http://www.CareerRookie.com/?siteid=mtvu003"><img src="http://static.ratemyprofessors.com/images/careerrookie/CR-animated.gif" border="none"/></a></div>
+</div>
+-->
+
+<div id="targetedPromoDiv" onclick="javascript:logEvent('TgtPromoSelTClick');">
+	<html><head><style type= "text/css">
+#icons {
+background: #EFEFEF;
+border: 8px solid #CCCCCC;
+-moz-border-radius: 8px;
+border-radius: 8px;
+}
+p.iconp {
+margin-top: 5px;
+margin-bottom: 3px;
+margin-left: 12px;
+margin-right: 12px;
+}
+.targhead {
+margin-top: 13px;
+}
+</style></head><body>&nbsp;<img width="210" class="targhead" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/followrmp.png"><br><div id="socialwrap"><div id="icons"><p class="iconp"><a target="_blank" href="http://facebook.com/ratemyprofessor"><img border="0" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/fb1.png" onmouseover="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/fb2.png'" onmouseout="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/fb1.png'"></a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://twitter.com/ratemyprofessor"><img border="0" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tw1.png" onmouseover="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tw2.png'" onmouseout="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tw1.png'"></a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://ratemyprofessors.tumblr.com"><img border="0" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tmb1.png" onmouseover="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tmb2.png'" onmouseout="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/tmb1.png'"></a>&nbsp;&nbsp;&nbsp;<a target="_blank" href="http://pinterest.com/ratemyprofessor"><img border="0" src="http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/pn1.png" onmouseover="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/pn2.png'" onmouseout="this.src='http://blog.ratemyprofessors.com/wp-content/uploads/2013/03/pn1.png'"></a></p></div></div></body></html></div>
+
+</div><!-- closes sideBar -->
+
+
+<div id="bottomLeft">
+
+<!-- start tabs here -->
+<div id="commentsBookToggle">
+<ul>
+<!-- <a href="/SelectTeacher.jsp?the_dept=All&full=1&orderby=TLName&sid=1482"> --><li><h3 style="color: black;">Professors <span class="profNum" style="color:black; font-size: 17px;"> (showing 1 to 20 of 101 results)</span></h3></li>
+<!--
+<form action="SelectTeacher.jsp?sid=1482" name="selectForm"method="POST"><li style="float:right; margin-right:0px;"><strong>Show per page: </strong>
+    <select name="selectCount" id="selectCount" onchange="this.form.submit();">
+        <option selected value="20">20 professors</option>
+        <option  value="50">50 professors</option>
+        <option  value="100">100 professors</option>
+        <option  value="101">all professors</option>
+    </select>
+</form>
+-->
+</li>
+</ul>
+</div>
+
+
+<div id="ratingKey">
+<!-- select department dropdown -->
+<div class="paginateByLetter"><!-- We don't want dept filter when doing letters. --> 
+<ul>
+<b>Browse by letter:</b>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=A">A</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=B">B</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=C">C</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=D">D</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=E">E</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=F">F</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=G">G</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=H">H</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=I">I</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=J">J</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=K">K</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=L">L</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=M">M</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=N">N</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=O">O</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=P">P</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=Q">Q</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=R">R</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=S">S</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=T">T</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=U">U</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=V">V</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=W">W</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=X">X</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=Y">Y</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482&orderby=TLName&letter=Z">Z</a></li>
+<li><a href="SelectTeacher.jsp?sid=1482">All</a></li>
+</ul>
+</div>
+<div class=parentDiv>
+<div class="searchdiv">
+<!--  <h4 style="color:black; float:left; padding-top:4px; margin-right: 3px;">Search this school:</h4>-->
+
+   <form  type="post" action="SelectTeacher.jsp" name="searchForm" id="searchForm" onsubmit="return checkSearchName();">
+  <ul>
+   <li style="margin:3px;">
+      <input type="text" id="query1" name="searchName" class="searchBox" value="Professor's last name" style="color:#000000; border:1px solid #CCC;" onclick="javascript: if( this.value == 'Professor\'s last name'){this.value='';} ;"/>
+   </li>
+ <li style="margin:3px;">
+      <input type="submit" id="search_submit1" name="search_submit1" value="Search" tabindex="2" class="nameSearch" />
+   </li>
+   </ul>
+   <input type="hidden" name="sid" value="1482" />
+   </form>
+
+<!--  <ul id="solrsearch1">
+   <form action="/search.jsp" name="searchForm1" id="searchForm1" onsubmit="javascript:beforeSearch(this.name,'query1','queryoption1');">
+   <li class="liInline1">
+      <input type="text" id="query1" name="query1" class="searchBox" x-webkit-speech />
+   </li>
+   <li class="liInline1">
+      <div class="searchSelect1">
+          <select name="queryoption1"  id="queryoption1">
+            <option value="TEACHER" selected="selected">Professors</option>
+            <option value="SCHOOL">Schools</option>
+          </select>
+      </div>
+   </li>
+   <li class="liInline1">
+      <input type="submit" id="search_submit1" name="search_submit1" value="Search" tabindex="2" class="searchButton1" />
+   </li>
+   <li class="liInline1">
+      <input type="button" value="Web" tabindex="3" class="webButton1" onclick="window.open('http://search.live.com/results.aspx?q=' + document.getElementById('query1').value + '&mkt=en-US&FORM=VCM018','_blank')" />
+   </li>
+   </form>
+</ul>--></div>
+<script type="text/javascript">
+var contentStr = "<div id='tipdiv'><p style='font-weight:bold;font-size:15px;'>Tips:<a style=\"float:right;background:no-repeat;background-image:url(/images/site/xmark.png);padding:20px 20px 0 0\" onclick=\"javascript:$('#qtip-0').hide(); return false;\" href=\"#\"></a><span></p>";
+/* contentStr += "<ul style=\"vertical-align:middle;float:left\">";
+contentStr += "<li style=\"display:inline\"><img src=\"/images/site/tip-green.png\" style=\"vertical-align:middle\" /></li><li style=\"display:inline\">To <b>search</b> for a professor at this school, enter his or her last name and click \"Search.\"</li>";*/
+contentStr +="<img src=\"/images/site/tip-green.png\" style=\"vertical-align:middle;float:left;padding-right:5px;padding-top:5px;\">To <b>search</b> for a professor at this school, enter his or her last name and click \"Search.\" ";
+/*contentStr += "<li style='list-style-image:url(\"/images/site/tip-green.png\")'>To <b>browse by letter,</b> simply enter your desired letter and click \"Search.\"</li>"; */
+// contentStr +="</ul></div>";
+contentStr +="</div>";
+
+function showTip(showReady){
+	$('.nameSearch').qtip({
+		content: contentStr,
+		style: {
+			classes: 'qtip-shadow qtip-bootstrap',
+			tip: {
+				border: 6,
+				height: 10
+			}
+		},
+		position: {
+			target: $('.nameSearch')
+		},
+		show : {
+			event: 'load',
+			ready: showReady
+		},
+		hide : {
+			event: 'onclick'
+		}	
+	});
+}
+/*
+ * Creates Cookie for specified number of days.
+ *
+ * name - Cookie Name
+ * value - Cookie Value
+ * days - Number of days after which Cookie will expire.
+ * createCookie("COOKIE_NAME",COOKIE_VALUE,365);
+ */
+function createCookie(name, value, days) {
+  var expires = "";
+  if(days) {
+   var date = new Date();
+    var timeToexpire = days * 24 * 60 * 60 * 1000;
+    date.setTime(date.getTime() + timeToexpire);
+    expires = "; expires=" + date.toGMTString();
+  }
+  document.cookie = name + "=" + value + expires + "; path=/";
+}
+/*
+ *  Reads Cookie based on Cookie name.
+ *  name - Cookie name
+ *  readCookie("COOKIE_NAME");
+ */
+function readCookie(name) {
+  var nameEQ = name + "=";
+  var ca = document.cookie.split(';');
+  for(var i = 0; i < ca.length; i++) {
+    var c = ca[i];
+    while(c.charAt(0) == ' ')
+    c = c.substring(1, c.length);
+    if(c.indexOf(nameEQ) == 0)
+      return c.substring(nameEQ.length, c.length);
+  }
+  return null;
+}
+
+	var loadCookieVal = readCookie("FIRST_TIME_LOAD");
+	if(loadCookieVal == null){
+		// No cookie value
+		showTip(true);
+		createCookie("FIRST_TIME_LOAD","YES",365);
+	} else {
+		// cookie value exists
+		showTip(false);		
+	}
+</script>
+<div class="departmentAddProfDiv">
+<!--  <h4 style="color:black;">Browse by department: </h4>-->
+<form type="post" id="rmp_nameSearch" name="deptForm" action="SelectTeacher.jsp">
+<ul>
+<li><select name="the_dept"> 
+<option value="All" selected>All departments</option> 
+<option value="Accounting" >Accounting</option>	
+<option value="Advisor" >Advisor</option>	
+<option value="Anthropology" >Anthropology</option>	
+<option value="Applied Arts" >Applied Arts</option>	
+<option value="Archaeology" >Archaeology</option>	
+<option value="Art" >Art</option>	
+<option value="Art & Design" >Art & Design</option>	
+<option value="Art Education" >Art Education</option>	
+<option value="Art History" >Art History</option>	
+<option value="Asian Studies" >Asian Studies</option>	
+<option value="Biochemistry" >Biochemistry</option>	
+<option value="Biological Sciences" >Biological Sciences</option>	
+<option value="Biology" >Biology</option>	
+<option value="Business" >Business</option>	
+<option value="Business Administration" >Business Administration</option>	
+<option value="Business Economics" >Business Economics</option>	
+<option value="Canadian Studies" >Canadian Studies</option>	
+<option value="Chemistry" >Chemistry</option>	
+<option value="Communication" >Communication</option>	
+<option value="Computer Information Systems" >Computer Information Systems</option>	
+<option value="Computer Science" selected >Computer Science</option>
+<option value="Counseling" >Counseling</option>	
+<option value="Criminal Justice" >Criminal Justice</option>	
+<option value="Criminology" >Criminology</option>	
+<option value="Cultural Studies" >Cultural Studies</option>	
+<option value="Earth Science" >Earth Science</option>	
+<option value="Economics" >Economics</option>	
+<option value="Education" >Education</option>	
+<option value="Educational Research" >Educational Research</option>	
+<option value="Engineering" >Engineering</option>	
+<option value="English" >English</option>	
+<option value="Environmental Public Health" >Environmental Public Health</option>	
+<option value="Environmental Resources" >Environmental Resources</option>	
+<option value="Environmental Science" >Environmental Science</option>	
+<option value="Environmental Studies" >Environmental Studies</option>	
+<option value="Film" >Film</option>	
+<option value="Finance" >Finance</option>	
+<option value="Fine Arts" >Fine Arts</option>	
+<option value="Foreign Languages" >Foreign Languages</option>	
+<option value="Forensic Science" >Forensic Science</option>	
+<option value="French" >French</option>	
+<option value="Gender Studies" >Gender Studies</option>	
+<option value="Geography" >Geography</option>	
+<option value="Geology" >Geology</option>	
+<option value="German" >German</option>	
+<option value="Gerontology" >Gerontology</option>	
+<option value="Graphic Design" >Graphic Design</option>	
+<option value="Health & Human Performance" >Health & Human Performance</option>	
+<option value="Health Science" >Health Science</option>	
+<option value="History" >History</option>	
+<option value="Humanities" >Humanities</option>	
+<option value="Industrial Studies" >Industrial Studies</option>	
+<option value="Information Science" >Information Science</option>	
+<option value="Information Technology" >Information Technology</option>	
+<option value="Interactive Media Design" >Interactive Media Design</option>	
+<option value="International Business" >International Business</option>	
+<option value="International Studies" >International Studies</option>	
+<option value="Italian" >Italian</option>	
+<option value="Justice Studies" >Justice Studies</option>	
+<option value="Kinesiology" >Kinesiology</option>	
+<option value="Languages" >Languages</option>	
+<option value="Learning Center" >Learning Center</option>	
+<option value="Liberal Studies" >Liberal Studies</option>	
+<option value="Linguistics" >Linguistics</option>	
+<option value="Literature" >Literature</option>	
+<option value="Management" >Management</option>	
+<option value="Management Information Systems" >Management Information Systems</option>	
+<option value="Marketing" >Marketing</option>	
+<option value="Mathematics" >Mathematics</option>	
+<option value="Media Arts" >Media Arts</option>	
+<option value="Media Studies" >Media Studies</option>	
+<option value="Microbiology" >Microbiology</option>	
+<option value="Molecular Biosciences" >Molecular Biosciences</option>	
+<option value="Music" >Music</option>	
+<option value="Not Specified" >Not Specified</option>	
+<option value="Philosophy" >Philosophy</option>	
+<option value="Physics" >Physics</option>	
+<option value="Physiology" >Physiology</option>	
+<option value="Political Science" >Political Science</option>	
+<option value="Psychology" >Psychology</option>	
+<option value="Resource Management" >Resource Management</option>	
+<option value="Science" >Science</option>	
+<option value="Social Science" >Social Science</option>	
+<option value="Sociology" >Sociology</option>	
+<option value="Sociology & Anthropology" >Sociology & Anthropology</option>	
+<option value="Statistics" >Statistics</option>	
+<option value="Theater" >Theater</option>	
+<option value="Urban Planning" >Urban Planning</option>	
+<option value="Women's Studies" >Women's Studies</option>	
+<option value="Writing" >Writing</option>	
+</select></li>
+<li><input type="submit" value="View department" onClick="document.forms['deptForm'].submit();"> </li>
+</ul>					
+<input type="hidden" name="orderby" value="TLName" >
+<!--<input type="hidden" name="letter" value="A" >-->
+<input type="hidden" name="sid" value="1482" >	
+</form>
+			
+<!--  <A href="AddTeacher.jsp?sid=1482">Add a professor</A>-->
+</div>
+</div>
+
+
+	
+<!--- begin code for teacher list --->
+<script language="JavaScript" type="text/javascript">
+<!--
+function doPrompt(url, school) {
+var msgText='Copy the URL below into your RSS feed to see Teachers Ratings for - "' + school + '"'
+prompt(msgText, url)
+}
+-->
+</script>
+<style>
+#bottomLeft {   
+    width: 780px !important; 
+}
+.entry .profHot.isHot {
+    width: 45px !imporatant; 
+}	
+.ratingTableHeader .profName a, .ratingTableHeader .profDept a, .ratingTableHeader .profRatings a, .ratingTableHeader .profAvg a, .ratingTableHeader .profEasy a, .ratingTableHeader .profHot a, .ratingTableHeader .profShare {
+    color: #005295;
+}
+.ratingTableHeader .profName {
+/* background: url("/images/up.png");*/
+ height: 15px;
+ padding-top: 15px;
+ width: 165px;
+}
+.ratingTableHeader .profDept {
+	width: 165px;
+	padding-top: 15px;
+	height: 15px;
+}
+.ratingTableHeader .profHot {
+    width: 46px;
+    text-align: right;   
+    overflow: hidden;
+}
+.entry .profHot.isHot {
+    width: 45px !imporatant; 
+}
+.entry .profShare {
+    height: 25px;
+    margin-left: 670px;
+    margin-top: -22px;
+    width: 62px;
+}
+.ratingTableHeader .profEasy {    
+    text-align: right;
+    width: 68px;
+}
+.ratingTableHeader .profRatings {
+    text-align: left;
+    width: 68px;
+}
+.ratingTableHeader .profAvg {
+    text-align: center;
+    width: 68px;
+}
+
+.entry .profName {
+	width: 167px;
+}
+.entry .profDept {
+	width: 158px;
+}
+.entry .profRatings {
+	width: 58px;
+	text-align: center;
+}
+.entry .profAvg {
+	width: 60px;
+	text-align: center;
+	padding-left: 20px;
+}
+.entry .profEasy {
+	width: 60px;
+	text-align: center;
+	padding-left: 18px;
+	padding-right: 15px;
+}
+
+</style>
+
+<div id="ratingTable">
+
+<div class="ratingTableHeader" style=" padding-left: 20px !important;">
+<div class="profName" style=" width:95px;"><b>SORT BY: </b></div>
+
+<div class="profName sorted" style=" background: url('images/up.png') no-repeat scroll 35px 15px transparent;"><b><a href="SelectTeacher.jsp?the_dept=Computer Science&sid=1482&orderby=TLName&toggel=true">Name</a></b></div>
+<div class="profDept"  style=><b><a href="SelectTeacher.jsp?the_dept=Computer Science&sid=1482&orderby=TDept&toggel=true">Department</a></b></div>
+<div class="profRatings"  style=><b><a href="SelectTeacher.jsp?the_dept=Computer Science&sid=1482&orderby=TNumRatings&toggel=true">Total Ratings</a></b></div>
+<div class="profAvg" style=><b><a href="SelectTeacher.jsp?the_dept=Computer Science&sid=1482&orderby=TAvgRating&toggel=true">Overall Quality</a></b></div>
+<div class="profEasy" style= ><b><a href="SelectTeacher.jsp?the_dept=Computer Science&sid=1482&orderby=TAvgEasy&toggel=true">Easiness</a></b></div>
+<div class="profHot" style=><b><a href="SelectTeacher.jsp?the_dept=Computer Science&sid=1482&orderby=thot&toggel=true">Hot?</a></b></div>
+</div><!-- closes rating table headers -->
+                                
+                               
+<div class="entry odd">
+<div class="profPoor">Poor Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=733279">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=733279"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=733279">Aguilar-Solis, Dulce</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">11</div>
+<div class="profAvg">1.7</div>     
+<div class="profEasy">2.3</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profAverage">Average Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=1142379">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=1142379"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=1142379">Aliyar, Maryam</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">19</div>
+<div class="profAvg">3.1</div>     
+<div class="profEasy">3.4</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profPoor">Poor Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=1088938">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=1088938"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=1088938">Amiri, Ehsan</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">10</div>
+<div class="profAvg">1.4</div>     
+<div class="profEasy">3.2</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profAverage">Average Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=53756">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=53756"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=53756">Atkins, Stella</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">18</div>
+<div class="profAvg">3.4</div>     
+<div class="profEasy">4.1</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profAverage">Average Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=31619">Rate this professor</a></div>
+           
+            
+            <div class="profPhoto hasPhoto"><a href="ShowRatings.jsp?tid=31619"><img class="person" src="http://static.ratemyprofessors.com/images/prof/t_Greg_Baker_31619.jpeg" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="GregBaker" alt="GregBaker Photo" ></a></div>
+            <div class="profName"><a href="ShowRatings.jsp?tid=31619">Baker, Greg</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">211</div>
+<div class="profAvg">3.3</div>     
+<div class="profEasy">3.0</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profAverage">Average Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=20266">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=20266"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=20266">Bart, Brad</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">188</div>
+<div class="profAvg">3.2</div>     
+<div class="profEasy">2.0</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profAverage">Average Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=1162359">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=1162359"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=1162359">Bastone, Chris</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">5</div>
+<div class="profAvg">2.8</div>     
+<div class="profEasy">1.8</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profAverage">Average Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=1180470">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=1180470"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=1180470">Belli, Fernando</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">1</div>
+<div class="profAvg">2.5</div>     
+<div class="profEasy">1.0</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profPoor">Poor Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=36606">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=36606"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=36606">Berenbrink, Petra</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">26</div>
+<div class="profAvg">1.8</div>     
+<div class="profEasy">2.4</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profPoor">Poor Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=26440">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=26440"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=26440">Bhattacharya, Binay</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">44</div>
+<div class="profAvg">2.1</div>     
+<div class="profEasy">2.5</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profPoor">Poor Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=718344">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=718344"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=718344">Brown, Sarah</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">15</div>
+<div class="profAvg">2.2</div>     
+<div class="profEasy">1.7</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profPoor">Poor Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=53907">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=53907"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=53907">Burton, Warren</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">18</div>
+<div class="profAvg">1.7</div>     
+<div class="profEasy">3.7</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profGood">Good Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=1295320">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=1295320"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=1295320">Cameron, Robert</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">2</div>
+<div class="profAvg">3.5</div>     
+<div class="profEasy">4.0</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profGood">Good Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=1165879">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=1165879"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=1165879">Chan, Bobby</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">18</div>
+<div class="profAvg">4.9</div>     
+<div class="profEasy">3.5</div>
+                                       
+<div class="profHot isHot">Hot</div>
+      
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profGood">Good Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=1782652">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=1782652"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=1782652">Chen, Ruiwen </a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">4</div>
+<div class="profAvg">4.5</div>     
+<div class="profEasy">3.8</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profGood">Good Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=566634">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=566634"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=566634">Cukierman, Diana</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">65</div>
+<div class="profAvg">3.9</div>     
+<div class="profEasy">3.3</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profPoor">Poor Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=76791">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=76791"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=76791">Dahl, Veronica</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">18</div>
+<div class="profAvg">1.9</div>     
+<div class="profEasy">2.3</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profAverage">Average Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=236719">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=236719"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=236719">Delgrande, Jim</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">13</div>
+<div class="profAvg">3.2</div>     
+<div class="profEasy">2.6</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry odd">
+<div class="profGood">Good Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=19175">Rate this professor</a></div>
+           
+            
+            <div class="profPhoto hasPhoto"><a href="ShowRatings.jsp?tid=19175"><img class="person" src="http://static.ratemyprofessors.com/images/prof/t_Anthony_Dixon_19175.jpeg" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="AnthonyDixon" alt="AnthonyDixon Photo" ></a></div>
+            <div class="profName"><a href="ShowRatings.jsp?tid=19175">Dixon, Anthony</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">116</div>
+<div class="profAvg">4.1</div>     
+<div class="profEasy">2.3</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+<div class="entry even">
+<div class="profAverage">Average Quality</div>
+            <div  class="profRate"><a style="display:block" href="AddRating.jsp?tid=748951">Rate this professor</a></div>
+           
+            
+            <!--Changes made for RMPM-722-->
+            <div class="profPhoto"><a href="ShowRatings.jsp?tid=748951"><img class="person" src="http://static.ratemyprofessors.com/images/site/icons/dude.png" border="0" width="24" height="24" onerror="this.src='images/site/icons/dude.png'" title="Photo Unavailable" alt="Photo Unavailable" ></a></div>
+                                                            
+            <div class="profName"><a href="ShowRatings.jsp?tid=748951">Donaldson, Toby</a></div>
+            
+            <div class="profDept">Computer Science</div>
+<div class="profRatings">13</div>
+<div class="profAvg">3.3</div>     
+<div class="profEasy">2.8</div>
+                                       
+<div class="profHot notHot">Not Hot</div>
+
+</div><!-- closes entry -->
+                           
+</div>
+
+
+<!--  <div class="pagination"><!--%@ include file="/alphaLinksA.ijsp" %></div>-->
+<div class="pagination" style="margin: 15px 200px ! important;"><!-- Pagination uses the variables total, pageNo, pageUrl, displayText.
+total variable is used to get the total number of records returned from query.
+pageNo variable is used to get the current page for display.
+displayText variable is used to get the display name.
+PageUrl variable is used to redirect to the appropriate page.
+-->
+<div id="pagination">
+				<script type="text/javascript">
+					function reloadPageURL(){
+                                                // passing page url wasn't passing encoded value to js so grabbing directly from browser
+                                                var url = document.location.href.replace(/&pageNo=[0-9]+/,"");
+						var pageNumber = document.pagForm.elements["pageNo"].value;
+						document.location.href = url+"&pageNo="+pageNumber;
+					}
+				</script>
+				<form name="pagForm" action="javascript:reloadPageURL()">
+				<span>101 professors</span>
+				<span class="pager-disabled">&laquo;</span>
+				<span class="pager-disabled">&lsaquo;</span>
+				<input type="text" name="pageNo" style="text-align:center;" size="2" value="1"/>
+				<span class="pager-disabled"> of </span>
+				<span class="pager-disabled">6</span>
+				
+				<a href="/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=2" class="next">&rsaquo;</a>
+				<a href="/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=6" class="last">&raquo;</a>
+				</form>
+			</div>	  
+
+			
+</div>
+	<p class="resultMessage" style="text-align:center;">
+	  Still can't find what you're looking for? <a href="AddTeacher.jsp?sid=1482">Add a professor </a>to this school on RateMyProfessors!
+        </p>
+
+</div><!-- closes rating key -->
+
+
+<!-- end tabs here -->
+
+
+</div><!-- closes bottom left -->
+
+
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-304376-1";
+urchinTracker();
+</script>
+<script type="text/javascript">
+		//var dispatcher=com.mtvi.reporting.Dispatcher;
+		//var dispatcher=new com.mtvi.reporting.Dispatcher();
+		var pn = location.pathname;
+		if(pn.charAt(pn.lastIndexOf("/")+1) == ""){
+		   pn= pn+"index.jsp";
+		   }
+		// var h1 = location.pathname.substring(1);
+		//var pagename= "< %=pagenamevalue%>";
+		var h2 = "school/main";
+		var channel= "school";
+		
+                 btg.Controller.sendPageCall({
+                   pageName : pn,
+                   channel : channel,
+                   hier2 : h2,
+                   prop2 : "USA",
+                   prop5 : "BC",
+                   prop6 : "Simon Fraser University",
+                   prop7 : "",
+                   prop8 : "visitor",
+		   prop9 : "1482"
+                });
+
+
+</script>
+<!-- following file includes all the scripts and css related to solr -->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>-->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://static.ratemyprofessors.com/javascript/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/solr/js/jquery.livequery.js"></script>
+<link rel="stylesheet" type="text/css" href="/solr/css/rmp.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/solr/ext/jquery.autocomplete.css" media="screen" />
+<script type="text/javascript" src="/CookieUtility.js"></script>
+<script type="text/javascript" src="/solr/js/rmp.js"></script>
+<script type="text/javascript" src="/solr/core/Core.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractManager.js"></script>
+<script type="text/javascript" src="/solr/managers/Manager.jquery.js"></script>
+<script type="text/javascript" src="/solr/core/Parameter.js"></script>
+<script type="text/javascript" src="/solr/core/ParameterStore.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/ResultWidget.js"></script>
+<script type="text/javascript" src="/solr/helpers/jquery/ajaxsolr.theme.js"></script>
+<script type="text/javascript" src="/solr/widgets/jquery/PagerWidget.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractFacetWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/TagcloudWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/CurrentSearchWidget.js"></script>
+<!--
+<script type="text/javascript" src="/solr/widgets/TextWidget.js"></script>
+-->
+<script type="text/javascript" src="/solr/ext/jquery.solrautocomplete.js"></script>
+<script type="text/javascript" src="/solr/widgets/AutocompleteWidget.js"></script>
+<script type="text/javascript" src="/solr/js/rmp.theme.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://static.ratemyprofessors.com/javascript/imgZoom.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+
+
+        function getSitename() {
+          return "rmp";
+        }
+
+        function getTerm() {
+               if (document.getElementById("query") && document.getElementById("query").value){
+                  return document.getElementById("query").value;
+               }else if (document.getElementById("query1") && document.getElementById("query1").value){
+                  return document.getElementById("query1").value;
+               }else if (document.getElementById("query2") && document.getElementById("query2").value){
+                  return document.getElementById("query2").value;
+               }else{
+                  return "*:*";
+               }
+        }
+
+        function getValue(max, type) {
+               var columns = max.split("~~");
+                  var x = 0;
+                  var output = "";
+                  for (x=0; x<columns.length; x++) {
+                      if (columns[x].indexOf(type) != -1) {
+                           output = "";
+                           output = columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length);
+                           return output;
+                          }
+                  }
+                  return max;
+        }
+
+      function getSelectedValue(max, type) {
+             var columns = max.split("~~");
+                  var x = 0;
+                  for (x=0; x<columns.length; x++) {
+                      if (columns[x].indexOf(type) != -1) {
+                                  if(columns[columns.length-1].indexOf(type)!=-1){
+                                     return columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length);
+                                  }else{
+                                     return columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length) + columns[columns.length-1];
+                                  }
+                          }
+                  }
+                  return max;
+        }
+
+        function getHelp(){
+           var $helpDialog = $('#helpDialog').dialog({
+                                height: 440,
+                                width: 450,
+                                modal: true,
+                                position: 'center',
+                                autoOpen: false,
+                                title: 'Search Help',
+                                closeText:'xx'
+           });
+           $helpDialog.show();
+           $helpDialog.dialog("open");
+
+        }
+ 
+        function getParameter( name ){
+          name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+          var regexS = "[\\?&]"+name+"=([^&#]*)";
+          var regex = new RegExp( regexS );
+          var results = regex.exec( window.location.href );
+          if( results == null )    return "";
+          else    return (results[1]).replace(/\+/g,' ');
+        }
+
+
+        function beforeSearch(formname,sinput,soption){
+          // TODO: Store value of the form that was submitted
+          var sterm = $('#'+sinput).val() || '*:*';
+          var stype = $('#'+soption).val() || 'TEACHER';
+          reportSearch(sterm,stype);
+          //reportPageCall(sterm,stype); // it is being reported via omnitureExtension.jsp
+        }
+
+        function reportSearch(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"SEARCH",
+                   linkType:"o",
+                   eVar2:sterm,
+                   eVar3:stype
+           });
+        }
+
+        function reportFacetClick(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"FACET",
+                   linkType:"o",
+                   eVar2:sterm,
+                   eVar3:stype
+           });
+        }
+
+        function reportFailedSearch(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"SEARCH",
+                   linkType:"o",
+                   eVar3:stype,
+                   eVar4:sterm
+           });
+        }
+
+        function reportPageCall(sterm,stype){
+                btg.Controller.sendPageCall({
+                   pageName : location.pathname,
+                   channel : "search",
+                   hier2 : "search/"+stype,
+                   eVar2 : sterm,
+                   eVar3 : stype,
+                   prop2 : "",
+                   prop4 : "",
+                   prop5 : "",
+                   prop6 : "",
+                   prop7 : "",
+                   prop8 : ""
+                });
+
+        }
+
+        function hideSolrElements(){
+           $("#docs").hide();
+           $("#navigation").hide();
+           $(".facetDiv").hide();
+        }
+
+        function showSolrElements(){
+           $("#docs").show();
+           $("#navigation").show();
+           $(".facetDiv").show();
+        }
+
+$(document).ready( function() {
+/*
+        $('select[name^=queryoption]').each(function(){
+            $(this).change(function(){
+                 val = $('option:selected',this).text();
+                 $(this).next().text(val);
+            });
+        });
+*/
+ });
+
+</script>
+<!--<font color="white">mtvu-jboss-009</font> -->
+
+<center>
+	<!-- BEGIN FOOTER -->
+
+
+	</div>
+	<!-- closes content wrapper -->
+	<style>
+#footer .section ul li a {
+	float: none !important;
+}
+
+#footer .section ul li#twitter a {
+	float: none !important;
+}
+
+#footer .section ul li#facebook a {
+	float: none !important;
+}
+
+#footer .section {
+	height: 175px !important;
+}
+
+h1,h2,h3,h4,h5 {
+	color: #005295;
+	font-weight: bold !important;
+}
+
+#footer #social.section {
+	background: none !important;
+	border-right: medium none;
+}
+
+#footer .section ul li#twitter a {
+	font-size: 12px;
+}
+
+#footer .section ul li#facebook a {
+	font-size: 12px;
+}
+
+#footer .section {
+	border-left: 0px solid #C6C6C6;
+	border-right: 0px solid #FFFFFF;
+}
+
+#footer #copyright.copyright {
+	background: url("/images/rmp-footer-logo.png") no-repeat scroll 675px
+		4px transparent;
+	padding: 8px 0 8px 0px;
+}
+
+.copyright {
+	margin-bottom: 10px;
+}
+
+#footer #SiteSections.section {
+	width: 165px !important;
+	border-left: 0px solid #C6C6C6;
+}
+
+#footer #divider.section {
+	width: 1px !important;
+	height: 85px !important;
+	border-right: 1px solid #C6C6C6;
+	border-left: 1px solid #FFFFFF;
+	margin-left: 0px !important;
+	margin-top: 45px !important;
+	padding-left: 0px !important;
+}
+
+#footer #help.section {
+	width: 180px !important;
+}
+
+#footer #legal.section {
+	width: 240px !important;
+}
+
+#footer #social.section {
+	width: 240px !important;
+}
+
+#footer #SiteSections.section ul li a {
+	margin-left: 45px !important;
+}
+
+#footer #help.section ul li a {
+	margin-left: 55px !important;
+}
+
+#footer #legal.section ul li a {
+	width: 200px !important;
+	margin-left: 35px !important;
+}
+
+#footer #social.section ul li a {
+	margin-left: 45px !important;
+}
+
+.hr {
+	width: 0px;
+	height: 125px;
+	background-color: #cccccc;
+	position: relative;
+}
+
+ul li a:hover{ text-decoration: none; color: #black;}
+</style>
+	<div id="footer">
+</center>
+<div id="SiteSections" class="section">
+	<h4 ALIGN="CENTER">Site Sections</h4>
+	<br>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/About.jsp">About</a></li>
+		<!--<li><a href="/SearchProfs.jsp">Professors</a></li>
+		<li><a href="/referral.jsp">Tell a Friend</a></li>
+		<li><a href="/SearchSchool.jsp">Schools</a></li>-->
+		<li><a href="/toplists/topLists.jsp">Top Lists</a></li>
+                <li><a href="http://blog.ratemyprofessors.com/category/professors-strike-back/">Professors Strike Back</a></li>
+		<!--<li><a href="#">Search</a></li>-->
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="help" class="section">
+	<h4 ALIGN="CENTER">Help and Support</h4>
+	<br>
+	<ul>
+		<li><a href="/help.jsp">Help</a></li>
+		<li><a href="/faq.jsp">FAQ</a></li>
+		<li><a href="/ContactUs.jsp">Contact Us</a></li>
+		<li><a href="http://srp.mtvn.com/sitefaq.html" target="_blank">Ad Choices <img align="absmiddle" height="16px" src="/images/adchoice_icon.png"/></a></li>
+		<li><a href="/RSSHelp.jsp">What is RSS?</a></li>
+		<!--<li><a href="http://mtvpress.com/contacts/form">Press Inquiries</a></li>-->
+		<!--<li><a href="http://adspecs.mtvn.com/site/spec/my/mycontacts.html">Advertising Inquiries</a></li>-->
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="legal" class="section">
+	<h4 ALIGN="CENTER">Terms and
+		Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+	<br>
+	<ul>
+		<li><a href="/TermsOfUse_us.jsp">Terms of Use (6/30/2011)</a></li>
+		<li><a href="/PrivacyPolicy_us.jsp">Privacy Policy/Your CA Privacy Rights (6/30/2011)</a></li><br/>
+		<li><a href="/site_guidelines.jsp">Site Guidelines</a></li>
+		<li><a href="/copyright_comp_policy.jsp">Copyright Compliance
+				Policy</a></li>
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="social" class="section">
+	<h4 ALIGN="CENTER">Social</h4>
+	<br>
+	<ul>
+		<li id="facebook"><a
+			href="https://www.facebook.com/pages/Rate-My-Professors/144740972207883"
+			target="_blank">Like us on Facebook</a></li>
+		<li id="twitter"><a href="http://twitter.com/ratemyprofessor"
+			target="_blank">Follow us on Twitter</a></li>
+	</ul>
+</div>
+
+<div id="copyright" class="copyright">
+	<p class="copyright">
+		<br> <br>Copyright &copy; 2013 RateMyProfessors.com, LLC.
+		Powered by <span class="mtvU">mtvU</span> and <span class="MTVN">MTV
+			NETWORKS</span>
+	</p>
+</div>
+</div>
+<div id="footerSearch">
+<script type="text/javascript">
+ function logEvent(clicktype){
+           //Send a link event call
+            btg.Controller.sendLinkEvent(
+               {
+                  linkName:clicktype,
+                  linkType:'o'
+               }
+            );
+ }
+</script>
+	<div class="solrsearch2div">
+        <ul id="solrsearch2">
+   <form action="/search.jsp" name="searchForm2" id="searchForm2" onsubmit="javascript:beforeSearch(this.name,'query2','queryoption2');">
+   <li class="liInline2">
+      <input type="text" id="query2" name="query2" class="searchBox" />
+   </li>
+   <li class="liInline2">
+      <div class="searchSelect2">
+          <select name="queryoption2"  id="queryoption2">
+            <option value="TEACHER" selected="selected">Professors</option>
+            <option value="SCHOOL">Schools</option>
+          </select>
+      </div>
+   </li>
+   <li class="liInline2">
+      <input type="submit" id="search_submit2" name="search_submit2" value="Search" tabindex="31" class="searchButton2" />
+   </li>
+   <li class="liInline2">
+      <input type="button" value="Web" tabindex="32" class="webButton2" onclick="window.open('http://search.live.com/results.aspx?q=' + document.getElementById('query2').value + '&mkt=en-US&FORM=VCM018','_blank')" />
+   </li>
+   </form>
+</ul>
+
+<!--
+
+		<form id="search"
+			onsubmit="if(search.letter.value == '') {alert( 'Please enter name of the professor you want to search for.' );search.letter.focus();return false ;}return true;"
+			method="get" name="search" action="/SearchProfs.jsp">
+			<input id="rmp_navFindTextInput" class="searchBox" type="text"
+				name="letter" tabindex="1" style="color: black;"
+				value="Enter Last Name of Professor"
+				onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}">
+			<input id="search_submit" class="searchButton" type="submit"
+				value="Search" tabindex="2" onclick="javascript:logEvent('footerSearch');"> <input id="web_submit"
+				class="webSearchButton" type="button"
+				onclick="javascript: document.location = 'http://search.live.com/results.aspx?q=' + document.getElementById('rmp_navFindTextInput').value + '&mkt=en-US&FORM=VCM018'"
+				value="Web" tabindex="3">
+		</form>
+-->
+	</div>
+</div>
+</div>
+<!-- closes footer -->
+</div>
+<!-- closes site wrapper -->
+
+
+
+
+
+<style type="text/css">
+li#facebook a {
+	background:
+		url("http://static.ratemyprofessors.com/images/rmp-sprite.png")
+		-4px -352px no-repeat;
+	padding: 8px 0 8px 40px;
+}
+
+li#twitter a {
+	background:
+		url("http://static.ratemyprofessors.com/images/rmp-sprite.png")
+		-4px -404px no-repeat;
+	padding: 8px 0 8px 40px;
+}
+
+.flux4Widget .share .fixed.horizontalView .serviceList .serviceButton.twitter {
+  	width : 80px;
+}
+
+</style>
+
+
+ <script>
+  $(document).ready(function() {
+        $("#query1").bind("webkitspeechchange", function (e) {
+            //Send a link event call
+            btg.Controller.sendLinkEvent(
+               {
+                  linkName:'speechsearch',
+                  linkType:'o'
+               }
+            );
+        });
+        $('#kaptchaLink').click(function () { 
+           $('#kaptchaImage').hide()
+             .attr('src', '/Kaptcha.jpg?' + new Date().getTime())
+             .fadeIn(); 
+        });
+
+  });
+ </script>
+
+
+
+<script>
+	//alert(document.getElementById("upperAdvertisement").innerHTML.length);
+	//alert(document.getElementById("lowerAdvertisement").innerHTML.length);
+	//alert(document.getElementById("rightAdvertisement").innerHTML.length);
+	if (document.getElementById("rightAdvertisement") != null
+			&& document.getElementById("rightAdvertisement") != undefined
+			&& document.getElementById("rightAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("rightAdvertisement").style.display = "none";
+		document.getElementById("rightAdvertisementImg").style.display = "none";
+	}
+	if (document.getElementById("upperAdvertisement") != null
+			&& document.getElementById("upperAdvertisement") != undefined
+			&& document.getElementById("upperAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("upperAdvertisement").style.display = "none";
+		document.getElementById("upperAdvertisementImg").style.display = "none";
+	}
+	if (document.getElementById("lowerAdvertisement") != null
+			&& document.getElementById("lowerAdvertisement") != undefined
+			&& document.getElementById("lowerAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("lowerAdvertisement").style.display = "none";
+		document.getElementById("lowerAdvertisementImg").style.display = "none";
+	};
+</script>
+<!-- Start Quantcast tag -->
+
+<noscript>
+	<a href="http://www.quantcast.com/p-94wNw88f65Rhk" target="_blank"><img
+		src="http://pixel.quantserve.com/pixel/p-94wNw88f65Rhk.gif?labels=Viacom%20Domestic%2CMTVN%20Digital%2CMTVN%20Music%20and%20Logo%2CMTVN%20Music%20Group%2CmtvU%20Online"
+		style="display: none;" border="0" height="1" width="1" alt="Quantcast" /></a>
+</noscript>
+
+<!-- End Quantcast tag -->
+
+
+
+<!-- PAGEOK -->
+
+</body>
+</html>

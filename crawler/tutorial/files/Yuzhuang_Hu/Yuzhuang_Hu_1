@@ -1,0 +1,1705 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+   "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html;charset=utf-8">
+<title>Yuzhuang&nbsp;Hu - Simon Fraser University - Add Professor Rating - RateMyProfessors.com</title>
+<meta property="og:image" content="http://www.ratemyprofessors.com/images/rmp_logo_fb.gif"/> 
+<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/source.css" type="text/css" />
+<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/addratingother.css" type="text/css" />
+<script src="/CookieUtility.js" type="text/javascript"></script>
+<script src="/javascript/rmp.js" type="text/javascript"></script>
+<script src="http://static.ratemyprofessors.com/javascript/jquery-1.3.2.min.js" type="text/javascript"></script>
+  <script>
+  $(document).ready(function() {
+	var imagelocation = 'Kaptcha.jpg?d='+new Date().getTime();
+	$("#captchaImg").attr("src", imagelocation);
+  });
+  </script>
+<script language='JavaScript' type='text/javascript'>
+//setCIDCookie('72FC9A563CE36C53BCC6AE0EED70051E');
+<!--
+
+var xmlHttp;
+
+function validate()
+{  
+
+xmlHttp=GetXmlHttpObject();
+if (xmlHttp==null)
+  {
+  alert ("Your browser does not support AJAX!");
+  return;
+  } 
+  var a = validate_();
+  if(a==false){
+  	return false;
+  }
+ 
+  //============================================================================AJAX CODE STARTS
+ var action="";
+   		var comments = document.RatingInputForm.comments.value;
+		var tid = document.RatingInputForm.tid.value;
+		var sid = document.RatingInputForm.sid.value;
+				
+		if(a==true){
+			action=action+"comments="+comments;
+			action=action+"&tid="+tid;
+			action=action+"&sid="+sid;
+
+   			xmlHttp.onreadystatechange=dupeRatingCheck;
+   			var url="AddRatingProcess.jsp?"+action;
+   			
+    		xmlHttp.open("POST",url,false);
+    		xmlHttp.send(null); 
+			document.body.style.cursor = 'default';
+			var xx = dupeRatingCheck();
+   			if(xx==false){
+   				alert('The rating which you have entered is already present for this teacher');
+   				return false;
+   			}
+    	}
+}
+
+
+function dupeRatingCheck(){
+var y_n = true;
+	if (xmlHttp.readyState==4){ 
+
+		if(xmlHttp.responseText==0){
+			y_n = false;
+
+			document.body.style.cursor = 'default';
+			document.RatingInputForm.submit = false;
+		}
+	}
+	return y_n;
+}
+		
+function trim(inputString){
+		while(inputString.charAt(0)==" "){
+			inputString=inputString.replace(inputString.charAt(0),"");
+		}
+		while(inputString.charAt((inputString.length -1))==" "){
+			inputString=inputString.substring(0,inputString.length-1);
+		}
+		return inputString;
+	}
+	 
+  function GetXmlHttpObject()
+{
+var xmlHttp=null;
+try
+  {
+  // Firefox, Opera 8.0+, Safari
+  xmlHttp=new XMLHttpRequest();
+  }
+catch (e)
+  {
+  // Internet Explorer
+  try
+    {
+    xmlHttp=new ActiveXObject("Msxml2.XMLHTTP");
+    }
+  catch (e)
+    {
+    xmlHttp=new ActiveXObject("Microsoft.XMLHTTP");
+    }
+  }
+return xmlHttp;
+}
+
+
+function validString(inputString) {
+
+	for (i=0 ; i < inputString.length ; i++) {
+		if (onlyCharacters(inputString.charAt(i)) == false) {
+			return false;
+		}
+	}
+	return true;
+}
+
+function validNumber(inputString) {
+
+	for (i=0 ; i < inputString.length ; i++) {
+		if (onlyNumbers(inputString.charAt(i)) == false) {
+			return false;
+		}
+	}
+	return true;
+}
+
+function validAlphaNumeric(inputString) {
+
+	var isValidAlphaNumeric=true;
+	//changes made for RMPM-642
+	//if ( ! (inputString.match(/^[A-Za-z0-9]+(\.[A-Za-z0-9]{1,2})?$/) ) ) {
+	//	isValidAlphaNumeric=false;
+	//}
+	if ( ! (inputString.match(/^[A-Za-z0-9 .-]*$/) ) ) {
+		isValidAlphaNumeric=false;
+	}
+	
+	return isValidAlphaNumeric;
+}
+
+function validISBN(inputString) {
+
+	var isValidISBN=true;
+	
+	for (i=0; i < inputString.length; i++) {
+		if ( !( (inputString.charAt(i) >= '0' && inputString.charAt(i) <= '9') ||
+			   (inputString.charAt(i) == 'x' || inputString.charAt(i) == 'X') ) ) {
+			isValidISBN=false;
+		}
+	}
+	return isValidISBN;
+}
+
+function onlyCharacters(entry)
+{
+	if ( (entry >= 'a' && entry <= 'z') || ( entry >='A' && entry <='Z') )
+		return true;
+	else
+		return false;
+}
+
+function onlyNumbers(entry)
+{
+	if ( (entry >= '0' && entry <= '9') )
+		return true;
+	else
+		return false;
+} 
+
+//-->
+</script>
+<script type="text/javascript"><!--
+var limit = 350;
+var limitMessage='You cannot have more than 350 characters for a comment.'
+function validate_() {
+    var f = document.RatingInputForm;
+    var checked = false;
+    for (var i = 0; i < f.interestrb.length; i++) {
+	    if (f.interestrb[i].checked) {
+	    	checked = true;
+	    }
+    }
+    if (!checked) {
+	    alert("Please select an 'Interest' rating");
+	    return false;
+    }
+    checked = false;
+    for (var i = 0; i < f.easyrb.length; i++) {
+	    if (f.easyrb[i].checked) {
+	    	checked = true;
+	    }
+    }
+    if (!checked) {
+	    alert("Please select an 'Easiness' rating");
+	    return false;
+    }
+    checked = false;
+    for (var i = 0; i < f.helpfulrb.length; i++) {
+	    if (f.helpfulrb[i].checked) {
+	    	checked = true;
+	    }
+    }
+    if (!checked) {
+	    alert("Please select a 'Helpfulness' rating");
+	    return false;
+    }
+    checked = false;
+    for (var i = 0; i < f.clarityrb.length; i++) {
+	    if (f.clarityrb[i].checked) {
+	    	checked = true;
+	    }
+    }
+    if (!checked) {
+	    alert("Please select a 'Clarity' rating");
+	    return false;
+    }
+
+    checked = false;
+    for (var i = 0; i < f.textbookuserb.length; i++) {
+	    if (f.textbookuserb[i].checked) {
+	    	checked = true;
+	    }
+    }
+    if (!checked) {
+	    alert("Please select a 'Textbook Use' rating");
+	    return false;
+    }	
+
+	/*if (f.ccodept1.value == 'CLASS'){
+		alert( "Please enter a 'Class Code Name'." );
+		f.ccodept1.focus();
+		return false ;
+	}
+	if (f.ccodept2.value == 'SECTION'){
+		alert( "Please enter a 'Class Code #'." );
+		f.ccodept2.focus();
+		return false ;
+	}
+	if (f.ccodept2.value == 'SECT'){
+		alert( "Please enter a 'Class Code #'." );
+		f.ccodept2.focus();
+		return false ;
+	}*/
+
+    if ($.trim(f.ccodept1.value).length == 0) {
+    	alert("Please enter 'Course & Section Code'.");
+	    return false;
+    }
+
+    /*if (f.ccodept2.value.length == 0) {
+    	alert("Please enter a 'Class Code #'.");
+	    return false;
+    }*/
+
+    if ( !validAlphaNumeric(f.ccodept1.value) ) {
+    	alert("Please enter 'Course & Section code' with only letters [AaBbCc...] ,numbers [012...], dot [.], space[ ] and hypehn [-].");
+	    return false;
+    }
+
+	/*if ( !validAlphaNumeric(f.ccodept2.value) ) {
+    	alert("Please enter a 'Class Code #' with only letters [AaBbCc...] and numbers [012...] with no period at the start and end");
+	    return false;
+    }*/
+	
+    if ( f.textbookisbn.value.length > 0 ) {   
+	    if(!(f.textbookisbn.value.length==10 || f.textbookisbn.value.length==13)){
+	        alert("ISBN# must be 10 or 13 digits long.");
+	        return false;
+	    }
+    	 if (!validISBN(f.textbookisbn.value) ) {
+	    	alert("Please enter a valid 'Textbook ISBN#' with only numbers [012...], letter [Xx] and it must be 10 or 13 digits long.");
+		    return false; 
+	    }
+	    return true;
+    }
+    
+	
+    /* if (f.ccode.value.length == 0) {
+    	alert("Please enter a 'Course'");
+	    return false;
+    } */
+
+    if (trim(f.comments.value).length == 0) { // RMPM-886 related changes
+    	/* alert("Please enter a comment about this teacher's teaching ability (required for profs with 3 or more ratings)."); */
+    	alert("Please enter a comment about this Professor.");
+		document.getElementById("comments").select();
+	return false;
+    }
+    /* Included to character limit RMPM-436*/
+    if (f.comments.value.length > limit) {
+    	/* alert("Please enter a comment about this teacher's teaching ability (required for profs with 3 or more ratings)."); */
+    	alert(limitMessage);
+		return false;
+   }
+    /*included to filter bad words, RMPM-439*/
+    var badword = true;
+    badword = badwordsCheck('Comments',f.comments.value);
+	if(!badword){
+		return false;
+	}
+	
+	if (document.getElementById("code").value == '') {
+		alert('Please enter the characters from the displayed image');
+		document.getElementById("code").value = '';
+		document.getElementById("code").focus();
+		return false;
+	}
+		checkcode(document.getElementById("code").value);
+		return false;
+	
+
+}
+
+ function updateCount() {
+   var old = document.RatingInputForm.counter.value;
+   document.RatingInputForm.counter.value=document.RatingInputForm.comments.value.length;
+   if (document.RatingInputForm.counter.value > limit && old <= limit) {
+     alert(limitMessage);
+     if (document.styleSheets) {
+       document.RatingInputForm.counter.style.fontWeight = 'bold';
+       document.RatingInputForm.counter.style.color = '#ff0000'; 
+       document.RatingInputForm.comments.style.color = '#ff0000'; 
+     } 
+   } else if (document.RatingInputForm.counter.value <= limit && old > limit
+	       && document.styleSheets ) {
+       document.RatingInputForm.counter.style.fontWeight = 'normal';
+       document.RatingInputForm.counter.style.color = '#000000'; 
+       document.RatingInputForm.comments.style.color = '#000000'; 
+   } 
+ }
+ function disallowCR(evt) {
+    var keyCode = document.layers ? evt.which : evt.keyCode;
+    if (keyCode == 13) {
+        return false;
+    }
+    return true;
+ }
+ //--></script>
+ 
+ <script language="JavaScript">
+	//RMPM-482 Adding code for captcha validation by Ajax
+	var invokeurl = 'newSubmitCorrection.jsp?code=';
+	var captchaOK = 2; // 2 - not yet checked, 1 - correct, 0 - failed 
+	function getHTTPObject() {
+
+		try {
+			req = new XMLHttpRequest();
+		} catch (err1) {
+			try {
+				req = new ActiveXObject("Msxml12.XMLHTTP");
+			} catch (err2) {
+				try {
+					req = new ActiveXObject("Microsoft.XMLHTTP");
+				} catch (err3) {
+					req = false;
+				}
+			}
+		}
+		return req;
+	}
+	var http = getHTTPObject();
+	//We create the HTTP Object 
+	function handleHttpResponse() {
+		if (http.readyState == 4) {
+			captchaOK = http.responseText;
+			if (captchaOK != 1) {
+				alert('Sorry, you entered incorrect characters. Please enter the characters in the displayed image.');
+				document.getElementById("code").value = '';
+				document.getElementById("code").focus();
+				return false;
+			}
+			document.RatingInputForm.submit();
+		}
+	}
+
+	function checkcode(thecode) {
+		var parameters = "code=" + thecode;
+		http.open("POST", "/includes/captchaValidation.jsp", true);
+		http.setRequestHeader("Content-type",	"application/x-www-form-urlencoded");
+		http.onreadystatechange = handleHttpResponse;
+		http.send(parameters);
+
+	}
+</script>
+</head>
+<body>
+	<script type="text/javascript" charset="utf-8">
+		// for the header
+		function drop_country()
+		{
+			if(document.getElementById("down").style.display='none')
+			{
+				document.getElementById("down").style.display='block';
+			}
+		}
+		function onmousedrop_down()
+		{
+			if(document.getElementById("down").style.display='block')
+			{
+				document.getElementById("down").style.display='none';
+			}
+		}
+
+		var popUpWin=0;
+		function popUpWindow(URLStr, left, top, width, height)
+		{
+			if(popUpWin)
+			{
+				if(!popUpWin.closed) popUpWin.close();
+			}
+			popUpWin = open(URLStr, 'popUpWin', 'toolbar=no,location=no,directories=no,status=no,menub ar=no,scrollbar=no,resizable=no,copyhistory=yes,width='+width+',height='+height+',left='+left+', top='+top+',screenX='+left+',screenY='+top+'');
+		}
+		
+
+ 
+	var domainName = 'ratemyprofessors.com';
+	if (!domainName && domainName != "") {
+		document.domain=domainName;
+	}
+</script> 
+
+
+<!-- primary CSS -->
+<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/new-RMP-1.1.css" type="text/css" />
+<!-- Date: 2007-02-25 -->
+	<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/master.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	<!-- Vic S: 5-16-08 -->
+	<link rel="stylesheet" href="http://static.ratemyprofessors.com/stylesheets/srchBtn.css" type="text/css" media="screen" title="no title" charset="utf-8">
+	
+
+
+<div id="siteWrapper">
+	
+<div id="header">
+<h1><a href="/">RateMyProfessors.com</a></h1>
+
+<div class="solrsearch1div">	  
+   <ul id="solrsearch1">
+   <form action="/search.jsp" name="searchForm1" id="searchForm1" onsubmit="javascript:beforeSearch(this.name,'query1','queryoption1');">
+   <li class="liInline1">
+      <input type="text" id="query1" name="query1" class="searchBox" x-webkit-speech />
+   </li>
+   <li class="liInline1">
+      <div class="searchSelect1">
+          <select name="queryoption1"  id="queryoption1">
+            <option value="TEACHER" selected="selected">Professors</option>
+            <option value="SCHOOL">Schools</option>
+          </select>
+      </div>
+   </li>
+   <li class="liInline1">
+      <input type="submit" id="search_submit1" name="search_submit1" value="Search" tabindex="2" class="searchButton1" />
+   </li>
+   <li class="liInline1">
+      <input type="button" value="Web" tabindex="3" class="webButton1" onclick="window.open('http://search.live.com/results.aspx?q=' + document.getElementById('query1').value + '&mkt=en-US&FORM=VCM018','_blank')" />
+   </li>
+   </form>
+</ul><!--
+<form action="/SearchProfs.jsp" id="search" name="search" method="get" onsubmit="if(search.letter.value == '') {alert( 'Please enter name of the professor you want to search for.' );search.letter.focus();return false ;}return true;">
+<input type="text" class="searchBox" onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}" value="Enter Last Name of Professor" style="color: gray;" tabindex="1" name="letter" id="rmp_navFindTextInput"/> 
+<input type="submit" class="searchButton" tabindex="2" value="Search" id="search_submit"/> 
+<input type="button" class="webSearchButton" tabindex="3" value="Web" id="web_submit" onclick="javascript: document.location = 'http://search.live.com/results.aspx?q=' + document.getElementById('rmp_navFindTextInput').value + '&mkt=en-US&FORM=VCM018'" /> 
+</form>
+-->
+</div><!-- closes search -->
+
+</div><!-- closes header -->
+
+<div id="nav" class="basicBorder"> 
+<ul>
+<li id="navHome"><a href="/">Home</a></li>
+<li id="navTAF"><a href="/About.jsp">About</a></li>
+<!--
+<li id="navSearch"><a href="/SearchProfs.jsp">Professors</a></li> 
+<li id="navSearch"><a href="/SearchSchool.jsp">Schools</a></li> 
+-->
+<li id="navSearch"><a href="/toplists/topLists.jsp">Top Lists</a></li> 
+<li id="navSearch"><a href="http://blog.ratemyprofessors.com/category/professors-strike-back/">Professors Strike Back</a></li> 
+<li id="logIn">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>Login Page</title>
+</head>
+<body>
+<div id="sso"></div>
+<script language="Javascript">
+var loadsuccess=false;
+var ssousername='';
+// this shows dynamic script insertion
+document.write('<script src= "http://www.ratemyprofessors.com/member/jso.jsp" type="text/JavaScript"><\/script>');
+</script>
+
+<script language="Javascript">
+String.prototype.trim = function() {
+	return this.replace(/^\s+|\s+$/g,"");
+}
+String.prototype.ltrim = function() {
+	return this.replace(/^\s+/,"");
+}
+String.prototype.rtrim = function() {
+	return this.replace(/\s+$/,"");
+}
+
+function updatesignon(str){
+
+	if(str==''){		
+		document.getElementById("sso").innerHTML = "<p>Hi, <span>Guest!</span> [ <a href='http://www.ratemyprofessors.com/join.jsp'>create account</a> | <a href='http://www.ratemyprofessors.com/member/'>login</a> ]</p>";
+	}else{				
+		document.getElementById("sso").innerHTML = "<p>Hi, <span>" + str + "!</span> [ <a href='http://www.ratemyprofessors.com/member/'>my account</a> | <a href='http://www.ratemyprofessors.com/member/logout.jsp'>logout</a> ]</p>" ;
+	}
+}
+
+if (loadsuccess == true) {
+	updatesignon(ssousername);	
+} else {	
+	updatesignon('');
+}
+
+</script>
+</body>
+</html>
+</li>  
+</ul>
+
+</div><!-- closes nav -->
+<script type="text/javascript" src="http://btg.mtvnservices.com/aria/coda.html?site=ratemyprofessors.com"></script>
+<script src="http://www.mtv.com/global/scripts/special/projx.jhtml?channelname=RateMyProfessors"></script>
+
+<div id="ad728">	
+<script type="text/javascript">
+	//Place Ad
+	btg.Controller.placeAd(
+	{
+	  size:'728x90',
+	  isReloadable:true,
+	  reloadInterval:30000,
+	  keyValues:"!category=expand;!category=pop"       
+	}
+	);
+	</script>
+
+
+
+
+</div> <!-- closes 728 ad -->
+
+ 
+<div id="contentWrapper">
+
+<!-- END HEADER -->
+<script type="text/javascript">
+/*included to filter bad words, RMPM-439*/
+function badwordsCheck(field,fieldvalue){
+	if(fieldvalue !=null && fieldvalue!= ""){
+		var fieldvalueTrim = trim(fieldvalue);
+		fieldvalueTrim = fieldvalueTrim.toLowerCase(); //RMPM-562 change to handle upper case input.
+	 	var badwordsArray = new Array(180);    
+	    
+	   		badwordsArray[0] = 'shit';   
+	    
+	   		badwordsArray[1] = 'bullshit';   
+	    
+	   		badwordsArray[2] = 'bull-shit';   
+	    
+	   		badwordsArray[3] = ' cunt';   
+	    
+	   		badwordsArray[4] = 'asshole';   
+	    
+	   		badwordsArray[5] = 'motherfucker';   
+	    
+	   		badwordsArray[6] = 'fuck';   
+	    
+	   		badwordsArray[7] = 'fock';   
+	    
+	   		badwordsArray[8] = 'bitch';   
+	    
+	   		badwordsArray[9] = 'bastard';   
+	    
+	   		badwordsArray[10] = 'crackwhore';   
+	    
+	   		badwordsArray[11] = 'scrotum';   
+	    
+	   		badwordsArray[12] = 'scroat';   
+	    
+	   		badwordsArray[13] = 'hooker';   
+	    
+	   		badwordsArray[14] = 'fukker';   
+	    
+	   		badwordsArray[15] = ' fuker';   
+	    
+	   		badwordsArray[16] = 'whore';   
+	    
+	   		badwordsArray[17] = 'slut';   
+	    
+	   		badwordsArray[18] = 'cum ';   
+	    
+	   		badwordsArray[19] = ' cock ';   
+	    
+	   		badwordsArray[20] = ' pussy ';   
+	    
+	   		badwordsArray[21] = 'ass hole';   
+	    
+	   		badwordsArray[22] = 'nigger';   
+	    
+	   		badwordsArray[23] = ' tits';   
+	    
+	   		badwordsArray[24] = 'titties';   
+	    
+	   		badwordsArray[25] = 'titty';   
+	    
+	   		badwordsArray[26] = ' semen ';   
+	    
+	   		badwordsArray[27] = 'cocks';   
+	    
+	   		badwordsArray[28] = 'vagina';   
+	    
+	   		badwordsArray[29] = 'twat';   
+	    
+	   		badwordsArray[30] = 'feces';   
+	    
+	   		badwordsArray[31] = 'urine';   
+	    
+	   		badwordsArray[32] = 'pervert';   
+	    
+	   		badwordsArray[33] = 'molester';   
+	    
+	   		badwordsArray[34] = 'racist';   
+	    
+	   		badwordsArray[35] = 'sexist';   
+	    
+	   		badwordsArray[36] = 'blowjob';   
+	    
+	   		badwordsArray[37] = 'blow job';   
+	    
+	   		badwordsArray[38] = 'porno ';   
+	    
+	   		badwordsArray[39] = ' porn';   
+	    
+	   		badwordsArray[40] = 'faggot';   
+	    
+	   		badwordsArray[41] = ' fag ';   
+	    
+	   		badwordsArray[42] = 'gaylord';   
+	    
+	   		badwordsArray[43] = 'lesbo';   
+	    
+	   		badwordsArray[44] = 'molest';   
+	    
+	   		badwordsArray[45] = ' rape ';   
+	    
+	   		badwordsArray[46] = 'penis';   
+	    
+	   		badwordsArray[47] = ' rapist';   
+	    
+	   		badwordsArray[48] = 'pedophile';   
+	    
+	   		badwordsArray[49] = 'pedofile';   
+	    
+	   		badwordsArray[50] = 'pedafile';   
+	    
+	   		badwordsArray[51] = 'pedaphile';   
+	    
+	   		badwordsArray[52] = 'petafile';   
+	    
+	   		badwordsArray[53] = 'petaphile';   
+	    
+	   		badwordsArray[54] = 'petofile';   
+	    
+	   		badwordsArray[55] = 'petophile';   
+	    
+	   		badwordsArray[56] = ' perv ';   
+	    
+	   		badwordsArray[57] = 'wh0re';   
+	    
+	   		badwordsArray[58] = 'sh1t';   
+	    
+	   		badwordsArray[59] = 'alcoholic';   
+	    
+	   		badwordsArray[60] = 'drunk';   
+	    
+	   		badwordsArray[61] = ' sperm';   
+	    
+	   		badwordsArray[62] = 'schlong';   
+	    
+	   		badwordsArray[63] = 'shlong';   
+	    
+	   		badwordsArray[64] = 'flamer';   
+	    
+	   		badwordsArray[65] = 'pimp';   
+	    
+	   		badwordsArray[66] = 'boner';   
+	    
+	   		badwordsArray[67] = 'asslick';   
+	    
+	   		badwordsArray[68] = 'gunt';   
+	    
+	   		badwordsArray[69] = 'homo ';   
+	    
+	   		badwordsArray[70] = 'jizz';   
+	    
+	   		badwordsArray[71] = 'jism';   
+	    
+	   		badwordsArray[72] = 'lecher';   
+	    
+	   		badwordsArray[73] = 'asswipe';   
+	    
+	   		badwordsArray[74] = 'b!tch';   
+	    
+	   		badwordsArray[75] = 'pickaprof';   
+	    
+	   		badwordsArray[76] = 'menstruate';   
+	    
+	   		badwordsArray[77] = 'milf';   
+	    
+	   		badwordsArray[78] = 'biotch';   
+	    
+	   		badwordsArray[79] = 'biatch';   
+	    
+	   		badwordsArray[80] = 'masturbate';   
+	    
+	   		badwordsArray[81] = 'masterbate';   
+	    
+	   		badwordsArray[82] = 'poop';   
+	    
+	   		badwordsArray[83] = 'scumbag';   
+	    
+	   		badwordsArray[84] = 'cumbucket';   
+	    
+	   		badwordsArray[85] = 'cumstain';   
+	    
+	   		badwordsArray[86] = ' cack ';   
+	    
+	   		badwordsArray[87] = 'kunt';   
+	    
+	   		badwordsArray[88] = 'fag';   
+	    
+	   		badwordsArray[89] = 'fucker';   
+	    
+	   		badwordsArray[90] = 'cameltoe';   
+	    
+	   		badwordsArray[91] = 'clitoris';   
+	    
+	   		badwordsArray[92] = ' clit';   
+	    
+	   		badwordsArray[93] = ' nggr';   
+	    
+	   		badwordsArray[94] = 'splooj';   
+	    
+	   		badwordsArray[95] = 'fu(k';   
+	    
+	   		badwordsArray[96] = 'bit(h';   
+	    
+	   		badwordsArray[97] = 'breasts';   
+	    
+	   		badwordsArray[98] = 'boobs';   
+	    
+	   		badwordsArray[99] = 'herpes';   
+	    
+	   		badwordsArray[100] = 'fcuk';   
+	    
+	   		badwordsArray[101] = ' hore';   
+	    
+	   		badwordsArray[102] = ' coon ';   
+	    
+	   		badwordsArray[103] = 'lezbo';   
+	    
+	   		badwordsArray[104] = 'douche bag';   
+	    
+	   		badwordsArray[105] = ' spic ';   
+	    
+	   		badwordsArray[106] = ' pedo ';   
+	    
+	   		badwordsArray[107] = 'intoxicated';   
+	    
+	   		badwordsArray[108] = 'a$$hole';   
+	    
+	   		badwordsArray[109] = 'fellatio';   
+	    
+	   		badwordsArray[110] = 'cunnilingus';   
+	    
+	   		badwordsArray[111] = '$hit';   
+	    
+	   		badwordsArray[112] = 'jerk-off';   
+	    
+	   		badwordsArray[113] = 'jerkoff';   
+	    
+	   		badwordsArray[114] = 'termpaperadvisor';   
+	    
+	   		badwordsArray[115] = ' fuk ';   
+	    
+	   		badwordsArray[116] = 'fuking';   
+	    
+	   		badwordsArray[117] = ' kum ';   
+	    
+	   		badwordsArray[118] = 'transsexual';   
+	    
+	   		badwordsArray[119] = ' kike ';   
+	    
+	   		badwordsArray[120] = 'man chowder';   
+	    
+	   		badwordsArray[121] = 'bytch';   
+	    
+	   		badwordsArray[122] = 'phuck';   
+	    
+	   		badwordsArray[123] = 'douche';   
+	    
+	   		badwordsArray[124] = 'transexual';   
+	    
+	   		badwordsArray[125] = 'b1tch';   
+	    
+	   		badwordsArray[126] = 'beeotch';   
+	    
+	   		badwordsArray[127] = ' hits on ';   
+	    
+	   		badwordsArray[128] = 'tutoringzone.com';   
+	    
+	   		badwordsArray[129] = 'get professional tutoring';   
+	    
+	   		badwordsArray[130] = 'got professional tutoring';   
+	    
+	   		badwordsArray[131] = 'wench';   
+	    
+	   		badwordsArray[132] = 'a-hole';   
+	    
+	   		badwordsArray[133] = ' proddy ';   
+	    
+	   		badwordsArray[134] = ' finian ';   
+	    
+	   		badwordsArray[135] = ' feck ';   
+	    
+	   		badwordsArray[136] = ' Adam the tutor';   
+	    
+	   		badwordsArray[137] = 'tutor named Adam';   
+	    
+	   		badwordsArray[138] = ' Adam, my tutor';   
+	    
+	   		badwordsArray[139] = 'tutor, Adam';   
+	    
+	   		badwordsArray[140] = 'adamthetutor';   
+	    
+	   		badwordsArray[141] = 'prettydumbthings';   
+	    
+	   		badwordsArray[142] = 'A. the tutor';   
+	    
+	   		badwordsArray[143] = ' named A.';   
+	    
+	   		badwordsArray[144] = 'prettydumb';   
+	    
+	   		badwordsArray[145] = 'pretty dumbthings';   
+	    
+	   		badwordsArray[146] = 'b i t c h';   
+	    
+	   		badwordsArray[147] = 'c u n t';   
+	    
+	   		badwordsArray[148] = 'f u c k';   
+	    
+	   		badwordsArray[149] = 'transgender';   
+	    
+	   		badwordsArray[150] = 'trans-gender';   
+	    
+	   		badwordsArray[151] = 'transsexual';   
+	    
+	   		badwordsArray[152] = 'trans-sexual';   
+	    
+	   		badwordsArray[153] = 'hermaphrodite';   
+	    
+	   		badwordsArray[154] = 'dick';   
+	    
+	   		badwordsArray[155] = 'pelvic thunderstick';   
+	    
+	   		badwordsArray[156] = 'fertilizer wand';   
+	    
+	   		badwordsArray[157] = 'two fingered fisherman';   
+	    
+	   		badwordsArray[158] = 'one eyed trouser snake';   
+	    
+	   		badwordsArray[159] = 'biatch';   
+	    
+	   		badwordsArray[160] = 'vulva';   
+	    
+	   		badwordsArray[161] = 'birth canal';   
+	    
+	   		badwordsArray[162] = 'd1ck';   
+	    
+	   		badwordsArray[163] = 'gock';   
+	    
+	   		badwordsArray[164] = 'sphincter';   
+	    
+	   		badwordsArray[165] = 'dildo';   
+	    
+	   		badwordsArray[166] = 'ahole';   
+	    
+	   		badwordsArray[167] = 'fuckstick';   
+	    
+	   		badwordsArray[168] = 'whitey';   
+	    
+	   		badwordsArray[169] = 'slut';   
+	    
+	   		badwordsArray[170] = 'oral sex';   
+	    
+	   		badwordsArray[171] = 'fisting';   
+	    
+	   		badwordsArray[172] = 'man shake';   
+	    
+	   		badwordsArray[173] = 'ball lapper';   
+	    
+	   		badwordsArray[174] = 'quiff';   
+	    
+	   		badwordsArray[175] = 'shot my load';   
+	    
+	   		badwordsArray[176] = 'semen';   
+	    
+	   		badwordsArray[177] = 'fucking';   
+	    
+	   		badwordsArray[178] = 'prick';   
+	    
+	   		badwordsArray[179] = ' sleeps with students ';   
+	    
+
+	    for (var k = 0; k < badwordsArray.length; k++) {
+			var word = badwordsArray[k];
+                        if( (window.location.href.indexOf("AddTeacher.jsp") != -1 || window.location.href.indexOf("AddRating.jsp") != -1) && (word.match(/hooker/i) || word.match(/dick/i)) ){ 
+                          continue;
+                        }
+			if (fieldvalueTrim.indexOf(word) != -1) {
+				alert("Please keep the " + field +" clean");
+				return false;
+			}
+		}
+	}
+	return true;
+}
+</script>
+<div id="breadcrumb_links">
+			<A href="/">Home</A> &raquo;
+			Add Rating
+	</div>
+
+	<div id="rmp_leftColumn">
+	<div class="withAds">
+		<h3>Advertisement</h3>
+	<script type="text/javascript">
+	//Place Ad
+	btg.Controller.placeAd(
+	{
+	  size:'160x600',
+	  isReloadable:true,
+	  reloadInterval:30000,
+	  keyValues:"!category=expand;!category=pop"       
+	}
+	);
+	</script>
+
+</div>
+     <!--	
+	 	<div class="withAds">		
+               <a href="http://professorsstrikeback.mtvu.com/?source=RMPhpagepromoPSB" target="_blank"><img src="http://static.ratemyprofessors.com/images/rmp_strikesback_160X210.gif"></a>
+        </div>
+	  -->
+	  <!-- TESTING for www4 issue -->
+	  <style>
+				div.smpromo { font-family: "Trebuchet MS", Arial, Helvetica; 
+					border: solid 1px #e6e6e6; padding: 5px; width: 160px; color: #606060; margin: 5px 0; }
+				div.smpromo span.header { font-size: 12px; font-weight: bold; display: block; margin-bottom: 5px; text-align: center; }
+				div.smpromo span.body { font-size: 11px; line-height: 13px; }
+				/* div.smpromo img { float: left; height: 48px; width: 60px; padding-right: 5px; } */
+				div.smpromo a { font-size: 12px; line-height: 15px; }
+		</style>
+
+	
+</div>
+<div id="rmp_genericWrap">
+		<h2 style="color:black;">Be the first to rate&nbsp;<strong>Yuzhuang&nbsp;Hu</strong></h2>
+		School: <b>Simon Fraser University</b><br>Department: <b>Computer Science</b> 
+										  <form name="RatingInputForm" action="/ProcessRating.jsp" method="POST" onSubmit="return validate();" class="addRating" id="rmp_fullPageForm" accept-charset="UTF-8">
+		<ul>
+			<!--<li>YuzhuangHu</li>-->
+			<!--<li><a href="/SelectTeacher.jsp?sid=1482">Simon Fraser University</a></li>-->
+			<!--<li><b>Simon Fraser University</b> - Department: <b>Computer Science</b> 
+										  </li>-->
+			<!--<li><a href="/flagTeacher.jsp?tid=1296674">Report an error with this professor listing</a></li>-->
+						<input type="hidden" name="sid" value="1482">	
+						<input type="hidden" name="tid" value="1296674">	
+						<input type="hidden" name="error" value="false">			
+				<li>
+				<table id="addRating" width="450" border="0" cellspacing="0" cellpadding="0">
+	<tr><td colspan="5"><span style="color:red;">All fields marked with an * are required.<!--changes made for RMPM-742--><br><br></span></td></tr>
+	<tr><td colspan="5">Please rate on a scale of 1 to 5. <a href="/categories.jsp" target="categories">Click here</a> for more info on the rating categories.<br.</td></tr>			
+	<tr><td colspan="5"  style="border-bottom: 1px dotted #000000; "></td></tr>				
+	<tr><td><label class="formCat"><a href="/categories.jsp" target="categories">* Easiness</a>:</label></td></tr>
+				<tr>
+					<td width="150" height="30"><label><input name="easyrb" type="radio" value="1" tabindex="1"> 1 (Hard)</label></td>
+					<td width="50" height="30"><input name="easyrb" type="radio" value="2"> 2</td>
+					<td width="50" height="30"><input name="easyrb" type="radio" value="3"> 3</td>
+					<td width="50" height="30"><input name="easyrb" type="radio" value="4"> 4</td>
+					<td height="30"><label><input name="easyrb" type="radio" value="5"> 5 (Easy)</label></td>
+				</tr>
+				<tr><td colspan="5"  style="border-bottom: 1px dotted #000000; "></td></tr>
+				<tr><td><label class="formCat"><a href="/categories.jsp" target="categories">* Helpfulness</a>:</label></td></tr>
+				<tr>
+					<td width="150" height="30"><label><input name="helpfulrb" type="radio" value="1" tabindex="2"> 1 (Useless)</label></td>
+					<td width="50" height="30"><input name="helpfulrb" type="radio" value="2"> 2</td>
+					<td width="50" height="30"><input name="helpfulrb" type="radio" value="3"> 3</td>
+					<td width="50" height="30"><input name="helpfulrb" type="radio" value="4"> 4</td>
+					<td height="30"><label><input name="helpfulrb" type="radio" value="5"> 5 (Extremely Helpful)</label></td>
+				</tr>
+				<tr><td colspan="5"  style="border-bottom: 1px dotted #000000; "></td></tr>				
+				<tr><td><label class="formCat"><a href="/categories.jsp" target="categories">* Clarity</a>:</label></td></tr>
+				<tr>
+					<td width="150" height="30"><label><input name="clarityrb" type="radio" value="1" tabindex="3"> 1 (Incomprehensible)</label></td>
+					<td width="50" height="30"><input name="clarityrb" type="radio" value="2"> 2</td>
+					<td width="50" height="30"><input name="clarityrb" type="radio" value="3"> 3</td>
+					<td width="50" height="30"><input name="clarityrb" type="radio" value="4"> 4</td>
+					<td height="30"><label><input name="clarityrb" type="radio" value="5"> 5 (Crystal)</label></td>
+				</tr>
+				<tr><td colspan="5"  style="border-bottom: 1px dotted #000000; "></td></tr>
+				<tr><td colspan="3"><label class="formCat"><a href="/categories.jsp" target="categories">* Interest level prior to attending class</a>:</label></td></tr>
+				<tr>
+					<td width="150" height="30"><label><input name="interestrb" type="radio" value="1" tabindex="4"> 1 (None at all)</label></td>
+					<td width="50" height="30"><input name="interestrb" type="radio" value="2"> 2</td>
+					<td width="50" height="30"><input name="interestrb" type="radio" value="3"> 3</td>
+					<td width="50" height="30"><input name="interestrb" type="radio" value="4"> 4</td>
+					<td height="30"><input name="interestrb" type="radio" value="5"> 5 (Obsessed!)</label></td>
+				</tr>
+				<tr><td colspan="5"  style="border-bottom: 1px dotted #000000; "></td></tr>				
+				<tr><td><label class="formCat"><a href="/categories.jsp" target="categories">* Textbook Use</a>:</label></td></tr>
+				<tr>
+					<td width="150" height="30"><label><input name="textbookuserb" type="radio" value="1" tabindex="5"> 1 (Low)</label></td>
+					<td width="50" height="30"><input name="textbookuserb" type="radio" value="2"> 2</td>
+					<td width="50" height="30"><input name="textbookuserb" type="radio" value="3"> 3</td>
+					<td width="50" height="30"><input name="textbookuserb" type="radio" value="4"> 4</td>
+					<td height="30"><label><input name="textbookuserb" type="radio" value="5"> 5 (High)</label></td>
+				</tr>
+				<tr><td colspan="5"  style="border-bottom: 1px dotted #000000; "></td></tr>				
+			</table>
+				</li>
+				<li>&nbsp;</li>
+				<li><span class="formNoLink">Textbook Used:</span> (<!--<u>optional</u>,-->use ISBN# no dashes or spaces. Example: 1234567890)<input id="textbook_isbn" name="textbookisbn" type="text" size="12" maxlength="13" tabindex="6"></li>
+				
+				<li><label class="formNoLink">Grade you received: </label>
+						<select name="tchrGrades" id="tchrGrades" style="font-size:10px" tabindex="7">
+						<option value="">Please Select</option>
+						<option value="A+">A+</option>
+						<option value="A">A</option>
+						<option value="A-">A-</option>
+						<option value="B+">B+</option>
+						<option value="B">B</option>
+						<option value="B-">B-</option>
+						<option value="C+">C+</option>
+						<option value="C">C</option>
+						<option value="C-">C-</option>
+						<option value="D+">D+</option>
+						<option value="D">D</option>
+						<option value="D-">D-</option>
+						<option value="F">F</option>
+						<option value="Pass">Pass</option>
+						<option value="Fail">Fail</option>
+						<option value="Drop/Withdrawal">Drop/Withdrawal</option>
+						<option value="Incomplete">Incomplete</option>
+						<option value="Not_Sure_Yet">Not Sure Yet</option>
+						<option value="Rather_Not_Say">Rather Not Say</option>
+						<option value="Audit/No_Grade">Audit/No Grade</option>
+					</select>
+				</li>
+				
+			<li>
+					<table id="addRating" width="450" border="0" cellspacing="0" cellpadding="0">
+						<tr><td><label class="formNoLink">Attendance: </label></td></tr>
+						<tr>
+							<td width="125" height="30"><label><input name="atndnce" type="radio" value="Y" tabindex="8"> Mandatory</label></td>
+							<td height="30"><label><input name="atndnce" type="radio" value="N"> Not Mandatory</label></td>
+						</tr>
+					</table>
+				</li>
+			
+				<li>
+					<table id="addRating" width="450" border="0" cellspacing="0" cellpadding="0">
+						<tr><td colspan="2"><label class="formCat"><a href="/categories.jsp" target="categories">Hotness</a>:</label> <!--(<u>optional</u>)--></td></tr>
+						<tr>
+							<td width="125" height="30"><label><input name="looksrb" type="radio" value="1" tabindex="11"> Hot</label></td>
+							<td height="30"><label><input name="looksrb" type="radio" value="-1"> Not</label></td>
+						</tr>
+					</table>
+				</li>
+				<li>
+					<span class="formNoLink">* Course & Section Code: </span>(Examples: COS126, ECON-UA 238, HIST 101)<br />
+        			<input id="class_name_split" name="ccodept1" type="text" size="38" maxlength="15" tabindex="12">
+				</li>
+				
+				<!-- <li><span class="formNoLink">* Course: </span>(e.g. HIST 101, ACCT 202)<br /><span>* Class: </span>
+
+        	<input id="class_name_split" name="ccodept1" type="text" style="color:gray;" value="CLASS" size="5" maxlength="5" tabindex="12" onclick="javascript: if( this.value == 'CLASS' ){this.value='';} this.style.color='black'; ">
+					* Section: <input id="class_name_split" name="ccodept2" type="text" style="color:gray;" value="SECTION" size="5" maxlength="4" tabindex="13" onclick="javascript: if( this.value == 'SECTION' ){this.value='';} this.style.color='black'; ">
+				</li>  -->
+				<li><span class="formNoLink">* Comments: </span><br />
+						Please keep comments clean. Comments that are inconsistent with <br><a href="/site_guidelines.jsp" target="_parent"><u>Site Guidelines</u></a> will be removed.							  
+            <textarea id="comments" name="comments" cols="30" rows="7" onkeydown="return disallowCR(event);" onkeyup="updateCount();" tabindex="14"></textarea><br />
+						Characters Typed (limit 350 per rating): 
+						<script type="text/javascript" language="JavaScript1.2"><!--
+						 document.write('<input id="charlimit" '+
+						  'type="text" size="3" name="counter" value="0" '+
+						  'readonly>');
+						 //--></script>						
+						<!--(Limit 350 per rating)--><br />
+						<!-- Remember, <b>YOU ARE RESPONSIBLE</b> for what you write here. -->
+				</li>
+				<!--<li class="logintext"><a href="/member" onclick="javascript:window.open('/member/small_login.jsp','Login','resizable,height=575,width=918,scrollbars'); return false;">Login first?</a> or <a href="/join.jsp">Create an account?</a></li>-->
+				<li>
+                                <img src="/Kaptcha.jpg" id="kaptchaImage"><br/><a style="padding-bottom:15px;display:block;" href="javascript:void(0);" id="kaptchaLink">Generate New Image</a>
+<p>* Please type the numbers you see above:<p>
+ 				<input type="text" id="code" name="code" size="20" maxlength="10" class="inputrow" tabindex="15" >
+				<div id="ackText"><script type="text/javascript"> acknowledge('Submit'); </script></div><br>
+				</li>
+
+				<li><input id="rating_submit" name="submitBut" type="submit" value="Submit" tabindex="16"></li>
+				<li>
+					<!--<b>* Optional Fields</b>-->
+					<br>
+					Submitted data become the property of RateMyProfessors.com<br>
+					IP addresses are logged.<br>
+					<a href="/PrivacyPolicy_us.jsp" target="_blank">Privacy Policy</a>
+					</li>
+				
+		</ul>
+	</form>
+</div>
+
+<style type="text/css">
+ul li#msg{list-style-type: disc;}
+</style>
+
+
+				<div id="rmp_Sidebar">
+				<div class="withAds" >
+						<h3>Advertisement</h3>
+					<script type="text/javascript">
+	//Place Ad
+	btg.Controller.placeAd(
+	{
+	  size:'300x250',
+	  isReloadable:true,
+	  reloadInterval:30000,
+	  keyValues:"!category=expand;!category=pop"       
+	}
+	);
+	</script>
+</div>
+		<div class="module highestRated">
+	<img src="http://static.ratemyprofessors.com/toplists/images/toplists_logo_2011.gif" width="240px" style="padding:10px 0;"> 
+        <br />
+ 		<a class="linkButton" href="/toplists/topLists.jsp">See All Top Rated Professors and Schools</a>
+	
+</div>
+<br />
+					<div class="itemModule spotlight">
+						<div class="gutter">
+						</div>
+					</div>
+
+				</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-304376-1";
+urchinTracker();
+</script>
+<script type="text/javascript">
+
+		//var dispatcher=com.mtvi.reporting.Dispatcher;
+		//var dispatcher=new com.mtvi.reporting.Dispatcher();
+		var pn = location.pathname;
+		if(pn.charAt(pn.lastIndexOf("/")+1) == ""){
+		   pn= pn+"index.jsp";
+		   }
+		// var h1 = location.pathname.substring(1);
+		// var pagename= "< %=pagenamevalue%>";
+		var h2 = "add rating/main";
+		var channel= "professors";
+		
+                 btg.Controller.sendPageCall({
+                   pageName : pn,
+                   channel : channel,
+                   hier2 : h2,
+                   prop2 : "USA",
+		   prop3 : "Computer Science",
+                   prop5 : "BC",
+                   prop6 : "Simon Fraser University",
+                   prop7 : "Yuzhuang Hu",
+                   prop8 : "visitor",
+                   prop10: "1296674"
+                });
+
+
+</script>
+<!-- following file includes all the scripts and css related to solr -->
+<!--<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>-->
+<script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+<script src="http://static.ratemyprofessors.com/javascript/jquery-ui-1.7.2.custom.min.js" type="text/javascript"></script>
+<script type="text/javascript" src="/solr/js/jquery.livequery.js"></script>
+<link rel="stylesheet" type="text/css" href="/solr/css/rmp.css" media="screen" />
+<link rel="stylesheet" type="text/css" href="/solr/ext/jquery.autocomplete.css" media="screen" />
+<script type="text/javascript" src="/CookieUtility.js"></script>
+<script type="text/javascript" src="/solr/js/rmp.js"></script>
+<script type="text/javascript" src="/solr/core/Core.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractManager.js"></script>
+<script type="text/javascript" src="/solr/managers/Manager.jquery.js"></script>
+<script type="text/javascript" src="/solr/core/Parameter.js"></script>
+<script type="text/javascript" src="/solr/core/ParameterStore.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/ResultWidget.js"></script>
+<script type="text/javascript" src="/solr/helpers/jquery/ajaxsolr.theme.js"></script>
+<script type="text/javascript" src="/solr/widgets/jquery/PagerWidget.js"></script>
+<script type="text/javascript" src="/solr/core/AbstractFacetWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/TagcloudWidget.js"></script>
+<script type="text/javascript" src="/solr/widgets/CurrentSearchWidget.js"></script>
+<!--
+<script type="text/javascript" src="/solr/widgets/TextWidget.js"></script>
+-->
+<script type="text/javascript" src="/solr/ext/jquery.solrautocomplete.js"></script>
+<script type="text/javascript" src="/solr/widgets/AutocompleteWidget.js"></script>
+<script type="text/javascript" src="/solr/js/rmp.theme.js"></script>
+<script type="text/javascript" charset="utf-8" src="http://static.ratemyprofessors.com/javascript/imgZoom.js"></script>
+
+<script type="text/javascript" charset="utf-8">
+
+
+        function getSitename() {
+          return "rmp";
+        }
+
+        function getTerm() {
+               if (document.getElementById("query") && document.getElementById("query").value){
+                  return document.getElementById("query").value;
+               }else if (document.getElementById("query1") && document.getElementById("query1").value){
+                  return document.getElementById("query1").value;
+               }else if (document.getElementById("query2") && document.getElementById("query2").value){
+                  return document.getElementById("query2").value;
+               }else{
+                  return "*:*";
+               }
+        }
+
+        function getValue(max, type) {
+               var columns = max.split("~~");
+                  var x = 0;
+                  var output = "";
+                  for (x=0; x<columns.length; x++) {
+                      if (columns[x].indexOf(type) != -1) {
+                           output = "";
+                           output = columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length);
+                           return output;
+                          }
+                  }
+                  return max;
+        }
+
+      function getSelectedValue(max, type) {
+             var columns = max.split("~~");
+                  var x = 0;
+                  for (x=0; x<columns.length; x++) {
+                      if (columns[x].indexOf(type) != -1) {
+                                  if(columns[columns.length-1].indexOf(type)!=-1){
+                                     return columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length);
+                                  }else{
+                                     return columns[x].substring(columns[x].indexOf(":") + 1, columns[x].length) + columns[columns.length-1];
+                                  }
+                          }
+                  }
+                  return max;
+        }
+
+        function getHelp(){
+           var $helpDialog = $('#helpDialog').dialog({
+                                height: 440,
+                                width: 450,
+                                modal: true,
+                                position: 'center',
+                                autoOpen: false,
+                                title: 'Search Help',
+                                closeText:'xx'
+           });
+           $helpDialog.show();
+           $helpDialog.dialog("open");
+
+        }
+ 
+        function getParameter( name ){
+          name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]");
+          var regexS = "[\\?&]"+name+"=([^&#]*)";
+          var regex = new RegExp( regexS );
+          var results = regex.exec( window.location.href );
+          if( results == null )    return "";
+          else    return (results[1]).replace(/\+/g,' ');
+        }
+
+
+        function beforeSearch(formname,sinput,soption){
+          // TODO: Store value of the form that was submitted
+          var sterm = $('#'+sinput).val() || '*:*';
+          var stype = $('#'+soption).val() || 'TEACHER';
+          reportSearch(sterm,stype);
+          //reportPageCall(sterm,stype); // it is being reported via omnitureExtension.jsp
+        }
+
+        function reportSearch(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"SEARCH",
+                   linkType:"o",
+                   eVar2:sterm,
+                   eVar3:stype
+           });
+        }
+
+        function reportFacetClick(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"FACET",
+                   linkType:"o",
+                   eVar2:sterm,
+                   eVar3:stype
+           });
+        }
+
+        function reportFailedSearch(sterm,stype){
+           com.mtvi.reporting.Controller.sendLinkEvent({
+                   linkName:"SEARCH",
+                   linkType:"o",
+                   eVar3:stype,
+                   eVar4:sterm
+           });
+        }
+
+        function reportPageCall(sterm,stype){
+                btg.Controller.sendPageCall({
+                   pageName : location.pathname,
+                   channel : "search",
+                   hier2 : "search/"+stype,
+                   eVar2 : sterm,
+                   eVar3 : stype,
+                   prop2 : "",
+                   prop4 : "",
+                   prop5 : "",
+                   prop6 : "",
+                   prop7 : "",
+                   prop8 : ""
+                });
+
+        }
+
+        function hideSolrElements(){
+           $("#docs").hide();
+           $("#navigation").hide();
+           $(".facetDiv").hide();
+        }
+
+        function showSolrElements(){
+           $("#docs").show();
+           $("#navigation").show();
+           $(".facetDiv").show();
+        }
+
+$(document).ready( function() {
+/*
+        $('select[name^=queryoption]').each(function(){
+            $(this).change(function(){
+                 val = $('option:selected',this).text();
+                 $(this).next().text(val);
+            });
+        });
+*/
+ });
+
+</script>
+<!--<font color="white">mtvu-jboss-009</font> -->
+
+<center>
+	<!-- BEGIN FOOTER -->
+
+
+	</div>
+	<!-- closes content wrapper -->
+	<style>
+#footer .section ul li a {
+	float: none !important;
+}
+
+#footer .section ul li#twitter a {
+	float: none !important;
+}
+
+#footer .section ul li#facebook a {
+	float: none !important;
+}
+
+#footer .section {
+	height: 175px !important;
+}
+
+h1,h2,h3,h4,h5 {
+	color: #005295;
+	font-weight: bold !important;
+}
+
+#footer #social.section {
+	background: none !important;
+	border-right: medium none;
+}
+
+#footer .section ul li#twitter a {
+	font-size: 12px;
+}
+
+#footer .section ul li#facebook a {
+	font-size: 12px;
+}
+
+#footer .section {
+	border-left: 0px solid #C6C6C6;
+	border-right: 0px solid #FFFFFF;
+}
+
+#footer #copyright.copyright {
+	background: url("/images/rmp-footer-logo.png") no-repeat scroll 675px
+		4px transparent;
+	padding: 8px 0 8px 0px;
+}
+
+.copyright {
+	margin-bottom: 10px;
+}
+
+#footer #SiteSections.section {
+	width: 165px !important;
+	border-left: 0px solid #C6C6C6;
+}
+
+#footer #divider.section {
+	width: 1px !important;
+	height: 85px !important;
+	border-right: 1px solid #C6C6C6;
+	border-left: 1px solid #FFFFFF;
+	margin-left: 0px !important;
+	margin-top: 45px !important;
+	padding-left: 0px !important;
+}
+
+#footer #help.section {
+	width: 180px !important;
+}
+
+#footer #legal.section {
+	width: 240px !important;
+}
+
+#footer #social.section {
+	width: 240px !important;
+}
+
+#footer #SiteSections.section ul li a {
+	margin-left: 45px !important;
+}
+
+#footer #help.section ul li a {
+	margin-left: 55px !important;
+}
+
+#footer #legal.section ul li a {
+	width: 200px !important;
+	margin-left: 35px !important;
+}
+
+#footer #social.section ul li a {
+	margin-left: 45px !important;
+}
+
+.hr {
+	width: 0px;
+	height: 125px;
+	background-color: #cccccc;
+	position: relative;
+}
+
+ul li a:hover{ text-decoration: none; color: #black;}
+</style>
+	<div id="footer">
+</center>
+<div id="SiteSections" class="section">
+	<h4 ALIGN="CENTER">Site Sections</h4>
+	<br>
+	<ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/About.jsp">About</a></li>
+		<!--<li><a href="/SearchProfs.jsp">Professors</a></li>
+		<li><a href="/referral.jsp">Tell a Friend</a></li>
+		<li><a href="/SearchSchool.jsp">Schools</a></li>-->
+		<li><a href="/toplists/topLists.jsp">Top Lists</a></li>
+                <li><a href="http://blog.ratemyprofessors.com/category/professors-strike-back/">Professors Strike Back</a></li>
+		<!--<li><a href="#">Search</a></li>-->
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="help" class="section">
+	<h4 ALIGN="CENTER">Help and Support</h4>
+	<br>
+	<ul>
+		<li><a href="/help.jsp">Help</a></li>
+		<li><a href="/faq.jsp">FAQ</a></li>
+		<li><a href="/ContactUs.jsp">Contact Us</a></li>
+		<li><a href="http://srp.mtvn.com/sitefaq.html" target="_blank">Ad Choices <img align="absmiddle" height="16px" src="/images/adchoice_icon.png"/></a></li>
+		<li><a href="/RSSHelp.jsp">What is RSS?</a></li>
+		<!--<li><a href="http://mtvpress.com/contacts/form">Press Inquiries</a></li>-->
+		<!--<li><a href="http://adspecs.mtvn.com/site/spec/my/mycontacts.html">Advertising Inquiries</a></li>-->
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="legal" class="section">
+	<h4 ALIGN="CENTER">Terms and
+		Policy&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h4>
+	<br>
+	<ul>
+		<li><a href="/TermsOfUse_us.jsp">Terms of Use (6/30/2011)</a></li>
+		<li><a href="/PrivacyPolicy_us.jsp">Privacy Policy/Your CA Privacy Rights (6/30/2011)</a></li><br/>
+		<li><a href="/site_guidelines.jsp">Site Guidelines</a></li>
+		<li><a href="/copyright_comp_policy.jsp">Copyright Compliance
+				Policy</a></li>
+	</ul>
+</div>
+<div id="divider" class="section">
+	<div class="hr">&nbsp;</div>
+</div>
+<div id="social" class="section">
+	<h4 ALIGN="CENTER">Social</h4>
+	<br>
+	<ul>
+		<li id="facebook"><a
+			href="https://www.facebook.com/pages/Rate-My-Professors/144740972207883"
+			target="_blank">Like us on Facebook</a></li>
+		<li id="twitter"><a href="http://twitter.com/ratemyprofessor"
+			target="_blank">Follow us on Twitter</a></li>
+	</ul>
+</div>
+
+<div id="copyright" class="copyright">
+	<p class="copyright">
+		<br> <br>Copyright &copy; 2013 RateMyProfessors.com, LLC.
+		Powered by <span class="mtvU">mtvU</span> and <span class="MTVN">MTV
+			NETWORKS</span>
+	</p>
+</div>
+</div>
+<div id="footerSearch">
+<script type="text/javascript">
+ function logEvent(clicktype){
+           //Send a link event call
+            btg.Controller.sendLinkEvent(
+               {
+                  linkName:clicktype,
+                  linkType:'o'
+               }
+            );
+ }
+</script>
+	<div class="solrsearch2div">
+        <ul id="solrsearch2">
+   <form action="/search.jsp" name="searchForm2" id="searchForm2" onsubmit="javascript:beforeSearch(this.name,'query2','queryoption2');">
+   <li class="liInline2">
+      <input type="text" id="query2" name="query2" class="searchBox" />
+   </li>
+   <li class="liInline2">
+      <div class="searchSelect2">
+          <select name="queryoption2"  id="queryoption2">
+            <option value="TEACHER" selected="selected">Professors</option>
+            <option value="SCHOOL">Schools</option>
+          </select>
+      </div>
+   </li>
+   <li class="liInline2">
+      <input type="submit" id="search_submit2" name="search_submit2" value="Search" tabindex="31" class="searchButton2" />
+   </li>
+   <li class="liInline2">
+      <input type="button" value="Web" tabindex="32" class="webButton2" onclick="window.open('http://search.live.com/results.aspx?q=' + document.getElementById('query2').value + '&mkt=en-US&FORM=VCM018','_blank')" />
+   </li>
+   </form>
+</ul>
+
+<!--
+
+		<form id="search"
+			onsubmit="if(search.letter.value == '') {alert( 'Please enter name of the professor you want to search for.' );search.letter.focus();return false ;}return true;"
+			method="get" name="search" action="/SearchProfs.jsp">
+			<input id="rmp_navFindTextInput" class="searchBox" type="text"
+				name="letter" tabindex="1" style="color: black;"
+				value="Enter Last Name of Professor"
+				onfocus="if(this.value=='Enter Last Name of Professor'){this.value='';this.style.color='black'}">
+			<input id="search_submit" class="searchButton" type="submit"
+				value="Search" tabindex="2" onclick="javascript:logEvent('footerSearch');"> <input id="web_submit"
+				class="webSearchButton" type="button"
+				onclick="javascript: document.location = 'http://search.live.com/results.aspx?q=' + document.getElementById('rmp_navFindTextInput').value + '&mkt=en-US&FORM=VCM018'"
+				value="Web" tabindex="3">
+		</form>
+-->
+	</div>
+</div>
+</div>
+<!-- closes footer -->
+</div>
+<!-- closes site wrapper -->
+
+
+
+
+
+<style type="text/css">
+li#facebook a {
+	background:
+		url("http://static.ratemyprofessors.com/images/rmp-sprite.png")
+		-4px -352px no-repeat;
+	padding: 8px 0 8px 40px;
+}
+
+li#twitter a {
+	background:
+		url("http://static.ratemyprofessors.com/images/rmp-sprite.png")
+		-4px -404px no-repeat;
+	padding: 8px 0 8px 40px;
+}
+
+.flux4Widget .share .fixed.horizontalView .serviceList .serviceButton.twitter {
+  	width : 80px;
+}
+
+</style>
+
+
+ <script>
+  $(document).ready(function() {
+        $("#query1").bind("webkitspeechchange", function (e) {
+            //Send a link event call
+            btg.Controller.sendLinkEvent(
+               {
+                  linkName:'speechsearch',
+                  linkType:'o'
+               }
+            );
+        });
+        $('#kaptchaLink').click(function () { 
+           $('#kaptchaImage').hide()
+             .attr('src', '/Kaptcha.jpg?' + new Date().getTime())
+             .fadeIn(); 
+        });
+
+  });
+ </script>
+
+
+
+<script>
+	//alert(document.getElementById("upperAdvertisement").innerHTML.length);
+	//alert(document.getElementById("lowerAdvertisement").innerHTML.length);
+	//alert(document.getElementById("rightAdvertisement").innerHTML.length);
+	if (document.getElementById("rightAdvertisement") != null
+			&& document.getElementById("rightAdvertisement") != undefined
+			&& document.getElementById("rightAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("rightAdvertisement").style.display = "none";
+		document.getElementById("rightAdvertisementImg").style.display = "none";
+	}
+	if (document.getElementById("upperAdvertisement") != null
+			&& document.getElementById("upperAdvertisement") != undefined
+			&& document.getElementById("upperAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("upperAdvertisement").style.display = "none";
+		document.getElementById("upperAdvertisementImg").style.display = "none";
+	}
+	if (document.getElementById("lowerAdvertisement") != null
+			&& document.getElementById("lowerAdvertisement") != undefined
+			&& document.getElementById("lowerAdvertisement").innerHTML.length < 2000) {
+		document.getElementById("lowerAdvertisement").style.display = "none";
+		document.getElementById("lowerAdvertisementImg").style.display = "none";
+	};
+</script>
+<!-- Start Quantcast tag -->
+
+<noscript>
+	<a href="http://www.quantcast.com/p-94wNw88f65Rhk" target="_blank"><img
+		src="http://pixel.quantserve.com/pixel/p-94wNw88f65Rhk.gif?labels=Viacom%20Domestic%2CMTVN%20Digital%2CMTVN%20Music%20and%20Logo%2CMTVN%20Music%20Group%2CmtvU%20Online"
+		style="display: none;" border="0" height="1" width="1" alt="Quantcast" /></a>
+</noscript>
+
+<!-- End Quantcast tag -->
+
+
+
+<!-- PAGEOK -->
+
+</body>
+</html> 

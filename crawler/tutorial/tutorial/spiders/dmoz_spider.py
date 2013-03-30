@@ -5,6 +5,8 @@ from tutorial.items import RateMyProfItem
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.http.request import Request
+import os
+
 
 class DmozSpider(BaseSpider):
     name = "dmoz"
@@ -33,11 +35,11 @@ class RMPSpider(BaseSpider):
     allowed_domains = ["ratemyprofessors.com"]
     start_urls = [
         "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482",
-    #    "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=2",
-   #     "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=3",
-  #      "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=4",
- #       "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=5",
-#        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=6"
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=2",
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=3",
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=4",
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=5",
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=6"
     ]
     rules = [
         Rule(SgmlLinkExtractor()),
@@ -57,7 +59,7 @@ class RMPSpider(BaseSpider):
             item['prof_link'] = site.select('a/@href').extract()
             
             next_page = "http://www.ratemyprofessors.com/" + str(item['prof_link'])[3:-2]            
-            if not not next_page:
+            if next_page:
                 yield Request(next_page, self.parseProfProfile)
             
             items.append(item)
@@ -70,6 +72,7 @@ class RMPSpider(BaseSpider):
         sites = hxs.select('/html/head/title')
         prof_profile_page_number = "1"
         url = response.url
+        path = "//home//draco//Dropbox//SFU//cmpt456//project//cssearchengine//crawler//tutorial//files//"
         if "pageNo" in url:
             prof_profile_page_number = url.split("=")[-1]
 
@@ -81,9 +84,11 @@ class RMPSpider(BaseSpider):
                 name = name[3:]
                 if " " in name:
                     name = name.replace(" ","")
-                name = name.replace("\\xa0", " ")
+                name = name.replace("\\xa0", "_")
+        if not os.path.exists(path + name + "//"):
+            os.makedirs(path+name+"//")
 
-        filename = "files/" + name + prof_profile_page_number
+        filename = path + name + "//" + name + "_" + prof_profile_page_number
         open(filename, 'wb').write(response.body)
         
 # Figure out if prof has next page
