@@ -1,8 +1,10 @@
 from django.conf.urls.defaults import patterns, include, url
-
+import haystack
 # Uncomment the next two lines to enable the admin:
 # from django.contrib import admin
 # admin.autodiscover()
+
+haystack.autodiscover()
 
 urlpatterns = patterns('',
     (r'^$', 'engine.views.search_page'),
