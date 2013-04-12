@@ -129,6 +129,7 @@ INSTALLED_APPS = (
     'haystack',
     # Uncomment the next line to enable the admin:
     'django.contrib.admin',
+    'engine',
     # Uncomment the next line to enable admin documentation:
     # 'django.contrib.admindocs',
 )
