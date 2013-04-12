@@ -1,7 +1,7 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 from tutorial.items import DmozItem
-from tutorial.items import RateMyProfItem, ProfItem
+from tutorial.items import RateMyProfItem, Prof
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.http.request import Request
@@ -93,7 +93,7 @@ class RMPSpider(BaseSpider):
         sites = hxs.select('//div[@class="profName"]')
         items = []
         for site in sites:
-            item = ProfItem()
+            item = Prof()
             
             # extract professor name and the link to their profile page 
             name = str(site.select('a/text()').extract())
@@ -128,7 +128,7 @@ class RMPSpider(BaseSpider):
         helpfulness = ''    # used for prof rating scrape from rmp site
         easiness = ''       # used for prof rating scrape from rmp site
         clarity = ''        # used for prof rating scrape from rmp site
-        prof = ProfItem()   # holds prof information links to django model using DjangoItem
+        prof = Prof()   # holds prof information links to django model using DjangoItem
         profList = []       # holds list of prof objects
         if "pageNo" in url:
             prof_profile_page_number = url.split("=")[-1]
@@ -168,18 +168,20 @@ class RMPSpider(BaseSpider):
             print "Clarity: ", clarity
 
             # get easiness
-            easy = str(hxs.select('//li[@id="easiness"]').extract())
-            easy = easy.split("strong>")[1][:-2]
-            print "Easiness: ", easy
+            easiness = str(hxs.select('//li[@id="easiness"]').extract())
+            easiness = easiness.split("strong>")[1][:-2]
+            print "Easiness: ", easiness
 
         # we got our data, now make a prof item
         prof['first_name'] = firstname
         prof['last_name'] = lastname
-        prof['quality'] = quality
+        #prof['quality'] = quality
         prof['clarity'] = clarity
         prof['helpfulness'] = helpfulness
         prof['easiness'] = easiness
         profList.append(prof)
+
+        return prof
 
 # Figure out if prof has next page and parse into next pages
 
