@@ -15,7 +15,7 @@ MANAGERS = ADMINS
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3', # Add 'postgresql_psycopg2', 'postgresql', 'mysql', 'sqlite3' or 'oracle'.
-        'NAME': '/Users/mho/Documents/cssearchengine/eg.db',                      # Or path to database file if using sqlite3.
+        'NAME': os.path.join(ROOT,'eg.db'),# Or path to database file if using sqlite3.
         'USER': '',                      # Not used with sqlite3.
         'PASSWORD': '',                  # Not used with sqlite3.
         'HOST': '',                      # Set to empty string for localhost. Not used with sqlite3.
@@ -112,7 +112,8 @@ ROOT_URLCONF = 'cssearchengine.urls'
 
 TEMPLATE_DIRS = (
     '/Users/vincent/Desktop/cssearchengine/templates',
-    '/Users/mho/Documents/cssearchengine/templates'
+    '/Users/mho/Documents/cssearchengine/templates',
+    os.path.join(ROOT, 'templates')
     # Put strings here, like "/home/html/django_templates" or "C:/www/django/templates".
     # Always use forward slashes, even on Windows.
     # Don't forget to use absolute paths, not relative paths.
@@ -134,7 +135,7 @@ INSTALLED_APPS = (
 
 HAYSTACK_SITECONF = 'engine'
 HAYSTACK_SEARCH_ENGINE = 'whoosh'
-HAYSTACK_WHOOSH_PATH = '/whoosh'
+HAYSTACK_WHOOSH_PATH = os.path.join(ROOT,'whoosh')
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
