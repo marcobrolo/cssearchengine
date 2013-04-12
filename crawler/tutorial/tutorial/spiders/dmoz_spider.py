@@ -1,6 +1,5 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
-from tutorial.items import DmozItem
 from tutorial.items import RateMyProfItem, ProfItem
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
@@ -120,7 +119,9 @@ class RMPSpider(BaseSpider):
         sites = hxs.select('/html/head/title')
         prof_profile_page_number = "1"
         url = response.url
-        path = "//home//draco//Dropbox//SFU//cmpt456//project//cssearchengine//crawler//tutorial//files//"
+        current_dir = os.getcwd()[:25]
+        sys.path.append(current_dir)
+        path = current_dir
         first_name =''      # used for djangoitem
         lastname = ''       # used for djangoitem
         name = ''           # used for filename for saving prof profile page
@@ -175,10 +176,11 @@ class RMPSpider(BaseSpider):
         # we got our data, now make a prof item
         prof['first_name'] = firstname
         prof['last_name'] = lastname
-        prof['quality'] = quality
+        #prof['quality'] = quality
         prof['clarity'] = clarity
         prof['helpfulness'] = helpfulness
         prof['easiness'] = easiness
+        #prof.save()
         profList.append(prof)
 
 # Figure out if prof has next page and parse into next pages
