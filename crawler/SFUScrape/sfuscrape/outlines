@@ -1,0 +1,1673 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<title> SFU Computing Science Course Outlines </title>
+    <meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+    <meta http-equiv="content-language" content="en" />
+    <meta name="resource-type" content="document" />
+    <meta name="robots" content="all" />
+    <meta http-equiv="Cache-Control" content="no-cache" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="-1" />
+<meta name="keywords" content="computing,computer,science,home,prospective,undergrad,undergraduate,grad,graduate,student " />
+<meta name="description" content="SFU Computing Science" />
+
+    <link type="text/css" href="/media/css/jquery-themes/ui-lightness/jquery-ui-1.8.2.custom.css" rel="stylesheet" />
+    <link rel="stylesheet" href="/media/css/portal.css" type="text/css" />
+    <script type="text/javascript" src="/media/jquery/jquery-1.4.2.min.js "></script>
+    <script type="text/javascript" src="/media/jquery/jquery-ui-1.8.2.custom.min.js "></script>
+<!-- Removed 20110518 B.Kroeker unused JQuery modules -->
+<!--    <script type="text/javascript" src="/media/jquery/jquery-ui/jquery.ui.core.js"></script>
+    <script type="text/javascript" src="/media/jquery/jquery-ui/jquery.ui.widget.js"></script>
+    <script type="text/javascript" src="/media/jquery/jquery-ui/jquery.ui.position.js"></script>
+    <script type="text/javascript" src="/media/jquery/jquery-ui/jquery.ui.autocomplete.js"></script> -->
+    <script type="text/javascript" src="/media/js/portal.js "></script>
+    <script type="text/javascript" src="/media/js/cs-validation.js"></script>
+
+
+<link rel="stylesheet" href="/media/themes/clf/sfu/css/notMacIE.css" type="text/css" />
+<link rel="stylesheet" href="/media/themes/clf/sfu/css/dynamic/banner.css" type="text/css" />
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/flyout.js"></script>
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/browserdetect_lite.js"></script>
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/opacity.js"></script>
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/admin.js"></script>
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/random.js"></script>
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/banner.js"></script>
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/onload.js"></script>
+
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/important.js"></script>
+<script type="text/javascript" src="/media/themes/clf/sfu/scripts/bm.js"></script>
+<!-- Removed 20110518 B.Kroeker unused JS modules -->
+<!-- <script type="text/javascript" src="/media/javascript/scripts/lib/toggle.js"></script>
+<script type="text/javascript" src="/media/javascript/scripts/lib/prototype.js"></script>
+<script type="text/javascript" src="/media/javascript/scripts/src/effects.js"></script>
+<script type="text/javascript" src="/media/javascript/tabs.js"></script> -->
+<!--  <script type="text/javascript" src="/media/themes/clf/sfu/scripts/AJAXnews.js"></script> -->
+<script type="text/javascript" src="/media/themes/clf/scripts/searchChoice.js"></script>
+<script type="text/javascript" src="/media/themes/clf/scripts/factoids.js"></script>
+<link rel="stylesheet" href="/media/themes/clf/sfu/css/rootPage.css" type="text/css" />
+<link rel="stylesheet" href="/media/themes/clf/sfu/css/dynamic/headlines.css" type="text/css" />
+
+<link rel="stylesheet" href="/media/themes/clf/css/main_red.css" type="text/css" />
+<link rel="stylesheet" href="/media/themes/clf/css/csmenus.css" type="text/css" />
+<link rel="stylesheet" href="/media/themes/clf/sfu/css/test.css" type="text/css" />
+<!-- Removed 20110518 B.Kroeker unused CSS modules -->
+<!-- <link rel="stylesheet" href="/media/tabs.css" type="text/css" />
+<link rel="stylesheet" href="/media/headings.css" type="text/css" /> -->
+<link rel="stylesheet" href="/media/themes/clf/css/tables.css" type="text/css" />
+<link rel="stylesheet" href="/media/themes/clf/sfu/css/minical.css" type="text/css" />
+
+<link href="http://www.cs.sfu.ca/favicon.GIF" type="image/gif" rel="icon" />
+
+
+
+   
+    <link rel="stylesheet" href="/media/css/outlines.css" type="text/css" />
+    <link rel="stylesheet" href="/media/css/jquery-themes/tablesorter/tablesorter.css" type="text/css" />
+    <script type="text/javascript" src="/media/jquery/jquery.tablesorter.min.js "></script>    
+<!-- Removed 20110518 B.Kroeker unused JQuery modules -->
+<!--    <script type="text/javascript" src="/media/jquery/jquery-ui/jquery.effects.core.js "></script> -->        
+    <script type="text/javascript" src="/media/js/outline.js"></script>
+
+    <script type="text/javascript">
+    $(function() {      
+        $("#sortableTable").tablesorter();
+    }); 
+    </script>    
+          
+
+
+
+
+</head>
+
+<body>
+<div id="container">
+
+<!-- The following code is for the banner bar.  The randomly selected banner bars can
+come either from the default banner directory or they can come from
+the banner subdirectory specified by the "$banner" parameter to this function.  This
+feature allows different web page sets to have a different set of random banners than
+any other web page set.  -->
+
+
+ <!--   // select a random number from 0 to the number of files found - 1
+   $banner_file = $bannerdir . "/" . $file_arr[rand(0, count($file_arr) - 1)]; -->
+
+<!-- display the banner image found -->
+
+    <div id="header" style="background-image: url(/media/themes/clf/images/banners/default/mainBanner5.jpg); "></div>
+
+<!-- The following code is for the SFU 'red' menu bar  -->
+
+        <div id="redmenu">
+            <div class="redmenu2">
+                <ul>
+                    <li class="homebutton">
+                        <a class="homebuttn redsfumain" href="http://www.sfu.ca/">SFU.ca</a>
+                    </li>
+                    <li><a href="http://www.burnaby.sfu.ca/">Burnaby</a></li>
+                    <li class="divider"><span class="divide">|</span></li>
+                    <li><a href="http://www.surrey.sfu.ca/">Surrey</a></li>
+                    <li class="divider"><span class="divide">|</span></li>
+                    <li><a href="http://www.vancouver.sfu.ca/">Vancouver</a></li>
+                </ul>
+
+    <!--                <li class="midspace"></li> -->
+
+                <ul style="float: right; ">
+                    <li><a href="http://www.sfu.ca/onlineservices/index.html">SFU Online<!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                        <ul class="sfuonl">
+                            <li><a class="sfuonline" href="http://connect.sfu.ca">SFU Connect</a></li>
+                            <li><a class="sfuonline" href="https://webmail.sfu.ca/emumail.cgi">Webmail</a></li>
+                            <li><a class="sfuonline" href="http://my.sfu.ca">mySFU</a></li>
+                            <li><a class="sfuonline" href="http://go.sfu.ca">Student Information System</a></li>
+                        </ul>
+                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    <li class="divider"><span class="divide">|</span></li>
+
+                    <li><a href="http://www.sfu.ca/onlineservices/index.html">A-Z Links<!--[if gt IE 6]><!--></a><!--<![endif]--><!--[if lt IE 7]><table border="0" cellpadding="0" cellspacing="0"><tr><td><![endif]-->
+                        <ul>
+                            <li><a href="http://www.sfu.ca/dir/?a">A</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?b">B</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?c">C</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?d">D</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?e">E</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?f">F</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?g">G</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?h">H</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?i">I</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?j">J</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?k">K</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?l">L</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?m">M</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?n">N</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?o">O</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?p">P</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?q">Q</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?r">R</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?s">S</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?t">T</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?u">U</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?v">V</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?w">W</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?x">X</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?y">Y</a></li>
+                            <li><a href="http://www.sfu.ca/dir/?z">Z</a></li>
+                        </ul>
+                        <!--[if lte IE 6]></td></tr></table></a><![endif]-->
+                    </li>
+                    <li class="divider"><span class="divide">|</span></li>
+
+                    <li>
+                        <form class="search" name="searchform" onsubmit="return dosearch();" action="">
+                            <p>
+                                <input id="cs" name="sengines" type="radio" value="http://www.google.com/u/sfucs?q=" checked="checked" /><label style="font-size:9pt;" for="cs">CS</label>
+                                <input id="sfu" name="sengines" type="radio" value="http://www.google.com/u/sfu?q=" /><label style="font-size:9pt;" for="sfu">SFU</label>
+                                <input style="font-size:9pt; margin:0; padding:0; " name="searchterms" type="text" size="10" maxlength="200" title="Search" value="" />
+                                <input style="font-size:9pt; margin:0; padding:0;  " type="submit" name="btnG" value="Search" />
+                            </p>
+                        </form>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+<!-- The following code is for the CS main content area.
+     These two divs set up the possibility of a 2-column layout.
+     For a single column, no further action is required.
+     For a second column, at some point the "left_col_container" div
+     must be closed and a "right_col_container" must be opened.
+     No need to close the final div tag, as there is a </div> in footer.php 
+-->
+
+        <div id="two_col_container">
+
+<!-- The following <div> block positions a menu item on the bottom of the lhs menu.
+-->
+
+          <div class="flymenu">
+          </div>
+
+          <div id="left_col_menu_container">
+
+            <span style="padding:0; margin:0; border:0; ">&nbsp;</span>
+
+<!--
+    This file contains all of the left hand side menus.
+
+    Menus are controlled by a js function, 'currentMenu()', which picks how the menu will
+    look initially on the page when the page loads.  The programmer can choose how
+    the lhs menu will display on any given page.
+
+    Actions - what happens when user mouses over an item - are controlled via CSS.
+
+    There are different levels of menus, that drop down in the lhs menu panel,
+    pushing lower items further down, plus fly-out menus.  Drop-down enus are
+    activated by clicking on a menu item with a ">>" symbol to the right of
+    the menu item.
+    Flyout menus are activated by hovering over the same ">>" labeled menu
+    items.
+    firstLevel, secondLevel drop down menus are defined (not thirdLevel)
+    firstLevelFly, secondLevelFly, thirdLevelFly, thirdLevelWrapFly are defined.
+-->
+
+            <div class="flymenu">
+
+              <ul><li>
+                <a style="color:#555555;" href="http://www.cs.sfu.ca/">
+                   <span class="drop"><span>CS Home</span>&nbsp;</span>
+                </a>
+              </li></ul>
+
+              <ul>
+                <li class="dotted">
+                  <a class="left_menu_red_bar" href="/portal/">CS Portal</a>
+                </li>
+
+<!-- PUT PORTAL BASED LINKS HERE! -->
+
+                <li class=" dotted"> <a class='left_menu_links' href="http://www.sfu.ca/applicantundergrads/">Apply: Undergraduate</a> </li>
+                <li class=""><a class='left_menu_links' href="http://www.cs.sfu.ca/gradpgm/Apply/">Apply: Graduate</a></li>
+                <li class=" dotted"><a class='left_menu_links' href="http://calendar.cs.sfu.ca">Calendar</a></li>
+                <li class=""><a class='left_menu_links' href="http://www.cs.sfu.ca/CC/adbooking/index1.cgi">Advisor Booking</a></li>
+
+                <li class=" dotted"><a class='left_menu_links' href="/outlines/">Course Outlines</a></li>
+
+
+
+              </ul>
+
+            </div> <!-- flymenu div -->
+
+            </div> <!-- close left_col_container -->
+
+            <div id="right_col_container_with_lhs_menu" style="margin-bottom:0; margin-top:0; padding-bottom:0; padding-top:0; ">
+
+                        <!-- This is where I'd like to add the bread crumbs text -->
+
+            <div id="sysmenu">
+                
+		<a href="/portal/login/">Login</a>
+                
+            </div>
+                <div id="breadcrumbs">
+                  <ul>
+                    <li><a href="http://www.cs.sfu.ca/">CS SFU</a></li><li>&gt; <a href="/portal/">Portal</a></li> <li>&gt; <a href="/portal/outlines/">Outlines</a></li> 
+                  </ul>
+               </div>
+                <div id="AppTitle"> Computing Science Course Outlines </div>
+
+
+
+
+
+
+
+
+
+
+
+<div id="main">
+
+
+<h2>Course Outlines for: 
+
+
+<select name='strm' onchange="location='/outlines/' + this.value;">
+
+
+
+	   
+	    <option value="1137"> 2013 Fall </option>
+	
+
+
+	
+		<option value="1134" selected="selected"> 2013 Summer  </option>
+	
+
+
+	   
+	    <option value="1131"> 2013 Spring </option>
+	
+
+
+	   
+	    <option value="1127"> 2012 Fall </option>
+	
+
+
+	   
+	    <option value="1124"> 2012 Summer </option>
+	
+
+
+	   
+	    <option value="1121"> 2012 Spring </option>
+	
+
+
+	   
+	    <option value="1117"> 2011 Fall </option>
+	
+
+
+	   
+	    <option value="1114"> 2011 Summer </option>
+	
+
+
+	   
+	    <option value="1111"> 2011 Spring </option>
+	
+
+
+	   
+	    <option value="1107"> 2010 Fall </option>
+	
+
+
+	   
+	    <option value="1104"> 2010 Summer </option>
+	
+
+
+	   
+	    <option value="1101"> 2010 Spring </option>
+	
+
+
+	   
+	    <option value="1097"> 2009 Fall </option>
+	
+
+
+	   
+	    <option value="1094"> 2009 Summer </option>
+	
+
+
+	   
+	    <option value="1091"> 2009 Spring </option>
+	
+
+
+	   
+	    <option value="1087"> 2008 Fall </option>
+	
+
+
+	   
+	    <option value="1084"> 2008 Summer </option>
+	
+
+
+	   
+	    <option value="1081"> 2008 Spring </option>
+	
+
+
+	   
+	    <option value="1077"> 2007 Fall </option>
+	
+
+
+	   
+	    <option value="1074"> 2007 Summer </option>
+	
+
+
+	   
+	    <option value="1071"> 2007 Spring </option>
+	
+
+
+	   
+	    <option value="1067"> 2006 Fall </option>
+	
+
+
+	   
+	    <option value="1064"> 2006 Summer </option>
+	
+
+
+	   
+	    <option value="1061"> 2006 Spring </option>
+	
+
+
+	   
+	    <option value="1057"> 2005 Fall </option>
+	
+
+
+	   
+	    <option value="1054"> 2005 Summer </option>
+	
+
+
+	   
+	    <option value="1051"> 2005 Spring </option>
+	
+
+
+	   
+	    <option value="1047"> 2004 Fall </option>
+	
+    
+
+</select>
+</h2>
+
+<div id="operations">
+        <table width='99%'>
+            <tr>
+            <td align='left'>
+                <a href="/outlines/1131/">&laquo;&nbsp;Previous Semester</a>
+            </td>
+            <td align='right'>
+
+                <a href="/outlines/1137/">Next Semester&nbsp;&raquo;</a>
+            </td>   
+            </tr>
+        </table>
+    </div>
+
+
+<table width="95%" border='0' class="tablesorter"  id='sortableTable'>
+    <thead>
+    <tr class="sectiontitle">
+        <th class='highlighted'><b>Subject</b></th>
+
+        <th class='highlighted'><b>Number</b></th>
+        <th class='highlighted'><b>Section</b></th>
+        <th class='highlighted'><b>Title</b></th>
+        <th class='highlighted'><b>Campus</b></th>
+        <th><b>Instructor(s)</b></th>
+        <th class='highlighted'><b>Outline</b></th>
+
+    </tr>
+    </thead>    
+    <tbody id="highlight">
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>MACM</td>
+            <td class='highlighted'>101</td>
+            <td class='highlighted'>C100</td>
+            
+            <td class='highlighted'>
+                 Discrete Mathematics I 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Tony Dixon <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href='http://www.sfu.ca/cde/'> View </a>
+                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>MACM</td>
+            <td class='highlighted'>101</td>
+            <td class='highlighted'>D200</td>
+            
+            <td class='highlighted'>
+                 Discrete Mathematics I 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Steve Pearce <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        
+	                        
+	                        
+                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>110</td>
+            <td class='highlighted'>C100</td>
+            
+            <td class='highlighted'>
+                 Programming in Visual Basic 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Tony Dixon <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href='http://www.sfu.ca/cde/'> View </a>
+                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>120</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Intro.Cmpt.Sci/Programming I 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Muntaseer Salahuddin <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-120-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>125</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Intro.Cmpt.Sci/Programming II 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Lou Hafer <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-125-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>126</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Intro.Cmpt.Sci and Programming 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Lou Hafer <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-126-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>130</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Intro to Computer Prog I 
+            </td>
+            <td class='highlighted'>Surrey</td>
+            <td >
+            
+                Harinder Khangura <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-130-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>135</td>
+            <td class='highlighted'>D200</td>
+            
+            <td class='highlighted'>
+                 Intro to Computer Prog II 
+            </td>
+            <td class='highlighted'>Surrey</td>
+            <td >
+            
+                Steve Pearce <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        
+	                        
+	                        
+                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>150</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Intro to Computer Design 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Bobby Chan <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>165</td>
+            <td class='highlighted'>C100</td>
+            
+            <td class='highlighted'>
+                 Intro Internet  World Wide Web 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Gregory Baker <br /> 
+            
+                Fred Popowich <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href='http://www.sfu.ca/cde/'> View </a>
+                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>165</td>
+            <td class='highlighted'>C200</td>
+            
+            <td class='highlighted'>
+                 Intro Internet  World Wide Web 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Gregory Baker <br /> 
+            
+                Fred Popowich <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href='http://www.sfu.ca/cde/'> View </a>
+                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>165</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Intro Internet  World Wide Web 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Anne Lavergne <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-165-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>165</td>
+            <td class='highlighted'>D200</td>
+            
+            <td class='highlighted'>
+                 Intro Internet  World Wide Web 
+            </td>
+            <td class='highlighted'>Surrey</td>
+            <td >
+            
+                Harinder Khangura <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-165-D200/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>165</td>
+            <td class='highlighted'>J100</td>
+            
+            <td class='highlighted'>
+                 Intro Internet  World Wide Web 
+            </td>
+            <td class='highlighted'>Vancouver</td>
+            <td >
+            
+                Anne Lavergne <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-165-J100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>166</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Animated Intro to Programming 
+            </td>
+            <td class='highlighted'>Surrey</td>
+            <td >
+            
+                John Edgar <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-166-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>212</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Appl.Design in C++ 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Hong Ying (Amy) Gu <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-212-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>225</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Data Structures/Programming 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Anne Lavergne <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-225-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>225</td>
+            <td class='highlighted'>D200</td>
+            
+            <td class='highlighted'>
+                 Data Structures/Programming 
+            </td>
+            <td class='highlighted'>Surrey</td>
+            <td >
+            
+                John Edgar <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-225-D200/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>275</td>
+            <td class='highlighted'>E100</td>
+            
+            <td class='highlighted'>
+                 Software Engineering I 
+                
+            </td>
+            <td class='highlighted'>Vancouver</td>
+            <td >
+            
+                Herbert Tsang <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-275-E100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>300</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Operating Systems I 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Steve Pearce <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-300-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>307</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Data Structures 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Petra Berenbrink <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-307-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>320</td>
+            <td class='highlighted'>E100</td>
+            
+            <td class='highlighted'>
+                 Social Implications 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Steve Pearce <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-320-E100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>354</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Database Systems I 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Wo-Shun Luk <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-354-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>370</td>
+            <td class='highlighted'>E100</td>
+            
+            <td class='highlighted'>
+                 Information System Design 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Dan Ridinger <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-370-E100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>371</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Data Communications/Networking 
+            </td>
+            <td class='highlighted'>Surrey</td>
+            <td >
+            
+                Mohamed Hefeeda <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-371-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>371</td>
+            <td class='highlighted'>E200</td>
+            
+            <td class='highlighted'>
+                 Data Communications/Networking 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Janice Regan <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-371-E200/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>405</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Cmpt. Algorithms 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Petra Berenbrink <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-405-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>414</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Model-Based Computer Vision 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Ze-Nian Li <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-414-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>454</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Database Systems II 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Wo-Shun Luk <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-454-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>466</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Animation 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Richard Zhang <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-466-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>471</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Networking II 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Janice Regan <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-471-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>475</td>
+            <td class='highlighted'>E100</td>
+            
+            <td class='highlighted'>
+                 Software Engineering II 
+                
+            </td>
+            <td class='highlighted'>Vancouver</td>
+            <td >
+            
+                Dan Ridinger <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-475-E100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>477</td>
+            <td class='highlighted'>D100</td>
+            
+            <td class='highlighted'>
+                 Intro to Formal Verification 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Eugenia Ternovska <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-477-D100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>705</td>
+            <td class='highlighted'>G100</td>
+            
+            <td class='highlighted'>
+                 Design/Analysis Algorithms 
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Petra Berenbrink <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-705-G100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>777</td>
+            <td class='highlighted'>G100</td>
+            
+            <td class='highlighted'>
+                 Formal Verification 
+                
+            </td>
+            <td class='highlighted'>Burnaby</td>
+            <td >
+            
+                Eugenia Ternovska <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        <a href="/portal/outlines/1134-CMPT-777-G100/">View</a>
+                    
+                    
+                    
+	                    
+	                
+	                
+	                                    
+                    
+                
+
+
+             </td>
+        </tr>
+    
+        <tr id='highlight_row'>
+            <td class='highlighted'>CMPT</td>
+            <td class='highlighted'>880</td>
+            <td class='highlighted'>G200</td>
+            
+            <td class='highlighted'>
+                 Spec.Top. in Computing Science 
+            </td>
+            <td class='highlighted'>Surrey</td>
+            <td >
+            
+                Mohamed Hefeeda <br /> 
+            
+
+            </td>
+            <td class='highlighted'>
+                
+                    
+                        
+	                        
+	                        
+                    
+                    
+                
+
+
+             </td>
+        </tr>
+                        
+
+    </tbody>            
+</table>
+
+
+
+
+
+
+ 
+</div>
+
+<div class='last_updated_block'> Data Last Updated:  </div>
+
+
+
+
+
+
+</div>
+
+<div>
+    &nbsp;
+</div>
+
+<div style="clear:both; "></div>
+
+
+        </div>  <!-- end the two_col_container  -->
+
+<!-- The following code is for the SFU grey footer bar  -->
+
+        <div id="footer">
+
+            8888 University Drive, Burnaby, B.C. Canada V5A 1S6 |
+            <a href="http://www.sfu.ca/webmaster/terms.html">Terms / Privacy</a> |
+            <a href="http://www.cs.sfu.ca/AboutCMPT/contacts.html">Contact CS</a> |
+            <a href="mailto:helpdesk@cs.sfu.ca?subject=Website%20User%20Feedback&amp;body=The%20page%20you%20are%20submitting%20feedback%20from%20is: /" >Webmaster</a> |
+            <a href="http://www.cs.sfu.ca/sitemap.html">SiteMap</a> |
+            <a href="http://www.sfu.ca/security/sfuroadconditions/">Road Conditions</a> |
+            &copy; Simon Fraser University
+        </div>
+</div> <!-- Close the "container" div -->
+</div> <!-- Close the "container" div -->
+</body>
+
+</html>
+
