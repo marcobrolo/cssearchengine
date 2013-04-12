@@ -136,7 +136,7 @@ INSTALLED_APPS = (
 
 HAYSTACK_SITECONF = 'engine'
 HAYSTACK_SEARCH_ENGINE = 'whoosh'
-HAYSTACK_WHOOSH_PATH = os.path.join(ROOT,'whoosh')
+HAYSTACK_WHOOSH_PATH = os.path.join(ROOT, 'whoosh')
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
