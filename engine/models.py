@@ -8,7 +8,6 @@ class Prof(models.Model):
     helpfulness = models.DecimalField(max_digits=2, decimal_places=1)
     clarity = models.DecimalField(max_digits=2, decimal_places=1)
     easiness = models.DecimalField(max_digits=2, decimal_places=1)
-    comments = models.CharField(max_length=600)
 
 
 class Course(models.Model):
@@ -22,3 +21,4 @@ class CourseRating(models.Model):
     easiness = models.IntegerField(default=0)
     helpfulness = models.IntegerField(default=0)
     clarity = models.IntegerField(default=0)
+    comments = models.CharField(max_length=600)
