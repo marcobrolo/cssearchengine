@@ -9,10 +9,16 @@ class Prof(models.Model):
     clarity = models.DecimalField(max_digits=2, decimal_places=1)
     easiness = models.DecimalField(max_digits=2, decimal_places=1)
 
+    def __unicode__(self):
+        return self.title
+
 
 class Course(models.Model):
     code = models.CharField(max_length=10)
     name = models.CharField(max_length=40)
+
+    def __unicode__(self):
+        return self.title
 
 
 class CourseRating(models.Model):
@@ -21,4 +27,7 @@ class CourseRating(models.Model):
     easiness = models.IntegerField(default=0)
     helpfulness = models.IntegerField(default=0)
     clarity = models.IntegerField(default=0)
-    comments = models.CharField(max_length=600)
+    comments = models.TextField()
+
+    def __unicode__(self):
+        return self.title

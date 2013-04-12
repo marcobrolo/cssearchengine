@@ -134,9 +134,18 @@ INSTALLED_APPS = (
     # 'django.contrib.admindocs',
 )
 
-HAYSTACK_SITECONF = 'engine'
+HAYSTACK_SITECONF = 'cssearchengine.search_sites'
 HAYSTACK_SEARCH_ENGINE = 'whoosh'
-HAYSTACK_WHOOSH_PATH = os.path.join(ROOT, 'whoosh')
+HAYSTACK_WHOOSH_PATH = os.path.join(ROOT, 'whoosh/engine_index')
+
+HAYSTACK_CONNECTIONS = {
+    'whoosh': {
+        # For Whoosh:
+        'ENGINE': 'haystack.backends.whoosh_backend.WhooshEngine',
+        'PATH': os.path.join(os.path.dirname(__file__), 'whoosh_index'),
+        'INCLUDE_SPELLING': True,
+    },
+}
 
 # A sample logging configuration. The only tangible logging
 # performed by this configuration is to send an email to
