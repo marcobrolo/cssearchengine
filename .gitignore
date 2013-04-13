@@ -1,3 +1,5 @@
 
 .DS_Store
 *.pyc
+*.db
+engine/static/.DS_Store
