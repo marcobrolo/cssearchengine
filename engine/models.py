@@ -10,7 +10,7 @@ class Prof(models.Model):
     easiness = models.DecimalField(max_digits=2, decimal_places=1)
 
     def __unicode__(self):
-        return self.title
+        return self.first_name
 
 
 class Course(models.Model):
