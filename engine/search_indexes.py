@@ -1,7 +1,6 @@
 from haystack import indexes
 from haystack.sites import site
-from engine.models import Prof
-
+from engine.models import Prof, Course
 
 
 class ProfIndex(indexes.SearchIndex):
@@ -16,3 +15,17 @@ class ProfIndex(indexes.SearchIndex):
         return self.get_model().objects.all()
 
 site.register(Prof, ProfIndex)
+
+
+class CourseIndex(indexes.SearchIndex):
+    text = indexes.CharField(document=True, use_template=True)
+    code = indexes.CharField(model_attr='code')
+    name = indexes.CharField(model_attr='name')
+
+    def get_model(self):
+        return Course
+
+    def index_queryset(self, using=None):
+        return self.get_model().objects.all()
+
+site.register(Course, CourseIndex)
