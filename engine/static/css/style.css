@@ -22,7 +22,7 @@ body {
   margin-left: 10px;
   margin-bottom: 30px;
 }
-#query {
+#query, #id_q {
   float: left;
   width: 572px;
   height: 40px;
@@ -33,7 +33,7 @@ body {
   font-size: 1.2em;
   padding: 0 20px;
 }
-#query:focus {
+#query:focus, #id_q:focus {
   outline: none;
 }
 #search {

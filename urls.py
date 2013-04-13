@@ -1,10 +1,15 @@
 from django.conf.urls.defaults import patterns, include, url
-import haystack
-# Uncomment the next two lines to enable the admin:
 from django.contrib import admin
-admin.autodiscover()
+import haystack
+from haystack.query import SearchQuerySet
+from haystack.views import SearchView
+from haystack.forms import SearchForm
 
+
+admin.autodiscover()
 haystack.autodiscover()
+
+sqs = SearchQuerySet()
 
 urlpatterns = patterns('',
     (r'^$', 'engine.views.search_page'),
@@ -17,5 +22,12 @@ urlpatterns = patterns('',
     # url(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 	#Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
-    url(r'search/', include('haystack.urls'))
+    # url(r'search/', include('haystack.urls'))
+
+    url(r'^search/$', SearchView(
+        template="professor_results.html",
+        searchqueryset=sqs,
+        form_class=SearchForm
+        ),
+    name='haystack_search'),
 )
