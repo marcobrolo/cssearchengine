@@ -10,11 +10,15 @@ class Prof(models.Model):
     easiness = models.DecimalField(max_digits=2, decimal_places=1)
 
     def __unicode__(self):
-        return self.fullname()
+
+
 
     def fullname(self):
         if self.last_name:
             return u"%s, %s" % (self.last_name, self.first_name)
+
+
+
 
 
 class Course(models.Model):

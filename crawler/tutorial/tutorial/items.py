@@ -19,13 +19,14 @@ class RateMyProfItem(Item):
     prof_name = Field()
     prof_link = Field()
 
-class ProfItem(Item):
+class Prof(Item):
     last_name = Field()
     first_name = Field()
-    quality = Field()
-    course_name = Field()
-    course_code = Field()
     helpfulness = Field()
     clarity = Field()
     easiness = Field()
-    comments = Field()
+
+class ProfComments(Item):
+    comment = Field()
+    prof_first_name = Field()
+    prof_last_name = Field()
