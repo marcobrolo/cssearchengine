@@ -10,7 +10,11 @@ class Prof(models.Model):
     easiness = models.DecimalField(max_digits=2, decimal_places=1)
 
     def __unicode__(self):
-        return self.first_name
+        return self.fullname()
+
+    def fullname(self):
+        if self.last_name:
+            return u"%s, %s" % (self.last_name, self.first_name)
 
 
 class Course(models.Model):
@@ -18,7 +22,11 @@ class Course(models.Model):
     name = models.CharField(max_length=40)
 
     def __unicode__(self):
-        return self.title
+        return self.title()
+
+    def title(self):
+        if self.code:
+            return u"%s %s" % (self.code, self.name)
 
 
 class CourseRating(models.Model):
@@ -30,4 +38,4 @@ class CourseRating(models.Model):
     comments = models.TextField()
 
     def __unicode__(self):
-        return self.title
+        return self.course
