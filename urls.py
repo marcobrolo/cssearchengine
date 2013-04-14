@@ -23,6 +23,14 @@ urlpatterns = patterns('',
 	#Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
     # url(r'search/', include('haystack.urls'))
+    url(r'^test/', 'engine.views.search_view'),
+
+    url(r'^prof_results/$', SearchView(
+        template="professor_results.html",
+        searchqueryset=sqs,
+        form_class=SearchForm
+        ),
+    name='haystack_search'),
 
     url(r'^search/$', SearchView(
         template="professor_results.html",

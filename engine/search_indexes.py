@@ -4,9 +4,9 @@ from engine.models import Prof, Course
 
 
 class ProfIndex(indexes.SearchIndex):
-    text = indexes.CharField(document=True, use_template=True)
-    last_name = indexes.CharField(model_attr='last_name')
-    first_name = indexes.CharField(model_attr='first_name')
+    text = indexes.NgramField(document=True, use_template=True)
+    last_name = indexes.NgramField(model_attr='last_name')
+    first_name = indexes.NgramField(model_attr='first_name')
 
     def get_model(self):
         return Prof
