@@ -1,6 +1,8 @@
 from haystack import indexes
 from haystack.sites import site
 from engine.models import Prof, Course
+from django.db import models
+
 
 
 class ProfIndex(indexes.SearchIndex):
