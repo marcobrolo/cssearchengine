@@ -5,33 +5,16 @@ from tutorial.items import RateMyProfItem, Prof
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.http.request import Request
+from scrapy import signals
 import os
 import re
-
-
-class DmozSpider(BaseSpider):
-    name = "dmoz"
-    allowed_domains = ["dmoz.org"]
-    start_urls = [
-        "http://www.dmoz.org/Computers/Programming/Languages/Python/Books/",
-        "http://www.dmoz.org/Computers/Programming/Languages/Python/Resources/"
-    ]
-
-    def parse(self, response):
-       # filename = response.url.split("/")[-2]
-       # open(filename, 'wb').write(response.body)
-        hxs = HtmlXPathSelector(response)
-        sites = hxs.select('//ul/li')
-        items = []
-        for site in sites:
-            item = DmozItem()
-            item['title'] = site.select('a/text()').extract()
-            item['link']  = site.select('a/@href').extract()
-            item['desc'] = site.select('text()').extract()
-            items.append(item)
-        return items
+import json
+from scrapy.xlib.pydispatch import dispatcher
 
 class RMPSpider(BaseSpider):
+    course_dict = {}
+    prof = Prof()   # holds prof information links to django model using DjangoItem
+    prof_list_dict ={}
     name = "ratemyprof"
     allowed_domains = ["ratemyprofessors.com"]
     start_urls = [
@@ -112,10 +95,14 @@ class RMPSpider(BaseSpider):
             
             #items.append(item)
         filename = "files/" + response.url.split("/")[-1]
+        
+        
         #open(filename, 'wb').write(response.body)
      
     
     def parseProfProfile(self, response):
+        prof_dict = {}
+        current_course_dict= {}
         hxs = HtmlXPathSelector(response)
         sites = hxs.select('/html/head/title')
         prof_profile_page_number = "1"
@@ -128,8 +115,10 @@ class RMPSpider(BaseSpider):
         helpfulness = ''    # used for prof rating scrape from rmp site
         easiness = ''       # used for prof rating scrape from rmp site
         clarity = ''        # used for prof rating scrape from rmp site
-        prof = Prof()   # holds prof information links to django model using DjangoItem
+        
         profList = []       # holds list of prof objects
+        class_list = []     # holds list of class objects to store comments and ratings
+
         if "pageNo" in url:
             prof_profile_page_number = url.split("=")[-1]
 
@@ -172,32 +161,92 @@ class RMPSpider(BaseSpider):
             easiness = easiness.split("strong>")[1][:-2]
             print "Easiness: ", easiness
 
+        # we now try to get classes and comments
+        # EVEN
+        sites = hxs.select('//div[@class="entry even"]')
+        
+        course_name = ''
+        course_easiness = ''
+        course_clarity = ''
+        course_helpful =''
+        
+        for site in sites:
+            rating_dict = {}
+            course_name = str(site.select('div[@class="class"]/p/text()').extract())[3:-2]
+            ratings = site.select('div[@class="rating"]')
+            for rating in ratings:
+                ranks = rating.select('p')
+                for rank in ranks:
+                    rank_name = str(rank.select('strong/text()').extract())
+                    rank_score = str(rank.select('span/text()').extract())
+                    if rank_name[3:-2] == "Easiness":
+                        course_easiness = rank_score[3:-2]
+                    elif rank_name[3:-2] == "Helpfulness":
+                        course_helpful = rank_score[3:-2]
+                    elif rank_name[3:-2] == "Clarity":
+                        course_clarity = rank_score[3:-2]
+            rating_dict['easiness'] = course_easiness
+            rating_dict['clarity'] = course_clarity
+            rating_dict['helpfulness'] = course_helpful
+            current_course_dict[course_name] = rating_dict
+
+        #ODD
+        sites = hxs.select('//div[@class="entry odd"]')
+        for site in sites:
+            rating_dict = {}
+            course_name = str(site.select('div[@class="class"]/p/text()').extract())[3:-2]
+            ratings = site.select('div[@class="rating"]')
+            for rating in ratings:
+                ranks = rating.select('p')
+                for rank in ranks:
+                    rank_name = str(rank.select('strong/text()').extract())
+                    rank_score = str(rank.select('span/text()').extract())
+                    if rank_name[3:-2] == "Easiness":
+                        course_easiness = rank_score[3:-2]
+                    elif rank_name[3:-2] == "Helpfulness":
+                        course_helpful = rank_score[3:-2]
+                    elif rank_name[3:-2] == "Clarity":
+                        course_clarity = rank_score[3:-2]
+            rating_dict['easiness'] = course_easiness
+            rating_dict['clarity'] = course_clarity
+            rating_dict['helpfulness'] = course_helpful
+            current_course_dict[course_name] = rating_dict
+
         # we got our data, now make a prof item
-        prof['first_name'] = firstname
-        prof['last_name'] = lastname
+        prof_dict['first_name'] = firstname
+        prof_dict['last_name'] = lastname
         #prof['quality'] = quality
-        prof['clarity'] = clarity
-        prof['helpfulness'] = helpfulness
-        prof['easiness'] = easiness
-        profList.append(prof)
+        prof_dict['clarity'] = clarity
+        prof_dict['helpfulness'] = helpfulness
+        prof_dict['easiness'] = easiness
+        prof_dict['course_rating'] = current_course_dict
+        self.prof_list_dict[firstname+lastname]=prof_dict
+        if prof_profile_page_number != "1":
+            print "\n\n", prof_dict
+        with open('data.json', 'a') as outfile:
+                json.dump(prof_dict, outfile, indent=4)
+        outfile.close()
+        
+ #Figure out if prof has next page and parse into next pages
 
-        return prof
+        sites = hxs.select('//a[@class="next"]')
+        for site in sites:
+            flag = True
+            next_page_url = site.extract().encode('ascii', 'ignore')
+            next_page_url = str(next_page_url).split(" ")[1][6:-1]
+            next_page_url = next_page_url.replace("&amp;","&")
+            next_page_url = "http://www.ratemyprofessors.com" + next_page_url                 
+        if flag == True:
+            #print(name + " has a next page")
+            self.prof_list_dict[firstname+lastname]=prof_dict
+            yield Request(next_page_url, self.parseProfProfile)
+        else:
+            #print(name + " does not have a next page")
+            prof_dict['course_rating'] = current_course_dict
+            #print "WWWWWWWWWWWWWWWW", firstname, current_course_dict
+            self.prof_list_dict[firstname+lastname]=prof_dict
+            #print self.prof_list_dict
+           # self.prof_list_dict[self.prof_dict['first_name']] = self.prof_dict
+           # print self.prof_list_dict
 
-# Figure out if prof has next page and parse into next pages
 
-#        sites = hxs.select('//a[@class="next"]')
-#        for site in sites:
-#            flag = True
-#            next_page_url = site.extract().encode('ascii', 'ignore')
-#            next_page_url = str(next_page_url).split(" ")[1][6:-1]
-#            next_page_url = next_page_url.replace("&amp;","&")
-#            next_page_url = "http://www.ratemyprofessors.com" + next_page_url                 
-#        if flag == True:
-#            #print(name + " has a next page")
-#            yield Request(next_page_url, self.parseProfProfile)
-#        #else:
-#            #print(name + " does not have a next page")
-
-    def save_content(self, response):
-        filename = response.url.split("/")[-2]
-        open(filename, 'wb').write(response.body)

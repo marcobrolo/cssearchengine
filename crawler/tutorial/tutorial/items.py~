@@ -18,16 +18,3 @@ class DmozItem(Item):
 class RateMyProfItem(Item):
     prof_name = Field()
     prof_link = Field()
-
-class Prof(Item):
-    last_name = Field()
-    first_name = Field()
-    helpfulness = Field()
-    clarity = Field()
-    easiness = Field()
-    course_rating = Field()
-
-class ProfComments(Item):
-    comment = Field()
-    prof_first_name = Field()
-    prof_last_name = Field()
