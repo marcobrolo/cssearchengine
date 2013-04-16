@@ -1,0 +1,49 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Dixon", 
+    "course_rating": {
+        "cmpt150": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt 250": {
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt150&25": {
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT 150": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 101": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT 250": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "\\xa0": {
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "Cmpt 150": {
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "4.1", 
+    "easiness": "2.3", 
+    "clarity": "4.1"
+}

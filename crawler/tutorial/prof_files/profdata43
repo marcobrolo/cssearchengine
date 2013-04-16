@@ -1,0 +1,39 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "CMPT120": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 120": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt 165": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt120": {
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT 470": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 120": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

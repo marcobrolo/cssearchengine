@@ -1,0 +1,59 @@
+{
+    "first_name": "Warren", 
+    "last_name": "Burton", 
+    "course_rating": {
+        "MACM101": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT 101": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 383": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "MACM 101": {
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "MACM300": {
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT383": {
+            "clarity": "1", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt 383": {
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "CMPT481": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "macm 101": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "3.7", 
+    "clarity": "1.4"
+}

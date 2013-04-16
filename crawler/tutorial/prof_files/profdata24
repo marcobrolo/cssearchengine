@@ -1,0 +1,59 @@
+{
+    "first_name": "Binay", 
+    "last_name": "Bhattacharya", 
+    "course_rating": {
+        "cmpt 201": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt201": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cpmt201": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "macm 101": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT 201": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "307": {
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 307": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 201": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 307": {
+            "clarity": "2", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "MACM 101": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.4", 
+    "easiness": "2.5", 
+    "clarity": "1.8"
+}

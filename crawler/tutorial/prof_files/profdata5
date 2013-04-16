@@ -1,0 +1,59 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "cmpt307": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "MACM101": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "Cmpt307": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT125": {
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT225": {
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "Cmpt120": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt120": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "MACM 101": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT150": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

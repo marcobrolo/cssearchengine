@@ -1,0 +1,49 @@
+{
+    "first_name": "Toby", 
+    "last_name": "Donaldson", 
+    "course_rating": {
+        "CSIS166": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT275": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "Macm 101": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 120": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT128": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT166": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "2.8", 
+    "clarity": "3.3"
+}

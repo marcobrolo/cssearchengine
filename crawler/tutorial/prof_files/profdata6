@@ -1,0 +1,24 @@
+{
+    "first_name": "Chris", 
+    "last_name": "Bastone", 
+    "course_rating": {
+        "cmpt320": {
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt320": {
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT320": {
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.2", 
+    "easiness": "1.8", 
+    "clarity": "3.4"
+}

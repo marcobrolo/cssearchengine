@@ -1,0 +1,79 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "CMPT 307": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "macm101": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 250": {
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt 201": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 165": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "CMPT 250,": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 250": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 165": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "cmpt 102": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "macm 101": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt250": {
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "\\xa0": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT165": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

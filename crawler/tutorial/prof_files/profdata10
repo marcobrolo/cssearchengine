@@ -1,0 +1,29 @@
+{
+    "first_name": "Maryam", 
+    "last_name": "Aliyar", 
+    "course_rating": {
+        "com225": {
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT125": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt225": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT225": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.3", 
+    "easiness": "3.4", 
+    "clarity": "3.0"
+}

@@ -1,0 +1,54 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "470": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 120": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 165": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 165": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 165": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 470": {
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "cmpt 120": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt165": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

@@ -1,0 +1,54 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Dixon", 
+    "course_rating": {
+        "CMP 150": {
+            "clarity": "5", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT150": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt 250": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT 150": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Cmpt 1/250": {
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT 250": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "MACM 101": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "cmpt 150": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 110": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "4.1", 
+    "easiness": "2.3", 
+    "clarity": "4.1"
+}
