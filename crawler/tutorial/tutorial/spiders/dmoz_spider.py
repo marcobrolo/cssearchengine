@@ -12,6 +12,7 @@ import json
 from scrapy.xlib.pydispatch import dispatcher
 
 class RMPSpider(BaseSpider):
+    counter = 1
     course_dict = {}
     prof = Prof()   # holds prof information links to django model using DjangoItem
     prof_list_dict ={}
@@ -19,18 +20,12 @@ class RMPSpider(BaseSpider):
     allowed_domains = ["ratemyprofessors.com"]
     start_urls = [
         "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482"
-        #"http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=2",
-        #"http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=3",
-        #"http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=4",
-        #"http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=5",
-        #"http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=6"
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=2",
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=3",
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=4",
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=5",
+        "http://www.ratemyprofessors.com/SelectTeacher.jsp?the_dept=Computer+Science&orderby=TLName&sid=1482&pageNo=6"
     ]
-    rules = [
-        Rule(SgmlLinkExtractor()),
-        #Rule(SgmlLinkExtractor(allow=[r'SelectTeacher\.jsp\?the_dept=Computer\+Science&orderby=TLName&sid=1482&pageNo=\d+']), follow= True), 
-        #Rule(SgmlLinkExtractor(allow=[r'\ShowRatings\\.jsp\\?tid=\d+']), callback = 'parseProfProfile')
-    ]
- 
     def index_prof_name_extract_refine(self, name):
         '''
         refines scrapy extract method for ratemyprof 
@@ -55,7 +50,7 @@ class RMPSpider(BaseSpider):
         from professor profile page
         and returns first_name last_name
         '''
-        name = name.split("-")[0]
+        name = name.split("- ")[0]
         firstname = ''
         lastname = ''
         if "\\xa0" in name:
@@ -76,24 +71,11 @@ class RMPSpider(BaseSpider):
         sites = hxs.select('//div[@class="profName"]')
         items = []
         for site in sites:
-            item = Prof()
-            
-            # extract professor name and the link to their profile page 
-            name = str(site.select('a/text()').extract())
-            if name != "[]":
-                firstname, lastname = self.index_prof_name_extract_refine(name)
-                print(firstname)
-            
-            #item['first_name'] = site.select('a/text()').extract()
-            #item.save()
-            #item['prof_name'] = site.select('a/text()').extract()
             prof_link = site.select('a/@href').extract()
             
             next_page = "http://www.ratemyprofessors.com/" + str(prof_link)[3:-2]            
             if next_page:
                 yield Request(next_page, self.parseProfProfile)
-            
-            #items.append(item)
         filename = "files/" + response.url.split("/")[-1]
         
         
@@ -104,7 +86,7 @@ class RMPSpider(BaseSpider):
         prof_dict = {}
         current_course_dict= {}
         hxs = HtmlXPathSelector(response)
-        sites = hxs.select('/html/head/title')
+        
         prof_profile_page_number = "1"
         url = response.url
         path = "//home//draco//Dropbox//SFU//cmpt456//project//cssearchengine//crawler//tutorial//files//"
@@ -127,10 +109,13 @@ class RMPSpider(BaseSpider):
 
         # grab prof information and save the page
         # grab prof name below
+        sites = hxs.select('/html/head/title')
         for site in sites:
             name = str(site.select('text()').extract())
+            print ":::::::::::::::::::::::::::::", name
             firstname, lastname = self.prof_profile_extract_name(name)
             name = firstname + "_" + lastname
+            print "WWWWWWWWW", name
         if not os.path.exists(path + name + "//"):
             os.makedirs(path+name+"//")
 
@@ -141,36 +126,39 @@ class RMPSpider(BaseSpider):
         # get the score card
         # we only need to parse this once
         if flag == False:
-            # get overall quality
-            quality = str(hxs.select('//li[@id="quality"]').extract())
-            quality = quality.split("strong>")[1][:-2]
-            print "Quality: ", quality
+            try:
+                # get overall quality
+                quality = str(hxs.select('//li[@id="quality"]').extract())
+                quality = quality.split("strong>")[1][:-2]
+                #print "Quality: ", quality
 
-            # get helpfulness
-            helpfulness = str(hxs.select('//li[@id="helpfulness"]').extract())
-            helpfulness = helpfulness.split("strong>")[1][:-2]
-            print "helpfulness: ", helpfulness
+                # get helpfulness
+                helpfulness = str(hxs.select('//li[@id="helpfulness"]').extract())
+                helpfulness = helpfulness.split("strong>")[1][:-2]
+                #print "helpfulness: ", helpfulness
 
-            # get clarity
-            clarity = str(hxs.select('//li[@id="clarity"]').extract())
-            clarity = clarity.split("strong>")[1][:-2]
-            print "Clarity: ", clarity
+                # get clarity
+                clarity = str(hxs.select('//li[@id="clarity"]').extract())
+                clarity = clarity.split("strong>")[1][:-2]
+                #print "Clarity: ", clarity
 
-            # get easiness
-            easiness = str(hxs.select('//li[@id="easiness"]').extract())
-            easiness = easiness.split("strong>")[1][:-2]
-            print "Easiness: ", easiness
+                # get easiness
+                easiness = str(hxs.select('//li[@id="easiness"]').extract())
+                easiness = easiness.split("strong>")[1][:-2]
+                #print "Easiness: ", easiness
 
+            except:
+                print("rank index oor")
         # we now try to get classes and comments
         # EVEN
         sites = hxs.select('//div[@class="entry even"]')
-        
-        course_name = ''
-        course_easiness = ''
-        course_clarity = ''
-        course_helpful =''
-        
+                
         for site in sites:
+            course_name = ''
+            course_easiness = '0'
+            course_clarity = '0'
+            course_helpful ='0'
+            course_comment = ''
             rating_dict = {}
             course_name = str(site.select('div[@class="class"]/p/text()').extract())[3:-2]
             ratings = site.select('div[@class="rating"]')
@@ -185,14 +173,24 @@ class RMPSpider(BaseSpider):
                         course_helpful = rank_score[3:-2]
                     elif rank_name[3:-2] == "Clarity":
                         course_clarity = rank_score[3:-2]
+            course_comment = str(site.select('div[@class="comment"]/p[@class="commentText"]/text()').extract())
+            try:
+                course_comment = course_comment[2:-2]
+            except:
+                course_comment = ''
             rating_dict['easiness'] = course_easiness
             rating_dict['clarity'] = course_clarity
             rating_dict['helpfulness'] = course_helpful
+            rating_dict['comment'] = course_comment
             current_course_dict[course_name] = rating_dict
 
         #ODD
-        sites = hxs.select('//div[@class="entry odd"]')
         for site in sites:
+            course_name = ''
+            course_easiness = '0'
+            course_clarity = '0'
+            course_helpful ='0'
+            course_comment = ''
             rating_dict = {}
             course_name = str(site.select('div[@class="class"]/p/text()').extract())[3:-2]
             ratings = site.select('div[@class="rating"]')
@@ -207,9 +205,15 @@ class RMPSpider(BaseSpider):
                         course_helpful = rank_score[3:-2]
                     elif rank_name[3:-2] == "Clarity":
                         course_clarity = rank_score[3:-2]
+            course_comment = str(site.select('div[@class="comment"]/p[@class="commentText"]/text()').extract())
+            try:
+                course_comment = course_comment[2:-2]
+            except:
+                course_comment = ''
             rating_dict['easiness'] = course_easiness
             rating_dict['clarity'] = course_clarity
             rating_dict['helpfulness'] = course_helpful
+            rating_dict['comment'] = course_comment
             current_course_dict[course_name] = rating_dict
 
         # we got our data, now make a prof item
@@ -221,12 +225,23 @@ class RMPSpider(BaseSpider):
         prof_dict['easiness'] = easiness
         prof_dict['course_rating'] = current_course_dict
         self.prof_list_dict[firstname+lastname]=prof_dict
-        if prof_profile_page_number != "1":
-            print "\n\n", prof_dict
-        with open('data.json', 'a') as outfile:
+        json_file_name = firstname+ "_"+ lastname + prof_profile_page_number + '.json'
+        json_file_name = "profdata"+str(self.counter)
+        self.counter +=1
+        json_path = "prof_files/" + json_file_name
+        with open(json_path, 'w') as outfile:
                 json.dump(prof_dict, outfile, indent=4)
         outfile.close()
-        
+
+        # try item base approach
+        item_prof = Prof()
+        item_prof['last_name']=lastname
+        item_prof['first_name']=firstname
+        item_prof['helpfulness']=helpfulness
+        item_prof['clarity']=clarity
+        item_prof['easiness']=easiness
+        item_prof['course_rating']=current_course_dict
+
  #Figure out if prof has next page and parse into next pages
 
         sites = hxs.select('//a[@class="next"]')
