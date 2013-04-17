@@ -13,7 +13,7 @@ class Prof(models.Model):
 
     def __unicode__(self):
         return self.fullname()
-    
+
     def get_absolute_url(self):
         return reverse('engine.views.prof_profile_result', kwargs={'prof_id': self.id})
 
@@ -22,7 +22,7 @@ class Prof(models.Model):
             return u"%s, %s" % (self.last_name, self.first_name)
 
 
-class Course(models.Model):
+class Course(models.Model): 
     code = models.CharField(max_length=10)
     name = models.CharField(max_length=40)
 
@@ -34,9 +34,9 @@ class Course(models.Model):
             return u"%s %s" % (self.code, self.name)
 
 
-class CourseRating(models.Model):
-    course = models.ForeignKey('Course')
-    prof = models.ForeignKey('Prof')
+class CourseRating(models.Model): 
+    course = models.ForeignKey('Course', related_name='course')
+    prof = models.ForeignKey('Prof', related_name='prof')
     easiness = models.IntegerField(default=0)
     helpfulness = models.IntegerField(default=0)
     clarity = models.IntegerField(default=0)
