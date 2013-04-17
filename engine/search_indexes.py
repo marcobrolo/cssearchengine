@@ -4,11 +4,11 @@ from engine.models import Prof, Course
 from django.db import models
 
 
-
 class ProfIndex(indexes.SearchIndex):
     text = indexes.NgramField(document=True, use_template=True)
     last_name = indexes.NgramField(model_attr='last_name')
     first_name = indexes.NgramField(model_attr='first_name')
+    #helpfulness = indexes.DecimalField(model_attr='helpfulness')
 
     def get_model(self):
         return Prof

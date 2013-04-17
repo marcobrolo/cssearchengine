@@ -17,8 +17,7 @@ def results_page(request):
 def prof_profile_result(request, prof_id):
 	# retrieve prof info from database
 	professor = Prof.objects.get(pk = prof_id)
-	first_name = professor.first_name
-	last_name = professor.last_name
+
 	# return object to template so it can acess professor attributes easier
 	# probably very insecure and non conventional
 	return render_to_response('prof_profile_result.html', {'professor':professor})

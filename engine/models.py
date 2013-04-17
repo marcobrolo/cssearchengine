@@ -13,7 +13,7 @@ class Prof(models.Model):
 
     def __unicode__(self):
         return self.fullname()
-    
+
     def get_absolute_url(self):
         return reverse('engine.views.prof_profile_result', kwargs={'prof_id': self.id})
 
