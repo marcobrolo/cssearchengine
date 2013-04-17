@@ -1,0 +1,24 @@
+{
+    "first_name": "Arash", 
+    "last_name": "Rafiey", 
+    "course_rating": {
+        "CMPT212": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt212": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT126": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "2.2", 
+    "clarity": "2.0"
+}

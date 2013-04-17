@@ -1,0 +1,34 @@
+{
+    "first_name": "Dan", 
+    "last_name": "Ridinger", 
+    "course_rating": {
+        "cmpt 370": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT475": {
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT370": {
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 370": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt370": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.9", 
+    "easiness": "3.5", 
+    "clarity": "2.9"
+}

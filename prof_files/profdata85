@@ -1,0 +1,14 @@
+{
+    "first_name": "Amin", 
+    "last_name": "Sharifi", 
+    "course_rating": {
+        "CMPT125": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.5", 
+    "easiness": "3.0", 
+    "clarity": "2.2"
+}

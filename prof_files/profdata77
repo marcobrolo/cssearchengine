@@ -1,0 +1,24 @@
+{
+    "first_name": "Tariq", 
+    "last_name": "Nuruddin", 
+    "course_rating": {
+        "COM100": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT150": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt150": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "1.3", 
+    "easiness": "1.9", 
+    "clarity": "1.3"
+}

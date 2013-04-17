@@ -1,0 +1,14 @@
+{
+    "first_name": "Arrvindh", 
+    "last_name": "Shriraman", 
+    "course_rating": {
+        "885CMPT": {
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "5.0", 
+    "easiness": "5.0", 
+    "clarity": "3.0"
+}

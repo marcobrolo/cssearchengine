@@ -1,0 +1,49 @@
+{
+    "first_name": "Joseph", 
+    "last_name": "Peters", 
+    "course_rating": {
+        "cmpt405": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT 305": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT371": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT307": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 371": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT405": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT305": {
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "cmpt371": {
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "2.3", 
+    "clarity": "3.1"
+}

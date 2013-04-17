@@ -1,0 +1,39 @@
+{
+    "first_name": "Evgenia", 
+    "last_name": "Ternovska", 
+    "course_rating": {
+        "CMPT883": {
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "Macm101": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT777": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT477": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt477": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "MACM101": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.5", 
+    "easiness": "2.4", 
+    "clarity": "2.2"
+}

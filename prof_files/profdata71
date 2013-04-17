@@ -1,0 +1,19 @@
+{
+    "first_name": "Chris", 
+    "last_name": "Schmidt", 
+    "course_rating": {
+        "cmpt120": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT120": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "1.1", 
+    "easiness": "1.6", 
+    "clarity": "1.1"
+}

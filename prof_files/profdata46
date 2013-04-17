@@ -1,0 +1,19 @@
+{
+    "first_name": "Richard", 
+    "last_name": "Vaughan", 
+    "course_rating": {
+        "CMPT 300": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 300": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "3.0", 
+    "clarity": "3.5"
+}

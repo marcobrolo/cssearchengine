@@ -1,0 +1,14 @@
+{
+    "first_name": "Andrea", 
+    "last_name": "Tagliasacchi", 
+    "course_rating": {
+        "CMPT275": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "5.0", 
+    "easiness": "4.0", 
+    "clarity": "5.0"
+}

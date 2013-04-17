@@ -1,0 +1,29 @@
+{
+    "first_name": "Ze-Nian", 
+    "last_name": "Li", 
+    "course_rating": {
+        "CMPT 365": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 414 (": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT414": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT365": {
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.5", 
+    "easiness": "1.4", 
+    "clarity": "2.1"
+}

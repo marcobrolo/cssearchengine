@@ -1,0 +1,24 @@
+{
+    "first_name": "Kevin", 
+    "last_name": "McQuiggin", 
+    "course_rating": {
+        "Comp101": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt123": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "5.0", 
+    "easiness": "4.0", 
+    "clarity": "4.8"
+}

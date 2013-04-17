@@ -1,0 +1,24 @@
+{
+    "first_name": "Frank", 
+    "last_name": "Vandenberg", 
+    "course_rating": {
+        "CMPT275": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Cmpt275": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt275": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "5.0", 
+    "easiness": "2.7", 
+    "clarity": "4.3"
+}

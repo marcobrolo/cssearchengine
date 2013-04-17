@@ -1,0 +1,24 @@
+{
+    "first_name": "Alireza", 
+    "last_name": "Khodabakhshi", 
+    "course_rating": {
+        "CMPT102": {
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "Cmpt225": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT225": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "1.6", 
+    "easiness": "2.0", 
+    "clarity": "1.6"
+}

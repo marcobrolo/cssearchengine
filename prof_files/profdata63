@@ -1,0 +1,14 @@
+{
+    "first_name": "Ladislav", 
+    "last_name": "Stacho", 
+    "course_rating": {
+        "Macm 201": {
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.4"
+}

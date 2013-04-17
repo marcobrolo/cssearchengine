@@ -1,0 +1,29 @@
+{
+    "first_name": "Hao\"Richard\"", 
+    "last_name": "Zhang", 
+    "course_rating": {
+        "CMPT 250": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "250": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT250": {
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "Cmpt250": {
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.3", 
+    "clarity": "2.2"
+}

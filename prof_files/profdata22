@@ -1,0 +1,19 @@
+{
+    "first_name": "Daniel", 
+    "last_name": "Weiskopf", 
+    "course_rating": {
+        "cmpt461": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT770": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "1.0", 
+    "clarity": "2.0"
+}

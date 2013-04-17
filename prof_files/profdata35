@@ -1,0 +1,44 @@
+{
+    "first_name": "Herbert", 
+    "last_name": "Tsang", 
+    "course_rating": {
+        "cmpt361": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT275": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Math 250": {
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "cmpt275": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Cmpt275": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT361": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 275": {
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "2.9", 
+    "easiness": "2.0", 
+    "clarity": "2.8"
+}

@@ -1,0 +1,49 @@
+{
+    "first_name": "Richard", 
+    "last_name": "Vaughan", 
+    "course_rating": {
+        "Cmpt 300": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt300": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT300": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 300": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 431": {
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "cmpt 300": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT431": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT 128": {
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "3.0", 
+    "clarity": "3.5"
+}

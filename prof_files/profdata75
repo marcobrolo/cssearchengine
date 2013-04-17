@@ -1,0 +1,29 @@
+{
+    "first_name": "Andrew", 
+    "last_name": "Park", 
+    "course_rating": {
+        "CMPT125": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "cmpt125": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt110": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT110": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "4.5", 
+    "easiness": "4.5", 
+    "clarity": "4.5"
+}

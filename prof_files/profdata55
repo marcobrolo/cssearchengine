@@ -1,0 +1,44 @@
+{
+    "first_name": "Ted", 
+    "last_name": "Kirkpatrick", 
+    "course_rating": {
+        "CMPT363": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "CMPT383": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }, 
+        "cmpt120": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "cmpt363": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "Cmpt120": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT376": {
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.6", 
+    "easiness": "3.9", 
+    "clarity": "3.4"
+}

@@ -1,0 +1,14 @@
+{
+    "first_name": "Can", 
+    "last_name": "Wang", 
+    "course_rating": {
+        "CMPT301": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "4.0", 
+    "easiness": "5.0", 
+    "clarity": "4.0"
+}

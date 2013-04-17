@@ -1,0 +1,44 @@
+{
+    "first_name": "Oliver", 
+    "last_name": "Schulte", 
+    "course_rating": {
+        "CMPT882": {
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT318": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT310": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT726": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT320": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT354": {
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT 354": {
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.4", 
+    "easiness": "2.9", 
+    "clarity": "2.4"
+}

@@ -1,0 +1,49 @@
+{
+    "first_name": "Ramesh", 
+    "last_name": "Krishnamurti", 
+    "course_rating": {
+        "CMPT 307": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT110": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }, 
+        "cmpt307": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 250": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 110": {
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 307": {
+            "clarity": "2", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "macm": {
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 110": {
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.6", 
+    "easiness": "2.4", 
+    "clarity": "2.2"
+}

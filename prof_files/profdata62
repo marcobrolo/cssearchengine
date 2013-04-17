@@ -1,0 +1,14 @@
+{
+    "first_name": "Herbert", 
+    "last_name": "Tsang", 
+    "course_rating": {
+        "CMPT365": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.9", 
+    "easiness": "2.0", 
+    "clarity": "2.8"
+}

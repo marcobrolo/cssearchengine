@@ -1,0 +1,64 @@
+{
+    "first_name": "Jan", 
+    "last_name": "Manuch", 
+    "course_rating": {
+        "CMPT212": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 307": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 225": {
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "MATH157": {
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "MATH308": {
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "cmp212": {
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "Math157": {
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT225": {
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Cmpt 307": {
+            "clarity": "1", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Math308": {
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt225": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "2.5", 
+    "easiness": "2.7", 
+    "clarity": "1.9"
+}

@@ -1,0 +1,19 @@
+{
+    "first_name": "Wo-Shun", 
+    "last_name": "Luk", 
+    "course_rating": {
+        "CMPT 354": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 454": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.1", 
+    "easiness": "2.4", 
+    "clarity": "1.9"
+}

@@ -1,0 +1,24 @@
+{
+    "first_name": "Anoop", 
+    "last_name": "Sarkar", 
+    "course_rating": {
+        "CMPT 379": {
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT413": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT379": {
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.8", 
+    "easiness": "2.2", 
+    "clarity": "4.0"
+}

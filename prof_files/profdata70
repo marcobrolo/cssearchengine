@@ -1,0 +1,24 @@
+{
+    "first_name": "S.Cenk", 
+    "last_name": "Sahinalp", 
+    "course_rating": {
+        "CMPT711": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT891": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT889": {
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.2", 
+    "easiness": "2.0", 
+    "clarity": "2.8"
+}

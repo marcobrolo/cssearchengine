@@ -1,0 +1,39 @@
+{
+    "first_name": "Colin", 
+    "last_name": "Stewart", 
+    "course_rating": {
+        "cmpt110": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT165": {
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT110": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Cmpt110": {
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT120": {
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "Cmpt165": {
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.8", 
+    "easiness": "2.6", 
+    "clarity": "3.9"
+}

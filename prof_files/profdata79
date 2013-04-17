@@ -1,0 +1,24 @@
+{
+    "first_name": "Thomas", 
+    "last_name": "Shermer", 
+    "course_rating": {
+        "CMPT379": {
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt379": {
+            "clarity": "1", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "MACM101": {
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "1.7", 
+    "clarity": "1.7"
+}
