@@ -33,7 +33,7 @@
 					{% for result in page.object_list %}
 					<tr class="{% cycle 'highlight' 'instructor-row' %}">
 						<td class="info-type">Instructor: </td>
-						<td><a href="{{ result.object.get_absolute_url }}">{{ result.object.first_name }} {{ result.object.last_name }} {{ result.object.hoha }} </a></td>
+						<td><a href="{{ result.object.get_absolute_url }}">{{ result.object.first_name }} {{ result.object.last_name }} {{ result.object.helpfulness }}  {{ result.object.fullname }} {{result.object.code}}</a></td>
 					</tr>
 					{% empty %}
 					<tr>

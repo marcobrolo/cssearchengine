@@ -3,3 +3,10 @@
 *.pyc
 *.db
 engine/static/.DS_Store
+engine/static/.DS_Store
+
+*.db
+
+eg.db
+
+engine/static/.DS_Store

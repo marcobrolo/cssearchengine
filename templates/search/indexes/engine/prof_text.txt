@@ -1,2 +1,7 @@
 {{ object.first_name }}
 {{ object.last_name }}
+{{ object.prof_helpfulness }}
+{{object.easiness}}
+{{object.helpfulness}}
+{{object.clarity}}
+{{object.comments}}
