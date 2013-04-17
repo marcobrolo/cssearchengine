@@ -1,2 +1,6 @@
 {{object.code}}
 {{object.name}}
+{{object.easiness}}
+{{object.helpfulness}}
+{{object.clarity}}
+{{object.comments}}
