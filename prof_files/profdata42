@@ -1,14 +1,33 @@
 {
-    "first_name": "Arrvindh", 
-    "last_name": "Shriraman", 
+    "first_name": "Colin", 
+    "last_name": "Stewart", 
     "course_rating": {
-        "885CMPT": {
-            "clarity": "3", 
+        "CMPT 165": {
+            "comment": "\"Funny prof. But you need to know python well and prepare to code and debug. Best prof to be recommanded for CS students. May not be good if you don't know python.", 
+            "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "5"
+            "easiness": "4"
+        }, 
+        "CMPT120": {
+            "comment": "\"Overall, I would say hes a good teacher. He posts lecture notes and goes through them in class and does examples. Lab work relates to his lecture notes, 2 projects, 1 MT, 4 quizzes and 50% final. Material isn't super hard but is workable. I found his class okay enough though I have no prior programing knowledge.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt165": {
+            "comment": "'The amount of work you have to put in his class is too much. lots of projects, exercises and quizes. you can learn things from him but this requires lots of time to spend on this course..", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "CMPT165": {
+            "comment": "'I took this course as a GPA booster and indeed my GPA went up (I had previous experience with xhtml/css). His final exam however was a KILLER (for most students). The final question required full understanding of python: we were required to build an online shopping cart. The material was covered... but the last question was too damn long!", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "5.0", 
-    "easiness": "5.0", 
-    "clarity": "3.0"
+    "helpfulness": "3.8", 
+    "easiness": "2.6", 
+    "clarity": "3.9"
 }

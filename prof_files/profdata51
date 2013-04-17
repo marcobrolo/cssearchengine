@@ -1,24 +1,15 @@
 {
-    "first_name": "Alireza", 
-    "last_name": "Khodabakhshi", 
+    "first_name": "Amin", 
+    "last_name": "Sharifi", 
     "course_rating": {
-        "CMPT102": {
-            "clarity": "2", 
-            "helpfulness": "4", 
-            "easiness": "5"
-        }, 
-        "Cmpt225": {
+        "CMPT125": {
+            "comment": "'Amin does not have the ability to teach. He is extremely nervous, and unsure. He always asks the class how he should teach. We are 3 weeks into the course and he has not really taught us anything at all. All his instructions are extremely confusing. I am very disappointed in the computing science department at SFU for such low teaching standards.", 
             "clarity": "1", 
             "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT225": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "1.6", 
-    "easiness": "2.0", 
-    "clarity": "1.6"
+    "helpfulness": "2.5", 
+    "easiness": "3.0", 
+    "clarity": "2.2"
 }

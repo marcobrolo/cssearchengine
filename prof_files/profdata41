@@ -1,34 +1,8 @@
 {
-    "first_name": "Ladislav", 
-    "last_name": "Stacho", 
-    "course_rating": {
-        "MATH155": {
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "Math154": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "MATH154": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "math154": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "MACM201": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }
-    }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.4"
+    "first_name": "Evgenia", 
+    "last_name": "Teranovska", 
+    "course_rating": {}, 
+    "helpfulness": "", 
+    "easiness": "", 
+    "clarity": ""
 }

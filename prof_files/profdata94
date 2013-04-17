@@ -1,69 +1,27 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
+    "first_name": "Janice", 
+    "last_name": "Regan", 
     "course_rating": {
-        "macm101": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT 100": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "cmpt 100": {
+        "CMPT 101": {
+            "comment": "'Introduction... HA!!! If you have no previous java programming experience you will painfully regret taking this course... at least with this prof. She has some breathing problem and needs to take breaks bet/ words, it creates a lot of ambiguity.", 
             "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
+            "helpfulness": "3", 
+            "easiness": "1"
         }, 
-        "CMPT 165": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "cmpt320": {
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT120": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "cmpt100": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "CMPT320": {
+        "CMPT 371": {
+            "comment": "'Make a Computer course beome a Physic course, make everyone sleep. I count 90%+ sleeping/day dreaming", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "cmpt 320": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "CMPT 320": {
-            "clarity": "4", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT100": {
+        "CMPT371": {
+            "comment": "'Ahh the course sucks and she makes it sooo much harder by giving long (i mean looong) assignments and who knows about the exams", 
             "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "MACM101": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
+            "helpfulness": "4", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
     "clarity": "2.4"
 }

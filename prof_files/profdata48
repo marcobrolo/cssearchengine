@@ -1,44 +1,27 @@
 {
-    "first_name": "Herbert", 
-    "last_name": "Tsang", 
+    "first_name": "Ladislav", 
+    "last_name": "Stacho", 
     "course_rating": {
-        "Cmpt275": {
+        "Math154": {
+            "comment": "\"This is the worst prof of my whole entire existence! I do not like to hate on people, but he is just a dissaster and a half! Once again... worst prof ever!!! He doesn't explain anything, just reads what it says on the notes. His exams were extremely hard and were not relavent to what he said to study or what he taught.The class average was a fail!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "MATH154": {
+            "comment": "'Extremely hard to understand. Overhead notes are impossible to read if you dont sit in the front of the 400+ person class.", 
             "clarity": "1", 
             "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "cmpt275": {
-            "clarity": "5", 
-            "helpfulness": "5", 
             "easiness": "2"
         }, 
-        "CMPT275": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT276": {
+        "MACM201": {
+            "comment": "\"He is a nice guy, but his class is very boring. His overheads are straight from the text and his explanations aren't so clear. However, his midterms are pretty easy and straight forward, just do all his assignments and you'll do more than fine. His final was a lot tougher though, he ask too many specific difficult questions. But overall he is ok.", 
             "clarity": "3", 
-            "helpfulness": "1", 
+            "helpfulness": "2", 
             "easiness": "3"
-        }, 
-        "CMPT363": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "CMPT361": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT365": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.9", 
-    "easiness": "2.0", 
-    "clarity": "2.8"
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.4"
 }

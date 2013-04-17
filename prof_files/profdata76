@@ -1,14 +1,45 @@
 {
-    "first_name": "Allen", 
-    "last_name": "Pike", 
+    "first_name": "Ramesh", 
+    "last_name": "Krishnamurti", 
     "course_rating": {
-        "CMPT470": {
+        "CMPT 307": {
+            "comment": "'One of my worse professors ever at SFU.\\r Lack of clarity. Difficulty: insane", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt710": {
+            "comment": "'He is the best prof I had in SFU. He is clever, kind and modest. He is interested in the course material and welcomes you to talk to him at any time.", 
             "clarity": "5", 
-            "helpfulness": "4", 
+            "helpfulness": "5", 
             "easiness": "4"
+        }, 
+        "CMPT705": {
+            "comment": "'apparently algorithm analysis and design equals proofs and graph theory, looking for a use for graph theory?, i mean really has anyone actually really used it in anything other than academics lately, lol", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT 307,4', u'05": {
+            "comment": "\"very good explanations.  Extremely intelligent prof.  Doesn't rush his lectures like other profs.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 307": {
+            "comment": "\"Boring and can't understand him.  Exams are difficult.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT165": {
+            "comment": "\"I honestly can't say for sure that he was my prof, because he did not make one contact with me during my semester as a DE student. I have never received anything lower than a B+ in my three years at SFU. In this class I failed the midterm WITH A CHEAT SHEET. The TAs are given no structure by the prof, he does not communicate, and exams are too hard", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "4.0", 
-    "easiness": "4.0", 
-    "clarity": "5.0"
+    "helpfulness": "2.6", 
+    "easiness": "2.4", 
+    "clarity": "2.2"
 }

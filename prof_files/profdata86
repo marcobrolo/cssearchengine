@@ -1,64 +1,27 @@
 {
-    "first_name": "Janice", 
-    "last_name": "Regan", 
+    "first_name": "Jian", 
+    "last_name": "Pei", 
     "course_rating": {
-        "Cmpt275": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "cmpt371": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT471": {
+        "CMPT 354": {
+            "comment": "'I read about all the good words here about him before taking this course. However, short after the semestre began I started to doubt if this was the person as described by others. He is a nice softie, but stubborn. Loose requirements on projects led to lousy marking confilicts. Being not so stardardized is the biggest problem.", 
             "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT300": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT275": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "1"
-        }, 
-        "cmpt 128": {
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "cmpt 104": {
-            "clarity": "3", 
             "helpfulness": "3", 
             "easiness": "3"
         }, 
-        "cmpt471": {
+        "300": {
+            "comment": "'The bst teaching skills in the whole department.  A super nice guy.", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "4"
+            "easiness": "3"
         }, 
-        "cmpt 275": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "CMPT128": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "CMPT 275": {
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "1"
+        "cmpt 300": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.8", 
-    "easiness": "2.0", 
-    "clarity": "2.4"
+    "helpfulness": "4.0", 
+    "easiness": "3.1", 
+    "clarity": "3.8"
 }

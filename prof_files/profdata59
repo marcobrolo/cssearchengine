@@ -1,8 +1,21 @@
 {
-    "first_name": "[u'Rate My Professors | Find and rate your professor, campus and more ", 
-    "last_name": "", 
-    "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "first_name": "Russ", 
+    "last_name": "Tront", 
+    "course_rating": {
+        "CMPT 370": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 275": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "4.2", 
+    "easiness": "2.8", 
+    "clarity": "4.2"
 }

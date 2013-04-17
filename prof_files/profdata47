@@ -1,74 +1,27 @@
 {
-    "first_name": "Russ", 
-    "last_name": "Tront", 
+    "first_name": "David", 
+    "last_name": "Mitchell", 
     "course_rating": {
-        "CMPT212": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
         "cmpt 101": {
-            "clarity": "2", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT 454": {
-            "clarity": "5", 
-            "helpfulness": "5", 
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "5"
         }, 
-        "cmpt 475": {
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT101, C": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "2"
-        }, 
         "CMPT 101": {
-            "clarity": "5", 
-            "helpfulness": "5", 
+            "comment": "\"Easy Class. Can't teach. Still wondering how he ever managed to become a prof...", 
+            "clarity": "2", 
+            "helpfulness": "1", 
             "easiness": "4"
         }, 
-        "cmpt475": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "2"
-        }, 
-        "cmpt 275": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 471": {
-            "clarity": "5", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "\\xa0": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 475": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "cmpt370": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT 275": {
+        "Cmpt101": {
+            "comment": "\"Doesn't him just encourage you to read the book. The book is far more helpful than him. Read the whole book, do his assignments right, and you get an A+.", 
             "clarity": "3", 
-            "helpfulness": "4", 
+            "helpfulness": "2", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "4.2", 
+    "helpfulness": "1.9", 
     "easiness": "2.8", 
-    "clarity": "4.2"
+    "clarity": "1.8"
 }

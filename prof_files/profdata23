@@ -1,14 +1,51 @@
 {
-    "first_name": "Can", 
-    "last_name": "Wang", 
+    "first_name": "David", 
+    "last_name": "Mitchell", 
     "course_rating": {
-        "CMPT301": {
+        "cmpt 101": {
+            "comment": "'It was quite easy for me because I knew the concepts well enough. His assignments were not bad.", 
             "clarity": "4", 
-            "helpfulness": "4", 
+            "helpfulness": "3", 
             "easiness": "5"
+        }, 
+        "CMPT 101": {
+            "comment": "'The lectures are hard to follow and boring. The midterm and final are also somewhat unreasonable. Though, I found his assignments helpful for new programmers.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt125": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT126": {
+            "comment": "'This prof is a nice guy, always ready to answer any questions you might have. However, he is a poor teacher. Not only he is somewhat unorganized and unclear, but his lectures have little to do with the material he tests. His exams are challenging, although he scales them.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT 125": {
+            "comment": "'Dont take his class if ur learning Java for the first time. His material is messy and unclear, and always cancel classes without even emailing us.  If u wanna fail, then take him.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 126": {
+            "comment": "\"He teaches clearly and well in his lectures... However his midterms are totally something you wouldn't expect, and the assignments are marked very picky. Although programming java is easy, getting any decent marks in his class is NOT! Why????", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "cmpt 125": {
+            "comment": "\"omg he's not good at teaching!!! People who have programming experience should be ok. BUT if you aren't good at solving problems then don't take his class. His notes aren't very useful when you have to program his hard assignments...He took the fun out of cmpt ...", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "4.0", 
-    "easiness": "5.0", 
-    "clarity": "4.0"
+    "helpfulness": "1.9", 
+    "easiness": "2.8", 
+    "clarity": "1.8"
 }

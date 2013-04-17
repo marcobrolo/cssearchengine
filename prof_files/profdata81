@@ -1,49 +1,33 @@
 {
-    "first_name": "Janice", 
-    "last_name": "Regan", 
+    "first_name": "Anne", 
+    "last_name": "Lavergne", 
     "course_rating": {
-        "cmpt300": {
+        "CMPT 101": {
+            "comment": "'Ugh... uses the same bloody example too much!  DIE, FOREX, DIE!!!  Also, she makes one rather dependent on reading the text to understand the lecture... thank goodness for friends that already know Java.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt 201": {
+            "comment": "'An excellent prof. Organized, always willing to help, and enthusiastic. One of the few profs that can keep me awake.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 275": {
+            "comment": "'I think the course material just sucks ass", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT 201": {
+            "comment": "'BORING LECTURE! SLEEP EVERY CLASS!", 
             "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "cmpt275": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "Cmpt128": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "5"
-        }, 
-        "CMPT300": {
-            "clarity": "5", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "CMPT128": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "CMPT275": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT471": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "cmpt128": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
+            "helpfulness": "2", 
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.8", 
-    "easiness": "2.0", 
-    "clarity": "2.4"
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.7"
 }

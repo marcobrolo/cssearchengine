@@ -1,14 +1,57 @@
 {
-    "first_name": "Ladislav", 
-    "last_name": "Stacho", 
+    "first_name": "Anne", 
+    "last_name": "Lavergne", 
     "course_rating": {
-        "Macm 201": {
+        "CMPT201": {
+            "comment": "'Wanna see a mouse?", 
             "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "computing": {
+            "comment": "'Assignments are very hard!!!!!", 
+            "clarity": "2", 
             "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT 201": {
+            "comment": "\"She is very nice...she will not help you out on assignments (she will tell you it's part of the assignment).. you can learn a lot in this class but if you are going for easy marks i will not suggest to take it with her...very long midterms..", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT 101": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT 225": {
+            "comment": "\"Brutally difficult assignments. She is almost completely unhelpful, cynical and mean to students, very ****y, never responds to complaints. Lectures *ALWAYS* went overtime by >5 min. Annoying online lecture notes that are deliberately missing key info. *** I didn't learn anything useful from her.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "201,275": {
+            "comment": "'Nice prof. Encouraged course material and lecture give me much confidence on studying cmpt", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt225": {
+            "comment": "\"don't like her french accent. hard midterm.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 275": {
+            "comment": "\"best CS prof ever! Took CMPT 201 with her last semester, and taking CMPT 275 with her again this semester...I'm a big fan of her!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
             "easiness": "3"
         }
     }, 
     "helpfulness": "2.7", 
     "easiness": "2.8", 
-    "clarity": "2.4"
+    "clarity": "2.7"
 }

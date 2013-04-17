@@ -3,14 +3,16 @@
     "last_name": "Vaughan", 
     "course_rating": {
         "CMPT 300": {
-            "clarity": "4", 
-            "helpfulness": "5", 
+            "comment": "'Generally not good.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
             "easiness": "3"
         }, 
         "cmpt 300": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "3"
+            "comment": "'lol...he rocks ... LOL", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
         }
     }, 
     "helpfulness": "3.5", 

@@ -1,79 +1,8 @@
 {
-    "first_name": "Ladislav", 
-    "last_name": "Stacho", 
-    "course_rating": {
-        "math 308": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "MATH 152": {
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "macm 201": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "MATH308": {
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "MATH154": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "Math152": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "MACM201": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "MACM 300": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "2"
-        }, 
-        "MATH 154": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "math 152": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "MATH242": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "5"
-        }, 
-        "Math 152": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "\\xa0": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "MACM 201": {
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }
-    }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.4"
+    "first_name": "Allen", 
+    "last_name": "Pike", 
+    "course_rating": {}, 
+    "helpfulness": "4.0", 
+    "easiness": "4.0", 
+    "clarity": "5.0"
 }

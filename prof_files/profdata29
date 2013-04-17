@@ -1,49 +1,15 @@
 {
-    "first_name": "Jiangchuan", 
-    "last_name": "Liu", 
+    "first_name": "Frank", 
+    "last_name": "Vandenberg", 
     "course_rating": {
-        "macm101": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "CMPT 880": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 101": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "4"
-        }, 
-        "CMPT 371": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "macm 101": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "cmpt371": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "MACM 101": {
-            "clarity": "1", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "MACM101": {
+        "CMPT275": {
+            "comment": "\"He is nice and teaches well. Exams are fair. Only thing is you will get a LOT of homework, every week actually. Be prepared to put in the time and don't take too many other classes. Also, he often isn't clear about what he expects for the HW.", 
             "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "5"
+            "helpfulness": "5", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "3.5", 
-    "easiness": "3.3", 
-    "clarity": "3.2"
+    "helpfulness": "5.0", 
+    "easiness": "2.7", 
+    "clarity": "4.3"
 }

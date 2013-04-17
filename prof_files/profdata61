@@ -1,34 +1,39 @@
 {
-    "first_name": "Valentine", 
-    "last_name": "Kabanets", 
+    "first_name": "Oliver", 
+    "last_name": "Schulte", 
     "course_rating": {
-        "CMPT 308": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "cmpt307": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT307": {
+        "CMPT 354": {
+            "comment": "\"He's a sincerely nice guy who will help out tremendously in office hours... However, his tests seem stupid, he seems to test the unimportant things.  That said, his course is pretty easy, just don't expect to learn any of the material in depth.", 
             "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT710": {
-            "clarity": "5", 
-            "helpfulness": "5", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "cmpt 308": {
-            "clarity": "5", 
+        "CMPT354": {
+            "comment": "'THE WORST PROF EVER", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT882": {
+            "comment": "\"He set 30% (or 40%) for assignments. And there were just two sets of assignments. The questions were absolutely nonsense and funny. He himself even didn't know what his questions meant. He was totally unable to teach.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "CMPT320": {
+            "comment": "'Part of his test is made up of useless details but he allows a cheat sheet for his tests so take notes when reading the book so your cheatsheet will be ready when exam comes along. The midterm is supposed to take 2 hours(or so he says) but everyone finished before 25 minutes.", 
+            "clarity": "4", 
             "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT310": {
+            "comment": "\"Googled some of his lecture notes and found that they were stolen with his name plastered onto them instead. Teaching ability is pretty average, but his assignments are ambiguous and he falls behind the lecture schedule. He obviously doesn't do the assignments first because the second one had an impossible question that later had to be removed.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "4.5", 
-    "easiness": "2.8", 
-    "clarity": "4.4"
+    "helpfulness": "2.4", 
+    "easiness": "2.9", 
+    "clarity": "2.4"
 }

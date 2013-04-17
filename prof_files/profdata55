@@ -1,44 +1,21 @@
 {
-    "first_name": "Ted", 
-    "last_name": "Kirkpatrick", 
+    "first_name": "S.Cenk", 
+    "last_name": "Sahinalp", 
     "course_rating": {
-        "CMPT363": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "5"
-        }, 
-        "CMPT383": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "5"
-        }, 
-        "cmpt120": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "cmpt363": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "5"
-        }, 
-        "Cmpt120": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT120": {
-            "clarity": "3", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT376": {
+        "CMPT711": {
+            "comment": "'Class is very difficult", 
             "clarity": "2", 
             "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT889": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "2", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "3.6", 
-    "easiness": "3.9", 
-    "clarity": "3.4"
+    "helpfulness": "2.2", 
+    "easiness": "2.0", 
+    "clarity": "2.8"
 }

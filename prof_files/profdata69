@@ -1,24 +1,39 @@
 {
-    "first_name": "Arash", 
-    "last_name": "Rafiey", 
+    "first_name": "Jian", 
+    "last_name": "Pei", 
     "course_rating": {
-        "CMPT212": {
-            "clarity": "2", 
+        "CMPT454": {
+            "comment": "'He teaches the details clearly. Reading the textbook becomes much easier after his classes. Most importantly, the exam questions are consistent with the assignment. Enjoying ...", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 454": {
+            "comment": "'Touch midterm, but close enough to assignments. Overall challenging and interesting. One of the best in this school.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt 354": {
+            "comment": "'Very good prof, fair and knows how to teach :)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt354": {
+            "comment": "'average as an instructor", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT354": {
+            "comment": "'Agree with the disappointed comment.  He is a very nice person and very enthusiastic, but very horrible course notes.  His marking on projects are very sloppy just like his project descriptions.  He enjoys torturing students to teach them a taste of real life .. fun :P", 
+            "clarity": "1", 
             "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "cmpt212": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT126": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.0", 
-    "easiness": "2.2", 
-    "clarity": "2.0"
+    "helpfulness": "4.0", 
+    "easiness": "3.1", 
+    "clarity": "3.8"
 }

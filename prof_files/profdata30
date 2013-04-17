@@ -1,29 +1,45 @@
 {
-    "first_name": "Hao\"Richard\"", 
-    "last_name": "Zhang", 
+    "first_name": "Jiangchuan", 
+    "last_name": "Liu", 
     "course_rating": {
-        "CMPT 250": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "250": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT250": {
-            "clarity": "1", 
-            "helpfulness": "3", 
+        "macm101": {
+            "comment": "\"His accent takes getting used to, but you'll be glad your in his macm101 class! His power points are very good and in lecture he actually does go into detail into the points which he tests you on.  So study the slides, listen to his lectures, do the assignments(practice/marked) and you should do well!  it takes practice, but once u get it its easy.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "Cmpt250": {
-            "clarity": "3", 
+        "CMPT 101": {
+            "comment": "'This guy is so boring.  I hate his voice.  Falling asleep in class", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT 371": {
+            "comment": "'Unbelieveably easy!!!", 
+            "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "5"
+        }, 
+        "macm 101": {
+            "comment": "'He is a great prof compared to other profs in CS...", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "MACM 101": {
+            "comment": "\"His own cell phone rings during class so he can't fault students when their phones ring. Rubbish as a prof. though. Only reason did well in the course is because I was taking Math 242 concurrently. Otherwise would have lost interest. Relatively ok exams, but harsh marking. Exceptionally smart but unable to bring himself down to 1st yr stud level.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "MACM101": {
+            "comment": "\"It's possible to do very well in this class without ever attending a lecture. (Lectures are incredibly boring; bring a pillow if you plan on attending.) PowerPoint notes are usually very clear and easy to understand. An good prof, if you have the will-power to actually listen to him during class.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.3", 
-    "clarity": "2.2"
+    "helpfulness": "3.5", 
+    "easiness": "3.3", 
+    "clarity": "3.2"
 }

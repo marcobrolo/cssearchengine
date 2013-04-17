@@ -1,8 +1,27 @@
 {
-    "first_name": "Ouldooz", 
-    "last_name": "Karimi", 
-    "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "first_name": "David", 
+    "last_name": "Mitchell", 
+    "course_rating": {
+        "CMPT 101": {
+            "comment": "'Always late!", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt 101": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT  101": {
+            "comment": "'boring, takes forever to mark stuff, easy fun hwk, messy finals(not hard)", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.8", 
+    "clarity": "1.8"
 }

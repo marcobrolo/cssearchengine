@@ -1,34 +1,21 @@
 {
-    "first_name": "Dan", 
-    "last_name": "Ridinger", 
+    "first_name": "Alireza", 
+    "last_name": "Khodabakhshi", 
     "course_rating": {
-        "cmpt 370": {
+        "CMPT102": {
+            "comment": "'His ex code posted online is full of errors. Then he corrects them in class &screws up more. Assignments &exams r very hard. GPA killer. then again im an mbb major who for some reason HAS to take this course for the degree. no idea why and its completely unrelated.", 
             "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "3"
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "CMPT475": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "CMPT370": {
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "CMPT 370": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "cmpt370": {
+        "CMPT225": {
+            "comment": "\"Useless lectures... reads off of PPT which is uploaded on the course website. Assignment code given is full of holes and you spend hours wondering WTF it won't compile... and if it doesn't compile you get 0 (no part marks). Exams are hard. Assignments are hard. Labs are hard...ish. Assignments are frequently changed/extended. Avoid if possible.", 
             "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "3"
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.9", 
-    "easiness": "3.5", 
-    "clarity": "2.9"
+    "helpfulness": "1.6", 
+    "easiness": "2.0", 
+    "clarity": "1.6"
 }

@@ -2,47 +2,38 @@
     "first_name": "Steven", 
     "last_name": "Pearce", 
     "course_rating": {
-        "cmpt": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
         "cmpt 165": {
+            "comment": "\"He is fun. At least, I never fell asleep in his class. But he doesn't know how to teach and sometimes be rude to students. The exam is not that much hard if you looked at his lecture notes. Just no need to pay attention to the textbook coz there is nothing from it in the exam.", 
             "clarity": "3", 
             "helpfulness": "1", 
             "easiness": "2"
         }, 
-        "macm 101": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
         "CMPT 165": {
+            "comment": "'No Comments", 
             "clarity": "2", 
             "helpfulness": "2", 
             "easiness": "3"
         }, 
-        "320": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "MACM 201": {
+        "macm 101": {
+            "comment": "'should not have become teacher.\\r should have gone into show business.\\r would be a fine stand up comedian.\\r better than a lot of those that come on tv these days.", 
             "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
         "cmpt 320": {
+            "comment": "'No Comments", 
             "clarity": "3", 
             "helpfulness": "3", 
             "easiness": "3"
         }, 
         "CMPT 320": {
+            "comment": "\"Take the course with him. Very light load of homework because he knows students are naturally lazy. Pay attention in class and pick out what he says will be on the exam and you'll A it otherwise you'll probably fail.", 
             "clarity": "5", 
             "helpfulness": "2", 
             "easiness": "4"
         }, 
         "MACM 101": {
+            "comment": "'funny guy, but the class material is awful. tests are hard too", 
             "clarity": "3", 
             "helpfulness": "2", 
             "easiness": "2"

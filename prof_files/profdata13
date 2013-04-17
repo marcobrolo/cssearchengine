@@ -1,44 +1,51 @@
 {
-    "first_name": "Jiangchuan", 
-    "last_name": "Liu", 
+    "first_name": "Anne", 
+    "last_name": "Lavergne", 
     "course_rating": {
-        "cmpt771": {
-            "clarity": "5", 
-            "helpfulness": "5", 
+        "Cmpt128": {
+            "comment": "\"She doesn't know how to teach. She doesn't teach clearly.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "4"
         }, 
-        "MACM101": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "4"
-        }, 
-        "cmpt371": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "CMPT307": {
+        "CMPT165": {
+            "comment": "\"Course was easy but she can't teach when it comes to learning...she provides abstract information instead...just read the book and you are good to go...tests are fairly easy", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "5"
         }, 
-        "CMPT365": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
+        "CMPT 165": {
+            "comment": "'The lecture notes are disorganized and unhelpful. (there are more than 10 sets of notes for one Unit). The speed of the professor is unnecessarily slow. Thanks to this class, I lost my interest in Computing Science :(", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "CMPT371": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "3"
+        "cmpt225": {
+            "comment": "\"Spends too much time of simple things such a definitions. Doesn't teach any code. Assignments were long and tedious. Doesn't give solutions to assignments. Midterm wasn't that bad. Final was brutal!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "macm101": {
+        "CMPT128": {
+            "comment": "'DO NOT TAKE A CLASS WITH HER ! YOU HAVE BEEN WARNED !", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt165": {
+            "comment": "'I enjoyed the class, the prof. really tried to make it interesting. The midterms and the final is easy as long as you read the lecture notes. But TAs marked assignments fairly strict, so make sure you have fixed all the details before submitting them.", 
             "clarity": "4", 
             "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "CMPT225": {
+            "comment": "\"She has no idea to teach! She didn't take responsibility to mark your assignment even though you do your assignment all night long,if it can't run,you has won't get any scores!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "3.5", 
-    "easiness": "3.3", 
-    "clarity": "3.2"
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.7"
 }

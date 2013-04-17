@@ -1,39 +1,15 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
+    "first_name": "Hassan", 
+    "last_name": "Khosravi", 
     "course_rating": {
-        "macm101": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "MACM201": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "easci108": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT320": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "EASC108": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "MACM101": {
-            "clarity": "1", 
-            "helpfulness": "1", 
+        "CMPT310": {
+            "comment": "'Liked his style", 
+            "clarity": "4", 
+            "helpfulness": "5", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "helpfulness": "3.7", 
+    "easiness": "2.5", 
+    "clarity": "4.0"
 }

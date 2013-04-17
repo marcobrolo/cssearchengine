@@ -1,39 +1,15 @@
 {
-    "first_name": "Janice", 
-    "last_name": "Regan", 
+    "first_name": "Alicja", 
+    "last_name": "Pierzynska", 
     "course_rating": {
-        "CMPTwut": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "cmptd200": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT128": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "CMPT371": {
-            "clarity": "3", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT471": {
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "cmpt128": {
+        "cmpt150": {
+            "comment": "'wow. this class was SO hard. maybe it was just me but being a comp. sci major, i found this harder than java and macm201 together. she does not explain anything. has really strong accent. good luck if u have her! shes a nice person tho.", 
             "clarity": "1", 
             "helpfulness": "1", 
-            "easiness": "3"
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.8", 
-    "easiness": "2.0", 
-    "clarity": "2.4"
+    "helpfulness": "3.6", 
+    "easiness": "2.7", 
+    "clarity": "2.9"
 }

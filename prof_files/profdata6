@@ -1,8 +1,45 @@
 {
-    "first_name": "Marjan", 
-    "last_name": "Marzban", 
-    "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "first_name": "David", 
+    "last_name": "Mitchell", 
+    "course_rating": {
+        "cmpt125": {
+            "comment": "'very unorganized and lectures are not prepared", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT126": {
+            "comment": "\"This is the worse professor I've seen.  The course content was not an introduction to java programming.  Even after reading and practicing I am failing.  Professor misses class, is late for class, and never reply emails.  If you are a first timer, i suggest you stay far away from him.  Probability of failing is high.  (Midterms are killer.)", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "'didnt learn anything from him, worst prof ever!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt126": {
+            "comment": "\"The biggest problem in his class is that this prof is kinda unorganized.Though he explains things well, his lecture notes are messy and always updated late. That's why half of the students failed to catch up. Exams are fair for those who paid attention in the lecture and studied notes carefully.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT225": {
+            "comment": "\"I highly do not suggest taking this course with him. As many would say before me, several valuable cancelled labs, assignments that weren't on a regular schedule, and boring lectures with lots of notes that doesn't flow well. My marks suffered due to these major issues. And I thought he (like other good profs) would care how people learn...", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt225": {
+            "comment": "'I am still taking his course, but this guy is an idiot.  He creates an assignment, gives us 2 weeks to do it, does not release the sample program until 4 days before the due date.  1 Day before the assignment is due he corrects HIS errors.  Also the test program had bugs in it when he uploaded.  I am going to lose marks because of HIS incompetence.", 
+            "clarity": "4", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.8", 
+    "clarity": "1.8"
 }

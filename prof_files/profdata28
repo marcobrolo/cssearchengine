@@ -1,24 +1,15 @@
 {
-    "first_name": "Frank", 
-    "last_name": "Vandenberg", 
+    "first_name": "Wo-Shun", 
+    "last_name": "Luk", 
     "course_rating": {
-        "CMPT275": {
-            "clarity": "4", 
-            "helpfulness": "5", 
+        "CMPT 354": {
+            "comment": "'His english is poor and his lectures are boring. There were ONLY 6 out of 20 students went to his lecture.  He has no organization on notes. No practical assignments (no SQL setup and triggers). No body has enough time to finish the midterm.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
             "easiness": "2"
-        }, 
-        "Cmpt275": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "cmpt275": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
         }
     }, 
-    "helpfulness": "5.0", 
-    "easiness": "2.7", 
-    "clarity": "4.3"
+    "helpfulness": "2.1", 
+    "easiness": "2.4", 
+    "clarity": "1.9"
 }

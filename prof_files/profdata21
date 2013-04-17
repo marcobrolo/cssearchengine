@@ -1,19 +1,27 @@
 {
-    "first_name": "Wo-Shun", 
-    "last_name": "Luk", 
+    "first_name": "Kay", 
+    "last_name": "Wiese", 
     "course_rating": {
-        "CMPT 354": {
+        "MACM101": {
+            "comment": "'Very Good Prof. If you do not understand anything he will explain very well. If you do understand it can be quiet boring. Assignments and Midterms are very similar and he allows cheat sheets on finals and midterms. Highly recommended you take him for MACM.", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "3"
+            "easiness": "4"
         }, 
-        "CMPT 454": {
-            "clarity": "1", 
+        "MACM 101": {
+            "comment": "'One of the best professors for teaching MACM 101. Midterm was extremely easy. As long as you attend lecture and do the homework/review questions, you can easily get 80%+", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "macm101": {
+            "comment": "'MACM 101 by Kay is the easist A. All the class is talkin abt Junior higih and high school stuff. MIdterm is pretty is easy. Final is much trickier. four assigments are vital. But if u review bf exam, then an AAAAA.", 
+            "clarity": "4", 
             "helpfulness": "1", 
-            "easiness": "3"
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "2.1", 
-    "easiness": "2.4", 
-    "clarity": "1.9"
+    "helpfulness": "3.8", 
+    "easiness": "4.2", 
+    "clarity": "4.5"
 }

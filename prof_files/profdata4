@@ -3,69 +3,58 @@
     "last_name": "Moller", 
     "course_rating": {
         "engl311": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "ENGL 306": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "ENGL203": {
+            "comment": "'Awesome. Makes learning this subject interesting and fun. This is the way teachers were meant to teach. His lectures are funny and he managed to make a boring topic really interesting... Best Proff to have... I would recommend all of his classes whether they are interesting or not...", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
         }, 
+        "ENGL203": {
+            "comment": "'Torsten is FANTASTIC. Lectures are painless, assignments are explained clearly, NO FINAL!, fun in class group play, nice guy and generally picks good material. Thumbs up! SFU better give him tenture before he gets a better offer.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
         "CMPT461": {
+            "comment": "'Numerous students are dissatisfied with this course, but perhaps we should direct our anger towards the TA, not the professor. The word \"harsh\" is not enough to describe the TA. I have never spent so much time on an assignment only to receive 10%. On the other hand, I find Torsten genuinely interested in the course material, smart, & helpful.", 
             "clarity": "5", 
             "helpfulness": "4", 
             "easiness": "2"
         }, 
         "eng 315": {
+            "comment": "'No Comments", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "3"
         }, 
         "eng 311": {
+            "comment": "\"Very nice guy, easy-going and empathetic towards student's needs.  Funny sense of humour and really into his Shakespeare.  Made the material understandable.", 
             "clarity": "4", 
             "helpfulness": "5", 
             "easiness": "5"
         }, 
-        "314": {
-            "clarity": "4", 
+        "Engl311": {
+            "comment": "'Just a really nice guy", 
+            "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "Engl311": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "ENGL310": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
         "ENG311": {
+            "comment": "\"Torsten ROCKS!!!! He is incredibly laid back and you feel it in his lectures. They are enjoyable AND you leave learning a few things too!!! Super understanding and picks some GREAT material to read.\\r I loved him sooo much Im taking 342 with him in the fall. He's awesome. You will think so too!\\r Best English prof I've encountered at SFU!!!", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
         }, 
         "ENGL311": {
+            "comment": "\"One of the most easy-going, helpful, engaging profs I've ever had. He knows his stuff, and he actually cares that his students learn it, too. He is beyond reasonable, understanding, and witty. Anyone who says otherwise is just afraid to be out-classed. Attend just ONE day--just the first class, please, and judge for yourself.", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "5"
         }, 
-        "CMPT316": {
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
         "CMPT361": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
+            "comment": "\"What's wrong with you stupid arts people, this is the CMPT Torsten ! OK!? Torsten is one of the worst profs in cmpt at sfu. His lecture is not informative at all, labs are brutally long and hard. His exams are hard in the sense that you never know what he's gonna test you on. It could be anything that he said in the lecture but not on the slides.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
     "helpfulness": "4.4", 

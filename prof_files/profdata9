@@ -1,39 +1,21 @@
 {
-    "first_name": "Ted", 
-    "last_name": "Milner", 
+    "first_name": "Kevin", 
+    "last_name": "McQuiggin", 
     "course_rating": {
-        "kin 306": {
+        "Comp101": {
+            "comment": "'Amazing Instructor!", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "1"
+            "easiness": "3"
         }, 
-        "kin201": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "306, 301": {
+        "cmpt123": {
+            "comment": "'This is my first computing science class! I am getting a good mark because he makes the course material so interesting. His exams and quizzes are fairly easy as long as you go over the slices! He is the best prof i have ever had in sfu!", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "1"
-        }, 
-        "Kin306": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "Kin 306": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "Kin416": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.5", 
-    "easiness": "1.1", 
-    "clarity": "2.5"
+    "helpfulness": "5.0", 
+    "easiness": "4.0", 
+    "clarity": "4.8"
 }

@@ -1,34 +1,27 @@
 {
-    "first_name": "David", 
-    "last_name": "Mitchell", 
+    "first_name": "Anoop", 
+    "last_name": "Sarkar", 
     "course_rating": {
-        "CMPT 101": {
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "cmpt 101": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "4"
-        }, 
-        "101/104": {
-            "clarity": "1", 
-            "helpfulness": "2", 
+        "CMPT 379": {
+            "comment": "'Writing a compiler is a fair bit of work so beware the assignments.  Was an interesting class with pretty good notes (although perhaps a little overemphasis on grammars --- his research focus)", 
+            "clarity": "4", 
+            "helpfulness": "4", 
             "easiness": "2"
         }, 
-        "\\xa0": {
-            "clarity": "2", 
-            "helpfulness": "1", 
+        "CMPT413": {
+            "comment": "'Great prof with great passion toward natural language processing.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
             "easiness": "2"
         }, 
-        "CMPT  101": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "5"
+        "CMPT379": {
+            "comment": "\"On one hand,he is a nice and funny person.on the other hand, he doesn't really teach you anything,or he doesn't know how to teach.Notes are confusing rather than enlightening.Instructi0ns for Assignments are vague, you have to guess what he expects you to do.That being said, he seems to be better than the other prof(Shermer) who teachs 379 tho", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "1.9", 
-    "easiness": "2.8", 
-    "clarity": "1.8"
+    "helpfulness": "3.8", 
+    "easiness": "2.2", 
+    "clarity": "4.0"
 }

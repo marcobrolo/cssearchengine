@@ -1,59 +1,45 @@
 {
-    "first_name": "Art", 
-    "last_name": "Liestman", 
+    "first_name": "Jiangchuan", 
+    "last_name": "Liu", 
     "course_rating": {
+        "cmpt771": {
+            "comment": "'Very good professor. I am now very interested in networking related works.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "MACM101": {
+            "comment": "'Lectures are all done in powerpoint, with the professor reading them off. Midterms and exams are very hard. This professor also taught us graph theory, which is not a part of the course, but in MACM201. This was not covered in the final exam, and was a giant waste of time. Before assignments are due, TAs would show students the answer book.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
         "CMPT307": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT 307": {
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "CMPT405": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "cmpt 308": {
-            "clarity": "4", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "CMPT 308": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "MACM 101": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "1"
-        }, 
-        "cmpt405": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "1"
-        }, 
-        "CMPT308": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT376": {
+            "comment": "'Good professor, and very easy course, seems that almost all students get 80+", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "5"
         }, 
-        "macm 101": {
+        "CMPT365": {
+            "comment": "'JC is a quite helpful and nice prof. The two projects are related to the course content and you can learn a lot if you really put effort on them. The exam is fair and not difficult if you know concepts well.", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
+        }, 
+        "CMPT371": {
+            "comment": "'Somehow I thought he was going to teach another easy class.  I had him for MACM 101 and it was fine.  For CMPT 371, for some reason the class was just so ridiculously hard.  His exams are nothing like questions in the book or asked on the assignment.  I want to cry from his final.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "macm101": {
+            "comment": "\"he's well prepared for the lectures. no class before exams. the three assignments worth a lot. attending his lecture will make his powerpoint notes more clear. he gives in-lecture examples that appear in final. he scales the class quite a lot. he does not intend to fail anyone. final exam class average is 30% but he bell curves it to a B.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "2.4", 
-    "clarity": "4.0"
+    "helpfulness": "3.5", 
+    "easiness": "3.3", 
+    "clarity": "3.2"
 }

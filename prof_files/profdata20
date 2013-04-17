@@ -1,29 +1,63 @@
 {
-    "first_name": "Kay", 
-    "last_name": "Wiese", 
+    "first_name": "Torsten", 
+    "last_name": "Moller", 
     "course_rating": {
-        "macm 101": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "MACM101": {
+        "Engl 311": {
+            "comment": "\"Torsten is a great prof.  Sometimes goes off on very hilarious tangents.  The most understanding prof I've had when it comes to assignments.", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "MACM 101": {
+        "ENGL 313": {
+            "comment": "\"Torsten's great. 'Nuff said.", 
             "clarity": "5", 
-            "helpfulness": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "ENG 313": {
+            "comment": "\"Torsten was a great prof. He really knows what he's talking about and his lectures are always interesting and funny. He makes reading Shakspeares plays really enjoyable, and helps students understand the deeper meaning in the plays.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "macm101": {
+        "ENG 311": {
+            "comment": "'Great prof.! Creates an open class environment condusive to intelluctual discourse; funny, friendly, knowledgable on subject matter; intrested in seeing students succeed.  Recommended, wholeheartedly.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Engl 308": {
+            "comment": "\"Torsten is my favorite Engl prof.  However, this is probably the worst class I've taken with him, and though it was still good, I prefer his Shakespeare courses, which everybody should take.  Some advice: if you like structured courses with specific dates then Torsten is not the prof for you.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "313 & 308": {
+            "comment": "'Torsten is interesting, kind, honest, and genuine, and supportive.  Absolutely loved his classes!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "360": {
+            "comment": "'Awesome prof.", 
             "clarity": "4", 
             "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "311, 310": {
+            "comment": "\"Best prof in English Dept(not tenured yet to boot).  Actually believes the theory should inform the text, a rare novelty at SFU's usually theory driven lackies.  Take him for as much as you can.  Can't believe someone thinks he's hot!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "English 31', u'1/313": {
+            "comment": "'Torsten is by far my favourite prof, in any faculty! Very nice, knowledgeable, un-intimidating, and funny to boot! If structure is your thing...what are you doing in the arts? Keeps a light environment and understands the pressures of being an undergrad. Take as much as you can with him!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "4"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "4.2", 
-    "clarity": "4.5"
+    "helpfulness": "4.4", 
+    "easiness": "3.5", 
+    "clarity": "4.2"
 }

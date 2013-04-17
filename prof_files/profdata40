@@ -1,39 +1,21 @@
 {
-    "first_name": "Colin", 
-    "last_name": "Stewart", 
+    "first_name": "Gabor", 
+    "last_name": "Tardos", 
     "course_rating": {
-        "CMPT165": {
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "4"
+        "CMPT710": {
+            "comment": "'He is absolutely very knowledgeable and cares a lot about the students. On the other hand, the way he presents the lectures is kind of messy and not very decent.", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "2"
         }, 
-        "CMPT125": {
+        "CMPT307": {
+            "comment": "'No Comments", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 165": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "cmpt120": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "1"
-        }, 
-        "CMPT120": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "cmpt165": {
-            "clarity": "2", 
-            "helpfulness": "4", 
-            "easiness": "1"
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "2.6", 
-    "clarity": "3.9"
+    "helpfulness": "4.8", 
+    "easiness": "2.0", 
+    "clarity": "4.1"
 }

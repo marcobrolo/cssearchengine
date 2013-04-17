@@ -1,24 +1,27 @@
 {
-    "first_name": "Gabor", 
-    "last_name": "Tardos", 
+    "first_name": "Steve", 
+    "last_name": "Shen", 
     "course_rating": {
-        "CMPT710": {
-            "clarity": "3", 
-            "helpfulness": "5", 
-            "easiness": "2"
+        "CMPT 165": {
+            "comment": "'If you see his name on your schedule...    commit suicide.  He will never know anything, this is his quote when you ask a question... \"I don\\'t know, maybe you did something wrong,\" and also \"You may not know something, but thas ok, you don\\'", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "CMPT407": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "2"
+        "cmpt 165": {
+            "comment": "'never helpful, NEVER u ask him something what\\'s the problem. he will tell u that \"somehting\" is wrong. that \"something\" which u will never know", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "CMPT307": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
+        "CMPT165": {
+            "comment": "'he calls the tech support for no reason almost every class.... probably the tech guy is speaking his language also which is \"i dont know! maybe u did something wrong!!!!\"", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "4.8", 
-    "easiness": "2.0", 
-    "clarity": "4.1"
+    "helpfulness": "1.2", 
+    "easiness": "2.3", 
+    "clarity": "1.1"
 }

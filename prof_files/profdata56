@@ -1,69 +1,15 @@
 {
-    "first_name": "Anne", 
-    "last_name": "Lavergne", 
+    "first_name": "Chris", 
+    "last_name": "Schmidt", 
     "course_rating": {
-        "cmpt 101": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT201": {
+        "CMPT120": {
+            "comment": "\"The prof doesn't know how to teach, he just assume all other students are expert. this course is just an introductory course to programming, and he never explain through examples, only main theories which we can just read off the textbook... the assignments are extremely hard, tests are so hard too.. avg was very low~ OVERALL WORST PROF I HAVE HAD!", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
-        }, 
-        "computing": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "CMPT 201": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 101": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "5"
-        }, 
-        "CMPT 225": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "201,275": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "cmpt225": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "cmpt 225": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "1"
-        }, 
-        "CMPT 275": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 101 &', u' 201": {
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "2"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.7"
+    "helpfulness": "1.1", 
+    "easiness": "1.6", 
+    "clarity": "1.1"
 }

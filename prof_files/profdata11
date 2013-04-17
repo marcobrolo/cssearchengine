@@ -1,49 +1,39 @@
 {
-    "first_name": "Zhong", 
-    "last_name": "Zhang", 
+    "first_name": "Torsten", 
+    "last_name": "Moeller", 
     "course_rating": {
-        "CMPT 300": {
+        "CMPT 466": {
+            "comment": "'Thinks before he says something. Knows the subject well.", 
             "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
+            "helpfulness": "5", 
+            "easiness": "2"
         }, 
-        "CMPT300": {
+        "CMPT 361": {
+            "comment": "'TOUGH course, he teaches it as if it was 2 courses instead of 1!", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT361": {
+            "comment": "'I had unfavorable profs, but none are even close to this completely irresponsible one. Lec mostly graphic terms out of the dictionary, interesting but totally irrelevant to his asns and tests. Asn outline unclear and he offers almost no help. Around 20/22 students", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 361": {
+            "comment": "'No Comments", 
             "clarity": "1", 
             "helpfulness": "2", 
             "easiness": "2"
         }, 
-        "cmpt300": {
+        "math 461": {
+            "comment": "'Worst. Lectures. Evar.", 
             "clarity": "1", 
-            "helpfulness": "1", 
+            "helpfulness": "2", 
             "easiness": "1"
-        }, 
-        "CMPT401": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "cmpt 250": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "cmpt401": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT400": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "cmpt 401": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "1.9"
+    "helpfulness": "2.5", 
+    "easiness": "1.5", 
+    "clarity": "2.1"
 }

@@ -1,24 +1,51 @@
 {
-    "first_name": "Thomas", 
-    "last_name": "Shermer", 
+    "first_name": "Janice", 
+    "last_name": "Regan", 
     "course_rating": {
-        "CMPT379": {
-            "clarity": "2", 
+        "cmpt275": {
+            "comment": "\"WOWWWWW, the class is extremely boring. The material is very important however it is dry and boring as ****. Janice doesn't do much to make the course interesting either.  Her exams are fair, however you got to fight for every single mark for the assignments. This course is extremely time consuming so take it with less course load.", 
+            "clarity": "3", 
             "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "cmpt379": {
+        "Cmpt128": {
+            "comment": "\"She knows what she's doing but she's terrible at teaching. She's horrible at explaining concepts. 2/5 TA's were actually helpful when they were around the other 2 didn't know**** and the one of them was really stuck up and mean.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "CMPT300": {
+            "comment": "'One of the worst professors I have ever had to deal with.", 
             "clarity": "1", 
-            "helpfulness": "4", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT128": {
+            "comment": "'THE WORST PROF ive ever had !doesnt teach you anything , but on her midterms and finals and her labs and quizes she asks you the hardest questions . but the only good thing about her is that you can submit you assignments as a group and she scales at the end of the course , cuz the average is so damn low! do not take CMPT 128 with her", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT275": {
+            "comment": "'A good professor stuck teaching a terrible, terrible course.  The material is abundant and uninteresting, the workload is immense, and the interest level is very low.  She does the best she can with those constraints.  She will help if you need it and actually go ask her.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT471": {
+            "comment": "\"AVOID! Weekly long ans quiz random (study wrong area and interfere with hwk), possibly last 2 classes (not 1 as promised), not covered by 1hr review (distracting to cram before break), 2004-5 samples irrelevant. Notes don't flow well to remember process, talk fast to cover 32 slides! Lecture not helpful for hwk, DIY UNIX socket lib and shell script", 
+            "clarity": "2", 
+            "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "MACM101": {
-            "clarity": "2", 
+        "cmpt128": {
+            "comment": "'this prof is a nightmare. she\\'d never taught us any thing in the lacutre and her TAs cant help us at all. th quizs and labs are ultra hard even for a student who have taken C++ before. she designed mid terms which mean to fail us. and once, i was having a lab and i asked her question. she said:\"just pretend im at here!! go and ask other people!!\"", 
+            "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }
     }, 
-    "helpfulness": "3.0", 
-    "easiness": "1.7", 
-    "clarity": "1.7"
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
+    "clarity": "2.4"
 }

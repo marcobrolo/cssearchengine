@@ -1,49 +1,21 @@
 {
-    "first_name": "Joseph", 
-    "last_name": "Peters", 
+    "first_name": "Tariq", 
+    "last_name": "Nuruddin", 
     "course_rating": {
-        "cmpt405": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "2"
+        "CMPT150": {
+            "comment": "'bad...bad...bad...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
         }, 
-        "CMPT 305": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT371": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "CMPT307": {
+        "cmpt150": {
+            "comment": "\"He is so not organize..He doesn't explain much..Gave us a taking home assignment(part of mid-term) the same day he taught the materials and needed to finish in less than 2 days of time.The TA is useless.Did only 1-2 Qs during a 50mins lab.Everything sucks in his class.", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
-        }, 
-        "CMPT 371": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT405": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "CMPT305": {
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "cmpt371": {
-            "clarity": "1", 
-            "helpfulness": "3", 
-            "easiness": "2"
         }
     }, 
-    "helpfulness": "3.2", 
-    "easiness": "2.3", 
-    "clarity": "3.1"
+    "helpfulness": "1.3", 
+    "easiness": "1.9", 
+    "clarity": "1.3"
 }

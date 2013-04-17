@@ -1,14 +1,51 @@
 {
-    "first_name": "Andrea", 
-    "last_name": "Tagliasacchi", 
+    "first_name": "Russ", 
+    "last_name": "Tront", 
     "course_rating": {
-        "CMPT275": {
+        "CMPT 454": {
+            "comment": "'Can anyone name a better CS prof than this guy?", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt475": {
+            "comment": "'good teaching but high workload", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt 275": {
+            "comment": "'brings his diverse and interesting industry experiences to class.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "comment": "'The best instructor I ever had at SFU, hands down.  Unpretentious and caring guy", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 475": {
+            "comment": "'Took 370 with him too. You learn A LOT from him, very dedicated but tough", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt370": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 275": {
+            "comment": "'Excellent professor with excellent attitude. Gives a lot of relevant examples", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
         }
     }, 
-    "helpfulness": "5.0", 
-    "easiness": "4.0", 
-    "clarity": "5.0"
+    "helpfulness": "4.2", 
+    "easiness": "2.8", 
+    "clarity": "4.2"
 }

@@ -1,64 +1,27 @@
 {
-    "first_name": "Jan", 
-    "last_name": "Manuch", 
+    "first_name": "Ze-Nian", 
+    "last_name": "Li", 
     "course_rating": {
-        "CMPT212": {
+        "CMPT 365": {
+            "comment": "'He assumes everybody in the class is a multimedia genius, given how hard this area is.He usually only spend couple of mins on explaining a complex algorithm orally without any hand written on the board.Those things are not easy for anyone who has never touched this area.How can this course be an introduction,with being taught by this guy?Cmon SFU!!", 
             "clarity": "1", 
             "helpfulness": "1", 
-            "easiness": "3"
+            "easiness": "1"
         }, 
-        "CMPT 307": {
-            "clarity": "2", 
-            "helpfulness": "2", 
+        "CMPT 414 (": {
+            "comment": "'excellent prof. Very knowledgable, also knows how to teach and motivate students", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "2"
         }, 
-        "CMPT 225": {
+        "CMPT365": {
+            "comment": "\"He is a nice person. BUT he does not know how to teach at all!! lectures are extremely unclear,jumps from here to there,strong accent, the worst one I've seen in SFU. Assignments are very difficult!For suitable for graduate students, not for undergrads.Do yourself a favor and avoid him.", 
             "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "MATH157": {
-            "clarity": "3", 
             "helpfulness": "1", 
             "easiness": "2"
-        }, 
-        "MATH308": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "5"
-        }, 
-        "cmp212": {
-            "clarity": "1", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "Math157": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "CMPT225": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "Cmpt 307": {
-            "clarity": "1", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "Math308": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "cmpt225": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
         }
     }, 
     "helpfulness": "2.5", 
-    "easiness": "2.7", 
-    "clarity": "1.9"
+    "easiness": "1.4", 
+    "clarity": "2.1"
 }

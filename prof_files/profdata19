@@ -1,59 +1,45 @@
 {
-    "first_name": "David", 
-    "last_name": "Mitchell", 
+    "first_name": "Hao\"Richard\"", 
+    "last_name": "Zhang", 
     "course_rating": {
-        "cmpt 101": {
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "5"
-        }, 
-        "All classe', u's": {
-            "clarity": "1", 
-            "helpfulness": "3", 
+        "cmpt361": {
+            "comment": "'Marking is unfair", 
+            "clarity": "2", 
+            "helpfulness": "2", 
             "easiness": "1"
         }, 
-        "CMPT125": {
+        "cmpt 250": {
+            "comment": "'Dixon or baker will be better", 
             "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "4"
-        }, 
-        "cmpt126": {
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "4"
-        }, 
-        "CMPT 101": {
-            "clarity": "2", 
-            "helpfulness": "3", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "cmpt125": {
-            "clarity": "2", 
-            "helpfulness": "1", 
+        "CMPT466": {
+            "comment": "'Very interesting course. Get an early start on the term project so that you can get feedback that you can implement. Prof is very open to concerns and questions. You have to think for the homework and midterm, just be precise with your answers.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 250": {
+            "comment": "'If every teacher put as much effort into helping his class learn as Richard does we would all be better off.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 361": {
+            "comment": "\"This guy really makes you feel like you could fail his course, even though you probably won't. Do you enjoy 40 - 60 hour assignments? Sign up and kiss your GPA in all courses good bye.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
             "easiness": "2"
         }, 
-        "CMPT126": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT 125": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "CMPT 126": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "cmpt 125": {
-            "clarity": "1", 
-            "helpfulness": "1", 
+        "CMPT361": {
+            "comment": "'You will learn something from good lecture notes. Programming was very demanding in assignments but seemed rewarding to finish. Midterm and Final were average-to-hard. Text was not good but everything was based on lectures anyway.", 
+            "clarity": "5", 
+            "helpfulness": "3", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "1.9", 
-    "easiness": "2.8", 
-    "clarity": "1.8"
+    "helpfulness": "2.7", 
+    "easiness": "2.3", 
+    "clarity": "2.2"
 }

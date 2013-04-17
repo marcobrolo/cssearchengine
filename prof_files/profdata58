@@ -1,39 +1,27 @@
 {
-    "first_name": "Colin", 
-    "last_name": "Stewart", 
+    "first_name": "Janice", 
+    "last_name": "Regan", 
     "course_rating": {
-        "cmpt110": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "CMPT165": {
-            "clarity": "3", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT110": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "Cmpt110": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "CMPT120": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "Cmpt165": {
+        "cmpt128": {
+            "comment": "'when she explains things she expects u to already no stuff about c++. When i tried paying attention in class she was really confusing. her midterms r really long and hard.", 
             "clarity": "1", 
             "helpfulness": "1", 
-            "easiness": "5"
+            "easiness": "3"
+        }, 
+        "CMPT128": {
+            "comment": "'Nice person, but teaches the most simple rules of programming, that we can simply get from the textbook. Her assignments/exams are extremely long and difficult. Rather than just teach us stuff we can get from the textbook, she should go over difficult codes in class, and describe how things work in the actual code.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT371": {
+            "comment": "\"Terrible prof! all she does is read slides in class, takes too long to give out grades and solutions to quizzes and assignments. Doesn't teach anything in class but gives harsh marks.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "2.6", 
-    "clarity": "3.9"
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
+    "clarity": "2.4"
 }

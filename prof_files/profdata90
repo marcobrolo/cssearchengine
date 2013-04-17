@@ -1,44 +1,51 @@
 {
-    "first_name": "Oliver", 
-    "last_name": "Schulte", 
+    "first_name": "Janice", 
+    "last_name": "Regan", 
     "course_rating": {
-        "CMPT882": {
-            "clarity": "2", 
-            "helpfulness": "1", 
+        "cmpt371": {
+            "comment": "\"Although she is sometimes a bit unorganized (e.g.: forgets to put stuff up on the website in time), she's very friendly and willing to answer any and all questions. She has lots of office hours. Assignments are reasonable, but sometimes ambiguously worded. Exams involve lots of writing.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT300": {
+            "comment": "\"Good prof who's interested in teaching and explaining.  If the student shows extra interest, she'll go out of her way to help if there's need.  Very fair exams if you know what you're doing, even though they're really long and you're expected to write like your life depends on it, the marking is fair overall.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT275": {
+            "comment": "\"Ok, seriously. I've seen some of these other comments and I think some of them are unwarranted. She's not really a bad prof, but the courses she teaches tend to suck.. a lot (275). She just doesn't do much to make them  interesting.\\r \\r Exams: Easy but waaay too long.\\r Work Load: Insane\\r \\r Oh, and she takes off marks for bad spelling.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
             "easiness": "1"
         }, 
-        "CMPT318": {
-            "clarity": "4", 
-            "helpfulness": "4", 
+        "cmpt 104": {
+            "comment": "'too much work, often extended b/c notes in classes are insufficient; most students have computer programming background; can be intimitated to new comers", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt471": {
+            "comment": "'The first assignment is quite heavy but do not get scared by it. This is the biggest by far of all of the assignments.This is a great class as long as you want to learn about internet protocols and you should attend most classes if you can! Beware of the length of her notes.Try to study early for the final otherwise you will have to read 500 pages", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "CMPT310": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "2"
+        "CMPT128": {
+            "comment": "'From the first day to the last day the pace of this course is going really fast. This intro class will require you to have a good background in programming or else you will do horrible.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
         }, 
-        "CMPT726": {
+        "CMPT 275": {
+            "comment": "\"If you take this course with Janice, don't take ANY other courses.  She will assign so much work you won't sleep or eat for the last month and a half of classes.  Did I mention she picks apart even the most robust, well constructed project with pure joy and has exams that you can't finish in the alloted time even if you could cut and paste?", 
             "clarity": "1", 
             "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "CMPT320": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT354": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "CMPT 354": {
-            "clarity": "4", 
-            "helpfulness": "5", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "2.4", 
-    "easiness": "2.9", 
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
     "clarity": "2.4"
 }

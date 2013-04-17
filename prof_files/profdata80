@@ -1,24 +1,45 @@
 {
-    "first_name": "Anoop", 
-    "last_name": "Sarkar", 
+    "first_name": "Harinder", 
+    "last_name": "Khangura", 
     "course_rating": {
-        "CMPT 379": {
-            "clarity": "4", 
+        "MACM101": {
+            "comment": "'interesting course.fantastic prof,speaking clearly and making difficult things really easy for u to understand!!midterms are pretty easy.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT300": {
+            "comment": "'Amazing prof. He makes things so easy to understand and is very good with answering any questions or clarifying his in-class examples. His assignments can be tough but he gives very good directions as to how to do them while still being able to teach the important lesson of the assignment.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Desi101": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt165": {
+            "comment": "'He is a good prof for sure! However, I think he demands his students in this course too much", 
+            "clarity": "5", 
             "helpfulness": "4", 
             "easiness": "2"
         }, 
-        "CMPT413": {
+        "CMPT250": {
+            "comment": "'I think Harinder is a good prof. His lectures are very organized and if you do not understand, you can ask him after class or in office hour. He is not an easy prof. His exams are pretty tricky. If you do well in labs and assignments, you are going to be getting B+.", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "3"
+            "easiness": "2"
         }, 
-        "CMPT379": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
+        "CMPT150": {
+            "comment": "'Awesome prof", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "2.2", 
-    "clarity": "4.0"
+    "helpfulness": "4.7", 
+    "easiness": "3.8", 
+    "clarity": "5.0"
 }

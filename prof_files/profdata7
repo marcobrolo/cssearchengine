@@ -1,44 +1,8 @@
 {
-    "first_name": "Wo-Shun", 
-    "last_name": "Luk", 
-    "course_rating": {
-        "cmpt 354": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "cmpt354": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "CMPT454": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "CMPT354": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "Cmpt 354": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "Cmpt354": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "CMPT 354": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }
-    }, 
-    "helpfulness": "2.1", 
-    "easiness": "2.4", 
-    "clarity": "1.9"
+    "first_name": "Marjan", 
+    "last_name": "Marzban", 
+    "course_rating": {}, 
+    "helpfulness": "", 
+    "easiness": "", 
+    "clarity": ""
 }

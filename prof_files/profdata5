@@ -1,39 +1,39 @@
 {
-    "first_name": "David", 
-    "last_name": "Mitchell", 
+    "first_name": "Senqiang", 
+    "last_name": "Zhou", 
     "course_rating": {
-        "cmpt125": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "CMpt 300": {
+            "comment": "'the easiest proff at SFU!!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }, 
-        "CMPT126": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT125": {
+        "CMPT 300": {
+            "comment": "'You pretty much get what you work for.", 
             "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "cmpt126": {
-            "clarity": "2", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT225": {
-            "clarity": "1", 
             "helpfulness": "2", 
-            "easiness": "2"
+            "easiness": "4"
         }, 
-        "cmpt225": {
-            "clarity": "4", 
+        "Cmpt 300": {
+            "comment": "\"Worst professor I have ever had.  Very unhelpful during office hours, can't understand anything in class due to his poor english.  No knowledge of the material outside his notes.  Avoid him at all costs.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT300": {
+            "comment": "'Worst lecturer that I have ever had. If you take a course with this guy, avoid class at all costs. Bloody hard assignments and Exams. Scales the class so that the actual grades are pretty decent though.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT 401": {
+            "comment": "'Very bad prof.  Cant speak english, cant communicate material, and very unhelpful.  Avoid him.", 
+            "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "3"
         }
     }, 
     "helpfulness": "1.9", 
-    "easiness": "2.8", 
-    "clarity": "1.8"
+    "easiness": "3.4", 
+    "clarity": "1.7"
 }

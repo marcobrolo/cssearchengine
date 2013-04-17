@@ -2,49 +2,34 @@
     "first_name": "Tom", 
     "last_name": "Shermer", 
     "course_rating": {
-        "cmpt 361": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "CMPT379": {
+            "comment": "\"If you want to take a class where you don't really have to do much work, just study for the exams, take his.  Assignments are really easy and take almost no time to do.  Lectures follow the book, so skip if you want to.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }, 
         "\\xa0": {
+            "comment": "'Teaches well, but is a careless and pompous undergrad advisor", 
             "clarity": "3", 
             "helpfulness": "3", 
             "easiness": "3"
         }, 
+        "CMPT 361": {
+            "comment": "'I have learned less in this course than any other because of this professor.  He enjoys leaving exams till the last minute (I think he writes them an hour or two before time).  His exams and assignments are riddled with error.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
         "MACM101": {
+            "comment": "'no comments", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
         "CM": {
+            "comment": "'No Comments", 
             "clarity": "3", 
             "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "cmpt361": {
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "CMPT379": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT 361": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT 379": {
-            "clarity": "1", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "macm101": {
-            "clarity": "2", 
-            "helpfulness": "1", 
             "easiness": "1"
         }
     }, 

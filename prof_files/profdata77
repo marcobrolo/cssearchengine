@@ -1,24 +1,33 @@
 {
-    "first_name": "Tariq", 
-    "last_name": "Nuruddin", 
+    "first_name": "Hassan", 
+    "last_name": "Khosravi", 
     "course_rating": {
-        "COM100": {
+        "cmpt354": {
+            "comment": "'Good instructor and fair mareker.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT310": {
+            "comment": "'Interesting assignments and final.", 
             "clarity": "2", 
-            "helpfulness": "2", 
+            "helpfulness": "1", 
             "easiness": "3"
         }, 
-        "CMPT150": {
-            "clarity": "1", 
-            "helpfulness": "2", 
+        "cmptd100": {
+            "comment": "'realy bad- hard final he didnt even teach what he asked on final , worst TA , no respond to your email , dont take with him", 
+            "clarity": "2", 
+            "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "cmpt150": {
-            "clarity": "1", 
-            "helpfulness": "1", 
+        "CMPT354": {
+            "comment": "'Good prof, knows the material well and extremely fair marker.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "1.3", 
-    "easiness": "1.9", 
-    "clarity": "1.3"
+    "helpfulness": "3.7", 
+    "easiness": "2.5", 
+    "clarity": "4.0"
 }

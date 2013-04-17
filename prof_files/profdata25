@@ -1,49 +1,15 @@
 {
-    "first_name": "Anne", 
-    "last_name": "Lavergne", 
+    "first_name": "Art", 
+    "last_name": "Liestman", 
     "course_rating": {
-        "CPMT125": {
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "CMPT125": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT275": {
-            "clarity": "2", 
+        "MACM 101": {
+            "comment": "'Very entertaining and very clear", 
+            "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "cmpt165": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "cmpt275": {
-            "clarity": "3", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "cmpt125": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT128": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT165": {
-            "clarity": "4", 
-            "helpfulness": "1", 
-            "easiness": "5"
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.7"
+    "helpfulness": "3.8", 
+    "easiness": "2.4", 
+    "clarity": "4.0"
 }

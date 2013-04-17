@@ -1,29 +1,27 @@
 {
-    "first_name": "Alicja", 
-    "last_name": "Pierzynska", 
+    "first_name": "Valentine", 
+    "last_name": "Kabanets", 
     "course_rating": {
-        "CMPT125": {
+        "cmpt307": {
+            "comment": "'An extremely hard subject taught clearly. Cares a lot for students. Answers questions thoroughly. Gives challenging homework but fair tests.", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "cmpt150": {
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "CMPT250": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "CMPT150": {
-            "clarity": "4", 
+        "CMPT307": {
+            "comment": "\"I never was very good at math. However, his teaching is very good. You understand the core concepts quite well. Also, his assignments/exams and their marking are very fair, unlike many other math courses I've taken. As long as you put effort into the class, you will do OK. Everyone I've talked to likes him, and I'm not surprised.", 
+            "clarity": "5", 
             "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 308": {
+            "comment": "'Fair assignments + Midterm. Final..i didn\\xe8t pass.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "3.6", 
-    "easiness": "2.7", 
-    "clarity": "2.9"
+    "helpfulness": "4.5", 
+    "easiness": "2.8", 
+    "clarity": "4.4"
 }

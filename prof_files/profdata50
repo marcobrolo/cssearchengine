@@ -1,59 +1,39 @@
 {
-    "first_name": "Torsten", 
-    "last_name": "Moller", 
+    "first_name": "Anne", 
+    "last_name": "Lavergne", 
     "course_rating": {
-        "cmpt 466": {
+        "CMPT275": {
+            "comment": "'easy, her lecture notes can be redundant and confusing at times - even for herself.", 
             "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "308": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT 461": {
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "ENG 313": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "ENG 310": {
-            "clarity": "4", 
             "helpfulness": "4", 
             "easiness": "4"
         }, 
-        "cmpt 361": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
+        "CMPT 201": {
+            "comment": "\"Assignments were dead easy, but took some time, midterms also dead easy, as was the final exam.  But what I can't understand is how she scaled the course, went into the final with an A in the course, came out a lot lower, she said she needed more distribution, maybe pressure from CMPT faculty?", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "4"
         }, 
-        "Cmpt 361 C": {
-            "clarity": "4", 
-            "helpfulness": "4", 
+        "cmpt": {
+            "comment": "\"She teaches you the basics and then tests you on unbelievably hard topics.  It's like teaching students addition and then testing them on calculus.  I did well cuz i'm a computer geek, but I really didn't like her teaching methods.  No wonder half the class got an A and the other half failed.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "Cmpt 361": {
-            "clarity": "4", 
+        "CMPT165": {
+            "comment": "\"Best Prof ever!  She was very clear in her lectures for this class and if you just go to lecture you won't have to read the book because her notes cover even more than the text.  I have heard she is not as great in the upper level classes.  She's very energetic and always made the class fun!  I totally recommend Anne.", 
+            "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "3"
+            "easiness": "5"
         }, 
-        "CMPT361": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "308 / 310": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "4"
+        "CMPT225": {
+            "comment": "'Extremely poor teaching and unfair marking schemes. Will never take a course with her again. I wish I can drop it now! I would much rather lose $400 than continue in her class. Its so painful!!!!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "4.4", 
-    "easiness": "3.5", 
-    "clarity": "4.2"
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.7"
 }

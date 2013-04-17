@@ -1,64 +1,39 @@
 {
-    "first_name": "Manuel", 
-    "last_name": "Zahariev", 
+    "first_name": "Zhong", 
+    "last_name": "Zhang", 
     "course_rating": {
-        "CMPT212": {
-            "clarity": "5", 
-            "helpfulness": "5", 
+        "CMPT 300": {
+            "comment": "\"Pretty good. Lots of writing, and the three-hour course was trying, but that's not his fault. Fair assignments, relatively easy tests, good coverage of the material.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "CMPT": {
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "CMPT 307": {
-            "clarity": "3", 
-            "helpfulness": "5", 
-            "easiness": "2"
-        }, 
-        "cmpt 220": {
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT307": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "2"
-        }, 
-        "CMPT 212": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "2"
-        }, 
-        "Cmpt 212": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "2"
-        }, 
-        "cmpt120": {
-            "clarity": "5", 
-            "helpfulness": "5", 
+        "cmpt 250": {
+            "comment": "'language is his barrior from delivering a clear lecture, very very organized notes and easy to get alone", 
+            "clarity": "2", 
+            "helpfulness": "4", 
             "easiness": "5"
         }, 
-        "CMPT 363": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "cmpt 307": {
-            "clarity": "2", 
-            "helpfulness": "2", 
+        "cmpt401": {
+            "comment": "'Oh my god! I can not imgine SFU have such a professor. Bad lucks had me to take 300 and 401 he taught. If I had a chance to choose again, I will sleep home instead of taking his lecture:(.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "cmpt 120": {
-            "clarity": "2", 
-            "helpfulness": "3", 
+        "CMPT400": {
+            "comment": "\"Poorest teacher I have ever had. Not only boring and pointless, but annoyoing. He actually reads out the course material, no clarity, just repetition, no insight, bad english. BTW, assignments and exams did suck. DON'T TAKE this class with him.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT401": {
+            "comment": "'he looks much nervous and blushes... it is very difficult to understand his poor English. Can i get my money back? -1 teaching ability. Avoid him!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "1"
         }
     }, 
-    "helpfulness": "3.9", 
-    "easiness": "2.3", 
-    "clarity": "3.7"
+    "helpfulness": "2.3", 
+    "easiness": "2.4", 
+    "clarity": "1.9"
 }

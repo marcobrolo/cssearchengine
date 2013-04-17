@@ -1,59 +1,21 @@
 {
-    "first_name": "Hao\"Richard\"", 
-    "last_name": "Zhang", 
+    "first_name": "Greg", 
+    "last_name": "Mori", 
     "course_rating": {
-        "cmpt361": {
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "Cmpt 250": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "cmpt 250": {
-            "clarity": "1", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT461": {
+        "CMPT 310": {
+            "comment": "\"Excellent Prof. Lectures are informative and interesting. You learn excellent techniques that are practical in real life. Very helpful. One of the best profs I've ever had! If he is teaching, take that course!", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "1"
+            "easiness": "4"
         }, 
-        "CMPT466": {
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 250": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT 361": {
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "cmpt 361": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "CMPT361": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT250": {
+        "cmpt310": {
+            "comment": "'great prof. will take his course again at any cost.", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "5"
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.3", 
-    "clarity": "2.2"
+    "helpfulness": "4.2", 
+    "easiness": "3.0", 
+    "clarity": "4.3"
 }

@@ -1,54 +1,39 @@
 {
-    "first_name": "Anne", 
-    "last_name": "Lavergne", 
+    "first_name": "Joseph", 
+    "last_name": "Peters", 
     "course_rating": {
-        "201": {
-            "clarity": "3", 
-            "helpfulness": "3", 
+        "cmpt371": {
+            "comment": "'He is a helpful and nice professor.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "3"
         }, 
-        "cmpt 201": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "CMPT201": {
+        "CMPT 371": {
+            "comment": "'His assignments are empty-hearted and exams are ill-fated.", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "Cmpt 201": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT 101": {
-            "clarity": "3", 
+        "CMPT307": {
+            "comment": "\"Marking is based only on many quizzes and final exam. 20 minute quizzes were given about once a week or so.  I found these quizzes hard and also he doesn't give us enough time.  Class average on these quizzes were low.  The instructor does not give out useful notes so be prepared to study from the textbook yourself.", 
+            "clarity": "2", 
             "helpfulness": "3", 
-            "easiness": "3"
+            "easiness": "1"
         }, 
-        "cmpt-201": {
-            "clarity": "5", 
+        "CMPT371": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "cmpt405": {
+            "comment": "'The prof was 100% dedicated to making the learning experience best possible for the students. Even then, the material is difficult and hard to focus at, so either read carefully in advance or prepare to study on your own after the lecture.", 
+            "clarity": "4", 
             "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "cmpt 275": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT 275": {
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT 201": {
-            "clarity": "3", 
-            "helpfulness": "2", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.7"
+    "helpfulness": "3.2", 
+    "easiness": "2.3", 
+    "clarity": "3.1"
 }

@@ -1,19 +1,45 @@
 {
-    "first_name": "Russ", 
-    "last_name": "Tront", 
+    "first_name": "Fred", 
+    "last_name": "Popowich", 
     "course_rating": {
-        "CMPT 370": {
+        "CMPT165": {
+            "comment": "\"horrible. this class was all over the place. the assignments were based on 1-2 examples that didn't give you enough information. will not return emails. the text books were poorly written. all around horrible.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt275": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 165": {
+            "comment": "'Always comes in with a smile. High enthusiasm for teaching. However, the course is joke - good for the computer illiterates.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "3"
         }, 
-        "CMPT 275": {
-            "clarity": "5", 
+        "CMPT 413": {
+            "comment": "'Very enthusiastic, very interested in the topic, gives very good lectures. Assignments were reasonable and well-related. Readily available for help.", 
+            "clarity": "4", 
             "helpfulness": "5", 
-            "easiness": "1"
+            "easiness": "3"
+        }, 
+        "cmpt165": {
+            "comment": "\"nice prof :) always happy and has interest in what hes teaching. email him questions, he will answer them and try to help you as much as possible. TAs don't help, they gave a bad attitude. His lectures are from the courseware, he makes questions and does his own examples showing you step by step so you can do the hw. good prof! :)highly recommend h", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "4.2", 
+    "helpfulness": "2.8", 
     "easiness": "2.8", 
-    "clarity": "4.2"
+    "clarity": "3.0"
 }

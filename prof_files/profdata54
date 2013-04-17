@@ -1,54 +1,39 @@
 {
-    "first_name": "Senqiang", 
-    "last_name": "Zhou", 
+    "first_name": "Dan", 
+    "last_name": "Ridinger", 
     "course_rating": {
-        "CMP 300": {
-            "clarity": "1", 
-            "helpfulness": "1", 
+        "cmpt 370": {
+            "comment": "\"it's not a hard course, but lecture is boring.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
             "easiness": "3"
         }, 
-        "Cmpt 300": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "CMpt 300": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "cmpt300": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT300": {
+        "CMPT475": {
+            "comment": "\"Assign aren't necessarily hard in terms of workload but because of extremely vague details and marking criteria, marks on avg are pretty low.  Assign consist of just making tasks in Feng Office which really only takes less than an hour of actual time.  TA doesn't read writing, don't bother.  Just make lots of tasks.  Final is vague.", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "4"
         }, 
-        "cmpt 401": {
-            "clarity": "2", 
+        "CMPT370": {
+            "comment": "'It\\'s \"real world experience in a course\" at it\\'s best. High emphasis on design modeling, with most of it already being familiar at this level of education. He\\'s clear and knows what he is talking about. 1st midterm based solely on notes and 2nd and final on models. Funny guy at times.", 
+            "clarity": "5", 
             "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "CMPT 300": {
-            "clarity": "1", 
-            "helpfulness": "1", 
+        "CMPT 370": {
+            "comment": "'Good Prof, Knows his stuff very well. Could make classes a little bit more fun, but not bad overall.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "3"
         }, 
-        "Cmpt 401": {
+        "cmpt370": {
+            "comment": "'Nice lecture, and is not a terribly boring speaker.  Grading is huge minus though.  The course material is very easy, but freaky marking means you get a mediocre grade no matter how hard you try.  Assignment directions are very vague and unhelpful.  Exam grading is rigid and oftimes illogical.", 
             "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "4"
-        }, 
-        "CMPT 401": {
-            "clarity": "1", 
-            "helpfulness": "1", 
+            "helpfulness": "2", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "1.9", 
-    "easiness": "3.4", 
-    "clarity": "1.7"
+    "helpfulness": "2.9", 
+    "easiness": "3.5", 
+    "clarity": "2.9"
 }

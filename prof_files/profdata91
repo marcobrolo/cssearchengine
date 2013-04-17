@@ -1,34 +1,33 @@
 {
-    "first_name": "Jian", 
-    "last_name": "Pei", 
+    "first_name": "Ted", 
+    "last_name": "Kirkpatrick", 
     "course_rating": {
-        "CMPT 354": {
+        "cmpt 383": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 383": {
+            "comment": "'Easy contents but hard exams.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Cmpt 363": {
+            "comment": "'Gotta be the easiest class in Cmpt Sci", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "5"
         }, 
-        "300": {
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "cmpt 300": {
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "cmpt300": {
+        "CMPT 363": {
+            "comment": "'Sometimes unorganized, but a good prof. Lots of in-class practise, which is the best way to learn this material (practice, review, evaluate eachothers\\' work). Nice guy, great UI anecdotes. Always concerned about the \\'UI\\' of the classroom! (\"Can you see that there? Is that too bright/blurry/dark/small?\") :)", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
-        }, 
-        "cmpt 454": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "3"
         }
     }, 
-    "helpfulness": "4.0", 
-    "easiness": "3.1", 
-    "clarity": "3.8"
+    "helpfulness": "3.6", 
+    "easiness": "3.9", 
+    "clarity": "3.4"
 }

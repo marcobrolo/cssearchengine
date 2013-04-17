@@ -1,29 +1,51 @@
 {
-    "first_name": "Janice", 
-    "last_name": "Regan", 
+    "first_name": "Steven", 
+    "last_name": "Pearce", 
     "course_rating": {
-        "CMPT 101": {
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "4"
+        "MACM101": {
+            "comment": "'This professor is the worst professor I ever had. Pearce does not teach as much as he rambles about his personal life. He constantly talkes about his exwife, how useless the subject is, and about his vacation trips. In addition, he will completly ruin the subject for you.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
         }, 
-        "cmpt 101": {
+        "CMPT 100": {
+            "comment": "'The man certainly is a quack. One may rightly feel he is well aware and knowledgeable but a frivolous professor.", 
             "clarity": "2", 
             "helpfulness": "2", 
             "easiness": "2"
         }, 
-        "CMPT 371": {
+        "CMPT 165": {
+            "comment": "\"Jokes were lame but there were a few laughs.  He spent most of the time on trying to humour the class......it was unsuccessful.  Don't think I learned much in his class because he can't teach.  Just take the notes down once in a while and read the text.", 
             "clarity": "2", 
-            "helpfulness": "3", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT320": {
+            "comment": "'As far as teaching is concerned, 0. Not to mention his impoliteness. And when I say impolite, I mean REALLY impolite.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "CMPT371": {
+        "CMPT 320": {
+            "comment": "'Jokes around too much. Lets that class leave early regularly. Swears in class once in a while.", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt 320": {
+            "comment": "\"awesome sense of humour, super smart, makes the course exciting, doesn't answer questions well, very random, have to watch stupid sci fi movies", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt100": {
+            "comment": "'No Comments", 
             "clarity": "1", 
-            "helpfulness": "4", 
-            "easiness": "1"
+            "helpfulness": "1", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.8", 
-    "easiness": "2.0", 
+    "helpfulness": "2.3", 
+    "easiness": "2.4", 
     "clarity": "2.4"
 }

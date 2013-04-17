@@ -1,44 +1,27 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
+    "first_name": "Salahuddin", 
+    "last_name": "Muntaseer", 
     "course_rating": {
-        "MACM101": {
-            "clarity": "1", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "cmpt300": {
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "5"
-        }, 
-        "CMPT300": {
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "com320": {
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "cmpt320": {
-            "clarity": "3", 
+        "cmpt120": {
+            "comment": "'He is a very nice guy, very helpful if you go to his office hour. He is willing to give examples and explain to you. Not many assignment but they are time consuming, prepare them as early as you can", 
+            "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "MACM 101": {
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "3"
+        "CMPT120": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }, 
-        "CMPT320": {
+        "CMPT 125": {
+            "comment": "\"Doesn't teach much in lecture, and what he does teach can be learned in much less time by reading the textbook or finding tutorials online. Seems like a nice guy but doesn't know how to teach.", 
             "clarity": "3", 
-            "helpfulness": "4", 
+            "helpfulness": "3", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "helpfulness": "4.7", 
+    "easiness": "3.9", 
+    "clarity": "4.3"
 }
