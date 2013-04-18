@@ -77,40 +77,11 @@
 	<div id="footer">
 		<div id="footer-inner">
 			<div class="footer-heading">Other's who've taught this course</div>
-
+			{% for comment in comments %}
 			<div class="other">
-				<div class="other-name"><a href="#"><span>Steven Pearce</span> - Lecturer</a></div>
-				<div class="other-website"><a href="#">http://cs.sfu.ca/~stevenp</a></div>
-				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+				<div class="other-name"><a href="#"><span>{{comment.comments}}</span> </a></div>
 			</div>
-
-			<div class="other">
-				<div class="other-name"><a href="#"><span>Mark Drew</span> - Professor</a></div>
-				<div class="other-website"><a href="#">http://cs.sfu.ca/~mark</a></div>
-				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
-			</div>
-
-			<div class="other">
-				<div class="other-name"><a href="#"><span>Diana Cukierman</span> - Senior Lecturer</a></div>
-				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
-			</div>
-
-						<div class="other">
-				<div class="other-name"><a href="#"><span>Steven Pearce</span> - Lecturer</a></div>
-				<div class="other-website"><a href="#">http://cs.sfu.ca/~stevenp</a></div>
-				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
-			</div>
-
-			<div class="other">
-				<div class="other-name"><a href="#"><span>Mark Drew</span> - Professor</a></div>
-				<div class="other-website"><a href="#">http://cs.sfu.ca/~mark</a></div>
-				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
-			</div>
-
-			<div class="other">
-				<div class="other-name"><a href="#"><span>Diana Cukierman</span> - Senior Lecturer</a></div>
-				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
-			</div>
+			{% endfor %}
 
 		</div>
 	</div>
