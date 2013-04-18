@@ -19,14 +19,17 @@ def prof_overall(course_id):
     clarity = 0.0
     easiness = 0.0
     helpfulness = 0.0
-    best_clarity = ''
-    best_easiness = ''
-    best_helpfulness = ''
+    best_clarity = {'clarity__avg': 0.0}
+    best_easiness = {'easiness__avg': 0.0}
+    best_helpfulness = {'helpfulness__avg': 0.0}
     course = Course.objects.get(pk=course_id)
     CR = CourseRating.objects.filter(course=course_id)
     list_of_profs = [] #list of prof ids who have taught this course before
     for possible_Profs in CR:
         # fill list of profs who've taught this course
+        if possible_Profs.prof_id =='':
+            print"ERROR"
+            return "NULL", "NULL", best_clarity, best_easiness, best_helpfulness
         if possible_Profs.prof_id not in list_of_profs:
             list_of_profs.append(possible_Profs.prof_id)
     #print "prof list", list_of_profs
@@ -71,9 +74,17 @@ def professor_profile(request, prof_id):
 def course_profile(request, course_id):
     course = Course.objects.get(pk=course_id)
     CR = CourseRating.objects.filter(course=course_id)
+    best_prof = ''
     # figure out whos best prof and his score for this course
     best_prof_id, best_avg, helpfulness, clarity, easiness = prof_overall(course_id)
-    best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
+    # do edge case, if no RMP record of any prof teaching this course
+    try:
+        best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
+    except:
+        disclaimer = "No record of proffesors teaching this course, rate now!"
+        best_prof = Prof.objects.create(first_name=disclaimer, last_name="", helpfulness='0', clarity ='0', easiness='0')
+        print("NO PROF FOR THIS COURSE?", best_prof_id)
+
     #print "best prof is ", best_prof.first_name, best_prof.last_name, best_avg
 
     #clarity = CourseRating.objects.filter(course=course_id).aggregate(Avg('clarity'))
