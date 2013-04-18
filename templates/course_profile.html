@@ -1,4 +1,5 @@
 <!doctype html>
+{% load humanize %}
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
@@ -28,11 +29,11 @@
 		<table class="course-info">
 			<tr>
 				<td class="info-type">Course Number:</td>
-				<td>456</td>
+				<td>{{course.code}}</td>
 			</tr>
 			<tr>
 				<td class="info-type">Course Name:</td>
-				<td>Information Retrieval and Web Search</td>
+				<td>{{course.name}}</td>
 			</tr>
 			<tr class="highlight">
 				<td class="info-type">Course Engine Recommends:</td>
@@ -47,26 +48,26 @@
 				<div class="score">
 					<div>
 						<div class="overall-heading">OVERALL SCORE</div>
-						<div class="overall-score">3.8 / 5.0</div>
+						<div class="overall-score">{{overall|floatformat:1|intcomma}} / 5.0</div>
 					</div>
 
 					<div class="subscores">
 						<div class="clarity subscore">
 							<div class="subscore-heading">CLARITY</div>
-							<div class="subscore-value">3.9</div>
+							<div class="subscore-value">{{clarity|floatformat:1|intcomma}}</div>
 						</div>
 						<div class="helpfulness subscore">
 							<div class="subscore-heading">HELPFULNESS</div>
-							<div class="subscore-value">3.7</div>
+							<div class="subscore-value">{{helpfulness|floatformat:1|intcomma}}</div>
 						</div>
 						<div class="easiness subscore">
 							<div class="subscore-heading">EASINESS</div>
-							<div class="subscore-value">3.3</div>
+							<div class="subscore-value">{{easiness|floatformat:1|intcomma}}</div>
 						</div>
 					</div>
 
 					<div class="comments">
-						<div class="comments-count"><img src="{{ STATIC_URL }}images/comments.png" alt="Comments"><a href="#">17 Comments from fellow students</a></div>
+						<div class="comments-count"><img src="{{ STATIC_URL }}images/comments.png" alt="Comments"><a href="#">Comments from fellow students</a></div>
 					</div>
 				</div>
 			</div>
@@ -80,6 +81,12 @@
 			{% for comment in comments %}
 			<div class="other">
 				<div class="other-name"><a href="#"><span>{{comment.comments}}</span> </a></div>
+			<!-- </br>
+				<div class="other-name"><a href="#"><span>{{comment.easiness}}</span> </a></div>
+			</br>
+				<div class="other-name"><a href="#"><span>{{comment.clarity}}</span> </a></div>
+			</br>
+				<div class="other-name"><a href="#"><span>{{comment.helpfulness}}</span> </a></div> -->
 			</div>
 			{% endfor %}
 
