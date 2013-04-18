@@ -2,7 +2,7 @@
     "first_name": "Yuzhuang", 
     "last_name": "Hu", 
     "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "helpfulness": "0", 
+    "easiness": "0", 
+    "clarity": "0"
 }

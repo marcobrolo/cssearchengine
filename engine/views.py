@@ -12,6 +12,45 @@ from haystack.views import FacetedSearchView
 from django.contrib.humanize.templatetags.humanize import intcomma
 
 
+def prof_overall(course_id):
+    # find the best prof for the given courseID
+    best_prof = ''
+    best_avg = 0.0
+    clarity = 0.0
+    easiness = 0.0
+    helpfulness = 0.0
+    best_clarity = ''
+    best_easiness = ''
+    best_helpfulness = ''
+    course = Course.objects.get(pk=course_id)
+    CR = CourseRating.objects.filter(course=course_id)
+    list_of_profs = [] #list of prof ids who have taught this course before
+    for possible_Profs in CR:
+        # fill list of profs who've taught this course
+        if possible_Profs.prof_id not in list_of_profs:
+            list_of_profs.append(possible_Profs.prof_id)
+    #print "prof list", list_of_profs
+    # go through the list and find the prof with best avg score
+    for profID in list_of_profs:
+        overall = 0
+        PR = CR.filter(prof=profID)
+        # find the prof's average
+        helpfulness = PR.aggregate(Avg('helpfulness'))
+        clarity = PR.aggregate(Avg('clarity'))
+        easiness = PR.aggregate(Avg('easiness'))
+        if not (clarity['clarity__avg'] is None or helpfulness['helpfulness__avg'] is None or  easiness['easiness__avg'] is None):
+            overall = (clarity['clarity__avg'] + helpfulness['helpfulness__avg'] + easiness['easiness__avg'] )/3
+        # compare the average to current best average, to see which prof is better
+        if best_avg < overall:
+            best_avg = overall
+            best_prof = profID
+            best_clarity = clarity
+            best_easiness = easiness
+            best_helpfulness = helpfulness
+        # now we have the best prof and his score, return it
+    #print best_prof, best_avg
+    return best_prof, best_avg, best_helpfulness, best_clarity, best_easiness
+
 def search_page(request):
     return render_to_response('home.html', RequestContext(request))
 
@@ -32,14 +71,18 @@ def professor_profile(request, prof_id):
 def course_profile(request, course_id):
     course = Course.objects.get(pk=course_id)
     CR = CourseRating.objects.filter(course=course_id)
+    # figure out whos best prof and his score for this course
+    best_prof_id, best_avg, helpfulness, clarity, easiness = prof_overall(course_id)
+    best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
+    #print "best prof is ", best_prof.first_name, best_prof.last_name, best_avg
 
-    clarity = CourseRating.objects.filter(course=course_id).aggregate(Avg('clarity'))
-    helpfulness = CourseRating.objects.filter(course=course_id).aggregate(Avg('helpfulness'))
-    easiness = CourseRating.objects.filter(course=course_id).aggregate(Avg('easiness'))
-    
-    overall = 0
-    if not (clarity['clarity__avg']  is None or helpfulness['helpfulness__avg'] is None or  easiness['easiness__avg'] is None):
-    	overall = (clarity['clarity__avg'] + helpfulness['helpfulness__avg'] + easiness['easiness__avg'] )/3
+    #clarity = CourseRating.objects.filter(course=course_id).aggregate(Avg('clarity'))
+    #helpfulness = CourseRating.objects.filter(course=course_id).aggregate(Avg('helpfulness'))
+    #easiness = CourseRating.objects.filter(course=course_id).aggregate(Avg('easiness'))
+
+    #overall = 0
+    #if not (clarity['clarity__avg'] is None or helpfulness['helpfulness__avg'] is None or  easiness['easiness__avg'] is None):
+    #	overall = (clarity['clarity__avg'] + helpfulness['helpfulness__avg'] + easiness['easiness__avg'] )/3
 
     context = {
             'course': course,
@@ -47,7 +90,8 @@ def course_profile(request, course_id):
             'clarity': clarity['clarity__avg'],
     		'helpfulness': helpfulness['helpfulness__avg'],
     		'easiness': easiness['easiness__avg'],
-    		'overall': overall
+    		'overall': best_avg,
+            'best_prof': best_prof
     }
     return render_to_response('course_profile.html', context, context_instance=RequestContext(request))
 

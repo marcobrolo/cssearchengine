@@ -49,7 +49,7 @@ with con:
         	print "we got same last names ", row[1]
 print prof_list_db_fullname
 while(1):
-	print "file counter", file_counter
+	#print "file counter", file_counter
 	file_name = "profdata"+ str(file_counter)
 	file_path = "prof_files/" + file_name
 	file_counter += 1
@@ -74,13 +74,13 @@ while(1):
 			#print "WTF", possible_prof
 			#find same last name dif first name
 			if lev.ratio(possible_prof, prof_name_first) > lev_ratio:
-				print"fixing name", prof_name_full, prof_name_first, possible_prof
+				#print"fixing name", prof_name_full, prof_name_first, possible_prof
 				prof_name_first = possible_prof
 				prof_name_full = prof_name_first+profs["last_name"]
-				print "now", prof_name_full
+				#print "now", prof_name_full
 
 	if prof_name_last not in prof_list_db_lastname:
-		print prof_name_last, " not in db"
+		print prof_name_last, "last name not in db"
 		prof_not_in_db_list.append(prof_name_full)
 		continue
 	else:
@@ -103,9 +103,18 @@ while(1):
 				print "ERROR: our prof_list_db_dict id is not in DB"
 				exit()
 			# begin adding in the ratings
-			print db_id, prof_name_full
+			#print db_id, prof_name_full
 			#print "before update ranks", get_prof_from_db(str(db_id))
-			cur.execute("UPDATE engine_prof SET helpfulness=?, clarity=?, easiness=? WHERE Id=?", (profs["helpfulness"], profs["clarity"], profs["easiness"], str(db_id)))        
+			helpfulness = profs["helpfulness"]
+			easiness = profs["easiness"]
+			clarity = profs["clarity"]
+			if helpfulness == '':
+				helpfulness = '0'
+			elif easiness == '':
+				easiness = '0'
+			elif clarity == '':
+				clarity = '0'
+			cur.execute("UPDATE engine_prof SET helpfulness=?, clarity=?, easiness=? WHERE Id=?", (helpfulness, clarity, easiness, str(db_id)))        
     		con.commit()
     		#print "after update ranks ", get_prof_from_db(db_id)
 			# we can start adding in the values of scrapped data

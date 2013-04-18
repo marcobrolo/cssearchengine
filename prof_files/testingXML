@@ -1,0 +1,121 @@
+Database: eg.db (/home/draco/Dropbox/SFU/cmpt456/project/cssearchengine/eg.db, SQLite 3)
+
+
+Table: auth_permission
+
+Table: auth_group_permissions
+
+Table: auth_group
+
+Table: auth_user_user_permissions
+
+Table: auth_user_groups
+
+Table: auth_user
+
+Table: auth_message
+
+Table: django_content_type
+
+Table: django_session
+
+Table: django_site
+
+Table: django_admin_log
+
+Table: engine_prof
+
+Table: engine_course
+
+Table: engine_courserating
+
+Index: auth_permission_e4470c6e
+-----------------------------------------
+CREATE INDEX auth_permission_e4470c6e ON auth_permission ( 
+    content_type_id 
+);
+
+
+Index: auth_group_permissions_bda51c3c
+-----------------------------------------
+CREATE INDEX auth_group_permissions_bda51c3c ON auth_group_permissions ( 
+    group_id 
+);
+
+
+Index: auth_group_permissions_1e014c8f
+-----------------------------------------
+CREATE INDEX auth_group_permissions_1e014c8f ON auth_group_permissions ( 
+    permission_id 
+);
+
+
+Index: auth_user_user_permissions_fbfc09f1
+-----------------------------------------
+CREATE INDEX auth_user_user_permissions_fbfc09f1 ON auth_user_user_permissions ( 
+    user_id 
+);
+
+
+Index: auth_user_user_permissions_1e014c8f
+-----------------------------------------
+CREATE INDEX auth_user_user_permissions_1e014c8f ON auth_user_user_permissions ( 
+    permission_id 
+);
+
+
+Index: auth_user_groups_fbfc09f1
+-----------------------------------------
+CREATE INDEX auth_user_groups_fbfc09f1 ON auth_user_groups ( 
+    user_id 
+);
+
+
+Index: auth_user_groups_bda51c3c
+-----------------------------------------
+CREATE INDEX auth_user_groups_bda51c3c ON auth_user_groups ( 
+    group_id 
+);
+
+
+Index: auth_message_fbfc09f1
+-----------------------------------------
+CREATE INDEX auth_message_fbfc09f1 ON auth_message ( 
+    user_id 
+);
+
+
+Index: django_session_c25c2c28
+-----------------------------------------
+CREATE INDEX django_session_c25c2c28 ON django_session ( 
+    expire_date 
+);
+
+
+Index: django_admin_log_fbfc09f1
+-----------------------------------------
+CREATE INDEX django_admin_log_fbfc09f1 ON django_admin_log ( 
+    user_id 
+);
+
+
+Index: django_admin_log_e4470c6e
+-----------------------------------------
+CREATE INDEX django_admin_log_e4470c6e ON django_admin_log ( 
+    content_type_id 
+);
+
+
+Index: engine_courserating_ff48d8e5
+-----------------------------------------
+CREATE INDEX engine_courserating_ff48d8e5 ON engine_courserating ( 
+    course_id 
+);
+
+
+Index: engine_courserating_191ba533
+-----------------------------------------
+CREATE INDEX engine_courserating_191ba533 ON engine_courserating ( 
+    prof_id 
+);
+

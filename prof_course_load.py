@@ -2,16 +2,22 @@ import json
 import sqlite3 as lite
 from pprint import pprint
 import re
+import Levenshtein as lev
 
 file_counter = 1
 
 computing_naming_list = ['cmpt', 'comp', 'computing', 'macm', 'campt']
 invalid_course_names = []
 con = lite.connect('eg.db')
-prof_list_db_dict = {}
+prof_list_db_fullname = []
 prof_list_db_lastname = []
+prof_list_repeated_lastnames = []
+prof_list_db_dict = {}
+prof_not_in_db_list= []
+prof_firstname_id_dict ={}
 course_list_db = []
 course_list_db_dict = {}
+
 
 # get prof last name and id in table
 # get courseid and id in table
@@ -22,12 +28,25 @@ with con:
     
     while(True):
     	# fetch prof items from db and add into offline lists for post processing
+    	prof_firstname_id_dict = {}
     	row = cur.fetchone()
     	if row == None:
         	break
         if row[1] not in prof_list_db_lastname:
-        	prof_list_db_lastname.append(row[1].strip().lower())
-        	prof_list_db_dict[row[1]] = row[0]
+        	prof_list_db_lastname.append(row[1])
+        	prof_firstname_id_dict[row[2]] = row[0]
+        	prof_list_db_dict[row[1]] = prof_firstname_id_dict
+        else:
+        	prof_firstname_id_dict[row[2]] = row[0]
+        	for key, value in prof_list_db_dict[row[1]].iteritems():
+        		prof_firstname_id_dict[key] = value
+        	prof_list_db_dict[row[1]] = (prof_firstname_id_dict)
+        	for key, value in prof_list_db_dict[row[1]].iteritems():
+        		print "EEEEEEEEEEE multiple lsat names", row[1], key 
+        		prof_firstname_id_dict[key] = value
+        	prof_list_db_fullname.append((row[2]+row[1]))
+        	prof_list_repeated_lastnames.append((row[1],row[2]))
+        	print "we got same last names ", row[1]
 
     cur = con.cursor()
     cur.execute("SELECT * FROM engine_course")
@@ -56,23 +75,40 @@ while(1):
 		print(invalid_course_names)
 		exit()
 	
+
+
 #	fp = open(file_path)
 #	profs = json.load(fp)
-	prof_name_last = profs["last_name"].strip()
-	prof_name_check = profs["last_name"].strip().lower()
+	prof_name_last = profs["last_name"]
+	prof_name_check = profs["last_name"]
+	prof_name_first = profs["first_name"]
+	prof_name_full = profs["first_name"]+profs["last_name"]
 	course_list = profs["course_rating"]
 	course_name =''
-	course_number = ''
+	course_number = '0'
 	course_clarity = '0'
 	course_easiness ='0'
 	course_helpfulness ='0'
 	print course_list, "\n"
 
+	#figure out alternative names and same last names
+	if prof_name_last in prof_list_db_lastname:
+		# we got same last name but figure out first name
+		lev_ratio = 0.0
+		for possible_prof in prof_list_db_dict[prof_name_last]:
+			#print "WTF", possible_prof
+			#find same last name dif first name
+			if lev.ratio(possible_prof, prof_name_first) > lev_ratio:
+				print"fixing name", prof_name_full, prof_name_first, possible_prof
+				prof_name_first = possible_prof
+				prof_name_full = prof_name_first+profs["last_name"]
+				print "now", prof_name_full
+
 	for courseID, rank in course_list.iteritems():
 		course_clarity = '0'
 		course_easiness ='0'
 		course_helpfulness ='0'
-		course_comment = ''
+		course_comment = 'N/A'
 		courseID = courseID.lower()
 		courseID = courseID.replace(" ",'')
 		courseID = courseID.replace("\n",'')
@@ -90,7 +126,7 @@ while(1):
 			#print courseID, " is not a valid course"
 			continue
 		else:
-			f = open('error_prof_name.txt', 'w')
+			print course_name
 			for rank_name, rank_score in rank.iteritems():
 				if rank_name == "clarity":
 					course_clarity = rank_score
@@ -101,16 +137,21 @@ while(1):
 				elif rank_name == "comment":
 					course_comment = rank_score
 			courseID_db = "CMPT" + str(course_number)
-			if courseID_db in course_list_db:
+			if (courseID_db in course_list_db) and (prof_name_last in prof_list_db_lastname):
+				# get proper prof db id
+				db_id = ''
+				for key, value in prof_list_db_dict[prof_name_last].iteritems():
+					if key == prof_name_first:
+						db_id = value
+				if db_id == '':
+					print "EEEEEEEEEEEEE db_id not avail maybe matching prof dictionary no good"
 				if prof_name_check in prof_list_db_lastname:
 					cur.execute("insert into engine_courserating (course_id, prof_id, easiness, helpfulness, clarity, comments) values (?, ?, ?, ?, ?, ?)",
-		            (course_list_db_dict[courseID_db], prof_list_db_dict[prof_name_last], course_easiness, course_helpfulness, course_clarity, course_comment))
+		            (course_list_db_dict[courseID_db], str(db_id), course_easiness, course_helpfulness, course_clarity, course_comment))
 		    		con.commit()
+		    		print("finish commiting to db")
 		    	elif prof_name_check not in prof_list_db_lastname:
 		    		print "ERROR", prof_name_check, "not in db"
-		    		f.write(prof_name_check)
-		    		f.write('\n')
-		    	f.close()
 		    #else:
 		    #	print "ERROR:", courseID_db, " no in db"
 #trim ro strip nanmes

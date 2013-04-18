@@ -1,0 +1,1 @@
+<database>%BEGIN%<tables>%TABLES%</tables><indexes>%INDEXES%</indexes><triggers>%TRIGGERS%</triggers><views>%VIEWS%</views></database>

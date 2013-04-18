@@ -2,7 +2,7 @@
     "first_name": "Marjan", 
     "last_name": "Marzban", 
     "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "helpfulness": "0", 
+    "easiness": "0", 
+    "clarity": "0"
 }
