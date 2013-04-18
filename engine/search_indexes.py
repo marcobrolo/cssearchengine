@@ -32,9 +32,9 @@ site.register(Prof, ProfIndex)
 
 
 class CourseIndex(indexes.SearchIndex):
-    text = indexes.CharField(document=True, use_template=True)
-    code = indexes.CharField(model_attr='code', faceted=True)
-    name = indexes.CharField(model_attr='name', faceted=True)
+    text = indexes.NgramField(document=True, use_template=True)
+    code = indexes.NgramField(model_attr='code')
+    name = indexes.NgramField(model_attr='name')
     easiness = models.DecimalField()
     helpfulness = models.DecimalField()
     clarity = models.DecimalField()

@@ -15,7 +15,7 @@ class Prof(models.Model):
         return self.fullname()
 
     def get_absolute_url(self):
-        return reverse('engine.views.prof_profile_result', kwargs={'prof_id': self.id})
+        return reverse('engine.views.professor_profile', kwargs={'prof_id': self.id})
 
     def fullname(self):
         if self.last_name:
@@ -32,6 +32,9 @@ class Course(models.Model):
     def title(self):
         if self.code:
             return u"%s %s" % (self.code, self.name)
+
+    def get_absolute_url(self):
+        return reverse('engine.views.course_profile', kwargs={'course_id': self.id})
 
 
 class CourseRating(models.Model): 

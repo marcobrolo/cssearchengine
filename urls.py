@@ -25,7 +25,8 @@ urlpatterns = patterns('',
     # url(r'search/', include('haystack.urls'))
     url(r'^test/', 'engine.views.search_view'),
 
-    url(r'^prof_profile_result/(?P<prof_id>\d+)/$','engine.views.prof_profile_result'),
+    url(r'^professor/(?P<prof_id>\d+)/$', 'engine.views.professor_profile'),
+    url(r'^course/(?P<course_id>\d+)/$', 'engine.views.course_profile'),
 
     url(r'^prof_results/$', SearchView(
         template="professor_results.html",
@@ -35,7 +36,7 @@ urlpatterns = patterns('',
     name='haystack_search'),
 
     url(r'^search/$', SearchView(
-        template="professor_results.html",
+        template="search_results.html",
         searchqueryset=sqs,
         form_class=SearchForm
         ),

@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/reset.css">
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/style.css">
+</head>
+<body>
+<!-- HEADER -->
+	<div id="header">
+		<div id="header-inner">
+			<a href="#"><img src="{{ STATIC_URL }}images/sfusmall.png" alt="SFU Courses Engine"></a>
+		</div>
+	</div>
+<!-- END HEADER -->
+
+<!-- CONTENT -->
+	<div id="wrapper">
+		<div id="searchform-wrapper">
+			<form action="" method="GET">
+				<!-- <input type="text" id="query" name="q"> -->
+				{{ form.q }}
+				<input type="submit" id="search" value="">
+			</form>
+		</div>
+
+		<div class="instructor-info">
+			{% if query %}
+			<div class="instructor-name"><span>Results matching your query: </span></div>
+				<table class="course-info">
+					{% for result in page.object_list %}
+					<tr class="{% cycle 'highlight' 'instructor-row' %}">
+						{% ifequal result.model_name 'prof' %}
+						<td class="info-type">Instructor: </td>
+						<td><a href="{{ result.object.get_absolute_url }}">{{ result.object.first_name }} {{ result.object.last_name }}</a></td>
+						{% else %}
+
+						<td class="info-type">Course: </td>
+						<td><a href="{{ result.object.get_absolute_url }}">{{result.object.code}} - {{result.object.name}}</a></td>
+						{% endifequal %}
+
+					</tr>
+					{% empty %}
+					<tr>
+						<td>No Results</td>
+					</tr>
+					{% endfor %}
+				</table>
+			</div>
+			{% endif %}
+		</div>
+	</div>
+<!-- END CONTENT -->
+
+	<div id="footer">
+		<div id="footer-inner">
+			<div class="footer-heading">Other's who've taught this course</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Steven Pearce</span> - Lecturer</a></div>
+				<div class="other-website"><a href="#">http://cs.sfu.ca/~stevenp</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Mark Drew</span> - Professor</a></div>
+				<div class="other-website"><a href="#">http://cs.sfu.ca/~mark</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Diana Cukierman</span> - Senior Lecturer</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+						<div class="other">
+				<div class="other-name"><a href="#"><span>Steven Pearce</span> - Lecturer</a></div>
+				<div class="other-website"><a href="#">http://cs.sfu.ca/~stevenp</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Mark Drew</span> - Professor</a></div>
+				<div class="other-website"><a href="#">http://cs.sfu.ca/~mark</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Diana Cukierman</span> - Senior Lecturer</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>

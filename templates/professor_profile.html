@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width; initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/reset.css">
+	<link rel="stylesheet" href="{{ STATIC_URL }}css/style.css">
+</head>
+<body>
+<!-- HEADER -->
+	<div id="header">
+		<div id="header-inner">
+			<a href="#"><img src="{{ STATIC_URL }}images/sfusmall.png" alt="SFU Courses Engine"></a>
+		</div>
+	</div>
+<!-- END HEADER -->
+
+<!-- CONTENT -->
+	<div id="wrapper">
+		<div id="searchform-wrapper">
+			<form action="/search/">
+				<input type="text" id="query" name="q" placeholder="Search...">
+				<input type="submit" id="search" value="">
+			</form>
+		</div>
+		
+<!-- 		<table class="course-info">
+			<tr>
+				<td class="info-type">Course Number:</td>
+				<td>456</td>
+			</tr>
+			<tr>
+				<td class="info-type">Course Name:</td>
+				<td>Information Retrieval and Web Search</td>
+			</tr>
+			<tr class="highlight">
+				<td class="info-type">Next Offering</td>
+				<td>Summer 2013, Burnaby Campus</td>
+			</tr>
+		</table> -->
+
+		<div class="instructor-info">
+			<div class="instructor-name"><span>Instructor: </span>{{professor.first_name}} {{professor.last_name}}</div>
+			<div>
+				<div class="profile-pic"></div>
+				<div class="score">
+					<div>
+						<div class="overall-heading">OVERALL SCORE</div>
+						<div class="overall-score">3.8 / 5.0</div>
+					</div>
+
+					<div class="subscores">
+						<div class="clarity subscore">
+							<div class="subscore-heading">CLARITY</div>
+							<div class="subscore-value">3.9</div>
+						</div>
+						<div class="helpfulness subscore">
+							<div class="subscore-heading">HELPFULNESS</div>
+							<div class="subscore-value">3.7</div>
+						</div>
+						<div class="easiness subscore">
+							<div class="subscore-heading">EASINESS</div>
+							<div class="subscore-value">3.3</div>
+						</div>
+					</div>
+
+					<div class="comments">
+						<div class="comments-count"><img src="{{ STATIC_URL }}images/comments.png" alt="Comments"><a href="#">17 Comments from fellow students</a></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+<!-- END CONTENT -->
+
+	<div id="footer">
+		<div id="footer-inner">
+			<div class="footer-heading">Other's who've taught this course</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Steven Pearce</span> - Lecturer</a></div>
+				<div class="other-website"><a href="#">http://cs.sfu.ca/~stevenp</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Mark Drew</span> - Professor</a></div>
+				<div class="other-website"><a href="#">http://cs.sfu.ca/~mark</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Diana Cukierman</span> - Senior Lecturer</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+						<div class="other">
+				<div class="other-name"><a href="#"><span>Steven Pearce</span> - Lecturer</a></div>
+				<div class="other-website"><a href="#">http://cs.sfu.ca/~stevenp</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Mark Drew</span> - Professor</a></div>
+				<div class="other-website"><a href="#">http://cs.sfu.ca/~mark</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+			<div class="other">
+				<div class="other-name"><a href="#"><span>Diana Cukierman</span> - Senior Lecturer</a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: 3.7 / 5.0</div>
+			</div>
+
+		</div>
+	</div>
+</body>
+</html>
