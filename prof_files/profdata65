@@ -1,15 +1,21 @@
 {
-    "first_name": "Arash", 
-    "last_name": "Rafiey", 
+    "first_name": "Richard", 
+    "last_name": "Vaughan", 
     "course_rating": {
-        "CMPT212": {
-            "comment": "\"First:  Arash is a very nice, and clearly brilliant person.\\r However, his organizational skills were non-existent.  I don't think he was on time once.  His slides are incomprehensible and full of mistakes (in the code), he has no communication skills, and he obviously doesn't care about the subject.  Exams and assignments were ridiculously hard.", 
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
+        "CMPT 300": {
+            "comment": "'Actually has some spirit and cares what his students think. A rookie prof but shows good promise!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 300": {
+            "comment": "'not bad overall", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.0", 
-    "easiness": "2.2", 
-    "clarity": "2.0"
+    "helpfulness": "3.5", 
+    "easiness": "3.0", 
+    "clarity": "3.5"
 }

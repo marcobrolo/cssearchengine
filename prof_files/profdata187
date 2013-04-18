@@ -1,0 +1,39 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "cmpt383": {
+            "comment": "'one of the best prof. explains everything really well. you will really learn a lot from this prof. Assignments exams were reasonable.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT120": {
+            "comment": "'For a person with no cmpt background, this course can get quite challenging and time consuming as the course proceeds, especially the assignments. Use all the help you can get. His mt and quiz is easy, final is just long with a lot of functions. Lectures are all handwritten with no textbook. His notes are filled with words but not enough examples.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT165": {
+            "comment": "\"Third time with distance ed course, based on first impression of the textbook, it seemed fun and well organized. The latter is true. Figuring out hwk on my own is fun but time consuming but ONLY worth 50%; you get a cheatsheet for mt, but you're racing every second of it; above all, Baker, finally seeing him at the exams, is condescending and rude.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT470": {
+            "comment": "'Great Prof, knows his stuff.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT383": {
+            "comment": "'He is the best lecturer I have met. You can benefit a lot from his interesting lectures. His weekly exercises are pretty helpful to understand materials. If you devote yourself into his notes and exercises during the term, you may spend very little time reviewing before the final. (I only spent 4 hours.) Do not hesitate to take his course!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

@@ -1,0 +1,51 @@
+{
+    "first_name": "Mark", 
+    "last_name": "Drew", 
+    "course_rating": {
+        "cmpt 365": {
+            "comment": "'He is nice prof but exam..................", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT-101": {
+            "comment": "'Lacks communication skills. Not a good skill to be missing when TEACHING! After my first class with him I tried to avoid him for 2 years but had to take a multimedia course with him...regret it.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 365": {
+            "comment": "'The most boring CMPT course I have taken. Not to mention bad lecturer.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT 100": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "CMPT 110": {
+            "comment": "\"The worst prof I've ever had.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt365": {
+            "comment": "'Funny and exotic teaching style.  The harder you work, the better mark you get.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.4", 
+    "easiness": "2.9", 
+    "clarity": "2.9"
+}

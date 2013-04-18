@@ -1,0 +1,33 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "CMPT120": {
+            "comment": "'The best CMPT prof. Lectures, assignments and labs are well structured and clear. Exams are not too difficult.Assignments are fun to make (especially Pac-Man).", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT165": {
+            "comment": "'I took CMPT 165 by DE thinking it was a GPA booster...ha...ha...ha.HAHAHAHAHAHA.  This was one of the worst courses I have taken ever.  Like many of the other people here, the first half was easy, I had 100%, then the midterm and second half hit.  His practice midterm was USELESS!  Also, a riot was started in the cafe, when we got no help.  AWFUL!", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT470": {
+            "comment": "'He makes for an enjoyable class.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT383": {
+            "comment": "'Excellent course. Excellent prof. The assignments were interesting and fun. The exams were fair. He is a good lecturer. Classes are easy to follow and the energy level is high.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

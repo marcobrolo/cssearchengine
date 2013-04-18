@@ -1,0 +1,27 @@
+{
+    "first_name": "Bob", 
+    "last_name": "Hadley", 
+    "course_rating": {
+        "CMPT 310": {
+            "comment": "\"He just tried to write as much as he can on overhead every class. I don't think this is the right way to teach. No question print out for Project. The info of project are on 20 e-mails. You have to go through every -mails carefully", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 310": {
+            "comment": "'Hadley knew his stuff, and tried to share some of it, but was unsuccessful. He is very disorganized and does not provide clear assignment documents, preferring to send 50 vague emails instead. Midterm avg = 54%, 45% on midterm = instant course fail.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt310": {
+            "comment": "'He has a good heart, but he needs some teaching skills.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.7", 
+    "clarity": "2.7"
+}

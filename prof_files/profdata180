@@ -1,0 +1,15 @@
+{
+    "first_name": "Fernando", 
+    "last_name": "Belli", 
+    "course_rating": {
+        "CMPT250": {
+            "comment": "'Can be helpful. Makes mistakes in lectures occasionally but usually explains things quite well. He makes poor judgment of time when designing exams (we always go over time when writing them). Also there is *TOO* much homework. Be cautioned!", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "1.0", 
+    "clarity": "2.0"
+}

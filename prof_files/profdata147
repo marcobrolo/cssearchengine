@@ -1,0 +1,63 @@
+{
+    "first_name": "John", 
+    "last_name": "Edgar", 
+    "course_rating": {
+        "cmpt 354": {
+            "comment": "'Good teacher and he is very approachable and helpful to his students", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "Cmpt 354": {
+            "comment": "\"Just read the book, he's British", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "cmpt110": {
+            "comment": "\"This course is way too hard thought it used to be easy.  THIS SHOULD BE AN INTRODUCTION TO VB...  NOTE: you have to spend at least a week, 4 hours a day, to do his assignment.. he's teaching cmpt254, he thinks that all of us are genius~", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT110": {
+            "comment": "\"He is nice, but expects too high for the students and apprently he doesn't realize that what he's teaching is INTRODUCTION to VB. If you don't have any VB background, be prepared to drop the course. Notes are useless....and assignments are EXTREMELY MEAN!", 
+            "clarity": "2", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "354": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 110": {
+            "comment": "\"Does he even know VB?  Anytime he was asked a question his answer was a laugh and  I don't know ... useless lectures, long exams, hard assignments, bleh", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "cmpt354": {
+            "comment": "'Very humorous, and knowledgeable prof.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 354": {
+            "comment": "'Very good notes.  If evening class lectures become painfully long and boring. :)", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 110": {
+            "comment": "'vb should be an easy course!! but not w/him... notes and lectures are basically useless, recommend having some background knowledge in vb first, and READ the book. first assignment starts out super easy, but then.......", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "4.0", 
+    "easiness": "3.0", 
+    "clarity": "3.9"
+}

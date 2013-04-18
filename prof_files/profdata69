@@ -1,39 +1,63 @@
 {
-    "first_name": "Jian", 
-    "last_name": "Pei", 
+    "first_name": "Toby", 
+    "last_name": "Donaldson", 
     "course_rating": {
-        "CMPT454": {
-            "comment": "'He teaches the details clearly. Reading the textbook becomes much easier after his classes. Most importantly, the exam questions are consistent with the assignment. Enjoying ...", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 454": {
-            "comment": "'Touch midterm, but close enough to assignments. Overall challenging and interesting. One of the best in this school.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "2"
-        }, 
-        "cmpt 354": {
-            "comment": "'Very good prof, fair and knows how to teach :)", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "cmpt354": {
-            "comment": "'average as an instructor", 
-            "clarity": "3", 
-            "helpfulness": "3", 
+        "CMPT 120": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "4"
         }, 
-        "CMPT354": {
-            "comment": "'Agree with the disappointed comment.  He is a very nice person and very enthusiastic, but very horrible course notes.  His marking on projects are very sloppy just like his project descriptions.  He enjoys torturing students to teach them a taste of real life .. fun :P", 
+        "java": {
+            "comment": "'No Comments", 
             "clarity": "1", 
             "helpfulness": "2", 
-            "easiness": "4"
+            "easiness": "1"
+        }, 
+        "compt 120": {
+            "comment": "'notes are useful.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt120": {
+            "comment": "'he gotta stop looping in front of the class....>,< and stop laughing at his own jokes....", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }, 
+        "MACM 101": {
+            "comment": "\"He teaches a lot... but expects us to know a lot. This means that the course (altough important) is a time hogger, and his lectures are unclear and unorganized most of the time. Just wait till you see the txtbook - it's so full of goop and impossible pbms - omg ill be sunrise till you get anything. At least the tests are ... somewhat easier.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT118": {
+            "comment": "'not good!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT120": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 120": {
+            "comment": "'Notorious in delivering very bad jokes.\\r \\r Approach course with utmost lack of sense of humour.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT 125": {
+            "comment": "'he made the final project too hard!!! probably because no one showed up for his lectures", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "4.0", 
-    "easiness": "3.1", 
-    "clarity": "3.8"
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.8"
 }

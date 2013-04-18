@@ -1,0 +1,45 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Dixon", 
+    "course_rating": {
+        "CMPT205": {
+            "comment": "'Best prof at SFU", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt150": {
+            "comment": "\"The course is hard, but he is the most helpful prof i've ever had! Extremely nice :) Go to his office and you will never get into trouble with assignment or exam!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT110": {
+            "comment": "'Dist ed:Pretty easy to teach urself (much easier for me since I had taken other CMPT courses).Easy-looking Midterm but tricky marking scheme(Farnaz is tough marker),so 53% median.Super easy final tho!Asmts were ok but requirements were not clear (&too picky abt Documentation)so had to keep emailing marker/him.He scales grades up to make median 69%", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }, 
+        "cmpt250": {
+            "comment": "\"He's one of the best CS prof you can meet in the department. I love his class. He's really nice too. Though the materials aren't exactly what you might call the easiest stuff, but he always tries his best to explain. Love it! I was reminded of the Santa Clause... Well, in a way XD", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT250": {
+            "comment": "'Wonderful prof. Labs are fairly easy/straightforward, assignments are a bit harder but not impossible, but exams is where you really have to pay attention to details. Highly recommended for cmpt 150/250", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT150": {
+            "comment": "'Definitely one of the best professors I have ever had. His voice may seem a bit monotone, but if you\\'re interested in the material, you\\'ll stay awake. EVERY single day he has covered every detail of his lecture with perfect clarity. He even gives examples that run parallel to the assignments, so you should never hit a \"road block\" in this course.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "4.1", 
+    "easiness": "2.3", 
+    "clarity": "4.1"
+}

@@ -1,57 +1,39 @@
 {
-    "first_name": "Anne", 
-    "last_name": "Lavergne", 
+    "first_name": "Dan", 
+    "last_name": "Ridinger", 
     "course_rating": {
-        "CMPT201": {
-            "comment": "'Wanna see a mouse?", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "computing": {
-            "comment": "'Assignments are very hard!!!!!", 
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "CMPT 201": {
-            "comment": "\"She is very nice...she will not help you out on assignments (she will tell you it's part of the assignment).. you can learn a lot in this class but if you are going for easy marks i will not suggest to take it with her...very long midterms..", 
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "CMPT 101": {
-            "comment": "'No Comments", 
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "CMPT 225": {
-            "comment": "\"Brutally difficult assignments. She is almost completely unhelpful, cynical and mean to students, very ****y, never responds to complaints. Lectures *ALWAYS* went overtime by >5 min. Annoying online lecture notes that are deliberately missing key info. *** I didn't learn anything useful from her.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "201,275": {
-            "comment": "'Nice prof. Encouraged course material and lecture give me much confidence on studying cmpt", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "cmpt225": {
-            "comment": "\"don't like her french accent. hard midterm.", 
+        "cmpt 370": {
+            "comment": "\"it's not a hard course, but lecture is boring.", 
             "clarity": "2", 
             "helpfulness": "2", 
-            "easiness": "2"
+            "easiness": "3"
         }, 
-        "CMPT 275": {
-            "comment": "\"best CS prof ever! Took CMPT 201 with her last semester, and taking CMPT 275 with her again this semester...I'm a big fan of her!", 
+        "CMPT475": {
+            "comment": "\"First time he teaches this course.  Not bad for the first time, but there's room for improvement.  The largest problem is that his assignments are very terse and it's hard to figure out what exactly needs to be done.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT370": {
+            "comment": "'Great prof. who definitely knows his stuff. Notes are clear and detail enough that he can write a textbook based on it. Quizes, no midterms, are straightforward and easy to do (if you know your stuff). Projects are all case studies, and mostly on models/diagrams. Brings alot of experience and is a funny guy at times.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 370": {
+            "comment": "\"Prof has lots of real-world experience and teaches some practical things. You could get through the course without the textbook, save yourself some money. 1st midterm touched on it but was mostly from the notes. 2nd midterm and final you don't need the textbook.  Therefore, attending lecture is very important to learn how to make the diagrams.", 
             "clarity": "4", 
-            "helpfulness": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt370": {
+            "comment": "'Nice lecture, and is not a terribly boring speaker.  Grading is huge minus though.  The course material is very easy, but freaky marking means you get a mediocre grade no matter how hard you try.  Assignment directions are very vague and unhelpful.  Exam grading is rigid and oftimes illogical.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.7"
+    "helpfulness": "2.9", 
+    "easiness": "3.5", 
+    "clarity": "2.9"
 }

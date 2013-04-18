@@ -1,0 +1,75 @@
+{
+    "first_name": "Binay", 
+    "last_name": "Bhattacharya", 
+    "course_rating": {
+        "CMPT307/20', u'1": {
+            "comment": "'I\\'ve had Binay for both 307 and 201. Although he occasionally gets lost, his friendly demeanor makes him incredibly approachable, and directing him back on track is as simple as saying \"Excuse me, but I think you\\'re digressing.\" His after hours help is second to none, regardless of whether you\\'re in his class or not.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT307": {
+            "comment": "'The worst teacher I ever met in my life.  Unorganized, unfair marks, biased, confusing.  But he taught in SFU for 15yrs, I do not know how, but he did.  There should be some reasons for that.   Try to be on his side then you are in luck.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "CMPT 307": {
+            "comment": "\"What is this guy saying?  Makes notes than spends half the class trying to figure out what he wrote down, then gives up.  Tests don't match assignments, assignments don't match notes.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "MACM101": {
+            "comment": "\"Rushed through material and still didn't cover all the sections he said we would by the end of the term. Several examples he used were unnecessarily complicated, making it difficult to comprehend the concepts. Often made many mistakes during the lectures which were pointed out by students. Very scatterbrained, to say the least. Avoid if possible.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "cmpt307": {
+            "comment": "'Well-intentioned, but rather unorganized and sometimes confusing.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT 371": {
+            "comment": "'He makes some easy topic seems hard. Sometimes screw up in his lecture and then test you on those parts in the exam. Quite helpful if you visit him in his office hours but online material is minimal.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "comp307": {
+            "comment": "'Not a great lecturer, choice of textbook is poor. If you get to know him, hes a good teacher but you have to put the extra effort. Go to office hours etc", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "201,307,40', u'6": {
+            "comment": "\"Clear examples, always available for extra help, and exams that follow easily from the concepts provided in class.\\r \\r If you memorize avoid him. If you learn you'll have fun.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 307": {
+            "comment": "'helpful", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT102": {
+            "comment": "'Not great at teaching, but the quizzes are very easy, so it balances out.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Macm101": {
+            "comment": "\"This teacher is not good at teacher. Horrible is a better word. His tests are decent nothing too hard. But he can't teach at all. Hard to understand and makes so many mistakes. All of them pointed out by students. Atleast 5 mistakes per lecture. Horrible. Should be willing to learn on your own.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.4", 
+    "easiness": "2.5", 
+    "clarity": "1.8"
+}

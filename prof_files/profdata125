@@ -1,0 +1,45 @@
+{
+    "first_name": "Lou", 
+    "last_name": "Hafer", 
+    "course_rating": {
+        "comp125": {
+            "comment": "\"I can't manage to find a word to describe the utmost horrible and lowest form of teaching possible. His lectures are absolutely 100% useless, you learn NOTHING RELATED TO THE COURSE. If you like the letter's F, D, C-, then I highly recommend this ignorant human being. I hope SFU can hire better alumni. Worst teacher/prof i have had.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT471": {
+            "comment": "\"He is a good teacher and explains things well. He goes into a LOT of detail. His assignments aren't too bad but the midterm and final are quite tough. Be prepared if you are planning to take him!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "'This guy is hard. He teaches nothing and his assignments are ridiculous. Textbook is useless too, you will spend most of your time googling all the java packages and ways to solve the problems he gives you.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT126": {
+            "comment": "'...", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt471": {
+            "comment": "\"Very smart and explains things well in lecture.  Assignments are somewhat easy, but deceptive. Explain everything, and I mean EVERY LITTLE THING you could possibly imagine.  It should take longer than the assignment itself.  Tests are hard, but scaled.  He's really into the details, as you'll see in his solutions.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT250": {
+            "comment": "\"His exams are extremely hard. No matter how much time he gives you, you can still be wishing for more. But the good point is he is good at marking, and b/c everyone has done so bad, he scales it.The bottom line: Don't take any course with him, except you're a nerd!(but don't worry if you did, wish for the scaled mark ;) )", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "1.5", 
+    "clarity": "2.4"
+}

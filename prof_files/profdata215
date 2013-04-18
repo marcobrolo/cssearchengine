@@ -1,0 +1,63 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "470": {
+            "comment": "'Irresponsible lecturer.  Degrades the quality of education in SFU CS.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 120": {
+            "comment": "'HAHA this guy makes the course so easy.  If you know a little bit of programing, go to his course, it will be like a joke.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 165": {
+            "comment": "'His assignments are hard. If you are first year, his class are always available even in AUg 30.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 165": {
+            "comment": "'His courses are difficult. Never take it. Better ask your friend that took his courses before.Unfriendly,unhelpfl, hard assignment.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 165": {
+            "comment": "'I want to refund this course", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 470": {
+            "comment": "'lecture is not very helpful for the assignment and project. You are on your own", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "cmpt 120": {
+            "comment": "\"if you have absolutely no progamming background, this course will be fruity tooty hard, as it was for me, but i passed sort of.....dang.  i didn't pass the fruity assignments though...and guess what, he actually reads these comments!! so immature", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt165": {
+            "comment": "\"he's a nice prof", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "comment": "'Has great style of lecture notes and provides many examples. However, the midterm and final are both a tad difficult.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

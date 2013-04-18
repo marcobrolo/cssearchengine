@@ -1,45 +1,87 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
+    "first_name": "Russ", 
+    "last_name": "Tront", 
     "course_rating": {
-        "macm 101": {
-            "comment": "'Can be funny at times. During evaluation time he jokedly told us all to give him a bad review and gave us all the finger! He also dressed up as a hobo at halloween and tried to mug a student.", 
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "Cmpt 100": {
-            "comment": "'Decent teacher, made it a very fun and easy going class.  However, his emails were late or non existent whenever he cancelled class, which often meant me going up all the way and the class is cancelled.", 
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "cmpt100": {
-            "comment": "\"funny dude, has clear sense of what he's thinking, but virtually no sense of what he's supposed to be teaching. Can be a great guy to talk to in the coffee bar, but man, cmpt100...", 
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "Macm 101": {
-            "comment": "'Didnt learn too much in class, atleast his jokes keeps you awake.  But then the more jokes the less you learn, and that class is just crazy.", 
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT 320": {
-            "comment": "\"The only prof who should be teaching 320! Fantastic teacher! If you've got a brain and you want to think for yourself and learn TAKE HIS COURSE! If you want an easy mark or if you can't write don't take his course. One of the most inspiring teachers at SF", 
+        "CMPT212": {
+            "comment": "\"he's GREAT !!!", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "3"
         }, 
-        "MACM 101": {
-            "comment": "\"He's really Easy. I went into his class and didn't care for Macm at all and got a B+, and yet do ALL your homework. He's really ice as well but you hardly see him around.", 
-            "clarity": "3", 
-            "helpfulness": "2", 
+        "cmpt 101": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 454": {
+            "comment": "'Can anyone name a better CS prof than this guy?", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 475": {
+            "comment": "'good notes but heavy workload", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT101, C": {
+            "comment": "'One of the most decent profz at SFU CS deparment", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT 101": {
+            "comment": "'best CMPT prof ever. very entertaining. Outstanding lecture notes", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "4"
+        }, 
+        "cmpt475": {
+            "comment": "'good teaching but high workload", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt 275": {
+            "comment": "'brings his diverse and interesting industry experiences to class.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 471": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "comment": "'The best instructor I ever had at SFU, hands down.  Unpretentious and caring guy", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 475": {
+            "comment": "'Took 370 with him too. You learn A LOT from him, very dedicated but tough", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt370": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 275": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "helpfulness": "4.2", 
+    "easiness": "2.8", 
+    "clarity": "4.2"
 }

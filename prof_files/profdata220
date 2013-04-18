@@ -1,0 +1,99 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "MC101,C300": {
+            "comment": "\"Don't you love the way he teaches?", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Cmpt 150,": {
+            "comment": "'messed up proff", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "CMPT 300": {
+            "comment": "'Energy/Humour not as great as MACM101 or CMPT150. Kinda boring but somedays are fun.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "CMPT 307": {
+            "comment": "'Hard but mostly fair.  Attend all lectures, assignments are heavily based on examples in class.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt150": {
+            "comment": "'I studied cmpt150 taught by Mr. Bart. I admit he is a smart guy but his assignments are lengthy and hard. He is a humurous person but his lectures are extrmemely hard to follow. He is tough, eg., If the max. mark is 71, then the highest grade is B-.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "MACM 316": {
+            "comment": "'Needlessly complex in order to prove his superiority over students. Atypical math geek with limited interpersonal skills outside of instructor/student power relationships. Dogmatic and self important.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 200": {
+            "comment": "'really tough on grading. touch assignments. easy exams. smart and humorous guy with tough attitude when it comes to grading.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT300": {
+            "comment": "\"He gives assignments that take a while to do, but aren't that hard, just tedious.  He is always clear when he specifies problems and does all the real hard work for you.  Exams are extremely easy.  His lectures are really hard to follow.", 
+            "clarity": "2", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Cmpt 150": {
+            "comment": "'Bad attitude towards student", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 300": {
+            "comment": "\"he's tough but you will learn", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "MACM 101": {
+            "comment": "'Good Teacher!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "M101 C150": {
+            "comment": "'hm...  so so...", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "MACA101": {
+            "comment": "'good pro,bad grading", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt 150": {
+            "comment": "'You will learn a heck of a lot. Has a magic marking scheme (midterm marks vanish", 
+            "clarity": "5", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "macm 101": {
+            "comment": "'fun and very energetic", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

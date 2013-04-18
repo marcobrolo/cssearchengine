@@ -1,0 +1,45 @@
+{
+    "first_name": "Salahuddin", 
+    "last_name": "Muntaseer", 
+    "course_rating": {
+        "CMPT150": {
+            "comment": "'helpful and nice, willing to help, though some time late for the class. He is good anyway.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT125": {
+            "comment": "\"Very nice prof. Always helpful, however I did not go to the lectures, and either half the class dropped out or many other people stopped going as well. The book used in class is all I needed. The assignments and midterms were fair. Some times it wasn't clear what was being asked on the assignments, though.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt120": {
+            "comment": "'He is a very nice guy, very helpful if you go to his office hour. He is willing to give examples and explain to you. Not many assignment but they are time consuming, prepare them as early as you can", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT120": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 126": {
+            "comment": "\"nice guy but doesn't know how to teach", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 125": {
+            "comment": "\"Doesn't teach much in lecture, and what he does teach can be learned in much less time by reading the textbook or finding tutorials online. Seems like a nice guy but doesn't know how to teach.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "4.7", 
+    "easiness": "3.9", 
+    "clarity": "4.2"
+}

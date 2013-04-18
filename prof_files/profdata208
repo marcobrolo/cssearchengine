@@ -1,0 +1,63 @@
+{
+    "first_name": "Anne", 
+    "last_name": "Lavergne", 
+    "course_rating": {
+        "201": {
+            "comment": "'Her lecture includes everthing you need to know in the index of the textbook", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt 201": {
+            "comment": "'An excellent prof. Organized, always willing to help, and enthusiastic. One of the few profs that can keep me awake.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT201": {
+            "comment": "'She knows everything and she is thinking you already know everything before taking her course. If you are 35 years old and have been working in Microsoft for 10 years, you can take her course.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 201": {
+            "comment": "'She is a very organised prof. But sometimes quite misleading/unclear instruction on assignments. We can see that she is trying hard to improve the quality of assignments, which is a good thing. The course itself is difficult,but managable if you have time", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 101": {
+            "comment": "'Ugh... uses the same bloody example too much!  DIE, FOREX, DIE!!!  Also, she makes one rather dependent on reading the text to understand the lecture... thank goodness for friends that already know Java.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt-201": {
+            "comment": "'great", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 275": {
+            "comment": "'she couldnt pull her pants higher to show, its like she got constant wedgie", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 275": {
+            "comment": "'You wanna see what a mouse looks like?", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 201": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.7"
+}

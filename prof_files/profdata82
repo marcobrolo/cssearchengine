@@ -1,45 +1,15 @@
 {
-    "first_name": "Ted", 
-    "last_name": "Kirkpatrick", 
+    "first_name": "Andrea", 
+    "last_name": "Tagliasacchi", 
     "course_rating": {
-        "CMPT363": {
-            "comment": "\"He makes sure you really understand concepts through assignments that make you apply things you've learnt in class. This is not a course where you memorise and spit out. It's one you digest. His style of teaching may not be pleasing to some because he seems scattered at times, but he sure bent on you learning!", 
-            "clarity": "4", 
+        "CMPT275": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "cmpt120": {
-            "comment": "'lecture is ok, but the final grade is really unfair!!! For example, he gives B when you actually can get A. Do not expect a high grade from him.", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "cmpt363": {
-            "comment": "\"This was the easiest course I've ever taken at SFU.  But mostly that was because I was already pretty interested in interface design and Ted's passion for the subject made me even more interested.  If you're going to take this class you couldn't find anyone better to teach it.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "5"
-        }, 
-        "Cmpt120": {
-            "comment": "'Prof is helpful during his office hour, really wants you to figure out for yourself how to solve your problem while giving little hints. Lectures are a little boring but informative, bring a coffee to keep awake. Nice professor, will miss him.", 
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT120": {
-            "comment": "\"This class is easy as long as you keep you and know what you're doing. His lectures are boring. He gave only 1 assignment before the midterm and 5 assignments due before the final. Unfair marking. Gave 5 questions on the midterm that he DID NOT cover in lectures, then only gave 2.6 more marks. UNFAIR FINAL GRADE! I deserved WAY BETTER.", 
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "CMPT376": {
-            "comment": "'It\\'s \"Writing for Computer Scientists.\"  The class is going to be painful for any computing student.  That being said, he does a good job to make it tolerable and hey, no tests.  However.. SLOWEST MARKER EVER.  The last assignment was due 2 weeks ago, and as of this point we have 2 out of 8 assignments marked.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
             "easiness": "4"
         }
     }, 
-    "helpfulness": "3.6", 
-    "easiness": "3.9", 
-    "clarity": "3.4"
+    "helpfulness": "5.0", 
+    "easiness": "4.0", 
+    "clarity": "5.0"
 }

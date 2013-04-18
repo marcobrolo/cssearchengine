@@ -1,51 +1,81 @@
 {
-    "first_name": "Anne", 
-    "last_name": "Lavergne", 
+    "first_name": "Herbert", 
+    "last_name": "Tsang", 
     "course_rating": {
-        "Cmpt128": {
-            "comment": "\"She doesn't know how to teach. She doesn't teach clearly.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "4"
-        }, 
-        "CMPT165": {
-            "comment": "\"Course was easy but she can't teach when it comes to learning...she provides abstract information instead...just read the book and you are good to go...tests are fairly easy", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "CMPT 165": {
-            "comment": "'The lecture notes are disorganized and unhelpful. (there are more than 10 sets of notes for one Unit). The speed of the professor is unnecessarily slow. Thanks to this class, I lost my interest in Computing Science :(", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "cmpt225": {
-            "comment": "\"Spends too much time of simple things such a definitions. Doesn't teach any code. Assignments were long and tedious. Doesn't give solutions to assignments. Midterm wasn't that bad. Final was brutal!!", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT128": {
-            "comment": "'DO NOT TAKE A CLASS WITH HER ! YOU HAVE BEEN WARNED !", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "cmpt165": {
-            "comment": "'I enjoyed the class, the prof. really tried to make it interesting. The midterms and the final is easy as long as you read the lecture notes. But TAs marked assignments fairly strict, so make sure you have fixed all the details before submitting them.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "5"
-        }, 
-        "CMPT225": {
-            "comment": "\"She has no idea to teach! She didn't take responsibility to mark your assignment even though you do your assignment all night long,if it can't run,you has won't get any scores!", 
+        "signals": {
+            "comment": "'No Comments", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "2"
+        }, 
+        "Any class": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "DSP and si', u'gnals": {
+            "comment": "'Worst teacher ever...not just teacher but person as well...REALLY BAD!!!...HE MAKES SCHOOL A LIVING HELL...he shouldnt be allowed to be near any students or for that matter any humans.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "math": {
+            "comment": "\"one of the worst instructors i've ever had!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "DSP": {
+            "comment": "\"Worest teacher I have ever had. Rude, laughs at weird things, doesn't help you, will not give you more examples to learn from, will not write his own notes(uses some one elses) - doesn't know how to solve most of the ques. as students have to do it for him in class. He should onlny teach music.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "Signals": {
+            "comment": "'Took Signals in 2005 Summer.  I had to try to learn by myself.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT276": {
+            "comment": "'Yeah, I have to say that I enjoyed his class. We had a small class and I think we all learned from him.", 
+            "clarity": "5", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "Any Class": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "dsp": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "ITEC 237-9": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "ITEC237": {
+            "comment": "\"Hurts the soul that he's allowed to share the same air we breathe.  Simply put he gets pleasure out of failing students.  Evil personified.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "ITEC": {
+            "comment": "\"Why does the management keep giving him courses to teach. The feedback that we give for teachers in the university are probably never meant to be read. A teacher who makes fun of students' problems or questions doesn't deserve to be called a teacher.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.7"
+    "helpfulness": "2.0", 
+    "easiness": "2.3", 
+    "clarity": "2.2"
 }

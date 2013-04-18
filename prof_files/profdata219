@@ -1,0 +1,75 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "CMPT 120": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt 165": {
+            "comment": "\"Don't take this course if you are really a beginner.  The programming is hard, assignments take so long to complete; it's not worth to take it as an elective.  I took the distance one.  Greg doesn't care about his students at all (ridiculous!!!).", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 250": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 165": {
+            "comment": "'Not good, very unsatisfactory", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Com Sci 16": {
+            "comment": "'A SUPER hottie!!  He is the coolest!!", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt120": {
+            "comment": "'i think his class is fine. nothing is easy in univercity.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "Cmpt 120": {
+            "comment": "'Could you refund?", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT  120": {
+            "comment": "'HE should teach in BCIT or College of the Rookies", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 120": {
+            "comment": "\"this is the first time ever cmpt120 has been taught at sfu.  being a guinea pig for this course is terrible.  intro to comp sci?!?! yeah right! its so hard and things are not explained right. and greg assigns stuff that is too long, and he hasn't even taught some stuff yet, expecting us to do it...", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT165": {
+            "comment": "\"I am an e-commerce site owner and I have years of experience in HTML but even I think his class is difficult.  Don't take his class if you don't plan to invest all your time on computer.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt250": {
+            "comment": "'Can I get my money back?", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

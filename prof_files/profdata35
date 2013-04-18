@@ -1,33 +1,51 @@
 {
-    "first_name": "Kimberly", 
-    "last_name": "Voll", 
+    "first_name": "Diana", 
+    "last_name": "Cukierman", 
     "course_rating": {
-        "CMPT110": {
-            "comment": "'Kim is a really great prof. She presented topics really well, the assignments midterm and final were all fair, and she made herself really available for extra help.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
+        "MACM101": {
+            "comment": "\"she isn't that good at all. It seems like she is teaching hard and talk a lot in class, however, her notes are messy and thing she speaks aren't really in logic order.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
         }, 
-        "COGD300": {
-            "comment": "'The smartest prof I had. Knows so much about so many different topics. Classes are really fun and assignments were really imaginative. She is a true inspiration!!!", 
-            "clarity": "5", 
+        "CMPT 150": {
+            "comment": "'Overall a great teacher, always available for extra help.", 
+            "clarity": "4", 
             "helpfulness": "5", 
-            "easiness": "4"
+            "easiness": "2"
         }, 
-        "CS221": {
-            "comment": "'Very nice. Tries really hard to make sure everyone understands what is going on. It works. People get it.", 
-            "clarity": "5", 
+        "CMPT120": {
+            "comment": "\"She is a nice prof and her lecture is pretty straight forward.  However, her assignments will be getting harder and longer. Test/quiz format are not resonable especially if you lacked programming background. Beaware of your time during test/quiz.  Overall, she's just fine and I don't think I will take her course again.", 
+            "clarity": "1", 
             "helpfulness": "5", 
-            "easiness": "4"
+            "easiness": "2"
         }, 
-        "cpsc221": {
-            "comment": "'The best instructor at UBC (teaches at UBC & SFU). Clear, interesting, funny, and super nice. You can tell that she really enjoys teaching and she is very good at it.", 
-            "clarity": "5", 
+        "MATH 152": {
+            "comment": "'Always avaliable for extra help, and her notes are well organized.  Her lectures can be a little dull at times, but other than that, quite a good prof.", 
+            "clarity": "4", 
             "helpfulness": "5", 
-            "easiness": "4"
+            "easiness": "3"
+        }, 
+        "MACM101, C', u'MPT15": {
+            "comment": "'Great prof. Good notes.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT150": {
+            "comment": "\"Really helpful!  When you need her, she will make time for you.  If you're struggling and proving to her you are trying, she is so dedicated to making you a strong student.  Adore this instructor!  Thank you for all your time.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "5.0", 
-    "easiness": "4.4", 
-    "clarity": "4.9"
+    "helpfulness": "4.7", 
+    "easiness": "3.2", 
+    "clarity": "3.5"
 }

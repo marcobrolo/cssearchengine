@@ -1,0 +1,45 @@
+{
+    "first_name": "Ted", 
+    "last_name": "Milner", 
+    "course_rating": {
+        "kin 306": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "kin201": {
+            "comment": "'horrible teacher.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "306, 301": {
+            "comment": "'His courses are very difficult.   He teaches a ton of material.  Start studying very early if you want a good grade and go for the extra help sessions.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "Kin306": {
+            "comment": "\"He is the worst teacher that I have ever had!!!!  Horrible man!!!!  So mean tooo!  Can't believe he is still teaching!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Kin 306": {
+            "comment": "'He is really bad, very boring.  His tests are really hard.  Just download the notes & MEMORIZE EVERYTHING.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "Kin416": {
+            "comment": "\"Why is he still teaching??!!!  Someone should fire him.  He doesn't care about his students at all.  And he needs a hair cut.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.5", 
+    "easiness": "1.1", 
+    "clarity": "2.5"
+}

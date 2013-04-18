@@ -1,21 +1,33 @@
 {
-    "first_name": "S.Cenk", 
-    "last_name": "Sahinalp", 
+    "first_name": "Steve", 
+    "last_name": "Shen", 
     "course_rating": {
-        "CMPT711": {
-            "comment": "'Class is very difficult", 
-            "clarity": "2", 
+        "CMPT 165": {
+            "comment": "\"If only... If only he would just tell us what to do for once instead of wasting 50 minutes and talk about things that are outside our area of study. Especially when he showed us a code and said it's okay if we don't know it...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 165": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT165": {
+            "comment": "'he calls the tech support for no reason almost every class.... probably the tech guy is speaking his language also which is \"i dont know! maybe u did something wrong!!!!\"", 
+            "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "CMPT889": {
-            "comment": "'No Comments", 
-            "clarity": "3", 
+        "165": {
+            "comment": "'He is nice as a peron. Unclear as a teacher. But it is his first term as an instructor. So hopefully he will improve in the future.", 
+            "clarity": "2", 
             "helpfulness": "2", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "2.2", 
-    "easiness": "2.0", 
-    "clarity": "2.8"
+    "helpfulness": "1.2", 
+    "easiness": "2.3", 
+    "clarity": "1.1"
 }

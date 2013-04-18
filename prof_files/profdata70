@@ -1,39 +1,8 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
-    "course_rating": {
-        "cmpt300": {
-            "comment": "\"Easy class.I didn't learn much. Felt like I wasted my tuition $. Take it with someone else if you want to learn.", 
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "5"
-        }, 
-        "CMPT300": {
-            "comment": "'Not heavy on the programming (Which was a good thing). I learned quite a bit. Could be a bit more organized though. I definitely would recommend.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT320": {
-            "comment": "\"He's a person who really knows his stuff, his specialty is scientific modelling.  His approach is unorthodix and challenges students to keep up, speak up and as long as you go in with eyes wide open you will be fine.  Dogmatics will be challenged to defend their position his way of getting student to consider facts.  Not for weak minded or spirits.", 
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "MACM 101": {
-            "comment": "\"his class is interesting, you can't get bored, he is helpful and very understanding, his teaching abilities beats the hell out of Brad Bart useless classes full of sarcastic annoying jokes, at least this guy actually has a PHD to be qualified for the job plus Dr.Pearce doesn't give you attitude when you approach him with a question", 
-            "clarity": "3", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "MACM101": {
-            "comment": "'The contents covered are indeed easy but he is very skilled to complicate everything.", 
-            "clarity": "1", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }
-    }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "first_name": "Yuzhuang", 
+    "last_name": "Hu", 
+    "course_rating": {}, 
+    "helpfulness": "", 
+    "easiness": "", 
+    "clarity": ""
 }

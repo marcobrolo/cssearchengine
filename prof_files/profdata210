@@ -1,0 +1,39 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "cmptcmpt": {
+            "comment": "'he expects you know a lot,while you can learn a little from him.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt120": {
+            "comment": "\"If you ask a stupid question...he'll definatly let you know it's stupid. Kind of funny but the course material has some challenging math and logic problems", 
+            "clarity": "5", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT120": {
+            "comment": "'Brad was a decent prof in my opinion(keep in mind I had no prior experience with computing science whatsoever). His sarcastic approach can end in a joke or an awkward time freeze waiting for someone to dare answer the question he poses. As for exams, the midterm requires all encompassing knowledge while the final is more reasonable.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT300": {
+            "comment": "'Avoid this prof like the plague if you value your GPA. Lectures are generally informative but are useless in the very hard, insanely time consuming, and harshly marked assignments. He provides little to no help when it comes to assignments, often giving the \"solve it yourself\" attitude.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT150": {
+            "comment": "'difficult", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

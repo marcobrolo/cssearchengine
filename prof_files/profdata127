@@ -1,0 +1,39 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Mori", 
+    "course_rating": {
+        "cmpt 310": {
+            "comment": "\"young & engergetic prof, always try to make lectures fun tho the material is so dull; allows cheat sheets; long assignments (could be done in groups); he made AI even more awesome; robot soccer!! don't get frustrated by huge pile of readings; just follow his notes", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT419": {
+            "comment": "'He just tries to show he is smart by making the course unnecessarily difficult and heavy.  :-(", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT726": {
+            "comment": "'He has one set of homework questions, and uses it every time he offers the course. Moreover it is incredible painful when the level of contributions among students for doing homework and project, is not taken serous by professor.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT225": {
+            "comment": "\"Really good prof!!! (hands down)  He does a really good job at explaining the material and if you don't get something he will be happy to help you during the office hours.  The assignments were a do-able but the third assignment with the red/black trees was a pain.  1 midterm (Very EAsy) and 1 final (HARD).  Good Luck!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT310": {
+            "comment": "'Great prof. Knowledgeable, good lectures, interesting assignments, available for help. I recommend taking 310 with him.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "4.3", 
+    "easiness": "3.0", 
+    "clarity": "4.3"
+}

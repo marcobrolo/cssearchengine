@@ -1,45 +1,69 @@
 {
-    "first_name": "Jiangchuan", 
-    "last_name": "Liu", 
+    "first_name": "Haizley", 
+    "last_name": "Trevor-Smith", 
     "course_rating": {
-        "cmpt771": {
-            "comment": "'Very good professor. I am now very interested in networking related works.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "MACM101": {
-            "comment": "'Lectures are all done in powerpoint, with the professor reading them off. Midterms and exams are very hard. This professor also taught us graph theory, which is not a part of the course, but in MACM201. This was not covered in the final exam, and was a giant waste of time. Before assignments are due, TAs would show students the answer book.", 
-            "clarity": "2", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT307": {
-            "comment": "'Good professor, and very easy course, seems that almost all students get 80+", 
+        "intd": {
+            "comment": "'super cool and easy", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "5"
         }, 
-        "CMPT365": {
-            "comment": "'JC is a quite helpful and nice prof. The two projects are related to the course content and you can learn a lot if you really put effort on them. The exam is fair and not difficult if you know concepts well.", 
+        "MTEC or IN', u'TD": {
+            "comment": "\"Haizley is easily one of the best prof's we have. She totally knows her stuff, RESPONDS to emails right away and is so helpful, answers all your questions, and takes time with every student to make sure they understand. Thanks Haizley!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Tech131": {
+            "comment": "'Actually cool.  Talks about drinkin and partyin!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "Mtech": {
+            "comment": "'Good teacher. easy to get along with", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "MTEC": {
+            "comment": "\"She is the best prof. Although it was online course, we didn't met in person, she was so friendly and answered all my questions, and always be helpful and response emails quickly.I love her. Really nice person.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "INTD 310": {
+            "comment": "'always helpful", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "INTD310": {
+            "comment": "'easy (somewhat)", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "intd 310": {
+            "comment": "'friendly human being.", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "CMPT371": {
-            "comment": "'Somehow I thought he was going to teach another easy class.  I had him for MACM 101 and it was fine.  For CMPT 371, for some reason the class was just so ridiculously hard.  His exams are nothing like questions in the book or asked on the assignment.  I want to cry from his final.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "1"
+        "INTD 313": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }, 
-        "macm101": {
-            "comment": "\"he's well prepared for the lectures. no class before exams. the three assignments worth a lot. attending his lecture will make his powerpoint notes more clear. he gives in-lecture examples that appear in final. he scales the class quite a lot. he does not intend to fail anyone. final exam class average is 30% but he bell curves it to a B.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "2"
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "3.5", 
-    "easiness": "3.3", 
-    "clarity": "3.2"
+    "helpfulness": "4.5", 
+    "easiness": "3.7", 
+    "clarity": "4.3"
 }

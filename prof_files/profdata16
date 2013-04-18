@@ -1,15 +1,33 @@
 {
-    "first_name": "Thomas", 
-    "last_name": "Shermer", 
+    "first_name": "Colin", 
+    "last_name": "Stewart", 
     "course_rating": {
-        "MACM101": {
-            "comment": "'Made a difficult course even harder. He would go through long examples but would sometimes be unable to finish it or explain a theorem(from another chapter entirely!) needed to finish it. Notes are unclear and disorganized, sit at the front to see the notes and to hear him. Last day of class he covered two remaining chapters, badly.", 
-            "clarity": "2", 
-            "helpfulness": "1", 
+        "CMPT110": {
+            "comment": "'One of the best profs ever. funny and uses a lot of cultural refrences (telling us to not bit torrent to download the VB program cus SFU has a download archive area). swears in his lectures. He comments a lot on the lecture notes and materials and finds practical refrences. Course was A LOT better than the surrey version of CMPT 110", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT128": {
+            "comment": "'good teacher. bad course", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT165": {
+            "comment": "\"He's a really cool guy but marks pretty hard. Only take this class if you know how to program with Python before hand. Otherwise there's nothing wrong with him", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt110": {
+            "comment": "'His notes are very cleared and helpful but have some tiny errors.  However, he is not helpful when you are asking any hw or project related questions.  Also, his extreme hard and from the beginning of the class he says he will fail 1/3 of class and he means it! He done it by giving extremely hard exam sometime beyond the course contents. Bad Course", 
+            "clarity": "3", 
+            "helpfulness": "3", 
             "easiness": "1"
         }
     }, 
-    "helpfulness": "3.0", 
-    "easiness": "1.7", 
-    "clarity": "1.7"
+    "helpfulness": "3.7", 
+    "easiness": "2.8", 
+    "clarity": "3.8"
 }

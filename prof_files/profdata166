@@ -1,0 +1,39 @@
+{
+    "first_name": "Diana", 
+    "last_name": "Cukierman", 
+    "course_rating": {
+        "CMPT120": {
+            "comment": "'Nicest Prof I ever had! Got more than 100% on final exam (if a lot of ppl screw up on a question she either makes it a bonus, or omits it) Although I had programming experience, looking at her slow pace and helpfulness, I dont see why beginners should have any probz...esp if they find a smart partner for the Labs/Projs!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT126": {
+            "comment": "\"Good prof.  Really cares about her students.  Won't kill your GPA, but likely you'll have long assignments and attendance will be mandatory.  Overall, I'd say her helpful-ness makes up for the work.  Recommended.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT 120": {
+            "comment": "'Super nice prof, really has enthusiasm for the course & cares about her students. Some concepts she explains very well using slides, diagrams, human model examples, etc. At other times her explanations can lack clarity. Course may be hard to people who have no programming background, since free online textbook can be vague", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt120": {
+            "comment": "'This prof is very friendly and easy going. loves to teach and will help all her students! on the other hand, her midterms are extremely long and hard. only a few questions but you barely have time to finish them. and her projects are super long and hard! Your basically at her office every day for help. hint: find a SMART lab parnter!!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "\"She's Friendly but that's about it. She cant get her point accross the room and makes everyone look like a 2 year old child. She can't teach PERIOD.", 
+            "clarity": "1", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "4.2", 
+    "easiness": "3.3", 
+    "clarity": "3.7"
+}

@@ -1,0 +1,51 @@
+{
+    "first_name": "Lou", 
+    "last_name": "Hafer", 
+    "course_rating": {
+        "CMPT150": {
+            "comment": "'People need to take the general pattern of ratings here seriously. He is one of those teachers that has a penchant for making a course much harder than it needs to be. The textbook is bad and his notes are even worse. Does not make clear which material are relevant to the course so you always waste time studying extra stuff.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt125": {
+            "comment": "\"he's the worst professor ever!", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 150": {
+            "comment": "\"Not a very good teacher. He doesn't explain much, especially since there are no pre reqs for the class. Felt like he need ed to go slower and explain at a more bas ic level than what he was teaching at. Assumes you understand what's going on. Better to read the book or talk to somebody in class that understands the material.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "'You MUST learn Java on your own to pass this course because he teaches EVERYTHING on an overhead!  He is not a hands-on teacher, which will be extremely difficult for a first or second year undergraduate. He does not have the skills to teach beginner programmers at all.  Homework and tests are not related to the topics covered in the lectures.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt126": {
+            "comment": "\"Lou is not as bad as many people say. His assignments are VERY difficult, make sure to find some friends good at programming. Make sure you write very detailed design and testing documentation for your programs.  Second, read the material before class.  His lectures are pretty good if you know what he's talking about. Mid-Term and Finals  are fair.", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt371": {
+            "comment": "\"He is absolutely the worst ever. No joke. One earlier rater said s/he was able to talk to the department head and got permission to retake the course with someone else. Now why didn't I do that? Fellow students: keep this bit of knowledge handy. You too can take control of the quality of your own education!!!", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT250": {
+            "comment": "\"Just thought I'd counter some of the negative reviews here - Yes, 250 is a hard course, but Lou was one of the best teacher's I've had. I'm sorry you did poorly, but don't blame him because you didn't get it. He teaches clearly, he is interested, he is willing to help students, and the course follows the text, so just read it for clarifications.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "1.5", 
+    "clarity": "2.4"
+}

@@ -1,8 +1,69 @@
 {
-    "first_name": "Evgenia", 
-    "last_name": "Teranovska", 
-    "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "first_name": "Hao\"Richard\"", 
+    "last_name": "Zhang", 
+    "course_rating": {
+        "cmpt361": {
+            "comment": "'I just hope he could be more helpful so that we can learn this course better. For example, when you don\\'t even know where the \"box\" is, he wants you to jump out of the \"box\". So, I have to find the \"box\" first and try to get rid of the \"box\". You could imagine what I got finally.....", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "Cmpt 250": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt 250": {
+            "comment": "'Dixon or baker will be better", 
+            "clarity": "1", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT461": {
+            "comment": "\"This is probably one of the best professor I ever had. It's true that his assignments are huge :P\\r But still, if you are interested in the topic you can learn a lot from his classes. Also the midterms/finals are almost impossible to finish in the assigned time and contain elements not presented in class, but, hey!, he normalizes marks so who cares!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT466": {
+            "comment": "'Very interesting course. Get an early start on the term project so that you can get feedback that you can implement. Prof is very open to concerns and questions. You have to think for the homework and midterm, just be precise with your answers.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 250": {
+            "comment": "\"He can't speak english. I wonder how he became an lecturer. :(", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 361": {
+            "comment": "\"This guy really makes you feel like you could fail his course, even though you probably won't. Do you enjoy 40 - 60 hour assignments? Sign up and kiss your GPA in all courses good bye.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt 361": {
+            "comment": "'First prof I\\'ve ever had that said, \"I\\'ll let you stare at this powerpoint for five minutes and figure it out yourself\".  I wish it only happened once, but it seems to be his style.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT361": {
+            "comment": "'Toughest class I have ever taken in my life. Lectures are all math and concepts, while assignments are all programming OpenGL/C++. Since he does not teach programming, you are on your own. Good luck googling OpenGL. All the resources are out of date and scattered throughout the web.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT250": {
+            "comment": "'His lecture notes are helpful. The only disadvantage is his spoken English. But he is still a good instructor.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.3", 
+    "clarity": "2.2"
 }

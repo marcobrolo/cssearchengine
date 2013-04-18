@@ -1,0 +1,57 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Dixon", 
+    "course_rating": {
+        "cmpt150": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt 250": {
+            "comment": "'Final exam is really hard.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt150&25": {
+            "comment": "'i agree. his final was very hard.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT 150": {
+            "comment": "'Really knows his stuff", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 101": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT 250": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "Cmpt 150": {
+            "comment": "'Very, very boring, Hard Exams.", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "4.1", 
+    "easiness": "2.3", 
+    "clarity": "4.1"
+}

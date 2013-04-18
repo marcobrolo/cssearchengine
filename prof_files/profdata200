@@ -1,0 +1,87 @@
+{
+    "first_name": "Mike", 
+    "last_name": "Evans", 
+    "course_rating": {
+        "CMPT 101": {
+            "comment": "'Assignments vague.  Often jokes around in lecture but the jokes are not funny.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 300": {
+            "comment": "\"Unreasonably picky on specifics (esp. exams). Thinks he's always right.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT201": {
+            "comment": "\"You cannot argue your exam marks, and won't tell you why did you loss the marks", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 101": {
+            "comment": "'teaching style is not very helpful. Uses vague methods which only helps certain students but most of the class is lost. Must read textbook instead!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 201": {
+            "comment": "\"That man has no clue what he's doing PERIOD.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "300": {
+            "comment": "\"True loser.  Can't teach.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT300": {
+            "comment": "'His notes is garbage!! Blank notes that required you to fill in. The midterm and final are ambigous. When you give him an answer to his questions, he will always comes up with different answer from different aspect. The TA of that course is also a joke.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt 201": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "cmpt300": {
+            "comment": "\"he's alright for cmpt300...", 
+            "clarity": "1", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "Cmpt 101": {
+            "comment": "'Boring, monotoned lectures in which any excuse to not go is sweet relief.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 300": {
+            "comment": "'Very clear and articulate in lectures. Fair marking scheme and expectations. A very good prof.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT105": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 201": {
+            "comment": "'warm and fuzzy way of teaching, easy to understand, but needs to be more detailed, exams are okie, asns are interesting", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.0", 
+    "clarity": "2.0"
+}

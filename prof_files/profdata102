@@ -1,0 +1,45 @@
+{
+    "first_name": "Colin", 
+    "last_name": "Stewart", 
+    "course_rating": {
+        "cmpt110": {
+            "comment": "\"I can't believe the way he scale the grade.  He fails 1/3 of class students.  In order to get C+ is above 78, and class average is 70 %.  I strongly recomment to take with other prof and not with such a mean teacher.  However, his notes are very clear.  Get his notes and take with other prof!", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT165": {
+            "comment": "\"I took this online as a C/GPA booster course. Instead, it's one of the courses dragging me down. It's much harder than it sounds. The textbook doesn't give enough information for the assignments and the midterm was ridiculously hard. I'm not sure about in class, but definitely don't take this online!", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT110": {
+            "comment": "\"One of the best profs ever. funny and uses a lot of cultural refrences (telling us to not bit torrent to download the VB program cus SFU has a download archive area). swears in his lectures. Course was A LOT better than the surrey version of CMPT 110. quizzes are open book, open notes. MT and Final, you're allowed to bring 4 page cheatsheet!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Cmpt110": {
+            "comment": "'His notes are very clear but in lecture he just read over the lecture note. He is very helpful when you asking not hw and projects related question. However, his exams are extremely hard and he expects more than what he taught. Lastly, he says he will fail 1/3 of class of students, he means it!  I suggest, obtains his note and take with other prof.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT120": {
+            "comment": "'Great prof. For me, he really opened wide the world of computing science. Marking was fair and transparent. He encouraged questions and had a genuine interest in promoting understanding of the content. Outside of class, he was always available during his office hours and provided all the tools and explanations necessary to complete any assignment.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "Cmpt165": {
+            "comment": "'The course requires a lot of work and time. The assignments were a joke and took less then 3 hours each, scored perfect on everything. Midterm & Final on the other hand were VERY difficult. The MC messes with your brain and the written portions are not even close to the ease of the assignments. Letter grades were pulled out of his back pocket.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.8", 
+    "easiness": "2.6", 
+    "clarity": "3.9"
+}

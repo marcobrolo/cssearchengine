@@ -1,27 +1,63 @@
 {
-    "first_name": "Jian", 
-    "last_name": "Pei", 
+    "first_name": "Tom", 
+    "last_name": "Shermer", 
     "course_rating": {
-        "CMPT 354": {
-            "comment": "'I read about all the good words here about him before taking this course. However, short after the semestre began I started to doubt if this was the person as described by others. He is a nice softie, but stubborn. Loose requirements on projects led to lousy marking confilicts. Being not so stardardized is the biggest problem.", 
-            "clarity": "2", 
+        "cmpt 361": {
+            "comment": "'half of the class got 0 on the final (3rd) assignment", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "\\xa0": {
+            "comment": "'Teaches well, but is a careless and pompous undergrad advisor", 
+            "clarity": "3", 
             "helpfulness": "3", 
             "easiness": "3"
         }, 
-        "300": {
-            "comment": "'The bst teaching skills in the whole department.  A super nice guy.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
+        "MACM101": {
+            "comment": "'no comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "cmpt 300": {
+        "CM": {
             "comment": "'No Comments", 
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "3"
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt361": {
+            "comment": "'dun take him unless u love doing hardcore research on ur own", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT379": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 361": {
+            "comment": "'I have learned less in this course than any other because of this professor.  He enjoys leaving exams till the last minute (I think he writes them an hour or two before time).  His exams and assignments are riddled with error.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 379": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "macm101": {
+            "comment": "'Tom Shermer is also known as Professor \"Mind Fuck!\" he sucks at teaching and always talks about purple pants and if its raining outside.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "4.0", 
-    "easiness": "3.1", 
-    "clarity": "3.8"
+    "helpfulness": "2.9", 
+    "easiness": "1.8", 
+    "clarity": "3.0"
 }

@@ -1,0 +1,57 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "cmpt150": {
+            "comment": "'never ever want to see him again", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmptCMPT": {
+            "comment": "'final exam was so damn hard.Worst professor ever.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT300": {
+            "comment": "'Worst pro. I have been met.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt120": {
+            "comment": "'worst professor ever. very errogant attitude, UN-funny jokes and very hard... never take his course", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT225": {
+            "comment": "\"Brad is a humongous dork and enhances his lectures with his own sense of humour. Exams are fair, assignments are relevant to what's being learned. He is also friendly and helpful if you ask him questions during his office hours. Ask a stupid question and he'll gladly point it out to everyone.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "comment": "\"He is a decent prof, but find very arrogant. He forwards everybody's emails and embarrasses that person with his response. Very hard to approach for help or if you ask for clarification he'll tell you we already went over that first week!", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt225": {
+            "comment": "\"Last term I made the mistake of taking a course with brad. He is such a bad prof, does not know what he is talking about and his assignments are very long and hard. His marking isn't fair, he will make every effort to make your life miserable. DO NOT TAKE THIS COURSE WITH HIM", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT150": {
+            "comment": "'very good at clearly explaining difficult concepts", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

@@ -1,0 +1,81 @@
+{
+    "first_name": "Mike", 
+    "last_name": "Evans", 
+    "course_rating": {
+        "CMPT 300": {
+            "comment": "\"Better than most profs I've had. Speaks ENGLISH very well, and has a witty sense of humor. Strict teaching style actually makes you LEARN and pay attention. Skeleton notes sucked, but take notes and you'll be ok. Nothing was too hard or too easy if you're prepared for it. Know C++ for unix.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "201, 300": {
+            "comment": "\"Didn't learn much, especially in 201, but he's very easy. His exams really distinguishes the strong students from everyone else.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "CMPT300": {
+            "comment": "'The course is tough but Evans is a great instructor, who explained everything in details and with clarity.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT 101": {
+            "comment": "'I graduated from S.F.U. with a degree in computer science. Now working in the industry, I realize that Mr. Evans does not understand the concept of object oriented programming. I would not recommend he teach any programming course.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 225": {
+            "comment": "\"The prof wastes so much time in class with q's and the asn. Yet the asn is so messed up (he gives extra specs 5 days b4 due!) The unix labs are just as horrendous since you have to teach yourself completely, and the TA takes 1 hour to reach you. The prof is not familar with the langs, and the TA is often too busy w/ ppl w/ trouble. OMG...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 300": {
+            "comment": "'I finally have to agree that he is by far the worst and the most unhelpful lecturer!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt225": {
+            "comment": "\"makes mean jokes when you ask questions, and then does not answer the question. easy assignments and tests,if you like to program. Labs are horrible, start right away! misses lots of class for no reason or warning or apology, didn't learn anything new in his class", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "cmpt 110": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "101/201": {
+            "comment": "'blank notes are to encourage you to go to class and pay attention... a little on the boring side, but good at communicating the concepts. assignments are vague and way way too involved. but i sure learned lots", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMP 101": {
+            "comment": "'He is by far the worst teacher at S.F.U. I had him several semesters ago, and now realize that he knows absolutely nothing about C++ programming. He made several fundamental mistakes on recursion for example. A total dead loss.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 110": {
+            "comment": "'Do not take Visual Basic with this guy, horrible lectures, and he is never able to cover material on the assignments b4 they are due. In the first week of classes we learned what a bit and a byte are. My god. You Suck!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmp": {
+            "comment": "'awesome professor. lots of knowledge and has ability to explain well to students", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.0", 
+    "clarity": "2.0"
+}

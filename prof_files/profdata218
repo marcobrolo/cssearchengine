@@ -1,0 +1,75 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "CMPT 301": {
+            "comment": "'very good notes. lectures were very informative", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT 300": {
+            "comment": "\"He knows what he's doing and he's a good teacher but he's a little unfair on the assignment side.. OK very unfair!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "CMPT150": {
+            "comment": "\"I had Brad as a prof during his first semester teaching CMPT 150. It was hard and thorough. I didn't even bother going to Dixon's 250 lectures, I'd heard it all already. Brad is a great help, and very well equiped to teach, but suffers from fanboys.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT 150": {
+            "comment": "'I agree with the complaints here; however, he *is* a good lecturer.  As long as you go to class and do the assignments, you should do fine.  He gets upset whenever someone asks about the marking scheme though.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT307": {
+            "comment": "'no comments.", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "macm201": {
+            "comment": "'boring class, bad attitude. but easy final.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "MATH301": {
+            "comment": "'acted like a snotty nerd.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "macm 101": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Macm 101": {
+            "comment": "\"Exams didn't relate to assignments.. it's all bad for any thing that related to grading but not a boring prof.   A good prof isn't those who always says the questions looks fun. You won't find those Qs on exam interesting. Just Watch out!!", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 150": {
+            "comment": "'knowledgable, professional, helpful, The best instructor I ve ever met.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "comment": "\"He is a hardass but you will learn a lot if you come to lecture. Don't bother asking for help; go to the TAs instead.", 
+            "clarity": "5", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

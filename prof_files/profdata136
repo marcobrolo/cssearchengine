@@ -1,0 +1,75 @@
+{
+    "first_name": "Jan", 
+    "last_name": "Manuch", 
+    "course_rating": {
+        "CMPT212": {
+            "comment": "\"His lecture notes are unclear and hard to understand. He speaks unclearly and too softly during lectures (I can't hear much of what he says). He understands the material, but have a hard time putting it into words.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 307": {
+            "comment": "\"Sucks!  Can't speak or write~I can't believe the calibre of profs that sfu can only hire with the already increased tuition.  This guy can't communicate his work with students.  I saw more than 1/2 the class not hand in their hwk after midterm 1!", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 225": {
+            "comment": "'This guy needs to learn to speak english.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "MATH157": {
+            "comment": "'He seriously needs to work on his penmanship and his english. I find it incomprehensible and I have to rely on my textbook most of the time. Also, he goes through the material in lectures too fast.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "MATH308": {
+            "comment": "\"308 is as easy as upper maths get.  Course pace is slow due to proofs (of which a good deal aren't really necessary).  I skipped most lectures and relied mainly on textbook.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "cmp212": {
+            "comment": "'nice guy, horrible english, understood the notes but not him. super difficult assignments that did not concentrate on learning the synatx and structure of c++. mostly learnt all the theory of c++, which is what was on the test, (this saves you)", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "Math157": {
+            "comment": "'Lets put it this way: when you have to scale both midterms because the class average was a definite fail- we know there is an issue. He tries his best- but he should really stick to what he knows. The material is easy; but he cant teach it.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT225": {
+            "comment": "\"His lectures aren't that great, but he is fairly helpful in terms of questions/deadlines/marking schemes. Also, the material he presents in his powerpoint slides covers the course well enough to get a good grade on both assignments and the exams.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Cmpt 307": {
+            "comment": "\"He's a nice guy but he can't speak or write clearly, seriously", 
+            "clarity": "1", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Math308": {
+            "comment": "\"I don't know why he is teaching math even though he is in cs. I can't understand his lectures, I can't even understand his English or his writing. He seems to know the material but can't teach. Assignments are hard as well.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt225": {
+            "comment": "'nice guy, however, speaks not clear enough and give lectures without interacting with students. However, he seems really care. If u ask him a question, he will explain to u in detail. I say, attitude counts too.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "2.5", 
+    "easiness": "2.7", 
+    "clarity": "1.9"
+}

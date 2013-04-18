@@ -1,0 +1,69 @@
+{
+    "first_name": "Bill", 
+    "last_name": "Havens", 
+    "course_rating": {
+        "Masters": {
+            "comment": "'Excellent Prof. If you are interested in a masters this is the guy to be a student for. He treats his masters students like friends and works hard to help them achieve. All his students go on to do great things....", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 201": {
+            "comment": "'good prof~~", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt201": {
+            "comment": "\"one of the best CS prof i've had in SFU", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 201": {
+            "comment": "'Great Prof.  Was able to communicate quite well. Lectures were usually well structured..", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 101": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt125": {
+            "comment": "\"His midterms are difficult considering the amount of time given and his assignments are beyond the scope of completion. Amongst all that, he schedules his office hours during our lab time. Basically all he does is reiterate what is already in the book. He'll just basically read everything off of the screen. Avoid him and take it with someone else.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT120": {
+            "comment": "\"Overall I enjoyed this course and learned a lot about basic programming concepts from Dr. Havens.  The assignments were interesting and challenging.  However this isn't a course you can leave until the last minute and cram for.  If you study diligently and attend classes regularly, it's not too hard to succeed in this course.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 417": {
+            "comment": "'Excellent professor.  Very enjoyable class.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT827": {
+            "comment": "\"He's a very nice prof. We had two programming projects and both were very interesting. You'll enjoy his lecture even if you are not really into the materials.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT101": {
+            "comment": "\"Knows his stuff, can't convey the knowledge. Beware of Harold Hophozophen.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.7", 
+    "easiness": "2.8", 
+    "clarity": "3.7"
+}

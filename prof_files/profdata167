@@ -1,0 +1,27 @@
+{
+    "first_name": "Ruiwen", 
+    "last_name": "Chen", 
+    "course_rating": {
+        "CMPT125": {
+            "comment": "'Gives you interesting problems to solve for assignments. Always willing to help and answers emails very fast.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT126": {
+            "comment": "'Sessional instructor, originally from China. English is poor, but he does his best to explain everything in a clear manner. Very good for first time teaching a course. Only 1 or 2 classes were taught poorly. Extremely prompt in replying to emails and good office hours.", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 125": {
+            "comment": "'So easy and fun class. Absolutely loved the way he used google docs for assignments with comments and discussions. Got an A and never used a textbook, all from his slides and some google =)", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "5.0", 
+    "easiness": "3.8", 
+    "clarity": "4.0"
+}

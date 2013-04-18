@@ -1,0 +1,45 @@
+{
+    "first_name": "Qianping", 
+    "last_name": "Gu", 
+    "course_rating": {
+        "cmpt371": {
+            "comment": "\"The worst thing about Gu is that he teaches two books, but doesn't clarify to study which chapters! you will be surprised by questions from never thought chapters in extremely difficult final exam.AVOID", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 471": {
+            "comment": "'very good prof...", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 371": {
+            "comment": "'Never take 371 with Gu. His lectures were horrible and his attitude sucks! For his lectures he memorized and read word for word from the textbook, no preperation. The assignment questions were also from the book and he managed to mark them unfairly without giving much explanation. Did not synthesize material. Gave no context. Two thumbs down!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT471": {
+            "comment": "'He is dull and sometimes hard to understand but all assignments and exams are based off notes and homework. As long as you keep up with those you will get a great mark in his course.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 471": {
+            "comment": "\"Nice, good organization, high interest to the coures make him such a high-rating prof. Willing to listen and very helpful on assignment. The class's overall average was 82%! Although he offers this course once per year, believe me, take his 471.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT371": {
+            "comment": "'Little difficult to understand his English sometimes; Assignments are straight from the book; His lecture notes are overly simplified and does not help most of the time, so lecture attendence is a must; You really got to read the book to understand what he is talking about in the lectures; His midterm and final are okay.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.9", 
+    "easiness": "3.0", 
+    "clarity": "2.5"
+}

@@ -1,0 +1,45 @@
+{
+    "first_name": "Steven", 
+    "last_name": "Pearce", 
+    "course_rating": {
+        "macm101": {
+            "comment": "\"Taking his class currently. I haven't been in school for practically 2 years, so I don't remember much. His jokes are okay, until he directs it to students. He has a bad sense of teaching, okay notes. Relevance to class is like 1/4. He also mixes up things from diff classes. Like, he talks about MACM 101, in CMPT 120, really confusing.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "cmpt165": {
+            "comment": "\"i know you're watching this pearce...just wanna let you know that you have issues:) your psychologist probably are as bad as you are..that's why you act like an ass in class..:)", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "cmpt120": {
+            "comment": "'too much bs and does not explain wat hes teaching", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT320": {
+            "comment": "\"Very interesting but challenging class. Requires lots of background knowledge from PHIL, politics, computer concepts. LOTS of readings. Be sure to attend all classes as he will mention exactly what material is likely on exams. Written asns are mostly PHIL-like Q's, good rambling will get full marks. Also very funny if you don't mind rude jokes.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT165": {
+            "comment": "\"Don't take classes with him,worst prof ever~keep complaining about this course and didn't teach stuff at all,and tested on everything he skipped in the slides.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "MACM101": {
+            "comment": "\"Dr.Pearce has a personality that is obviously unique.  You'll either be able to deal with it, or really hate it.   That being said, he really knows the material, is obviously brilliant, although his teaching style is somewhat abbrasive (in a humourous to some way).  Exams are brutal, and the book (which even he hates) is terrible.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.3", 
+    "easiness": "2.4", 
+    "clarity": "2.4"
+}

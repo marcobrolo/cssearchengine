@@ -1,0 +1,63 @@
+{
+    "first_name": "Martin", 
+    "last_name": "Ester", 
+    "course_rating": {
+        "cmpt354": {
+            "comment": "\"Easy assignment and exam, but he can't teach", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "CMPT-354": {
+            "comment": "'Most boring prof EVER, he also has attitude problem.\\r But his assns and exams are pretty easy", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT454": {
+            "comment": "\"The textbook and his lecture notes sometimes dont match. He makes many mistakes. His exam/assn questions are ambiguous and marking is sometimes done on a strict basis even though there could be multiple right answers. He is very boring. On the plus side he's not too hard and exams are open book.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "CMPT 459": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT354": {
+            "comment": "'OPEN BOOK exam, reasonable assign, knowledgeable!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 354": {
+            "comment": "\"He sucks, can't teach", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "databases": {
+            "comment": "'he knows his stuff, but I found it to be a hard class even though I thought I understood everything", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 354": {
+            "comment": "\"Smart guy BUT, useless when it comes to teaching. Fortunatly the material is easy and the assignments aren't too bad. However, DON'T expect to learn ANYTHING from him. His notes are often incorrect so don't follow them. Oh yeah, test, can't judge the amount of time you need to write a test so you are often trying to write a 2 hour midterm in 1 hour", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 459/4', u'54": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.6", 
+    "easiness": "3.3", 
+    "clarity": "2.2"
+}

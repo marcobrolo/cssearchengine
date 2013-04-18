@@ -1,0 +1,87 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "CMPT 300": {
+            "comment": "'What is wrong with this guy?  He acts like a pompous know it all?  I have even herd other faculty members mention they are familiar with a similar attitude.  If you want to work hard and spend all your time doing hard \"nothing assignments\", take this guys courses.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 307": {
+            "comment": "\"Class was everything I wanted.  Detailed explanations of algorithms, formal proofs.  I didn't pay $500 to sit back and receive 3 credits like some of these other posters seem to have wanted.  This teacher is very good, and if you put in the effort you will do well.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "cmpt150": {
+            "comment": "'dudes pathetic. wont reply to emails regarding the contents of upcoming emails. surviving in this class by looking through other proffs course sites.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "MACM101": {
+            "comment": "'Assignments are very difficult in general, but he teaches well.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "CMPT 150": {
+            "comment": "'A nice prof. Explains things very well and has a crystal clear voice. Has some good sense of humor as well. Watch out, assignments are a bit long and not worth very much. Exams were overall fair.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT300": {
+            "comment": "'so far so good....", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "macm 101": {
+            "comment": "\"Best prof I've ever had! Made complex ideas make sense, and seems to actually know AND care about what he's teaching! (that's rare).\\r Also has an uncanny knack at remembering everyone's name.\\r A little tough when it comes to work/exams, but hey, if you don't want to study, don't go to university!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM101,CM', u'PT300": {
+            "comment": "'Designs huge elaborate assignments with little or no direction.Huge hard C++ programming assignments required for CMPT300. Always writes huge amounts of notes, which are often very useless and uninformative and cater more to general concepts and amusing analogies rather than the true workings.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "macm": {
+            "comment": "'makes BIG assumptions.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 120": {
+            "comment": "'ok prof", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 150": {
+            "comment": "'really clear, organized wonderful teacher, throughly understood everything he said, but test and assignments were very hard and time consuming. have to work hard, but in the end you understand EVERYTHING", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "MACM 101": {
+            "comment": "'Interesting personality. Really knows what he is talking about. He tries to make his classes non-boring by having little \"MACM\" Games. His exams are not easy, but it\\'s curved :) Teaches pretty clearly and makes sure you understand everything.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "macm101": {
+            "comment": "'i dont know what to say. I gave this guy an A on evaluation.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

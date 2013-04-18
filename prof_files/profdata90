@@ -1,51 +1,63 @@
 {
-    "first_name": "Janice", 
-    "last_name": "Regan", 
+    "first_name": "Toby", 
+    "last_name": "Donaldson", 
     "course_rating": {
-        "cmpt371": {
-            "comment": "\"Although she is sometimes a bit unorganized (e.g.: forgets to put stuff up on the website in time), she's very friendly and willing to answer any and all questions. She has lots of office hours. Assignments are reasonable, but sometimes ambiguously worded. Exams involve lots of writing.", 
-            "clarity": "3", 
+        "ITEC242": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
             "helpfulness": "4", 
-            "easiness": "3"
+            "easiness": "2"
         }, 
-        "CMPT300": {
-            "comment": "\"Good prof who's interested in teaching and explaining.  If the student shows extra interest, she'll go out of her way to help if there's need.  Very fair exams if you know what you're doing, even though they're really long and you're expected to write like your life depends on it, the marking is fair overall.", 
+        "\\xa0": {
+            "comment": "'Explains concepts well, and finds humour is totally unhumous subjects.", 
             "clarity": "4", 
             "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "CMPT275": {
-            "comment": "\"Ok, seriously. I've seen some of these other comments and I think some of them are unwarranted. She's not really a bad prof, but the courses she teaches tend to suck.. a lot (275). She just doesn't do much to make them  interesting.\\r \\r Exams: Easy but waaay too long.\\r Work Load: Insane\\r \\r Oh, and she takes off marks for bad spelling.", 
-            "clarity": "5", 
+        "Java": {
+            "comment": "'Got to love the off white t-shirts", 
+            "clarity": "4", 
             "helpfulness": "4", 
-            "easiness": "1"
-        }, 
-        "cmpt 104": {
-            "comment": "'too much work, often extended b/c notes in classes are insufficient; most students have computer programming background; can be intimitated to new comers", 
-            "clarity": "3", 
-            "helpfulness": "3", 
             "easiness": "3"
         }, 
-        "cmpt471": {
-            "comment": "'The first assignment is quite heavy but do not get scared by it. This is the biggest by far of all of the assignments.This is a great class as long as you want to learn about internet protocols and you should attend most classes if you can! Beware of the length of her notes.Try to study early for the final otherwise you will have to read 500 pages", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT128": {
-            "comment": "'From the first day to the last day the pace of this course is going really fast. This intro class will require you to have a good background in programming or else you will do horrible.", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "CMPT 275": {
-            "comment": "\"If you take this course with Janice, don't take ANY other courses.  She will assign so much work you won't sleep or eat for the last month and a half of classes.  Did I mention she picks apart even the most robust, well constructed project with pure joy and has exams that you can't finish in the alloted time even if you could cut and paste?", 
+        "JAVA": {
+            "comment": "'Yelled at me for not doing java when i was looking up stuff on the internet.", 
             "clarity": "1", 
             "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "ITEC": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "ITEC 241": {
+            "comment": "'This sadist idolizes his most snappy and grumpy professors from his day in the sun.  Tries very hard to be the professor nobody likes.  Does not help students when asked simple questions, works around the questions like a politician in his prime.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "ITEC 240": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Tech 154": {
+            "comment": "\"Thinks he's funny, and sometimes the jokes actually are funny.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "ITEC 242": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "2", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "2.8", 
-    "easiness": "2.0", 
-    "clarity": "2.4"
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.8"
 }

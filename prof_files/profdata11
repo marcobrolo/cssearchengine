@@ -1,39 +1,87 @@
 {
-    "first_name": "Torsten", 
-    "last_name": "Moeller", 
+    "first_name": "Kai", 
+    "last_name": "Wiese", 
     "course_rating": {
-        "CMPT 466": {
-            "comment": "'Thinks before he says something. Knows the subject well.", 
+        "ITEC 270": {
+            "comment": "'Good teacher!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "ITEC 271": {
+            "comment": "'GREAT GUY, EXCELLENT TEACHER, COOL SENSE OF HUMOUR", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "ITEC 312": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "IT": {
+            "comment": "'I always got 0 on my Muddiest point", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "i forgot": {
+            "comment": "'Great teacher, nice guy, kinda hard to understand because of accent sometimes", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "ITEC310": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "ITEC311": {
+            "comment": "'all he teaches is copying notes..", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "ITEC-271": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "Graphics": {
+            "comment": "'Gotta love dat German!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "macm101": {
+            "comment": "'he is a good teacher, and he likes answer your questions, and his class is easy to understand, take his class is a good choice.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "comment": "'Good teacher... but be prepared to work.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "MACM 101": {
+            "comment": "\"He's a pretty nice guy who offered us chocolates (I think they were Purdy's chocolates?!) while we wrote our midterms and finals! I didn't bother reading the textbook because he gets a large percentage of his notes from the text book. Nevertheless, the course was okay.", 
             "clarity": "4", 
             "helpfulness": "5", 
-            "easiness": "2"
+            "easiness": "3"
         }, 
-        "CMPT 361": {
-            "comment": "'TOUGH course, he teaches it as if it was 2 courses instead of 1!", 
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "CMPT361": {
-            "comment": "'I had unfavorable profs, but none are even close to this completely irresponsible one. Lec mostly graphic terms out of the dictionary, interesting but totally irrelevant to his asns and tests. Asn outline unclear and he offers almost no help. Around 20/22 students", 
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "cmpt 361": {
-            "comment": "'No Comments", 
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "math 461": {
-            "comment": "'Worst. Lectures. Evar.", 
-            "clarity": "1", 
-            "helpfulness": "2", 
+        "MACM101": {
+            "comment": "'MACM 101 is an extremely hard course, but Kay explains the material very well and is always open to questions.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "1"
         }
     }, 
-    "helpfulness": "2.5", 
-    "easiness": "1.5", 
-    "clarity": "2.1"
+    "helpfulness": "4.1", 
+    "easiness": "3.3", 
+    "clarity": "3.9"
 }

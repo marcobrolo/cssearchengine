@@ -1,0 +1,15 @@
+{
+    "first_name": "Ladislav", 
+    "last_name": "Stacho", 
+    "course_rating": {
+        "Macm 201": {
+            "comment": "\"It's pointless to go to his class... you learn NOTHING .... just read the book", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.4"
+}

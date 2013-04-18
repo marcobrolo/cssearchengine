@@ -1,39 +1,45 @@
 {
-    "first_name": "Joseph", 
-    "last_name": "Peters", 
+    "first_name": "Janice", 
+    "last_name": "Regan", 
     "course_rating": {
-        "cmpt371": {
-            "comment": "'He is a helpful and nice professor.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
+        "CMPTwut": {
+            "comment": "\"She's not really a good teacher, but getting a good mark is definitely doable. LOL at u idiots who didn't read the textbook", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
         }, 
-        "CMPT 371": {
-            "comment": "'His assignments are empty-hearted and exams are ill-fated.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT307": {
-            "comment": "\"Marking is based only on many quizzes and final exam. 20 minute quizzes were given about once a week or so.  I found these quizzes hard and also he doesn't give us enough time.  Class average on these quizzes were low.  The instructor does not give out useful notes so be prepared to study from the textbook yourself.", 
+        "cmptd200": {
+            "comment": "'Terrible terrible prof. She expects you to know things that she doesnt even teach you... Textbook doesnt help at all", 
             "clarity": "2", 
-            "helpfulness": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT128": {
+            "comment": "'....study from the textbook from the very beginning. midterms are crazy hard and practically impossible to finish unless you already have  background knowledge on the course before you enrolled. assignments are crazy hard compared to what she teaches. powerpoint is boring and blend. im sh*% scared im going to fail this course.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
             "easiness": "1"
         }, 
         "CMPT371": {
-            "comment": "'No Comments", 
-            "clarity": "1", 
-            "helpfulness": "1", 
+            "comment": "\"There's a lot of mistakes in her slides, and sometimes mistakes occur in her lectures, which is very confusing. Also, the assignments are not very close to her lecture. But the exam is easy and very close to the assignments and quizes.", 
+            "clarity": "3", 
+            "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "cmpt405": {
-            "comment": "'The prof was 100% dedicated to making the learning experience best possible for the students. Even then, the material is difficult and hard to focus at, so either read carefully in advance or prepare to study on your own after the lecture.", 
+        "CMPT471": {
+            "comment": "\"Weekly quiz, biweekly assignments means there's ALOT of work in this course. However, this means tons of opportunities for marks. Be sure to study past quiz/MT/finals to prepare!", 
             "clarity": "4", 
-            "helpfulness": "5", 
+            "helpfulness": "3", 
             "easiness": "2"
+        }, 
+        "cmpt128": {
+            "comment": "'when she explains things she expects u to already no stuff about c++. When i tried paying attention in class she was really confusing. her midterms r really long and hard.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "3.2", 
-    "easiness": "2.3", 
-    "clarity": "3.1"
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
+    "clarity": "2.4"
 }

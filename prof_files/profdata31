@@ -1,45 +1,51 @@
 {
-    "first_name": "Russ", 
-    "last_name": "Tront", 
+    "first_name": "Toby", 
+    "last_name": "Donaldson", 
     "course_rating": {
-        "cmpt 212": {
-            "comment": "'Often great lectures but too much notes. A lot of mistakes in the notes too. And too much reading off the notes in class makes some lectures a bit dull. Also too many emails to keep track of in mailing list.", 
+        "IAT 166": {
+            "comment": "\"Lecture notes are extremely helpful, lectures boring though. Nice guy, easy to understand. Course is pretty basic, if youre having troubles just send an email, the course isn't that bad", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "MACM101": {
+            "comment": "\"During lectures, I started playing CS. I guess he wanted me to stop so he ran up the lecture hall trying to catch me midgame. I had my notes in another window so I alt+f4 outta the game and as my notes popped up on the screen, Toby ran behind me and asked if I was paying attention and if I wasn't, leave. So I never went to another lecture.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "'Enjoyed his class. Midterms and final were easy if you studied. If you work hard you will definitely get a high mark. Assignments werent bad either. Hes a bit eccentric but very very helpful if you ask him for help. Lectures are sometimes boring but he did a good job of telling us the important bits and what we need to know.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT120": {
+            "comment": "'He provides good notes, but understanding them is crucial for weekly lab assignments and the projects. You will do fine in the midterm and the final as long as you understand the general concepts. There is only one poor TA circulating around a room of 30 confused students, so make use of any office hours that they offer and work with friends.", 
             "clarity": "4", 
             "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT 101": {
-            "comment": "'Hard Midterm and final.  His assignments are good for understanding of the course.", 
-            "clarity": "4", 
-            "helpfulness": "5", 
             "easiness": "3"
         }, 
-        "CMPT275": {
-            "comment": "'Practical prof, practical experience. One of the best prof in my university life.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
+        "CMPT225": {
+            "comment": "\"He really tries to help if you asks the right questions. Extremely reasonable for exams and assignments. Work and you'll do well. One of my favorite profs in Surrey.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT128": {
+            "comment": "\"Worst professor I've ever had. Lectures are extremely bad and terribly boring. People would only show up for the exams. He makes very bad jokes that'll make you wanna jump of the bridge on the 5th floor. Assignments are lengthy and hard. TAs are more helpful that he is. MUST AVOID TOBY DONALDSON!", 
+            "clarity": "2", 
+            "helpfulness": "1", 
             "easiness": "2"
         }, 
-        "CMPT 370": {
-            "comment": "'Teaching is fairly thorough.  But, he is very arrogant and cocky.", 
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "Cmpt 475": {
-            "comment": "\"He the best prof in Cmpt Sci, period.  Too bad he's gone :(", 
-            "clarity": "5", 
-            "helpfulness": "5", 
+        "CMPT166": {
+            "comment": "'Online notes were very helpful, but it was about all that was. He intentionally confuses and misleads students with trick questions, and getting him to answer even basic assignment questions can be a very arduous task. However, if you have any prior experience in programming, the class is extremely easy.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
             "easiness": "5"
-        }, 
-        "CMPT250": {
-            "comment": "\"Wow. I can't think of a better prof than Russel in my university experience so far. It's not any one thing but if anything, I'd say it's the way he makes it easy to listen to his lectures and the way treats students. Very flexible. Sometimes not clear on what he's going to test you on, so you gotta read a lot, but can't complain at all.", 
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
         }
     }, 
-    "helpfulness": "4.2", 
+    "helpfulness": "2.7", 
     "easiness": "2.8", 
-    "clarity": "4.2"
+    "clarity": "2.8"
 }

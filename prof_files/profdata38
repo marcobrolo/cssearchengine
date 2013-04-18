@@ -1,39 +1,111 @@
 {
-    "first_name": "Herbert", 
-    "last_name": "Tsang", 
+    "first_name": "Arsalan", 
+    "last_name": "Butt", 
     "course_rating": {
-        "cmpt275": {
-            "comment": "\"First day of class and I already don't like him. Makes terrible jokes all the time and uses them to cover up for himself when he is being not nice. Gives us work without explaining it at all and left us clueless. But most importantly, he doesn't seem to be a nice person at all! I think this is going to be a very tough and unenjoyable experience...", 
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "tech 154": {
+            "comment": "'Very friendly", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }, 
-        "CMPT275": {
-            "comment": "\"Enjoyed his class. He's got a lot of experience to share and encourages discussions in class and out. His exams are hard to prepare, but quite generous on giving grades.", 
+        "tech156-58": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "stats": {
+            "comment": "\"he's awesome.. writes clear on the board ;)... lifesaver", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Stats": {
+            "comment": "'Excellent teaching skills!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "IT/Stats": {
+            "comment": "'Sometimes I wonder if teaching is the only thing he does in his life.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
             "clarity": "4", 
             "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT361": {
-            "comment": "\"Of all the professors who've actually made me feel as if I've regretted having a class with, this guy takes the cake. We had a project, and he couldn't even explain properly what he expected out of it, he expects us to know material for the project that's not even related, and worst of all, I felt like I've learned nothing from him.", 
-            "clarity": "1", 
-            "helpfulness": "2", 
             "easiness": "4"
         }, 
-        "CMPT 275": {
-            "comment": "\"Lectures are worthless, i did not attend them and scored in the top 5 for the midterm and final. They are just material from the book with some worthless anecdotes which do not apply to the real world. His attitude towards the students is terrible, his knowledge in programming is nonexistent. He's constantly late at grading. Terrible, terrible prof", 
-            "clarity": "2", 
-            "helpfulness": "1", 
+        "T.A.": {
+            "comment": "'Good TA, will make a very good teacher", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Tech 149": {
+            "comment": "'No problmes in understanding him. Easy and fair markings in the labs. Very helpful", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "math": {
+            "comment": "'arsalan, great teacher, clear and easy to understand", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 118": {
+            "comment": "'cool guy", 
+            "clarity": "4", 
+            "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "Math 250": {
-            "comment": "'Great and wonderful guy, but does not prepare well for lectures. Often cannot answer questions and is not willing to help you find them. Read the textbook because that is where he gets everything from. Not necessary to go to class really", 
+        "2 year cla', u'sses": {
+            "comment": "'He is your friend not just a TA! Wicked dude! Helps you in anyway he can!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "tech 149": {
+            "comment": "'great teacher. very patient, helpful, and EASY.", 
             "clarity": "3", 
-            "helpfulness": "1", 
-            "easiness": "4"
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Tech149": {
+            "comment": "'very helpful", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "Stats IT": {
+            "comment": "'good teaching skills", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Tech 157": {
+            "comment": "'ARSALAN IS MY HERO!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Tech 154": {
+            "comment": "'Abuttified!", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "ITEC": {
+            "comment": "'Lectures are easy to understand. Very helpful and easy marking in the labs. Very approachable too.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "2.9", 
-    "easiness": "2.0", 
-    "clarity": "2.8"
+    "helpfulness": "4.8", 
+    "easiness": "4.6", 
+    "clarity": "4.4"
 }

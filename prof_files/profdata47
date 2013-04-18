@@ -1,27 +1,51 @@
 {
-    "first_name": "David", 
-    "last_name": "Mitchell", 
+    "first_name": "Kimberly", 
+    "last_name": "Voll", 
     "course_rating": {
-        "cmpt 101": {
-            "comment": "'No Comments", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "5"
-        }, 
-        "CMPT 101": {
-            "comment": "\"Easy Class. Can't teach. Still wondering how he ever managed to become a prof...", 
-            "clarity": "2", 
-            "helpfulness": "1", 
+        "CS221": {
+            "comment": "'Very nice. Tries really hard to make sure everyone understands what is going on. It works. People get it.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "Cmpt101": {
-            "comment": "\"Doesn't him just encourage you to read the book. The book is far more helpful than him. Read the whole book, do his assignments right, and you get an A+.", 
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "3"
+        "cpsc221": {
+            "comment": "'UBC summer course. Awesome prof. Clear, reasonable, helpful. Respectful towards students. Sets the bar high for other instructors. Highly recommended.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT110": {
+            "comment": "\"She was so helpful and welcoming.  I'm sure she was bogged down by thousands of emails over the semester but she quickly answered every one of mine. I hope she does well as a prof and in whatever career she is in after!!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "COGD300": {
+            "comment": "'The smartest prof I had. Knows so much about so many different topics. Classes are really fun and assignments were really imaginative. She is a true inspiration!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CPSC221": {
+            "comment": "'Kimberly was a *GREAT* teacher. She took a conceptually difficult course and made it clear, accessible and fun. She genuinely wanted her students to succeed, and really worked hard to provide support on webCT and through office hours. A++++ to Kim.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "APSC160": {
+            "comment": "'Best teacher, she is so helpful especially on Vista.  You can tell you spends a good deal of time answering your questions as they are very thorough answers.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT165": {
+            "comment": "'Lectures clearly and in a straightforward manner. Kim is readily available outside of class and is extremely helpful when students have questions about how to do an assignment or lab. She also answers e-mails quickly and thoroughly.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "1.9", 
-    "easiness": "2.8", 
-    "clarity": "1.8"
+    "helpfulness": "5.0", 
+    "easiness": "4.4", 
+    "clarity": "4.9"
 }

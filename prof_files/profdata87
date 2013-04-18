@@ -1,15 +1,63 @@
 {
-    "first_name": "Hassan", 
-    "last_name": "Khosravi", 
+    "first_name": "Senqiang", 
+    "last_name": "Zhou", 
     "course_rating": {
-        "CMPT310": {
-            "comment": "'Liked his style", 
-            "clarity": "4", 
+        "CMP 300": {
+            "comment": "'Worst. Lecturer. Ever.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "Cmpt 300": {
+            "comment": "\"Worst professor I have ever had.  Very unhelpful during office hours, can't understand anything in class due to his poor english.  No knowledge of the material outside his notes.  Avoid him at all costs.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMpt 300": {
+            "comment": "'the easiest proff at SFU!!!!", 
+            "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "2"
+            "easiness": "5"
+        }, 
+        "cmpt300": {
+            "comment": "'headphones are key......remember...headphones......", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT300": {
+            "comment": "'Worst lecturer that I have ever had. If you take a course with this guy, avoid class at all costs. Bloody hard assignments and Exams. Scales the class so that the actual grades are pretty decent though.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "cmpt 401": {
+            "comment": "\"assignments/project were pretty easy but time consuming, his accent is pretty bad but he seems to know what he's talking about.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT 300": {
+            "comment": "'Most boring prof that I have ever had.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "Cmpt 401": {
+            "comment": "'I cant believe the dept brought this guy back to teach!!  Had 300 with him and hes awful!  Now hes teaching 401??", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT 401": {
+            "comment": "'Very bad prof.  Cant speak english, cant communicate material, and very unhelpful.  Avoid him.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "3.7", 
-    "easiness": "2.5", 
-    "clarity": "4.0"
+    "helpfulness": "1.9", 
+    "easiness": "3.4", 
+    "clarity": "1.7"
 }

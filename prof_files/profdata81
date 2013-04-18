@@ -1,33 +1,57 @@
 {
-    "first_name": "Anne", 
-    "last_name": "Lavergne", 
+    "first_name": "Janice", 
+    "last_name": "Regan", 
     "course_rating": {
-        "CMPT 101": {
-            "comment": "'Ugh... uses the same bloody example too much!  DIE, FOREX, DIE!!!  Also, she makes one rather dependent on reading the text to understand the lecture... thank goodness for friends that already know Java.", 
-            "clarity": "3", 
-            "helpfulness": "3", 
+        "cmpt300": {
+            "comment": "\"Cmpt 300 summer2010. Weekly quiz helped with learning of the material. Lectures were all recorded. Was helpful, during office hours. Time was spent at the begin of each lecture for questions and reviewing last lecture's material(good -quick refresh before quiz- and bad -behind schedule-). Likes reusing past quiz and HW, over all, not too bad.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "cmpt 201": {
-            "comment": "'An excellent prof. Organized, always willing to help, and enthusiastic. One of the few profs that can keep me awake.", 
+        "cmpt275": {
+            "comment": "\"WOWWWWW, the class is extremely boring. The material is very important however it is dry and boring as ****. Janice doesn't do much to make the course interesting either.  Her exams are fair, however you got to fight for every single mark for the assignments. This course is extremely time consuming so take it with less course load.", 
             "clarity": "3", 
             "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "CMPT 275": {
-            "comment": "'I think the course material just sucks ass", 
-            "clarity": "2", 
-            "helpfulness": "3", 
             "easiness": "3"
         }, 
-        "CMPT 201": {
-            "comment": "'BORING LECTURE! SLEEP EVERY CLASS!", 
-            "clarity": "4", 
-            "helpfulness": "2", 
-            "easiness": "4"
+        "Cmpt128": {
+            "comment": "\"She knows what she's doing but she's terrible at teaching. She's horrible at explaining concepts. 2/5 TA's were actually helpful when they were around the other 2 didn't know**** and the one of them was really stuck up and mean.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "CMPT300": {
+            "comment": "\"Haha oh my god, this was horrible. I thought she was bad in CMPT 275 'cause the course was bad, but no it's just her. Assignments and tests are only hard because her marking scheme is incorrect and arbitrary. There is SOME material in the class, but 70% of it is common sense. The only thing worse than her teaching is the fact that she teaches a lot", 
+            "clarity": "5", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT128": {
+            "comment": "\"O man! Terrible Teacher. It's lucky for me, since I took this course in high school. But I feel so SORRY for teh rest of class.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT275": {
+            "comment": "'Regan is very helpful when asked for help, though the assignments were long and tedious and the marking was very strict and specific.  The midterm exam is designed not to be finished and yet some people gets nearly perfect.  I felt burned by the TA, inconsistent marking, and had to fight for our marks.  Watch out for the team members... :(", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT471": {
+            "comment": "\"So picky in meaningless rules. She insisted in using C instead of C++ in CMPT471, which is ridiculous. You can hardly learn anything from her class except what you learn from reading the slides yourself. Her course even has one quiz for each class! I can't persuade myself she is a instructor of computer science.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt128": {
+            "comment": "\"really hard teacher. she teaches simple material but then expects you to be able to right a really hard code in a short amount of time. Her midterms are meant to fail you. If you do fail this course don't be surprised. And the TA's she has are useless they do not help that much.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.7"
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
+    "clarity": "2.4"
 }

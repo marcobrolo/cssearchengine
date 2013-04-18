@@ -1,0 +1,81 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "MACM101": {
+            "comment": "\"Greg is a very fair.  He is nice, and is one of those rare profs' out there who really can make the course easier.  Lectures are not boring either =)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 250": {
+            "comment": "'easy material and assignments and exams, clear about course material, easy-to-follow lecture. funny that being easy, his lectures really went strait into most ppl.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "MACM 101": {
+            "comment": "'Seem nice teacher, exams are hard. Not recommended!", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "ENSC250": {
+            "comment": "'He is a smart guy, but he is good at teaching. Lecture is not very informative...", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt 165": {
+            "comment": "'easy class, tests were simple and the class was material was interesting.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 250": {
+            "comment": "'He is so much better than Hafer. He starts from basics.. this is the way it should be.. Hafer needs to learn from Baker.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "CMPT 165": {
+            "comment": "'Great notes, but exam are a bit tricky.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT 102": {
+            "comment": "'I think he made the class ineteresting, with little jokes. And the notes were really good.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Cmpt250": {
+            "comment": "'Look nice but really he is not nice at all.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "165": {
+            "comment": "\"I think it's way easier if you have computer background before you take this course.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt250": {
+            "comment": "'Very simple, easy to follow lectures.  Lectures make the material seem easy, but you will have to do some work outside of lectures and assignment to do really well on them. (more detail than assignments or lectures cover but still on topic)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT250": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

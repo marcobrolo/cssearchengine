@@ -1,0 +1,33 @@
+{
+    "first_name": "Sarah", 
+    "last_name": "Brown", 
+    "course_rating": {
+        "CMPT 165": {
+            "comment": "'assignments are tedious long and have way too many requirements.  the html stuff is useless as what she teaches is her own way to do things and not the best way. I do not recommend her as a prof.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT165": {
+            "comment": "\"She marks really hard. Worst prof I've ever had in my 3 years of university", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 165": {
+            "comment": "\"sarah is extremely lazy.  powerpoint notes are annoying because you'd either have to retype them out yourself or print out the slides.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt165": {
+            "comment": "\"for those who are beginners,she is a HORRIBLE prof. take this course with g.baker. courseware is almost useless for her class. Worst prof I've had. has HUGE attitude problems.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.3", 
+    "easiness": "1.7", 
+    "clarity": "2.1"
+}

@@ -1,0 +1,63 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Dixon", 
+    "course_rating": {
+        "CMPT150": {
+            "comment": "'Incredibly concise and a brilliant lecturer. Really knows his stuff", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt 250": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 150": {
+            "comment": "'his teaching style is difficult.. he goes over examples very quick..", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 250": {
+            "comment": "'Hard midterms and exam", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "Cmpt 150": {
+            "comment": "'Very nice guy, gives hard miterms and exams though.", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT250": {
+            "comment": "'Good prof, tends to do more than required in a course, challenging assignments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "comment": "'Very responsive", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 150": {
+            "comment": "'very good teaching, good notes, challenging tests", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt250": {
+            "comment": "'He knows a lot of stuff.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "4.1", 
+    "easiness": "2.3", 
+    "clarity": "4.1"
+}

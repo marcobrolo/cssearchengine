@@ -1,0 +1,81 @@
+{
+    "first_name": "Steven", 
+    "last_name": "Pearce", 
+    "course_rating": {
+        "MACM101": {
+            "comment": "\"Very bad writing, and thats really bad since his notes are vital for the course. The book is really awful too, with insane questions and insane examples that you just can't grasp. This is a first year course but it was way harder than calculus 3 and math 232 combined. The questions he ask are like alien language, prove this prove...... prove that..", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 100": {
+            "comment": "\"should never ever ever consider taking his course. he's crazy, awful prof ever! he talked about the stupid star wars he liked. i didn't think the course itself was supposed to be difficult, but he made it completely nonsense and ridiculous. his markings/assignments/ exams were not fair at all. DO NOT TAKE HIS CLASS!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 100": {
+            "comment": "'The man certainly is a quack. One may rightly feel he is well aware and knowledgeable but a frivolous professor.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 165": {
+            "comment": "'This guy is a terrible teacher.  Made a complete joke of the entire class.  Has no respect for students.  His jokes are completely lame, and his lessons are pointless.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt320": {
+            "comment": "\"Not a fair teacher.  He grades on the curve and writes small exams based on randomly selected material.  25% of the class failed the final and only 3% got higher than 32/40.  But if your GPA can handle a C, he's worth taking just because he's shockingly non-PC and quite funny.  A memorable character.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT120": {
+            "comment": "\"Teaches a programming course, and starts by telling students that programming is useless and boring.  Only spent 2 weeks teaching programming; rest of the time he just rambled about a variety of unrelated topics.  Final exam had no programming at all; instead was mostly crap about 'theories of webpage design', which was never even in the syllabus.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT100": {
+            "comment": "\"Worst prof ever! I took this course as an elective in my second last semester, but this prof really is the worst one I have ever seen. Not helpful AT ALL!! Make people scare to ask him question. And no patient AT ALL. Assignments are so difficult and misleading. DON'T TKAE HIS CLASS!!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT320": {
+            "comment": "\"Not very happy with his teaching. Very unclear (assumes all students should know his favourite wikipedia). The course text has lots of nonsense which is hard to relate to his nonsense. Finally your grade won't be looking so good at all.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 320": {
+            "comment": "\"If you can avoid it, do not take this course at night for three hours: you and Steve will not want to be there.  Otherwise, Steve was very entertaining and smart (he doesn't mind letting you know that he knows A LOT more than you).  Could be considered rude if you don't have a sense of humour.  If you're incredibly PC, you're in for a shock.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt 320": {
+            "comment": "\"awesome sense of humour, super smart, makes the course exciting, doesn't answer questions well, very random, have to watch stupid sci fi movies", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt100": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "macm101": {
+            "comment": "\"He's an overall good lecturer. Above all, he has the art to keep students awake.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.3", 
+    "easiness": "2.4", 
+    "clarity": "2.4"
+}

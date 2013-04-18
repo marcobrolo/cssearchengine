@@ -1,0 +1,21 @@
+{
+    "first_name": "Ehsan", 
+    "last_name": "Amiri", 
+    "course_rating": {
+        "CMPT165": {
+            "comment": "\"Worst professor ever. Unorganized and cannot teach. He mumbles to himself alot and doesn't speak to anyone except the overhead. He prints so small as well. DONT TAKE ANY CLASS WITH HIM.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt165": {
+            "comment": "'idiot", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "1.1", 
+    "easiness": "3.2", 
+    "clarity": "1.6"
+}

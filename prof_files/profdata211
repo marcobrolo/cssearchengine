@@ -1,0 +1,57 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "cmpt 165": {
+            "comment": "\"Extreme unclear and he didn't talk to students but himself in the lecture.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT165": {
+            "comment": "\"Similar to another student said, this was the worst class I have taken at SFU. The TA's were the ones that seemed to be teaching the course! Even at that, the TA's and the prof were very condescending and quite often there was lots of chatter between the students for help. The prof always asked us to email the TA's for help and not him. HORRIBLE.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 165": {
+            "comment": "\"The WORST class i've taken at SFU.  I have programming background and this course was unreal for a first year programming course.  There was no help from the prof or TAs, I had to rely on other students to help me out.  Midterm and Final were extremely hard, concentrates on the tiniest details in the texts which are both 250 pages of tiny writing.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Comp 165": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "comment": "\"He isn't that easy, but as you do some preview, it will be crystal clear what is going on. Do practices and examples and think through the logic. He is willing to tell you how everything happen and how they come together, very helpful~", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 120": {
+            "comment": "\"He's such a jerk, said we were having lecture this day then cancels the morning of lecture and there's like 30 people that show up. Two days til the final and he still hasnt sent out that outline that he promised.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt165": {
+            "comment": "\"nice guy, pretty helpful. tries to make jokes and it's pretty cute. it's funny cause it's not funny. awwww", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT 125": {
+            "comment": "\"has the most roundabout way of explaining things; lots of pieces that didn't tie together, and he taught subjects in the most painfully illogical way possible", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

@@ -1,0 +1,51 @@
+{
+    "first_name": "Stella", 
+    "last_name": "Atkins", 
+    "course_rating": {
+        "CMPT 363": {
+            "comment": "'First time teaching this course.  Basically summarizes the recommended text and present them to us.  Good research background, but comments regarding HCI made in class are too subjective.  This is a theory class; not an art class.  A lot of overlap with CMPT 275.  A lot of work required; be prepared.", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt340": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt 363": {
+            "comment": "'exams are incredibly easy, lots of assignments but none take much work. easy credit and somewhat interesting.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "cmpt363": {
+            "comment": "\"one of the easiest courses I've taken in sfu. It shows that she's not an expert in UI design and HCI. But what the heck, Ive taken it because its a gpa booster, cant complain", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT363": {
+            "comment": "\"Very easy course and she's a good prof, minus her inability to use exactly what she's teaching (i.e. interfaces)  Some things are annoying about her but marking is fair and class expectations are more than fair - at least for this course which was a breeze.  The notes are decent, and lectures aren't all that boring.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT 340": {
+            "comment": "'A bit spinny, but still a nice enough prof. 340 is brutal!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.4", 
+    "easiness": "4.1", 
+    "clarity": "3.4"
+}

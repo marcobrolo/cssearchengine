@@ -1,0 +1,57 @@
+{
+    "first_name": "Jiangchuan", 
+    "last_name": "Liu", 
+    "course_rating": {
+        "macm101": {
+            "comment": "'Very nice man. The average is around B. This course should be at an elementary level but JC sometimes didnot make himself quite understandable. Maybe slightly difficult for freshmen. But overall good prof and easy credit.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 880": {
+            "comment": "'Great Prof., very smart, very helpful, I recommend taking his graduate course on multimedia networking...", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 101": {
+            "comment": "'This guy is so boring.  I hate his voice.  Falling asleep in class", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT 371": {
+            "comment": "'Unbelieveably easy!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "macm 101": {
+            "comment": "'He is a great prof compared to other profs in CS...", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt371": {
+            "comment": "'Very boring lectures. The class content was actually supposed to be interesting, but he made it exceptionally bland!", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "MACM 101": {
+            "comment": "'He is obviously very intelligent but his english is poor and he is a poor orator as well.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "MACM101": {
+            "comment": "'Very good professor if you pay attention in class.  Takes a while to get used to his accent, but the powerpoint notes more than makes up for that.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "3.3", 
+    "clarity": "3.2"
+}

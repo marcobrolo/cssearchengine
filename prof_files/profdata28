@@ -1,15 +1,57 @@
 {
-    "first_name": "Wo-Shun", 
-    "last_name": "Luk", 
+    "first_name": "Brian", 
+    "last_name": "Fraser", 
     "course_rating": {
-        "CMPT 354": {
-            "comment": "'His english is poor and his lectures are boring. There were ONLY 6 out of 20 students went to his lecture.  He has no organization on notes. No practical assignments (no SQL setup and triggers). No body has enough time to finish the midterm.", 
-            "clarity": "1", 
-            "helpfulness": "2", 
+        "cmpt212": {
+            "comment": "'Friendly, helpful, clear lecture, fair exams, interesting assignments + encouraging students asking questions. One of the best professors.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt125": {
+            "comment": "'AWESOME AWESOME PROFF, CANT WAIT TO HAVE HIM FROM CMPT 250 WOHOO!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT125": {
+            "comment": "\"Best professor ever. Clearly very interested in TEACHING students versus telling. Plus, he had the greatest analogies and an amusing sense of humor. As a person who's been programming since high school, he explained and filled up a lot of holes in my understanding of programming that previous instructors failed to fill.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT276": {
+            "comment": "'Best teacher ever in my life. I took both CMPT250 and CMPT276 with him and learnt nearly everything. His notes are extremely helpful, but you need to go to every single lectures", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT120": {
+            "comment": "\"Excellent prof! He's so great that I'm considering arranging my schedule to match the classes he'll be teaching. Interesting & quirky lectures: he'll usu throw in a joke for the important concepts. Extremely helpful: you'll never feel dumb asking him Q's, no matter how inane you think it sounds. The only prof I know who'll actually debug with you.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT250": {
+            "comment": "'Great Professor, really knows the material he teaches and shows a lot of interest. Open to suggestions and questions. Nothing to complain about. Had Him for CMPT 250 also. Best CMPT Professor hands down.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt130": {
+            "comment": "\"This proff is amazing he explains things very clearly. If you're new to computing he's definitely the guy to go for. He makes the subject extremely interesting. He starts out easy on you then takes a pretty sharp turn on the difficulty, that in itself is not bad because he is willing to provide support and guidance to help you get through!! :D", 
+            "clarity": "5", 
+            "helpfulness": "5", 
             "easiness": "2"
+        }, 
+        "cmpt250": {
+            "comment": "'great prof, always willing to took at your code and help you debug", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.1", 
-    "easiness": "2.4", 
-    "clarity": "1.9"
+    "helpfulness": "4.9", 
+    "easiness": "3.6", 
+    "clarity": "5.0"
 }

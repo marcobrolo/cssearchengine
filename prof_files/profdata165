@@ -1,0 +1,69 @@
+{
+    "first_name": "Steven", 
+    "last_name": "Pearce", 
+    "course_rating": {
+        "cmpt": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 165": {
+            "comment": "\"He is fun. At least, I never fell asleep in his class. But he doesn't know how to teach and sometimes be rude to students. The exam is not that much hard if you looked at his lecture notes. Just no need to pay attention to the textbook coz there is nothing from it in the exam.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 165": {
+            "comment": "'not good at teaching, might be better off being a comedian. gets side tracked easily. the tests are mostly alot of stuff we havent learned before. never take any class with this prof, going to his lectures is like going to a comedy show", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "MACM 201": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "macm 101": {
+            "comment": "'should not have become teacher.\\r should have gone into show business.\\r would be a fine stand up comedian.\\r better than a lot of those that come on tv these days.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT320": {
+            "comment": "\"hilarious, makes the course interesting\\r exams were a bit tough though but it's all scaled.", 
+            "clarity": "5", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "cmpt 320": {
+            "comment": "\"gets sidetracked easily, but makes the 3-hour lecture go by like it's 1 hour long. if you do stupid stuff in the first few classes, he'll pick on you for the rest of the semester. Other than that, great prof!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 320": {
+            "comment": "\"Pearce is a unique prof. He brings humour and edgy comments to the class to stir up discussion and get you to think. It is a definite think-out-of-the-box type course, and he really drove it home. I swear he thinks he's William Shatner though. Picks on certain individuals too frequently however.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "MACM 101": {
+            "comment": "'funny guy, but the class material is awful. tests are hard too", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "320": {
+            "comment": "'No comments.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.3", 
+    "easiness": "2.4", 
+    "clarity": "2.4"
+}

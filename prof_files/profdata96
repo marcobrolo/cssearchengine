@@ -1,45 +1,33 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
+    "first_name": "Andrew", 
+    "last_name": "Park", 
     "course_rating": {
-        "cmpt 165": {
-            "comment": "\"He is fun. At least, I never fell asleep in his class. But he doesn't know how to teach and sometimes be rude to students. The exam is not that much hard if you looked at his lecture notes. Just no need to pay attention to the textbook coz there is nothing from it in the exam.", 
-            "clarity": "3", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "CMPT 165": {
-            "comment": "'No Comments", 
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "macm 101": {
-            "comment": "'should not have become teacher.\\r should have gone into show business.\\r would be a fine stand up comedian.\\r better than a lot of those that come on tv these days.", 
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "cmpt 320": {
-            "comment": "'No Comments", 
+        "CMPT125": {
+            "comment": "'I took his cmpt125 java class! His exams are relatively easy. He follows the textbook very well. He is very generous on grading.", 
             "clarity": "3", 
             "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "CMPT 320": {
-            "comment": "\"Take the course with him. Very light load of homework because he knows students are naturally lazy. Pay attention in class and pick out what he says will be on the exam and you'll A it otherwise you'll probably fail.", 
-            "clarity": "5", 
-            "helpfulness": "2", 
             "easiness": "4"
         }, 
-        "MACM 101": {
-            "comment": "'funny guy, but the class material is awful. tests are hard too", 
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "2"
+        "cmpt125": {
+            "comment": "'Good prof. learned much and very well related cmpt125 to 225", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt110": {
+            "comment": "'A very good instructor!! definitely recommended!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT110": {
+            "comment": "\"If you've done at least a bit of VB, you'll find this course easy. It's intended for non-computing students and assumes no prior computing knowledge. I was actually somewhat surprised at getting an A+, but I think the class was scaled (to make it fair, as many computing majors took the course). Final exam average was over 100%.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "helpfulness": "4.5", 
+    "easiness": "4.5", 
+    "clarity": "4.5"
 }

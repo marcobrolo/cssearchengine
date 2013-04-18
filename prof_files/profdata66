@@ -1,27 +1,27 @@
 {
-    "first_name": "David", 
-    "last_name": "Mitchell", 
+    "first_name": "Arash", 
+    "last_name": "Rafiey", 
     "course_rating": {
-        "CMPT 101": {
-            "comment": "'Always late!", 
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "cmpt 101": {
-            "comment": "'No Comments", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "CMPT  101": {
-            "comment": "'boring, takes forever to mark stuff, easy fun hwk, messy finals(not hard)", 
+        "CMPT212": {
+            "comment": "\"First:  Arash is a very nice, and clearly brilliant person.\\r However, his organizational skills were non-existent.  I don't think he was on time once.  His slides are incomprehensible and full of mistakes (in the code), he has no communication skills, and he obviously doesn't care about the subject.  Exams and assignments were ridiculously hard.", 
             "clarity": "2", 
             "helpfulness": "2", 
-            "easiness": "5"
+            "easiness": "2"
+        }, 
+        "cmpt212": {
+            "comment": "\"Doesn't care to teach. Doesn't know the subject matter at all. Doesn't care to fix mistakes. Makes mistakes everywhere every other slide. Assigns inappropriate, nearly impossible assignments. Exams are error ridden (once he repeated a one-liner question only 3 questions away).", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT126": {
+            "comment": "\"Awful teacher. He was not present for the first week of school because he 'did not know' he was suppose to be there. Did not teach in class, never replied his emails, and cannot understand his accent. Entire class did awful and he had to scale. I got a B+ even though I had no idea what a Java class is.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "1.9", 
-    "easiness": "2.8", 
-    "clarity": "1.8"
+    "helpfulness": "2.0", 
+    "easiness": "2.2", 
+    "clarity": "2.0"
 }

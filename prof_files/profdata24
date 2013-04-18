@@ -1,8 +1,15 @@
 {
-    "first_name": "Can", 
-    "last_name": "Wang", 
-    "course_rating": {}, 
-    "helpfulness": "4.0", 
-    "easiness": "5.0", 
-    "clarity": "4.0"
+    "first_name": "Yi", 
+    "last_name": "Jin", 
+    "course_rating": {
+        "CMPT120": {
+            "comment": "\"This prof is absolubly useless, and he just assume u know all the stuff. Attending the class is just a waste of time, and u will get more confuse if u attend =.= and the project is VERY hard (at least I think it is) If you take his class, u will learn nothing, SO please, DON'T TAKE IT!!!!", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.7", 
+    "easiness": "4.0", 
+    "clarity": "2.7"
 }

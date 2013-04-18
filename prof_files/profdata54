@@ -1,39 +1,27 @@
 {
-    "first_name": "Dan", 
-    "last_name": "Ridinger", 
+    "first_name": "Thomas", 
+    "last_name": "Shermer", 
     "course_rating": {
-        "cmpt 370": {
-            "comment": "\"it's not a hard course, but lecture is boring.", 
+        "CMPT379": {
+            "comment": "'I did not have a problem with his teaching. It was straightforward and he taught you what you needed to know for the assignments and exams. Unfortunately, his TA for the semester was totally useless. The assignments were hefty though, so for this class, make sure you start right away, because you will be doing coding all-nighters anyways.", 
             "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "CMPT475": {
-            "comment": "\"Assign aren't necessarily hard in terms of workload but because of extremely vague details and marking criteria, marks on avg are pretty low.  Assign consist of just making tasks in Feng Office which really only takes less than an hour of actual time.  TA doesn't read writing, don't bother.  Just make lots of tasks.  Final is vague.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "4"
-        }, 
-        "CMPT370": {
-            "comment": "'It\\'s \"real world experience in a course\" at it\\'s best. High emphasis on design modeling, with most of it already being familiar at this level of education. He\\'s clear and knows what he is talking about. 1st midterm based solely on notes and 2nd and final on models. Funny guy at times.", 
-            "clarity": "5", 
             "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "CMPT 370": {
-            "comment": "'Good Prof, Knows his stuff very well. Could make classes a little bit more fun, but not bad overall.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "cmpt370": {
-            "comment": "'Nice lecture, and is not a terribly boring speaker.  Grading is huge minus though.  The course material is very easy, but freaky marking means you get a mediocre grade no matter how hard you try.  Assignment directions are very vague and unhelpful.  Exam grading is rigid and oftimes illogical.", 
+        "cmpt379": {
+            "comment": "'You won\\'t learn much theories about compilers, but will totally strengthen your programming. So, if you don\\'t \"die\" for programming, never think about this course. The worst thing is that he doesn\\'t clarify how to do his assignments, you have to ask him by email or in office hours.", 
             "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "3"
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "MACM101": {
+            "comment": "'Made a difficult course even harder. He would go through long examples but would sometimes be unable to finish it or explain a theorem(from another chapter entirely!) needed to finish it. Notes are unclear and disorganized, sit at the front to see the notes and to hear him. Last day of class he covered two remaining chapters, badly.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.9", 
-    "easiness": "3.5", 
-    "clarity": "2.9"
+    "helpfulness": "3.0", 
+    "easiness": "1.7", 
+    "clarity": "1.7"
 }

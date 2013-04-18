@@ -1,0 +1,69 @@
+{
+    "first_name": "Torsten", 
+    "last_name": "Moller", 
+    "course_rating": {
+        "cmpt 466": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "308": {
+            "comment": "'Torsten is a really good, funny and interesting prof. Good job, Torsten!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT 461": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "ENG 313": {
+            "comment": "'Great prof, great class. Very enjoyable. Very easy going in regards to assignments. Makes the class come alive.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "ENG 310": {
+            "comment": "'Laid back, interesting, able to fill seminar voids with engaging thought.  Also very funny, makes class enjoyable.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt 361": {
+            "comment": "'Easy tests, super long homework - helpful and easy to approach guy", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "Cmpt 361 C": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "Cmpt 361": {
+            "comment": "'Good Prof, Hard Assignments, Math Intensive, Should have more code in lectures.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT361": {
+            "comment": "'Interesting course.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "308 / 310": {
+            "comment": "'Wonderful annecdotes and casual style... knows his subject.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "4.4", 
+    "easiness": "3.5", 
+    "clarity": "4.2"
+}

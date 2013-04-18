@@ -1,33 +1,8 @@
 {
-    "first_name": "Ted", 
-    "last_name": "Milner", 
-    "course_rating": {
-        "Kin306": {
-            "comment": "\"He is the worst teacher that I have ever had!!!!  Horrible man!!!!  So mean tooo!  Can't believe he is still teaching!", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "Kin 306": {
-            "comment": "'He is really bad, very boring.  His tests are really hard.  Just download the notes & MEMORIZE EVERYTHING.", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "kin 306": {
-            "comment": "'He just throw all the details to you and the notes for first midterm is like 2 inches thick and the words are small and sentences are long.", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "kin201": {
-            "comment": "\"He can't teach or explain anything!  His tests are way too hard and he's not helpful at ALL!", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }
-    }, 
-    "helpfulness": "2.5", 
-    "easiness": "1.1", 
-    "clarity": "2.5"
+    "first_name": "Ouldooz", 
+    "last_name": "Karimi", 
+    "course_rating": {}, 
+    "helpfulness": "", 
+    "easiness": "", 
+    "clarity": ""
 }

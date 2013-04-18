@@ -1,8 +1,39 @@
 {
-    "first_name": "[u'Rate My Professors | Find and rate your professor, campus and more ", 
-    "last_name": "", 
-    "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "first_name": "Hassan", 
+    "last_name": "Khosravi", 
+    "course_rating": {
+        "Cmpt310": {
+            "comment": "'Easy Assignments, If your not clear with what to do go and ask him directly during his office hour, he is helpful.the last assignment is hard (given the time) limited time but tons of things to do, not if your taking 1 course.The only thing i dont like about his course is his final exam, extremely hard! From A+ to B-", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt354": {
+            "comment": "'you will feel confidence in databases at the end.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT310": {
+            "comment": "'Hard assignments and exams", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmptd100": {
+            "comment": "'realy bad- hard final he didnt even teach what he asked on final , worst TA , no respond to your email , dont take with him", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT354": {
+            "comment": "\"If you follow the instruction well, it's easy to get an A+!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.7", 
+    "easiness": "2.5", 
+    "clarity": "4.0"
 }

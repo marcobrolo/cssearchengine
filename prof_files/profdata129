@@ -1,0 +1,57 @@
+{
+    "first_name": "Torsten", 
+    "last_name": "Moeller", 
+    "course_rating": {
+        "CMPT 466": {
+            "comment": "'Thinks before he says something. Knows the subject well.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt": {
+            "comment": "\"He's by far the hottest prof in computing science.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT 461": {
+            "comment": "'Does a good job teaching a very tough course, this should not be a 3 credit course!  Has an extreme interest in the course material, thinks about what he says and can respond to difficult questions.  Coming out of this course, I felt comfortable enough to reimplement most of the algorithms discussed", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT461": {
+            "comment": "\"i wouldn't complain if it were a 5 credit course", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT 361": {
+            "comment": "'TOUGH course, he teaches it as if it was 2 courses instead of 1!", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "cmpt 361": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT361": {
+            "comment": "\"No unfavorable profs are this irresponsible. Lec mostly dictionary graphic terms, interesting but totally irrelevant to asns/tests. DIY Math and Program. Unclear asn. Don't even ask he won't help.  20/22 students fail MT. Tests w/ stuff not in lec or text. And plenty of F. This isn't even a course. Only wastes your time, $, GPA, graphic interest :(", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "math 461": {
+            "comment": "'Worst. Lectures. Evar.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.5", 
+    "easiness": "1.5", 
+    "clarity": "2.1"
+}

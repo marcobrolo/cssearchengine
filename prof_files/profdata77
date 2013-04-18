@@ -1,33 +1,87 @@
 {
-    "first_name": "Hassan", 
-    "last_name": "Khosravi", 
+    "first_name": "Russ", 
+    "last_name": "Tront", 
     "course_rating": {
-        "cmpt354": {
-            "comment": "'Good instructor and fair mareker.", 
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "CMPT310": {
-            "comment": "'Interesting assignments and final.", 
-            "clarity": "2", 
-            "helpfulness": "1", 
+        "cmpt212": {
+            "comment": "'Looks like Bilbo Baggins, but was a great prof...", 
+            "clarity": "5", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "cmptd100": {
-            "comment": "'realy bad- hard final he didnt even teach what he asked on final , worst TA , no respond to your email , dont take with him", 
-            "clarity": "2", 
+        "Cmpt 101": {
+            "comment": "'Easy", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 101": {
+            "comment": "\"he's a good prof. Very smart. Too bad he's leaving teaching to work for EA. Wish him all the best!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CS 212+275": {
+            "comment": "\"An excellent prof.  Too bad he's gone now.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 212": {
+            "comment": "'Often great lectures but too much notes. A lot of mistakes in the notes too. And too much reading off the notes in class makes some lectures a bit dull. Also too many emails to keep track of in mailing list.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 101": {
+            "comment": "'Very dedicated about his work, on his email around 6 hours a day (no joke), hard class but well worth it.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT275": {
+            "comment": "'Practical prof, practical experience. One of the best prof in my university life.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT 370": {
+            "comment": "'Teaching is fairly thorough.  But, he is very arrogant and cocky.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt250": {
+            "comment": "'The worst prof ever in my university life. His assignments are useless and unclear and his exams are so long that you wont be able to finish it on time.  He copies notes from other profs which is so annoying and he sends tons of emails like essays which is frustrating. tbh I would never take any class with him again", 
+            "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "CMPT354": {
-            "comment": "'Good prof, knows the material well and extremely fair marker.", 
-            "clarity": "4", 
+        "cmpt104": {
+            "comment": "'Best professor I had at SFU. Love him dearly.", 
+            "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "3"
+        }, 
+        "cmpt 275": {
+            "comment": "\"You'd better memorize all coursepacks and books before heading to his final, if you want a good grade.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Cmpt 475": {
+            "comment": "\"He the best prof in Cmpt Sci, period.  Too bad he's gone :(", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT250": {
+            "comment": "'Most of the students from the class fail their 1st midterm. His exams are extremely long. His instruction of the assignments are always unclear.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "3.7", 
-    "easiness": "2.5", 
-    "clarity": "4.0"
+    "helpfulness": "4.2", 
+    "easiness": "2.8", 
+    "clarity": "4.2"
 }

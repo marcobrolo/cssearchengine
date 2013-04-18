@@ -1,0 +1,57 @@
+{
+    "first_name": "Mike", 
+    "last_name": "Evans", 
+    "course_rating": {
+        "CMPT 300": {
+            "comment": "\"to be honest, he's not that bad. but to do good in this course, u must prepare b4 going to lecture, or else u will have no idea what he's talking about. luckily u got lecture tape, sometimes he just go too fast and u can't catch up with him at all. his assignment isn't too hard but sometimes lack of clarity.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT110": {
+            "comment": "\"He's very knowledgable in programming, very fair professor, and gives alot of help when you need it. He even gave me a pass when I clearly failed the course, what more can you ask from Mr.Evans. He also scaled the final exam also. Lets hear it for Mr.Evans and an awesome semester.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt300": {
+            "comment": "'very good class", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT300": {
+            "comment": "'Poor electronic communication with class. Notes purposely provided with blanks, not useful as study material. Relatively dry/academic but acceptable lectures.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 225": {
+            "comment": "\"This guy is for sure the worst prof on earth, save urself and never take a course with him. His lecture notes are not readable or understandable and he thinks he's the only one who knows about computer science! He thinks he's very funny, but what he really is, is 'ANNOYING'. Confusing and complicated assignments that even himself have no idea what ", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "cmpt225": {
+            "comment": "'How come he is still here at SFU after all these years. He is NOT organized , BAD writing , and most of us are LOST. Worst prof EVER , no doubt.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt110": {
+            "comment": "'I am a CGPA 3.5 above Science major student , and got my first EVER D when I took the course with him. He is bad at teaching , his TAs are not helpful either ! He is the WORST ! AVOID THIS PROF , tho it seems like he is the only one teaching", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT225": {
+            "comment": "\"Avoid this prof at all costs, even if it means graduating later. It's just not worth it. Terribly useless teaching, extremely hard exams. I'm NOT the only one saying this.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.0", 
+    "clarity": "2.0"
+}

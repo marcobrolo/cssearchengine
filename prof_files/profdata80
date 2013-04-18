@@ -1,45 +1,27 @@
 {
-    "first_name": "Harinder", 
-    "last_name": "Khangura", 
+    "first_name": "Gabor", 
+    "last_name": "Tardos", 
     "course_rating": {
-        "MACM101": {
-            "comment": "'interesting course.fantastic prof,speaking clearly and making difficult things really easy for u to understand!!midterms are pretty easy.", 
-            "clarity": "5", 
+        "CMPT710": {
+            "comment": "'He is absolutely very knowledgeable and cares a lot about the students. On the other hand, the way he presents the lectures is kind of messy and not very decent.", 
+            "clarity": "3", 
             "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "CMPT300": {
-            "comment": "'Amazing prof. He makes things so easy to understand and is very good with answering any questions or clarifying his in-class examples. His assignments can be tough but he gives very good directions as to how to do them while still being able to teach the important lesson of the assignment.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "Desi101": {
-            "comment": "'No Comments", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "cmpt165": {
-            "comment": "'He is a good prof for sure! However, I think he demands his students in this course too much", 
-            "clarity": "5", 
-            "helpfulness": "4", 
             "easiness": "2"
         }, 
-        "CMPT250": {
-            "comment": "'I think Harinder is a good prof. His lectures are very organized and if you do not understand, you can ask him after class or in office hour. He is not an easy prof. His exams are pretty tricky. If you do well in labs and assignments, you are going to be getting B+.", 
+        "CMPT407": {
+            "comment": "'It is a hard course. But it is really an interesting useful course. Just try it and work very hard. He is also a good marker.", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "2"
         }, 
-        "CMPT150": {
-            "comment": "'Awesome prof", 
+        "CMPT307": {
+            "comment": "'Very very great professor, very patient and helpful. The only thing that sucks is the TA whose name is Haitao Li, he only knows rarely about this course and shows no respect and gives you extremely grade without comments. But thanks to the professor, he re-evaluated my exam and corrected all mistakes TA made.", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "4"
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "4.7", 
-    "easiness": "3.8", 
-    "clarity": "5.0"
+    "helpfulness": "4.8", 
+    "easiness": "2.0", 
+    "clarity": "4.1"
 }

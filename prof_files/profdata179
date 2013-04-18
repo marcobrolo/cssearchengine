@@ -1,0 +1,57 @@
+{
+    "first_name": "Petra", 
+    "last_name": "Berenbrink", 
+    "course_rating": {
+        "CMPT 307": {
+            "comment": "\"You better you know your stuff very well cause that's what she expects and there is no exception what so ever. She can be great help one on one but class enviroment doesn't work very well. Good luck", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT307": {
+            "comment": "'The thing I like about Dr. Berenbrink is that during exams you can get away with asking any question and she will answer.  This is very helpful!  I also found her lectures extremely well-related.  Ignore all the negative comments, people are stupid.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT300": {
+            "comment": "'Do not take this class with Prof Berenbrink unless you strongly dislike learning. Had difficulty responding to students questions.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "307": {
+            "comment": "\"Absolutely horrible. I've never dropped below an A- in any class taken so far (half-way through third year) and I finished with a C+. Most arrogant person I've ever had to deal with. Lectures were painfully disorganized, tests were completely unfair. She's not just hard, she's malicious. Take the class with someone else.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT405": {
+            "comment": "\"I took this honour's course on a whim and had a pleasant surprise - it was actually rather interesting. Petra was quite enveloped in the material and guided us along at a wicked pace. Sadly, the fun ended at the exams, as she really makes them difficult.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt 307": {
+            "comment": "'agree other peers comments abusolutely", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT-307": {
+            "comment": "\"Uses someone else's notes (written permission I guess) but sometimes gets lost in them. doesn't explain things too good ... lets hope I pass huh?", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmp307": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "2.4", 
+    "clarity": "1.7"
+}

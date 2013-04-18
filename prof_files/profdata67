@@ -1,8 +1,51 @@
 {
-    "first_name": "Herbert", 
-    "last_name": "Tsang", 
-    "course_rating": {}, 
-    "helpfulness": "2.9", 
-    "easiness": "2.0", 
-    "clarity": "2.8"
+    "first_name": "Fred", 
+    "last_name": "Popowich", 
+    "course_rating": {
+        "CMPT165": {
+            "comment": "'He was a good prof- very interested in the course.The lectures were well prepared but he moved on with material very quickly-it was somehow hard to keep up-midterm was very easy-but the final-a wake up call.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "cmpt275": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 165": {
+            "comment": "\"What I saw in his lecture, this teacher really don't know how to use computer. However, he is teaching computer course...\\r One more thing, if you not really master on the subject which u taking.. or you never take this subject before.. you better don't take this teacher, his hw, assignment, mid-term and exam is extremely hard!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT413": {
+            "comment": "'Very enthusiastic and knowledgeable in the material. The assignments and project were manageable and closely related to the class material.\\r \\r He uses powerpoint.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT 413": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt165": {
+            "comment": "'talk too fast", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.8", 
+    "easiness": "2.8", 
+    "clarity": "3.0"
 }

@@ -1,0 +1,57 @@
+{
+    "first_name": "Anne", 
+    "last_name": "Lavergne", 
+    "course_rating": {
+        "Cmpt128": {
+            "comment": "\"She doesn't know how to teach. She doesn't teach clearly.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT165": {
+            "comment": "'Unclear notes, tries to be fun in class but extremely unhelpful in person. Refuses to answer \"easy\" questions because she thinks we should be able to figure it out. Don\\'t take this if you are not a computer science major.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 165": {
+            "comment": "\"Very disorganized prof. Lecture notes are broken down into incoherent parts. Midterm and finals' averages are 50-52% in a non-curved course. About one-third of the class would fail if she did not decrease the maximum marks by 2 or 3. I have never attended a class that is not curved and class average is around 50% before.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt225": {
+            "comment": "\"Spends too much time of simple things such a definitions. Doesn't teach any code. Assignments were long and tedious. Doesn't give solutions to assignments. Midterm wasn't that bad. Final was brutal!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 363": {
+            "comment": "\"Not bad. Too theoretical, you won't be coding alot in this class. She has a nice attitude and genuinely wants to help. For assignments, ask for clarification (might get docked marks for silly things).", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT128": {
+            "comment": "'Unorganized lecture, never get to see actual code, always go through slides of a huge amount of code which makes it hard to see specific points. Teaches design fairly well but doesn\\'t tell you how to implement code. Tell you to \"find out for yourself\" on several occasions for questions during lecture. DON\\'T TAKE THIS COURSE IF YOU ARE NEW TO C++.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "cmpt165": {
+            "comment": "'Memorize everything that she has on her power points, assignments and examples.No need to read Python book, maybe just look over the examples..Try to memorize different codes for creating a web page, because on midterm and the final,the part about web pages was the most important. Also, you can bring your cheat-sheet on any exams.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT225": {
+            "comment": "\"Summary for CMPT 225               Assignment -> lots to do, you must know everything about JAVA before you go lab because she doesn't teach how to write program                       Lecture -> simply, not effective", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.7"
+}

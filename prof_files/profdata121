@@ -1,0 +1,57 @@
+{
+    "first_name": "Bill", 
+    "last_name": "Havens", 
+    "course_rating": {
+        "CMPT 101": {
+            "comment": "'good teacher", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt 201": {
+            "comment": "'good prof.. just focus on recursion", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 201": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "comp 101": {
+            "comment": "'AAAHHHHHHHHHHHHHHHHHHHHHH", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 101": {
+            "comment": "'Explains concepts very well", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt101": {
+            "comment": "'GOOD TEACHER but very hard better avoid him", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "\\xa0": {
+            "comment": "'Great professor. Knows his stuff. Stupid curve tho. A+ 91. B+ 87.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT101": {
+            "comment": "\"The dude looks like President Sinclair from Babylon5....'nuff said, great prof", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.7", 
+    "easiness": "2.8", 
+    "clarity": "3.7"
+}

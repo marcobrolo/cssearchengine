@@ -1,0 +1,45 @@
+{
+    "first_name": "Brian", 
+    "last_name": "Funt", 
+    "course_rating": {
+        "101": {
+            "comment": "'woooo mamma", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 412": {
+            "comment": "'No practice questions at all, so expect to see weird crazy questions in final", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT412": {
+            "comment": "'Could have used some practice questions", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 361": {
+            "comment": "\"This professor is cool! even if the content of this class was extremely easy, its assignments are somewhat fun. If you have time for them (one week of work each) you can take really high marks.\\r \\r He doesn't give lots of informations for the final otherwise it should be too easy to solve.. \\r Weird questions solvable thinking for 2 minutes.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "CMPT361": {
+            "comment": "'Messy notes. Strict.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "cmpt 412": {
+            "comment": "'Final was an unhappy surprise.  Assignments are ambiguous.  Not a fun class...", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "3.0", 
+    "clarity": "3.1"
+}

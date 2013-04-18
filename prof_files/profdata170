@@ -1,0 +1,57 @@
+{
+    "first_name": "Anne", 
+    "last_name": "Lavergne", 
+    "course_rating": {
+        "CPMT125": {
+            "comment": "'She seems nice, and she is able to verbalize some of the harder concepts easily, but i found her to be more interested in the planning than the codeing. I would have prefered less focus on the planning and more on the codeing. I do not think she is a fair marker. I will think twice before taking a class with her again.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT125": {
+            "comment": "'Pretty much all the other comments on here sums up what kind of professor she is. She is... \"NICE\" but that\\'s about it. She can\\'t teach if her life depended on it. Waste so much on teaching all the java jargon that most people don\\'t need to know in a FIRST year course.She does NOT teach how to implement code, just terrible...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT275": {
+            "comment": "'Cons: boring lectures, too much work. Pros: fair marker, easy material, approachable, no midterm. Keep yourself busy on the project for this course and you will learn way more than you will in class", 
+            "clarity": "2", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt165": {
+            "comment": "\"Terrible Pro,  didn't teach at all. Just show you the unclearily slites on the board, and never show you how to use the program. Terrible Pro for CMPT", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt275": {
+            "comment": "'Shes sooooooooooooooooo nice and helpful :) Really!", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt125": {
+            "comment": "'Too wordy, makes me wanna sleep. Paid her $400 for her to tell me to buy a textbook for $100. Lectures were useless,so i skipped. 95% of learning was from the book. Its a programming class, TEACH HOW TO PROGRAM. She wastes ~20 mins of class time talking about last class, ~20 mins on poor choice of words/irrelevent stuff , and 10 mins of teaching.GG", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT128": {
+            "comment": "'A nice person in general. She teaches code completely in psuedocode, meaning several hours of trial and error to get things that did not explain well to work. Makes the course unnecessarily harder because of her pointless objectives and required planning. ie.she makes something that could have been programmed with 5 lines of code requiring 50.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT165": {
+            "comment": "\"Took this as an online distance ed course.  Her TAs were absolutely useless.  The course itself is straight forward.  Exam is worth 70 percent, depending on your midterm mark.  Overall an alright class.  I haven't even talked to or seen the prof before... Only during exams.", 
+            "clarity": "4", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.7"
+}

@@ -1,0 +1,57 @@
+{
+    "first_name": "Toby", 
+    "last_name": "Donaldson", 
+    "course_rating": {
+        "CSIS166": {
+            "comment": "'The best pro I have ever seen in my life!!! High recommended!!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT275": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "comment": "\"Great prof, doesn't teach with slides but rather through example-I find this better for programming courses as you can follow along easier. Despite what was previously said, my friends and I found him to be quite funny. Final wasn't too bad, practice the problem sets given!", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "comment": "\"Clarity is hindered by his long, convoluted, impossible to follow proofs. Doesn't share knowledge about hwk pbms. Slightly better than the terrible txtbook that blabs all page. Txtbook hwk is difficult. Always see the TA for help or you will be farrrr behind. Tests are also difficult.\\r \\r Have tons of scrap paper ready to clarify MACM concepts.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "Macm 101": {
+            "comment": "\"Great prof! Very helpful and he doesn't make you feel stupid when you ask him a question. Midterm was veryy fair and easy, it was so much easier than i thought it was going to be. Final was very fair if you studied and know your stuff.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 120": {
+            "comment": "'Very bad, not clear at all. Does not help with anything, go to another proffs lectures.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT128": {
+            "comment": "'He is hopeless", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT166": {
+            "comment": "'The best CMPT166 teacher ever!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "2.8", 
+    "clarity": "3.3"
+}

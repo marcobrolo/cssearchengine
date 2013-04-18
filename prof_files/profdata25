@@ -1,15 +1,21 @@
 {
-    "first_name": "Art", 
-    "last_name": "Liestman", 
+    "first_name": "Mohamed", 
+    "last_name": "Hefeeda", 
     "course_rating": {
-        "MACM 101": {
-            "comment": "'Very entertaining and very clear", 
+        "CMPT 300": {
+            "comment": "'Very helpful, very organized, knows the material well and very hard working...", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "4"
+            "easiness": "1"
+        }, 
+        "CMPT300": {
+            "comment": "'Did not explain material super well. Relied on his powerpoint slides a lot, which he made available online. Used textbook a lot for exam material/questions. His TA was useless.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "2.4", 
-    "clarity": "4.0"
+    "helpfulness": "3.5", 
+    "easiness": "2.0", 
+    "clarity": "3.5"
 }

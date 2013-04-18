@@ -1,0 +1,21 @@
+{
+    "first_name": "Wo-Shun", 
+    "last_name": "Luk", 
+    "course_rating": {
+        "CMPT 354": {
+            "comment": "'His midterm was challenging but I found there was enough time to do it. The final was the same way. I much preferred his low level approach to databases rather than the \"SQL for dummies\" that CMPT 354 usually ends up being.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 454": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.1", 
+    "easiness": "2.4", 
+    "clarity": "1.9"
+}

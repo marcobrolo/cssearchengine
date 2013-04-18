@@ -1,39 +1,21 @@
 {
-    "first_name": "Torsten", 
-    "last_name": "Moller", 
+    "first_name": "Victor", 
+    "last_name": "Chen", 
     "course_rating": {
-        "cmpt 466": {
-            "comment": "'No Comments", 
-            "clarity": "2", 
-            "helpfulness": "3", 
+        "ITEC 407": {
+            "comment": "'Very thick accent. Incomprehensible \"diagrams\" on white-board (retired cryptographer?). Occasionally forgets the material himself halfway through lectures. Generally friendly and tries to help, but it\\'s nearly hopeless. Avoid him if you can.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
             "easiness": "2"
         }, 
-        "308": {
-            "comment": "'Torsten is a really good, funny and interesting prof. Good job, Torsten!", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "ENG 310": {
-            "comment": "'extraordinarily empathetic prof who is flexible with respect to assignments, deadlines, etc.; fun, enthusiastic, and well-read", 
-            "clarity": "4", 
+        "BUS207E": {
+            "comment": "'n.a.", 
+            "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT361": {
-            "comment": "'Interesting course.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "Cmpt 361 C": {
-            "comment": "'No Comments", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "1"
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "4.4", 
+    "helpfulness": "3.5", 
     "easiness": "3.5", 
-    "clarity": "4.2"
+    "clarity": "3.0"
 }

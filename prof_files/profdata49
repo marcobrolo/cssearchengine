@@ -1,8 +1,75 @@
 {
-    "first_name": "Arrvindh", 
-    "last_name": "Shriraman", 
-    "course_rating": {}, 
-    "helpfulness": "5.0", 
-    "easiness": "5.0", 
-    "clarity": "3.0"
+    "first_name": "John", 
+    "last_name": "Edgar", 
+    "course_rating": {
+        "ITEC240,24', u'1,242": {
+            "comment": "'John is really good at using metaphors and stories to help students understand programming. he also tells funny stories, and makes people stay interested in learning the topic and not fall asleep.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt125": {
+            "comment": "'He\\'s nice but the final project was super SUPER hard. Most of my classmates/friends couldn\\'t sleep for a week because of the project. Crazy course, I would never take it if I don\\'t have to. It\\'s way too hard for people who don\\'t have \"computer brain\"!! However, he\\'s helpful for labs, etc.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 125, ', u'225": {
+            "comment": "'Awesome prof. Very helpful and very clear notes... Sometimes hard to sit through his lectures but explains problems with examples for better understanding. Better than Toby", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt225": {
+            "comment": "'He is a good professor. His lecture notes are very clear and he will post all of them in the beginning of the course, so that we can prepare for it. His assignments are very easy, he just take an example from the textbook. He DOES know JAVA, he is very good at it.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT110": {
+            "comment": "\"He's a very fun professor. Unlike Toby..his lectures were not boring. He answers students' questions very clearly and quickly. As well his PPT notes were organized and useful, so study them before the exam; he doesn't give you surprise questions. If you pay attention in his class and ask him questions, you'll get a good grade", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT120 CM', u'PT125": {
+            "comment": "'Excellent teacher, actually knows his material (amazing!) and can teach it! Seriously though, very good teacher.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT120": {
+            "comment": "'Funny looking, Funny talking, casual profl thumbs UP!", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 125": {
+            "comment": "\"John's a pretty nice guy, though I stopped attending his lectures half way through the semester because what he talkes about in class is basically posted online... His lectures *somewhat* put me to sleep. Regardless of that, he's pretty helpful when you go up to him to ask questions about labs.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT-118": {
+            "comment": "'Just loved the accent, probably the reason I showed up to class every day.  We had fun in his class, as we set up a network and played quake through them.  Be sure to have a hand on alt-tab to get back to J-creator or eclips or whatever.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 120": {
+            "comment": "'Great prof! nice and funny and has a cool accent. His lectures are quite entertaining and he uses good examples to get the materials across. Very helpful and friendly.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "cmpt 125": {
+            "comment": "\"This guy, believes he is always right, and will not help you at all, if u ask for help he'll give it back with a question and make u feel dumb.  He doesn't teach java as i believe he doesn't kno any at all. and he thinks he's so cool, but actually he just acts like a nuissance. worthless and pathetic he is. refrain from taking this course", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "4.5", 
+    "easiness": "3.7", 
+    "clarity": "4.5"
 }

@@ -1,0 +1,45 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "CMPT120": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 120": {
+            "comment": "\"u don't want to take this if you don't have any basics about programming. I basically thought the course was horrible, probably because it's a new course and this is the first time that he teaches this course.But he doesn't give u enough examples to understand.TOO YOUNG,NO EXPERIENCE ABOUT TEACHING.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt 165": {
+            "comment": "'what should i say?? this course really sucked. i totally agree with the person below me.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt120": {
+            "comment": "'his lecture was well orgnized, best porf I met so far.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT 470": {
+            "comment": "\"I'm surprised to see all the comments saying that Greg is hard; I've taken 3 classes with him, and found all to be very straightforward.  In any case, Greg is always very clear and organized.  Highly recommended.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 120": {
+            "comment": "'understood jack", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

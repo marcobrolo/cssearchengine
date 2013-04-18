@@ -2,47 +2,47 @@
     "first_name": "Steven", 
     "last_name": "Pearce", 
     "course_rating": {
-        "MACM101": {
-            "comment": "'This professor is the worst professor I ever had. Pearce does not teach as much as he rambles about his personal life. He constantly talkes about his exwife, how useless the subject is, and about his vacation trips. In addition, he will completly ruin the subject for you.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "CMPT 100": {
-            "comment": "'The man certainly is a quack. One may rightly feel he is well aware and knowledgeable but a frivolous professor.", 
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT 165": {
-            "comment": "\"Jokes were lame but there were a few laughs.  He spent most of the time on trying to humour the class......it was unsuccessful.  Don't think I learned much in his class because he can't teach.  Just take the notes down once in a while and read the text.", 
-            "clarity": "2", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
         "CMPT320": {
-            "comment": "'As far as teaching is concerned, 0. Not to mention his impoliteness. And when I say impolite, I mean REALLY impolite.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT 320": {
-            "comment": "'Jokes around too much. Lets that class leave early regularly. Swears in class once in a while.", 
+            "comment": "'Overall, I think Steven is definitely the best person to take 320 with if you want your money well spent. Although I got an A in this class, I was interested in the material. The class is fun if your not some religious freak or someone who cannot be open to new (and realistic) ideas. Steve talks the truth and is not afraid to do so. Much respect.", 
             "clarity": "4", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "cmpt 320": {
-            "comment": "\"awesome sense of humour, super smart, makes the course exciting, doesn't answer questions well, very random, have to watch stupid sci fi movies", 
-            "clarity": "3", 
             "helpfulness": "3", 
             "easiness": "3"
         }, 
-        "cmpt100": {
-            "comment": "'No Comments", 
+        "CMPT300": {
+            "comment": "'Not a good teacher for this course. Disappointed in how the course was taught. Basically read powerpoint slides the whole semester, i felt like i was taking a distance ed class as I had to learn and understand everything on my own. Envious of others who took this course with other instructors who actually were taught important things in OS theory.", 
             "clarity": "1", 
             "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt300": {
+            "comment": "\"Easy class.I didn't learn much. Felt like I wasted my tuition $. Take it with someone else if you want to learn.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "com320": {
+            "comment": "'he is a complete nutcase must be on .,..", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt320": {
+            "comment": "'good class, lots movies, exams not hard. overall good class", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "MACM 101": {
+            "comment": "\"his class is interesting, you can't get bored, he is helpful and very understanding, his teaching abilities beats the hell out of Brad Bart useless classes full of sarcastic annoying jokes, at least this guy actually has a PHD to be qualified for the job plus Dr.Pearce doesn't give you attitude when you approach him with a question", 
+            "clarity": "3", 
+            "helpfulness": "4", 
             "easiness": "3"
+        }, 
+        "MACM101": {
+            "comment": "'I learn this course more from the textbook and friends than coming to his lecture.... he is a funny but not suitable to teach! I highly recommend u DONT TAKE THIS CLASS!", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
     "helpfulness": "2.3", 

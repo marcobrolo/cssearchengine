@@ -1,15 +1,99 @@
 {
-    "first_name": "Daniel", 
-    "last_name": "Weiskopf", 
+    "first_name": "Marek", 
+    "last_name": "Hatala", 
     "course_rating": {
-        "cmpt461": {
+        "ITEC 262": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "UID": {
+            "comment": "'The key to Marek: learn all the vocab...then on all tests USE IT EVERYWHERE!!!", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "ITEC426": {
+            "comment": "\"He's a very bad explainer.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "ITEC 327": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "WCT": {
+            "comment": "'Pet store project done over a million times with exams that have you memorize lists of data.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "iat352": {
+            "comment": "'bad at explaning, has a heart of stone. reminds me of stalin.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "ITEC325": {
             "comment": "'No Comments", 
             "clarity": "2", 
             "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "comp353": {
+            "comment": "'I have him in the most difficult exam in my life (PhD defense). He is the best I ever seen (to the point, clear, relaxed, useful feedback ...). Thanks Dr. Hatala", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "ITEC-425-7": {
+            "comment": "'hah.. you gotta be kidding me with the course materials. But guess what.. kid u not.. its true.. u r suppose to learn all that.. and the bonus stuff.. woooo.. thats gonna take a little while for u to figure out if u r not already familiar with that tech.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
             "easiness": "1"
+        }, 
+        "IAT352": {
+            "comment": "\"terrible at explaining concepts.  he's trying to cover all comp sci concepts in this class, and he's doing a terrible job. very muddy explanations and poorly written slides which were essentially plagerised from the readings. he requires you to read 40 extra pages per week from external sources Marek, you cant teach. DONT TAKE THIS CLASS!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "ITEC-261": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "Iat352": {
+            "comment": "'Brutal exams that do not relate to the assignment material. Expects ALL extra-readings material to be fully read (and memorized), as they will be on the exam.  Poor assignments, unclear instructions.  Heart of stone.  Will stay clear and advise that everyone else does the same.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "iat 352": {
+            "comment": "\"terrible at explaining, didn't understand some of his own assignment, unreachable for extra help, and NOT hot", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "\\xa0": {
+            "comment": "'OmG!!!  He sucks so badly... never take a course with him a prof... he sucks big", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "ITEC": {
+            "comment": "\"Marek is a great teacher for classes which he likes teaching. If you are in his user interfaces class, don't expect a lot of passion from him. The key to his tests is remebering lists of data.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.0", 
-    "easiness": "1.0", 
-    "clarity": "2.0"
+    "helpfulness": "2.3", 
+    "easiness": "2.1", 
+    "clarity": "1.9"
 }

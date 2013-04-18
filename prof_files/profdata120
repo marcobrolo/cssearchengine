@@ -1,0 +1,33 @@
+{
+    "first_name": "Funda", 
+    "last_name": "Ergun", 
+    "course_rating": {
+        "cmpt371": {
+            "comment": "'dun wanna comment on how she teach, i think just so-so...  i got all assignments perfect... mt on avg... but end up got a D... thx to her tricky, non-sense final... u will see questions u dont know how to answer at all even with ur book opened", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 371": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT765": {
+            "comment": "'She does not invest enough time and effort for her classes.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT371": {
+            "comment": "\"she is not quite up-to-date, but knows the course content well enough to teach it. you can do just as well by reading the textbook alone, although her explanations help, but they're just so long and windy...", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.2", 
+    "clarity": "3.5"
+}

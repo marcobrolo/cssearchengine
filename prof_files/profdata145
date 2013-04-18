@@ -1,0 +1,69 @@
+{
+    "first_name": "David", 
+    "last_name": "Mitchell", 
+    "course_rating": {
+        "cmpt 101": {
+            "comment": "'It was quite easy for me because I knew the concepts well enough. His assignments were not bad.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "All classe', u's": {
+            "comment": "'From other classes: \"Horrible teacher. He never clarifies anything, and teaches the easist materials to us. His tests are also horrendously difficult\". Although his lectures are clear, the immense mess and unclarity in assignments and tests (worth practically most of the marks) has made him an unfavorable prof. Improvement definitely needed :(", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "'Oh my god! I can not imgine SFU have such a professor, he made me know nothing about JAVA and did horrible in the test. If I had a chance to choose again, I will sleep home instead of taking his lecture; If I can add a time to how long I will do this, I wish 10 thousand years!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "cmpt126": {
+            "comment": "\"Doesn't answer questions raised clear enough, though spends whole classes going over how to do the assignments.  very boring class if you already know basic programming.  late often.  midterm was ok, but too much code writing, final was easy.  the text was sub-standard.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "CMPT 101": {
+            "comment": "'The lectures are hard to follow and boring. The midterm and final are also somewhat unreasonable. Though, I found his assignments helpful for new programmers.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt125": {
+            "comment": "\"I can't believe he cancelled classes for a whole week. This course is about the fundamental of cs and java, the prof is important to us. He doesn't care about students. I don't understand why university hire this guy. I highly recommend you don't take his classes. It will waste your money and time.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT126": {
+            "comment": "\"Believe me, you have a very good chance to FAIL the course. Espeically, if your 1st language is NOT English. I took the course a year ago. it's boring. But JAVA shouldn't like that.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 125": {
+            "comment": "'Terrible...unreasonable pacing of lectures (some parts slow and some too fast), unclear and a lack of assignments (only 5 w/ 2 worth 12% each), and most importantly, he does not explain things well.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 126": {
+            "comment": "\"Very bad teacher =(.  Doesn't know Java well enough, makes loads of errors in his notes, that students correct, (and what is students don't find them all 0.o).", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 125": {
+            "comment": "'he is a lazy prof, unclear assignment, messy organization, lack of clarify...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.8", 
+    "clarity": "1.8"
+}

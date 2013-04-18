@@ -1,0 +1,45 @@
+{
+    "first_name": "Diana", 
+    "last_name": "Cukierman", 
+    "course_rating": {
+        "CMPT120": {
+            "comment": "'Very fun and easy teacher. Midterms are easy as long you understand the material. Two large projects took alot of time, but very manageable. Great lectures, and you can tell that she cares for the students very much. Overall, great professor", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT150": {
+            "comment": "'She was a great prof to have, very helpful and clear notes. Exams were fair. Assignments were a bit long but she explains material well enough for you to do a decent job.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT125": {
+            "comment": "\"She allows cheat sheets on her tests, and is overall a very fun teacher to be with. Very easy course, yet I learned alot from her. There WILL be mini-tests every now and then, and although you don't have to attend lectures to get the material, you should still go in case of mini-tests =]   Overall a really great prof", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt125": {
+            "comment": "'projects are too hard  too much work", 
+            "clarity": "5", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt120": {
+            "comment": "\"Great prof, really connects with the students in class. notes are a bit messy and sometimes makes some mistakes but tells us right away via email.  labs aren't too difficult, assignments are long and require some time but definitely doable.  MT was fair. offers lots of help for students.  definitely recommended", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "Cmpt120": {
+            "comment": "\"uh...if u do your homework and kinda listen, you will do well. Otherwise if u slack off, you are hopeless because she can only help so many people and the ta's only help girls. Got tricky when project one came out of nowhere.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "4.2", 
+    "easiness": "3.3", 
+    "clarity": "3.7"
+}

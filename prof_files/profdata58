@@ -1,27 +1,51 @@
 {
-    "first_name": "Janice", 
-    "last_name": "Regan", 
+    "first_name": "Oliver", 
+    "last_name": "Schulte", 
     "course_rating": {
-        "cmpt128": {
-            "comment": "'when she explains things she expects u to already no stuff about c++. When i tried paying attention in class she was really confusing. her midterms r really long and hard.", 
-            "clarity": "1", 
+        "CMPT882": {
+            "comment": "'The most ridiculous course and professor. In the graduate level, at Game Theory, the whole time he was just practicing games like prisoners dilemma, chicken and Rock-paper-scissors, . . . and gave chocolates to the winners or volunteers!! Such a picnic!!", 
+            "clarity": "2", 
             "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "CMPT128": {
-            "comment": "'Nice person, but teaches the most simple rules of programming, that we can simply get from the textbook. Her assignments/exams are extremely long and difficult. Rather than just teach us stuff we can get from the textbook, she should go over difficult codes in class, and describe how things work in the actual code.", 
-            "clarity": "1", 
-            "helpfulness": "2", 
             "easiness": "1"
         }, 
-        "CMPT371": {
-            "comment": "\"Terrible prof! all she does is read slides in class, takes too long to give out grades and solutions to quizzes and assignments. Doesn't teach anything in class but gives harsh marks.", 
+        "CMPT318": {
+            "comment": "\"pretty interesting course.  not much covered, and it's pretty easy too if you know the basics.  the e-commerce stuff was barely tested on the final though...", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT310": {
+            "comment": "'Very determined to teach & has genuine concern for students. He is happy when no one is lagging behind. His lectures were fun & the assignments I did were very practical. If you really want to learn, you can combine the lectures and textbook(naturally).The problem is that students dont like to read. He is one of the best and inspiring profs ever.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT726": {
+            "comment": "'His assignments were exactly  the assignments that Dr. Greg Mori used for his Machine Learning course twice. So almost everyone had already the  correct solutions. Therefore by coping some words and diagrams everybody was happy. Shame for him and his cheating students.", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "3"
+        }, 
+        "CMPT320": {
+            "comment": "'Part of his test is made up of useless details but he allows a cheat sheet for his tests so take notes when reading the book so your cheatsheet will be ready when exam comes along. The midterm is supposed to take 2 hours(or so he says) but everyone finished before 25 minutes.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT354": {
+            "comment": "'This got to be a joke of a prof. He always \"doesn\\'t want to give too much detail on the assignments\\' requirements\", yet expects you to guess the right solution. Granted the TA for this course is a total failure, but the prof doesn\\'t make the situation any better. Tests are unfair since he likes to test on things that has \"no solution\". Avoid!", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT 354": {
+            "comment": "'Very nice guy. Tries hard to make the lectures clear and easy to follow. The assignments really help with the exams. The exams covered stuff from the book that wasnt in the lectures - watch out.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "2.8", 
-    "easiness": "2.0", 
+    "helpfulness": "2.4", 
+    "easiness": "2.9", 
     "clarity": "2.4"
 }

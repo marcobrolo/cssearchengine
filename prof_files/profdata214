@@ -1,0 +1,75 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "Cmpt300": {
+            "comment": "\"He\\u2019s a great prof, very helpful and professional. His classes were always a lot of fun, there wasn't a single class that he didn't tell a joke or make everyone laugh :D. On the other hand you really do have to work, assn are very long but you learn SOOOOOO much it's amazing. If you have the chance, take cmpt 300 with Bart, it's totally worth it.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT150": {
+            "comment": "'No online notes posts, so if you missed one (or even half) of the class, it will be diffcult to catch up.", 
+            "clarity": "5", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT300": {
+            "comment": "\"Great professor, extremely hard and time consuming assignments, but I feel I really have a grasp of the material because of it.  If you like being challenged, take this course it feels very rewarding, if you already have a heavy course load, DON'T take a class with him.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT307": {
+            "comment": "'Stay the phack away, most dreaded professor ever, better start his assignments ATLEAST a week before they are due. And he WILL NOT respond to emails.", 
+            "clarity": "4", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt300": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "MACM201": {
+            "comment": "'Brad is awesome! Take his courses!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT120": {
+            "comment": "'Good lecturer, really funny, fair amounts of homework.  Course itself is really quite easy.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt150": {
+            "comment": "'Sure he makes you learn but hes an **** in the process", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt120": {
+            "comment": "'he was an okay prof. make sure you go to all the lectures and take down the notes. know the definitions, they do show up on the midterm and the final. homework needs more thinking and understanding the basic concept of the material. Overall was good :) boring sometimes but good", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "3 courses!": {
+            "comment": "'I love coming and reading the ratings here. It\\'s hilarious. \"Dogmatic and self-important\"? \"Pompous know it all\"? Please. His material is not to make himself feel superior. IT\\'S TO MAKE YOU LEARN. COMPLETELY learn. If you\\'re lazy, find a different prof. If you\\'re in Brad Bart\\'s class and have trouble, GET HELP! Don\\'t sit there and **** afterwards.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM101": {
+            "comment": "'Clear explanations, humorous, great professor.  Not much more to say.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

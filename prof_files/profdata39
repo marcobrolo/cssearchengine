@@ -1,8 +1,93 @@
 {
-    "first_name": "Andrea", 
-    "last_name": "Tagliasacchi", 
-    "course_rating": {}, 
-    "helpfulness": "5.0", 
-    "easiness": "4.0", 
-    "clarity": "5.0"
+    "first_name": "Jim", 
+    "last_name": "Bizzocchi", 
+    "course_rating": {
+        "IART": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Gaming": {
+            "comment": "'Cool Guy. Easy to get along with.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "iart": {
+            "comment": "'he smells...but nice", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "IAT313": {
+            "comment": "'Great guy super funny and friendly. Very helpful.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "filmgaming": {
+            "comment": "'enthusiastic, easy to get along with, always up for a fun chat,motivating,makes the courses fun, provides a relaxing environment", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "iat313": {
+            "comment": "\"mann..he is a pain in the ass..he might seem he is fun and easy going..but when he doesn't like u (such as..being easy-going with him..thinking he could be a buddy teacher..but in fact, he and the TA are just lazy/annoying ****es), he will just set a target on u..and be biased...and the lectures are boring as hell..all u need is the coursepack..", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "Story/Gami', u'ng": {
+            "comment": "\"Jim is an awesome teacher, very engaging, keeps it interesting! Gets everyone involved and we've learned a lot! Thanks Jim!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Narrative ', u'Con.": {
+            "comment": "\"WOW, where has he been all my life???? Excellent teacher and intrest in subject matter.  The most fun, and humorously intelligent guys I've ever seen!!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Narrative": {
+            "comment": "\"One of the best teachers here, definitely knows his subject matter and is an amazing teacher, he gets the class totally invovled and includes issues that are relevant to what we're interested in. He's amazing, fantastic teaching skills, thanks Jim!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "iat": {
+            "comment": "'cool", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "IAT 313": {
+            "comment": "\"Jim is a good teacher overall..but the IAT 313 lecture is 3 hours long on a thursday night! Its freaking boring and you just can't wait to get out.  Lectures are boring if you don't like story telling or story deconstruction.  But it's an easy course.  No sweat.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "NLN": {
+            "comment": "\"genuine interest in his subject matter, good feedback, accessible, challenging, and a nice guy to boot. best instructor I've had in ages.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "IART 325": {
+            "comment": "'Best teacher ever lived.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "IART 326": {
+            "comment": "\"bizz is the best! and he's definitely HOT!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "4.4", 
+    "easiness": "3.6", 
+    "clarity": "4.4"
 }

@@ -1,15 +1,75 @@
 {
-    "first_name": "Amin", 
-    "last_name": "Sharifi", 
+    "first_name": "Joel", 
+    "last_name": "Flynn", 
     "course_rating": {
-        "CMPT125": {
-            "comment": "'Amin does not have the ability to teach. He is extremely nervous, and unsure. He always asks the class how he should teach. We are 3 weeks into the course and he has not really taught us anything at all. All his instructions are extremely confusing. I am very disappointed in the computing science department at SFU for such low teaching standards.", 
+        "Tech124": {
+            "comment": "'This guy is so boring that i fell asleep on the 1st day of class ofter 10 minutes. to be in his class is too waste life", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "TECH124": {
+            "comment": "\"Joel Flynn= boringest man in the whole world. Can't teach and he is very rude.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "tech124": {
+            "comment": "'No Comments", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "3"
+        }, 
+        "iart206": {
+            "comment": "'he has the most boring lectures ever", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "TECH114": {
+            "comment": "\"His lecture is really really boring and it seems to be too long.He always talks about .Mac, iLife, etc. Everyting is about .Mac...and it is not really related with the lecture content.He's kind of iMan.His instruction is not always clear.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "IART 206": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "E-cult": {
+            "comment": "'Ah interesting class content. I meant CONTENT (which I suppose he comes up with). He needs to spice up the class lectures a bit though.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "IAT": {
+            "comment": "\"I heard him talking to his colleague the other day. He said he ain't interested in teaching at all. Just does it for the money.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "IAT203": {
+            "comment": "'class is really boring", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "IAT 203": {
+            "comment": "'boring and looooooooong lectures... not clear at all", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "Tech114": {
+            "comment": "'Repeats himself a lot, not good at teaching and he is often not prepared at all. very boring lecture...", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.5", 
-    "easiness": "3.0", 
-    "clarity": "2.2"
+    "helpfulness": "1.7", 
+    "easiness": "1.9", 
+    "clarity": "1.7"
 }

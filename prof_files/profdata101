@@ -1,0 +1,93 @@
+{
+    "first_name": "Ladislav", 
+    "last_name": "Stacho", 
+    "course_rating": {
+        "math 308": {
+            "comment": "'not good", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "MATH 152": {
+            "comment": "'He should learn english before teaching math...It should be manditory to take english before teaching...jeez. Examples:sin-sinus, cosin-cosinus,etc. determine-deetermine,subtract-substract,calculus-calcouluus,comparison-compilation, and the list goes on..", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "macm 201": {
+            "comment": "\"good lecturer but i always sleep in his class. i should have got a better grade if i didn't sleep.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "MATH308": {
+            "comment": "'His english is both unclear and hard to make out what he is saying. His assignments are alright, but mid-terms and the final exams are a little too tough to do in the allocated time. His lecture notes are ok; has some examples to guide you along.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "MATH154": {
+            "comment": "\"Oh my gosh.  I love him.  He is so adorable, I love his accent, it's so adorable, and I love how he makes jokes sometimes.  Just study (like any other class) and you'll do well. :)", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Math152": {
+            "comment": "'Yah.. he needs to learn English before teaching math (or any other courses). And his handwritting needs to improve too, somehow I can\\'t read what he writes for most of the time. ><\"", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "MACM201": {
+            "comment": "\"Just read the book and don't go on his assignments, exams are way harder.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "MACM 300": {
+            "comment": "\"*Very* dedicated and enthusiastic prof, made the material fascinating and challenging and brought it alive. His accent didn't interfere, just added to the fun. Great prof for this course.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "MATH 154": {
+            "comment": "\"He's a nice guy, but he needs to know how to teach before being a professor.. Even one of the TA teaches better than him.. geezz!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "math 152": {
+            "comment": "'his notes are hard to follow especially when you come to prepare for exams. he should practice more on his english and simplify his speech", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "MATH242": {
+            "comment": "'This is the first time that he teaches analysis, overall well done, his accent is somehow confusing,but not a big deal since we are already familiar with the material.Exams are so easy, the avg is like 70%. An easy A+ for me!", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "Math 152": {
+            "comment": "'Easy midterms, ridiculously hard final. With scaling it was possible to have 45% and get a solid C. Scaling was more for lower marks (2 letter grades) and less for higher marks (a single letter grade). Easy to pass, hard to get a high mark.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "MACM 201": {
+            "comment": "\"Boring lectures, nothing over what I'd find in the book. Stopped showing up after awhile.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.4"
+}

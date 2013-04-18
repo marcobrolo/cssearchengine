@@ -1,0 +1,33 @@
+{
+    "first_name": "Maryam", 
+    "last_name": "Aliyar", 
+    "course_rating": {
+        "com225": {
+            "comment": "\"i don't like the way her taught the class. her class is a good sleeping pill. i would rate the hardness of her exams: 7.5/10 (not that easy but fair)", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT125": {
+            "comment": "'She is a good teacher. And she is very kind. Also she gives good marks!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt225": {
+            "comment": "'a good woman, dedicated pro, but relatively not good at teaching", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT225": {
+            "comment": "'I cannot understand a word she says and is always going \"um\" and \"ah\" and \"euh.\" Her lectures are totally boring and she shows no creativity or interest whatsoever.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.3", 
+    "easiness": "3.4", 
+    "clarity": "3.0"
+}
