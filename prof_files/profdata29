@@ -1,15 +1,57 @@
 {
-    "first_name": "Frank", 
-    "last_name": "Vandenberg", 
+    "first_name": "Eric", 
+    "last_name": "Yang", 
     "course_rating": {
-        "CMPT275": {
-            "comment": "\"He is nice and teaches well. Exams are fair. Only thing is you will get a LOT of homework, every week actually. Be prepared to put in the time and don't take too many other classes. Also, he often isn't clear about what he expects for the HW.", 
-            "clarity": "4", 
+        "CMPT": {
+            "comment": "\"very heavy accent. sometimes i had to sit in the class not knowing what's going on for 90 mins. but still, not really hard or strict on giving out good marks. jux study at home on your own, come to school and take his exams. hope he will get a new sweater and pants one day.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT 100": {
+            "comment": "\"He can't teach, and his accent makes him very hard to understand.  Well, at least he tries to make his lectures clear, although I still can barely understand him...  And anyone else wonders why he wears the same shirt almost every day?", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "IAT 265": {
+            "comment": "\"his class is easy, don't complain!", 
+            "clarity": "5", 
             "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "iat 265": {
+            "comment": "'I usually just sit in the class not knowing what is going on because he makes no sense at all.  I think that all professors should learn to speak english before they try to teach at SFU.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "IAT265": {
+            "comment": "\"Can't understand what he says half the time.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt118": {
+            "comment": "'very gud teacher, yes he has an accent but he tries his best, offers a LOT of help. is avalaible for help a LOT. if u dont understand him, just ASK and he will explain.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "IAT 204": {
+            "comment": "\"Lectures are boring and he can't teach. His accent is a little hard to understand.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
             "easiness": "2"
+        }, 
+        "IAT204": {
+            "comment": "'Nice prof, and really helpful for one on one apppointment. Always think about students. The lecture is boring and easy to fall in sleep, but if you read course content urself, it will be ok.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "5.0", 
-    "easiness": "2.7", 
-    "clarity": "4.3"
+    "helpfulness": "2.5", 
+    "easiness": "3.1", 
+    "clarity": "1.8"
 }

@@ -1,45 +1,39 @@
 {
-    "first_name": "Richard", 
-    "last_name": "Vaughan", 
+    "first_name": "John", 
+    "last_name": "Edgar", 
     "course_rating": {
-        "Cmpt 300": {
-            "comment": "'An absolutely terrible prof.  Cancelled many classes, provides useless lectures, and pulls all problems out of the book.  Learnt absolutely nothing.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
+        "cmpt212": {
+            "comment": "'clear, funny and helpful.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }, 
-        "cmpt300": {
-            "comment": "'At first he seems like a nice guy and makes funny jokes and all. However,he is totally sloppy if it comes to exams or assignments.He posts assignments late and gives ambigous instructions. His exames are the biggest joke since they often cover questions that appear once in the lecture but not in the book. Lecture slides, posted late and useless.", 
+        "CMPT110": {
+            "comment": "'Unbelievably flexible with deadlines for assignments. Exams are very similar to practice exams making them very easy. Best prof I have ever had in my 1 year at school", 
             "clarity": "4", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT300": {
-            "comment": "'I failed the midterm but managed to get an A on this course. Take it with him if you are really there to learn.", 
-            "clarity": "5", 
             "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT120": {
+            "comment": "'Wish I still had him.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "CMPT 300": {
-            "comment": "'Richard rocked. He actually managed to make Operating Systems interesting, which was great. The assignments were fun, the lecturees (when he had them) were useful. Take 300 with the guy, way better than someone like Bart or RandomAsianProf2092.", 
+        "CMPT225": {
+            "comment": "'Great prof, I liked him. Interesting guy, and he lays out all his notes beforehand, which of themselves are really easy to read.", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "4"
+            "easiness": "5"
         }, 
-        "cmpt 300": {
-            "comment": "'Great prof. Relatively easy on material, lots of material though. Great for linux people. Generally a nice person.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT431": {
-            "comment": "\"Excellent professor. He teaches this course like no other course is taught at SFU. I highly recommend it, with him, if you are smart, hard working, and willing to learn. He doesn't hold your hand, and you will have to learn some things on your own), but we're not here to learn online tutorial material. Theory and experience is why we're here.", 
+        "CMPT354": {
+            "comment": "\"Amazing prof ! he explained concepts very clearly and was very helpful. The assignments are on the long side but they really get you ready for his exams. Never miss class ! he provides online notes but they're are nothing without his explanation and funny comments. Definitly recommend taking this course with him !", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "3.5", 
-    "easiness": "3.0", 
-    "clarity": "3.5"
+    "helpfulness": "4.5", 
+    "easiness": "3.7", 
+    "clarity": "4.5"
 }

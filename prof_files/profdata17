@@ -1,21 +1,21 @@
 {
-    "first_name": "Greg", 
-    "last_name": "Mori", 
+    "first_name": "Steven", 
+    "last_name": "Pearce", 
     "course_rating": {
-        "CMPT 310": {
-            "comment": "\"Excellent Prof. Lectures are informative and interesting. You learn excellent techniques that are practical in real life. Very helpful. One of the best profs I've ever had! If he is teaching, take that course!", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
+        "MACM101": {
+            "comment": "\"He's not actually as bad as he seems, but the class is a difficult one and he is simply no help to the average student. He is, however, am extremely funny and morbid character. Class was definitely entertaining.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
         }, 
-        "cmpt310": {
-            "comment": "'great prof. will take his course again at any cost.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
+        "MATH130": {
+            "comment": "'horrible.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "4.2", 
-    "easiness": "3.0", 
-    "clarity": "4.3"
+    "helpfulness": "1.5", 
+    "easiness": "1.2", 
+    "clarity": "1.2"
 }

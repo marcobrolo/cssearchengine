@@ -1,45 +1,15 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
+    "first_name": "Arrvindh", 
+    "last_name": "Shriraman", 
     "course_rating": {
-        "macm101": {
-            "comment": "'he writes so fast and he cant even read his own writing.. we have to keep up with him when he flies through material~in class, he keeps telling us about his ex-wife and stuff that we dont need to know for the course..wasting our time and energy~~", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "MACM201": {
-            "comment": "\"MACM 101 isn't easy to begin with and Stephen Pearce made it so much harder. He was terrible at explaining things, assumed we knew much more than we did and regularly mocked students. I didn't learn anything in his class at all - absolutely horrible prof.", 
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "easci108": {
-            "comment": "'he knows his stuff. intelligent prof. the course had no pre reqs but he assumed that we all knew the basics of physics and chem. homework was HARD, but the final was on the easy side.  if you get offended easily, then you wont like him.  but his humor is dark and that`s his style so be that.  he could`ve been better but overall, not TOO bad...", 
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT320": {
-            "comment": "\"University is meant to teach you how to think for yourself instead of how to parrot the material back; Pearce takes that job very seriously. *Don't* hand homework in late. Learn to defend your point of view with logic. Abrasive, opinionated and refreshingly direct. Not for the faint of heart or the excessively politically correct.", 
+        "885CMPT": {
+            "comment": "'He is very knowledgeable in his topic, and very accessible for additional help. Will genuinely happy to help when you work on your project. However, his lectures are not very exciting, there is little use to attend them at all.", 
             "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "EASC108": {
-            "comment": "'He is a horrible Prof! Try to avoid taking class with him, unless you really need this class. Worse breadth-science class to take. He does not help you if you ask for help and expects you to know your physics/chemistry even though they are not required for the course. Also, he makes you feel dumb for no reason!", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "MACM101": {
-            "comment": "'I find that I learned next to nothing when I am listening to what he is saying. He flies through material, and expects us to keep up with him. Going to his classes were a waste of time. He would also sometimes not show up, and send an email 10 min before class saying class is cancelled. His TA, Piper, was much much better and should have been prof.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
+            "helpfulness": "5", 
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "helpfulness": "5.0", 
+    "easiness": "5.0", 
+    "clarity": "3.0"
 }

@@ -1,21 +1,21 @@
 {
-    "first_name": "Russ", 
-    "last_name": "Tront", 
+    "first_name": "Chris", 
+    "last_name": "Schmidt", 
     "course_rating": {
-        "CMPT 370": {
-            "comment": "'No Comments", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
+        "cmpt120": {
+            "comment": "\"People what is wrong with you how come Chris's score is in ones this guy deserves a big ZERO on everything. All i can say is please do yourself a favour dont take his class and i really mean it.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "CMPT 275": {
-            "comment": "'No Comments", 
-            "clarity": "3", 
-            "helpfulness": "3", 
+        "CMPT120": {
+            "comment": "\"Chris is the worst prof I've ever encountered. He has no knowledge of the material covered in this course. He is very unclear when explaining things. He has no teaching skills whatsoever. He simply makes powerpoint slides from a studyguide that another professor wrote for the same course. He makes no effort to help students who have questions.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "3"
         }
     }, 
-    "helpfulness": "4.2", 
-    "easiness": "2.8", 
-    "clarity": "4.2"
+    "helpfulness": "1.1", 
+    "easiness": "1.6", 
+    "clarity": "1.1"
 }

@@ -1,0 +1,75 @@
+{
+    "first_name": "Mike", 
+    "last_name": "Evans", 
+    "course_rating": {
+        "compt101": {
+            "comment": "'snooze", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 201 3": {
+            "comment": "\"U may think he's your worst nightmare, but he's actually 1 of the few good ones", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 300": {
+            "comment": "'Requires you to read 3 textbooks, but is interesting and understanding.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 300,": {
+            "comment": "'Nice attitude towards student.100, 200 level, extremely hard. 300 up good prof", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 101": {
+            "comment": "'I liked the prof but newbies might find him difficult to understand.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 201": {
+            "comment": "'Not good at explaining things...very picky about assignment specifics", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT300": {
+            "comment": "'Useless notes, unclear assgin specs, unclear marking scheme", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cpcs": {
+            "comment": "'Was one of the only teachers i met that was not willing to learn C++ syntax. :(", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 101": {
+            "comment": "'He should probably focus on something else in life, always SICK!!!!!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "comment": "'Created a terrible \"implementations\" of a computer science course", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt101": {
+            "comment": "'for the elite student, pushes high concepts", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.0", 
+    "clarity": "2.0"
+}

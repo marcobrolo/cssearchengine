@@ -1,0 +1,81 @@
+{
+    "first_name": "Janice", 
+    "last_name": "Regan", 
+    "course_rating": {
+        "CMPT 101": {
+            "comment": "'at least the lecture chairs were comfortable to sleep in....", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 102": {
+            "comment": "'Janice was great, yes she might be a bit monotone, but she does explain things very slowly and is willing to repeat herself until everyone understands. Quizes add up to an easy mark, exams very fair.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 250": {
+            "comment": "'weekly quizes suked ... not recommended", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT371": {
+            "comment": "'spent 2/3 of her class talking about Physics! You will realize at the end that you just went through a Physics course!", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt 101": {
+            "comment": "'Somehow she can make me fall asleep every time regardless how hard I try to stay awake", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT-371": {
+            "comment": "\"I don't know why so many are whining but she's excellent! she's enthusiastic about the ultra boring material and always smiling the quizez are a good idea cuz if everybody likcs at a quiz she goes over the material again. course is interesting but oh oh soooooo boring! Excellent teacher overall", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt 371": {
+            "comment": "'...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 371": {
+            "comment": "\"I'll just say what they said is true.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 471": {
+            "comment": "\"Well, I dont like her much before but this course really changed me. She's a nice lecturer who enjoy teaching. When I got a question, she just offers her sincerest help! Even thought I didn't do good on her final and midterm, she makes this course pretty easy to follow and i did learn alot! Thanks!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt371": {
+            "comment": "'way too much work for this course. exams were fairly easy but quizes were just retarded. assignments were way too time consuming.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 275": {
+            "comment": "'Good, clear notes. Midterm was a bit hard; barely enough time to finish.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt101": {
+            "comment": "'She is very enthusiastic about what she is teaching and very helpful in office hour! Frankly speaking, her course is a bit hard,ie. lectures are pretty basic while some of the assignments are tough. However, the midterm and final are fair.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
+    "clarity": "2.4"
+}

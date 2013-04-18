@@ -1,39 +1,15 @@
 {
-    "first_name": "Art", 
-    "last_name": "Liestman", 
+    "first_name": "Wing", 
+    "last_name": "Xie", 
     "course_rating": {
-        "CMPT 308": {
-            "comment": "'Nice teacher...compared to others who teach this course", 
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT307": {
-            "comment": "\"Had a very negative attitude and marked the class brutally. 40 students, and the third highest mark was a C+. One of the most negative experiences I've had at SFU.", 
+        "CMPT 120": {
+            "comment": "\"This course will be alright if you read the lecture notes carefully.Lectures are pretty dull because he goes through the online lecture notes almost word-for-word but if you're not self-motivated, at least go to lecture to force yourself to read the notes then and not fall behind.  Also shows some extra things in class, so helps to attend at times.", 
             "clarity": "3", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT 307": {
-            "comment": "\"6 'HARD' surprise quizes worth 20%!!  The midterm was hard, he talks while he writes, and has very messy handwritting to boot!  Some say he's funny, some say he's cocky...", 
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "1"
-        }, 
-        "macm 101": {
-            "comment": "'This is a nice jolly guy.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "cmpt 308": {
-            "comment": "'Only had tests...  He made it really hard to learn the material. (no answer keys", 
-            "clarity": "4", 
-            "helpfulness": "1", 
+            "helpfulness": "4", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "2.4", 
-    "clarity": "4.0"
+    "helpfulness": "3.5", 
+    "easiness": "2.5", 
+    "clarity": "3.0"
 }

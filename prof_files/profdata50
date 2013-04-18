@@ -1,39 +1,81 @@
 {
-    "first_name": "Anne", 
-    "last_name": "Lavergne", 
+    "first_name": "Toby", 
+    "last_name": "Donaldson", 
     "course_rating": {
-        "CMPT275": {
-            "comment": "'easy, her lecture notes can be redundant and confusing at times - even for herself.", 
+        "MACM101": {
+            "comment": "'Questions answered with vauge answers, but his office door WAS always open.  He was decent.  Very boring.  Likes his dumb math jokes - not funny!  Dry teaching style.  BUT he is a very nice guy and he does try to be interesting but its math - give the guy a break!", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT125": {
+            "comment": "'Best teacher I have had yet, my days would be awesome if he taught all my CMPT classes", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT310": {
+            "comment": "'Very hard to understand concepts. Made a potentially interesting course very very dull.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt125": {
+            "comment": "'Extremely boring. Makes tests too hard (Negative marks for getting True or False wrong!) The majority of students skip his lectures and the lectures are not that helpful.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT120": {
+            "comment": "'The material in this course is hard enough, way too advanced for \"people with no programming experience\", to quote the deceptive course description. Toby does not make it any easier by teaching as though students know the material already. He needs to make his labs and projects a lot simpler, and could explain things in class more clearly.", 
             "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT 275": {
+            "comment": "'Made a potentially dull class interesting.", 
+            "clarity": "3", 
             "helpfulness": "4", 
             "easiness": "4"
         }, 
-        "CMPT 201": {
-            "comment": "\"Assignments were dead easy, but took some time, midterms also dead easy, as was the final exam.  But what I can't understand is how she scaled the course, went into the final with an A in the course, came out a lot lower, she said she needed more distribution, maybe pressure from CMPT faculty?", 
+        "Cmpt120": {
+            "comment": "'It is very easy to fall asleep in class because of the course material and the way he talks. Some of the projects are hard but labs are okay. I agree that his jokes are dull and he answers his own questions. (not sure if done intentionally or because noone wants to answer..)", 
             "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "cmpt120": {
+            "comment": "\"Toby is a very knowledgebale cmpt sci person, and he knows how to deliver his notes well to the class most of the time. Nevertheless he is a terrible person and a teacher to get help from; he lacks in communication and doesn't know how to explain things well enough. He needs to know how to be a helpful teacher.", 
+            "clarity": "3", 
             "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt125": {
+            "comment": "'a bit boring", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT128": {
+            "comment": "'The worst prof i ever had. the notes and lectures are totally useless. Always makes dry jokes. He has a very weird voice and his favorite quote is \"C++ is a very clever program.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 126": {
+            "comment": "'I think that He explained concepts pretty good. nice guy, his notes helpful too.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
             "easiness": "4"
         }, 
-        "cmpt": {
-            "comment": "\"She teaches you the basics and then tests you on unbelievably hard topics.  It's like teaching students addition and then testing them on calculus.  I did well cuz i'm a computer geek, but I really didn't like her teaching methods.  No wonder half the class got an A and the other half failed.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT165": {
-            "comment": "\"Best Prof ever!  She was very clear in her lectures for this class and if you just go to lecture you won't have to read the book because her notes cover even more than the text.  I have heard she is not as great in the upper level classes.  She's very energetic and always made the class fun!  I totally recommend Anne.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "CMPT225": {
-            "comment": "'Extremely poor teaching and unfair marking schemes. Will never take a course with her again. I wish I can drop it now! I would much rather lose $400 than continue in her class. Its so painful!!!!!", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "CMPT100": {
+            "comment": "\"Lectures are quite boring, and the labs really are useless. He isn't bad to talk to though, which makes him alright.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
         }
     }, 
     "helpfulness": "2.7", 
     "easiness": "2.8", 
-    "clarity": "2.7"
+    "clarity": "2.8"
 }

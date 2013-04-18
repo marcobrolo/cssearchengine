@@ -1,51 +1,57 @@
 {
-    "first_name": "Russ", 
-    "last_name": "Tront", 
+    "first_name": "Ke", 
+    "last_name": "Wang", 
     "course_rating": {
-        "CMPT 454": {
-            "comment": "'Can anyone name a better CS prof than this guy?", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
+        "CMPT741": {
+            "comment": "\"He made up rules as the course went along. Said the exam would be open book, then 2 days before changed it to closed book. Moved class times without asking what works. Told us we were being marked for participation at the end of the course without ever telling us before.  One of my worst profs ever. The marker also didn't understand the material.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
         }, 
-        "cmpt475": {
-            "comment": "'good teaching but high workload", 
+        "CMPT 454": {
+            "comment": "\"So boring, nothing to do, feels like haven't learn anything", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT454": {
+            "comment": "'awsome awsome prof", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "2"
         }, 
-        "cmpt 275": {
-            "comment": "'brings his diverse and interesting industry experiences to class.", 
+        "cmpt 454": {
+            "comment": "\"You'll do well in his course as long as you understand his accent.  Killer final exam, but nice curve.", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "3"
         }, 
-        "\\xa0": {
-            "comment": "'The best instructor I ever had at SFU, hands down.  Unpretentious and caring guy", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 475": {
-            "comment": "'Took 370 with him too. You learn A LOT from him, very dedicated but tough", 
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "cmpt370": {
+        "454": {
             "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "Cmpt 454": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "CMPT354": {
+            "comment": "'He is best prof I had so far at SFU. His teaching is crystal. He always encourages audience raise questions and always answered them. As the result, the whole class is so much engaged. Advice: please attend lectures, do the exercise he asked.", 
             "clarity": "5", 
-            "helpfulness": "5", 
+            "helpfulness": "4", 
             "easiness": "4"
         }, 
-        "CMPT 275": {
-            "comment": "'Excellent professor with excellent attitude. Gives a lot of relevant examples", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
+        "cmpt 354": {
+            "comment": "'Hard to understand chenglish, being chinese myself.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "4.2", 
-    "easiness": "2.8", 
-    "clarity": "4.2"
+    "helpfulness": "3.7", 
+    "easiness": "3.3", 
+    "clarity": "3.9"
 }

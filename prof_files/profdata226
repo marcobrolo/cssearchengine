@@ -1,0 +1,57 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "Cmpt 250": {
+            "comment": "'Very Good Prof, Always wears nice clothes.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt307": {
+            "comment": "\"Tough and tricky if you haven't paid your dues yet.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT165": {
+            "comment": "\"He'd be quite mean if u dun follow his instructions. Otherwise a nice guy.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 250": {
+            "comment": "'Greg rocks! If you take 250 with anyone, it should be with him", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 165": {
+            "comment": "'excellent teacher, A+! yay!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "\\xa0": {
+            "comment": "'Other professors should be forced to take courses from Baker on how to teach", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "118": {
+            "comment": "\"One of the best profs I've ever had. Extremely cute also! =)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "comment": "\"He is more helpful than the TA's.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

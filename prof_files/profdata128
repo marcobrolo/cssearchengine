@@ -1,0 +1,87 @@
+{
+    "first_name": "Torsten", 
+    "last_name": "Moller", 
+    "course_rating": {
+        "engl311": {
+            "comment": "\"Such a great professor I've enrolled in his class 3 times...great class to take to gain credits with ease..he made my 4 course load feel like 3.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "ENGL 306": {
+            "comment": "'Chaucer! well Torsten spends more time talking about \"things\" than actually learning Chaucer. No syllabus given out for what, when things are expected.  Not someone who follows time-lines or structure.  Nice guy tho\\'.  But, the question remains to be seen: can he teach Chaucer?", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "ENGL203": {
+            "comment": "\"HE is by far the best prof i've had a st sfu. Not only does he give a simple quiz at the end of the term as his final, but he is extremly passionate about his work and is always evoking laughter. You are fortunate if you can get into one of his classes, he'll make your semmester", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT461": {
+            "comment": "'Numerous students are dissatisfied with this course, but perhaps we should direct our anger towards the TA, not the professor. The word \"harsh\" is not enough to describe the TA. I have never spent so much time on an assignment only to receive 10%. On the other hand, I find Torsten genuinely interested in the course material, smart, & helpful.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "eng 315": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "eng 311": {
+            "comment": "\"Very nice guy, easy-going and empathetic towards student's needs.  Funny sense of humour and really into his Shakespeare.  Made the material understandable.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "314": {
+            "comment": "\"Torsten is an awesome prof! He's super nice, understanding of student's stressful schedules & very knowledgeable about course material. He loves teaching, esp. Shakespeare, and it shows. Definitely take a class with him if you can! Best Eng. prof I've taken at SFU. Another awesome one: Steve Collis. Good Luck!!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "Engl311": {
+            "comment": "\"Although he is constantly joking and thinks he is hilarious, he isn't. His three hour lectures were monotonous and full of rambling. He was also very disorganized.However, the lectures often had really good points to consider, and papers were very relevant with laid-back guidelines. Not too bad, but probably wouldn't take another with Torsten.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "ENGL310": {
+            "comment": "\"Overall, Torsten is a great professor. Very laid back and easy to talk to. He seems really interested in what he's teaching.  However, he's very easily distracted and somewhat disorganized during lectures.  He always seems prepared to deliver an amazing lecture, but he gets so distracted by the class that sometimes he doesn't get to the good stuff.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "ENG311": {
+            "comment": "\"Torsten ROCKS!!!! He is incredibly laid back and you feel it in his lectures. They are enjoyable AND you leave learning a few things too!!! Super understanding and picks some GREAT material to read.\\r I loved him sooo much Im taking 342 with him in the fall. He's awesome. You will think so too!\\r Best English prof I've encountered at SFU!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "ENGL311": {
+            "comment": "\"Excellent prof!!! Very nice, very funny (at least I think so), and shows that he is passionate about what he's teaching. Definitely recommend him, one of the best at SFU.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT316": {
+            "comment": "\"First, I need to indicate that this class is about OpenGL and is very hard. His labs are extremely long and hard, and he only provides very basic stuff in his class. If you'd like to take this class with him, be sure to prepare a handy OpenGL primer guide because the textbook he uses is not suitable for OpenGL beginners.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT361": {
+            "comment": "'Great Prof, start your labs early. Got EXTREMELY high mark from him", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "4.4", 
+    "easiness": "3.5", 
+    "clarity": "4.2"
+}

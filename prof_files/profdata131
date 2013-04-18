@@ -1,0 +1,45 @@
+{
+    "first_name": "David", 
+    "last_name": "Mitchell", 
+    "course_rating": {
+        "cmpt125": {
+            "comment": "'very unorganized and lectures are not prepared", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT126": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "'Confusing unorganized lectures", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt126": {
+            "comment": "\"The biggest problem in his class is that this prof is kinda unorganized.Though he explains things well, his lecture notes are messy and always updated late. That's why half of the students failed to catch up. Exams are fair for those who paid attention in the lecture and studied notes carefully.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT225": {
+            "comment": "'I should not have to refer to wikipedia every time he finishes talking about a subject in the course!  Seriously, I found it so hard to follow what he was talking about.  After referring to Wikipedia and other sources, I understood it much better than the way Mitchell explained concepts.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt225": {
+            "comment": "'I am still taking his course, but this guy is an idiot.  He creates an assignment, gives us 2 weeks to do it, does not release the sample program until 4 days before the due date.  1 Day before the assignment is due he corrects HIS errors.  Also the test program had bugs in it when he uploaded.  I am going to lose marks because of HIS incompetence.", 
+            "clarity": "4", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.8", 
+    "clarity": "1.8"
+}

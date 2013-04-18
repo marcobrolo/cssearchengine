@@ -1,0 +1,39 @@
+{
+    "first_name": "Ted", 
+    "last_name": "Kirkpatrick", 
+    "course_rating": {
+        "cmpt 383": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 383": {
+            "comment": "'Very unorganized. Frequently came to class unprepared. Class average was very high up until the final exam. Did not follow his initial schedule. Assignments were not graded in a timely fashion. Good personality but bad lecturing skills!!!", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "Cmpt 363": {
+            "comment": "'Gotta be the easiest class in Cmpt Sci", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 363": {
+            "comment": "'Gotta be the worst class in Cmpt Sci.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT 6XX": {
+            "comment": "\"I'd agree with previous comments that he is unorganised. He kept on changing the evaluation criteria which was the most frustrating part of the course. Kind of picky on things!", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.6", 
+    "easiness": "3.9", 
+    "clarity": "3.4"
+}

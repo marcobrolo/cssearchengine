@@ -1,39 +1,27 @@
 {
-    "first_name": "Greg", 
-    "last_name": "Mori", 
+    "first_name": "Alireza", 
+    "last_name": "Khodabakhshi", 
     "course_rating": {
-        "CMPT 310": {
-            "comment": "'Very good prof. Excellent teaching ability. Very clear, funny, and down to earth about a complex theoretical subject. His assignments are not the easiest but he was overall fair I think.", 
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "CMPT419": {
-            "comment": "'He just tries to show he is smart by making the course unnecessarily difficult and heavy.  :-(", 
+        "CMPT102": {
+            "comment": "\"Terribly monotonous and boring, but really easy. Spent most of class sleeping. Take his class to boost your GPA. Simple assignments but slightly harder exams. Doesn't pace the class properly and repeats himself excessively, but explanations are ok.", 
             "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "Cmpt225": {
+            "comment": "'VERY HARD to stay awake in his class. Assignments full of holes. Tests are hard as the are absolutely unrelated to his lectures. Why is he teacher? Another example of SFU outsourcing teacher jobs to cheap unexerienced people.", 
+            "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "CMPT726": {
-            "comment": "'He has one set of homework questions, and uses it every time he offers the course. Moreover it is incredible painful when the level of contributions among students for doing homework and project, is not taken serous by professor.", 
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
         "CMPT225": {
-            "comment": "\"Really good prof!!! (hands down)  He does a really good job at explaining the material and if you don't get something he will be happy to help you during the office hours.  The assignments were a do-able but the third assignment with the red/black trees was a pain.  1 midterm (Very EAsy) and 1 final (HARD).  Good Luck!!!", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "CMPT310": {
-            "comment": "'Great prof. Knowledgeable, good lectures, interesting assignments, available for help. I recommend taking 310 with him.", 
-            "clarity": "5", 
-            "helpfulness": "4", 
+            "comment": "\"Monotoned voice + no flow to lectures + unprepared = you can't help but fall asleep. Lecture notes direct from textbook, doesnt tell us what we need to focus on.  Assignments are too long and prof does not use lect. to assist w/ assignment. No marks if programs have runtime errors. Be prepared to self-teach, avoid if possible. Prof is nice 1-on-1.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
             "easiness": "2"
         }
     }, 
-    "helpfulness": "4.2", 
-    "easiness": "3.0", 
-    "clarity": "4.3"
+    "helpfulness": "1.6", 
+    "easiness": "2.0", 
+    "clarity": "1.6"
 }

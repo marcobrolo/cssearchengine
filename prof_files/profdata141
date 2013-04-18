@@ -1,0 +1,51 @@
+{
+    "first_name": "Jiangchuan", 
+    "last_name": "Liu", 
+    "course_rating": {
+        "cmpt771": {
+            "comment": "'Very good professor. I am now very interested in networking related works.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "MACM101": {
+            "comment": "'Worst possible person to have for MACM 101.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "cmpt371": {
+            "comment": "\"Smart prof. but have a hard time explaining things. You're better off reading the book. Extremely easy assignments and relatively easy exam. You need not memorize or understand everything to pass. Though grading is low. Average and median grade of class is 85/86.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT307": {
+            "comment": "'Good professor, and very easy course, seems that almost all students get 80+", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT365": {
+            "comment": "'Most things covered in lectures are not difficult. Midterms are based on the homework and his lecture slides. DO NEED to attend lectures as he will tell you what you need to memorize and how the exam will be organized. The projects are interesting and not that difficult.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT371": {
+            "comment": "\"The midterm was too long and I wasn't even close to finished. He gave an assignment due 2 days before the final, and a group project due after all the final exams. He was fair on the final grade though. If you plan on taking him, just be careful of this poor scheduling.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "macm101": {
+            "comment": "\"he's well prepared for the lectures. no class before exams. the three assignments worth a lot. attending his lecture will make his powerpoint notes more clear. he gives in-lecture examples that appear in final. he scales the class quite a lot. he does not intend to fail anyone. final exam class average is 30% but he bell curves it to a B.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "3.3", 
+    "clarity": "3.2"
+}

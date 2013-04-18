@@ -1,0 +1,15 @@
+{
+    "first_name": "Binay", 
+    "last_name": "Bhattacharya", 
+    "course_rating": {
+        "CMPT 201": {
+            "comment": "\"He doesn't know what he's doing in the class.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.4", 
+    "easiness": "2.5", 
+    "clarity": "1.8"
+}

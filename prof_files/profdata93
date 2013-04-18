@@ -1,45 +1,51 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
+    "first_name": "Jian", 
+    "last_name": "Pei", 
     "course_rating": {
-        "macm101": {
-            "comment": "\"He's a good prof, always making jokes that keep you awake in one  of the most boring classes. The tests were HARD, but he curves it, so its okay. His notes are bad period, but if you read them, he'll take one or two questions from them on the midterm. Just don't talk to him, you should be fine, if he pick on you, follow along. I'd take him again.", 
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "4"
+        "CMPT843": {
+            "comment": "'Good teacher, and assignment is very easy.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
         }, 
-        "cmpt165": {
-            "comment": "\"i know you're watching this pearce...just wanna let you know that you have issues:) your psychologist probably are as bad as you are..that's why you act like an ass in class..:)", 
+        "cmpt 454": {
+            "comment": "\"project is just ridiculously time consuming and tedious. otherwise the course isn't too hard but it's not very interesting.\\r decent prof, he knows what he's talking about but his english needs some work.", 
             "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "4"
-        }, 
-        "cmpt120": {
-            "comment": "'too much bs and does not explain wat hes teaching", 
-            "clarity": "1", 
-            "helpfulness": "1", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "CMPT320": {
-            "comment": "\"Very opinionated, but generally knows what he's talking about.  Doesn't take well to questions and very rude.  Exams questions are totally random and ask about insignificant details, so studying is nearly impossible.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "CMPT 454": {
+            "comment": "'Very interesting project, though sounds challenging. He explained the major ideas clearly, and left the details for you. Clear lectures, easy to follow. Of course, you have to read the textbook after the class. He has accent, but not too bad. Highly recommended by people in his classes before. Very nice guy overall.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
         }, 
-        "CMPT165": {
-            "comment": "\"This course was supposed to be an easy course but you should make sure it is not an easy course with steve.He doesn't teach during the class , just keep reading the slides .Exam is not fair and he is riduculously not helpful at all. AVOID HIM AT ALL COST.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "CMPT454": {
+            "comment": "'He often talks about practical concerns and solutions, which cannot be found in our textbook. The materials are not easy, but quite useful afterall. I got something really helpful in job hunting. I realized that only after my interviews. The final grades were surprisingly nice. I wish I had spent more time on it.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
         }, 
-        "MACM101": {
-            "comment": "'bad writting, explain unclear, hard to get his joke= =\"", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "CMPT354": {
+            "comment": "'Nice teacher, really knows what he teahches. 3 assignments in total and one group project. Easy midterm and final.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt354": {
+            "comment": "'average as an instructor", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "cmpt 354": {
+            "comment": "'Very good prof, fair and knows how to teach :)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "helpfulness": "4.0", 
+    "easiness": "3.1", 
+    "clarity": "3.8"
 }

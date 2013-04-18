@@ -1,45 +1,51 @@
 {
-    "first_name": "Ramesh", 
-    "last_name": "Krishnamurti", 
+    "first_name": "Herbert", 
+    "last_name": "Tsang", 
     "course_rating": {
-        "CMPT 307": {
-            "comment": "'One of my worse professors ever at SFU.\\r Lack of clarity. Difficulty: insane", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "cmpt710": {
-            "comment": "'He is the best prof I had in SFU. He is clever, kind and modest. He is interested in the course material and welcomes you to talk to him at any time.", 
+        "cmpt361": {
+            "comment": "'Fellow student with a GPA 3.2, the rest of the class has no problem in understanding him. 3.2 is not a high GPA, I am shock you would even mentioned it as some kind of merit. Do your work, and you will be rewarded.", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "4"
+            "easiness": "1"
         }, 
-        "CMPT705": {
-            "comment": "'apparently algorithm analysis and design equals proofs and graph theory, looking for a use for graph theory?, i mean really has anyone actually really used it in anything other than academics lately, lol", 
-            "clarity": "3", 
-            "helpfulness": "3", 
+        "CMPT275": {
+            "comment": "'Made lecture interesting for which normally are pretty dry topics. I appreciated the time he gave to our group to help us succeed. The innovation contest was a blast.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
             "easiness": "2"
         }, 
-        "CMPT 307,4', u'05": {
-            "comment": "\"very good explanations.  Extremely intelligent prof.  Doesn't rush his lectures like other profs.", 
-            "clarity": "5", 
+        "Math 250": {
+            "comment": "'Great and wonderful guy, but does not prepare well for lectures. Often cannot answer questions and is not willing to help you find them. Read the textbook because that is where he gets everything from. Not necessary to go to class really", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "cmpt275": {
+            "comment": "'Actually, he did mention in class that the slides are not complete set of notes, reading the textbook is a must. Class project was awesome!", 
+            "clarity": "4", 
             "helpfulness": "5", 
             "easiness": "3"
         }, 
-        "cmpt 307": {
-            "comment": "\"Boring and can't understand him.  Exams are difficult.", 
-            "clarity": "1", 
-            "helpfulness": "2", 
+        "Cmpt275": {
+            "comment": "'I enjoyed the computer graphics class. I noticed some other student had bad attitude, which is sad. He encourage us to think, which is more than I can say for other prof.The project was not bad. Cool class!!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
             "easiness": "1"
         }, 
-        "CMPT165": {
-            "comment": "\"I honestly can't say for sure that he was my prof, because he did not make one contact with me during my semester as a DE student. I have never received anything lower than a B+ in my three years at SFU. In this class I failed the midterm WITH A CHEAT SHEET. The TAs are given no structure by the prof, he does not communicate, and exams are too hard", 
+        "CMPT361": {
+            "comment": "\"My GPA was 3.2 before this course, and understand I've written mostly positive reviews of profs before this guy. Herbert Tsang is just clueless. He demands formal English when he can barely speak it himself, he hasn't once given an assignment description worth damn, he doesn't answer questions by e-mail and is equally as useless in person. AVOID.", 
             "clarity": "1", 
             "helpfulness": "1", 
-            "easiness": "1"
+            "easiness": "2"
+        }, 
+        "CMPT 275": {
+            "comment": "\"Lectures are worthless, i did not attend them and scored in the top 5 for the midterm and final. They are just material from the book with some worthless anecdotes which do not apply to the real world. His attitude towards the students is terrible, his knowledge in programming is nonexistent. He's constantly late at grading. Terrible, terrible prof", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.6", 
-    "easiness": "2.4", 
-    "clarity": "2.2"
+    "helpfulness": "2.9", 
+    "easiness": "2.0", 
+    "clarity": "2.8"
 }

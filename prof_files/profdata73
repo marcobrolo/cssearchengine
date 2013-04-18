@@ -1,21 +1,21 @@
 {
-    "first_name": "Tariq", 
-    "last_name": "Nuruddin", 
+    "first_name": "Mohamed", 
+    "last_name": "Hefeeda", 
     "course_rating": {
-        "CMPT150": {
-            "comment": "'bad...bad...bad...", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
+        "CMPT 300": {
+            "comment": "\"A good prof overall. He's not funny or exciting but he's clear, organized, and explains concepts well. Assignments might be a bit challenging but the grades he gives are fair.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
         }, 
-        "cmpt150": {
-            "comment": "\"He is so not organize..He doesn't explain much..Gave us a taking home assignment(part of mid-term) the same day he taught the materials and needed to finish in less than 2 days of time.The TA is useless.Did only 1-2 Qs during a 50mins lab.Everything sucks in his class.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "CMPT301": {
+            "comment": "\"I got a bad mark, so I gave him a bad review - that's how this site works right??... seriously tho, Cons: found assignments/projects time consuming and hard. Relied highly on the text (course did not go much beyond what this offered IMO) PROS: he is a nice guy, and passionate about what does (really more suited to graduate students tho IMO).", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "1.3", 
-    "easiness": "1.9", 
-    "clarity": "1.3"
+    "helpfulness": "4.0", 
+    "easiness": "3.0", 
+    "clarity": "4.0"
 }

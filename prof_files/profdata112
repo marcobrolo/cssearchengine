@@ -1,0 +1,75 @@
+{
+    "first_name": "Brian", 
+    "last_name": "Fraser", 
+    "course_rating": {
+        "CMPT 130": {
+            "comment": "\"Awesome proff, probably the best you may ever have. He made a difficult and tedious course rather enjoyable and got students engaged in computer programming. The midterm was fair and so was his exam. The exam was leaning on the more difficult end though. Take a course with him a didn't regret it one bit. His awesomeness guarantees good grades.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt125": {
+            "comment": "'He is the best cmpt prof.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPTD100": {
+            "comment": "'Great professor. One of the best at SFU.    Always open to helping students after class and during office hours. Has helped me a lot with C programming.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT165": {
+            "comment": "'Easy!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT125": {
+            "comment": "'VERY nice and VERY helpful. He is not just a prof, he is a great friend!! One of the best in sfu!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT126": {
+            "comment": "'A Great Prof.Definitely take a course with him,If you have a question go to his office and ask,its very helpful.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt130": {
+            "comment": "'Great professor. Very helpful and clear. Some assignments can be long, but you can always go for extra help. Midterm was fair.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT160": {
+            "comment": "'One of the best profs! He encourages people to participate in lecture, and loves getting asked. His lectures are very helpful.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT433": {
+            "comment": "\"He's definitely very interested in the material and knows his stuff. Overall the course was a little unfocused but still a lot of useful stuff here.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt128": {
+            "comment": "'Hard final :((", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt165": {
+            "comment": "'Excellent Prof, Super helpful, patient, Super nice, Very approachable", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "4.8", 
+    "easiness": "3.5", 
+    "clarity": "4.7"
+}

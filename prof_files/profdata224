@@ -1,0 +1,51 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "MACM101": {
+            "comment": "'hard homework but still a good teacher", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt 150": {
+            "comment": "'good teacher but hard", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 150": {
+            "comment": "'awesome teacher, but harder assignments/exams than other teachers of same course", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "macm 101": {
+            "comment": "'had it for my macm 101 spring 2000. he made the class really fun.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "MACM": {
+            "comment": "'meh", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "Cmpt 150": {
+            "comment": "'Good at lectures, funny... exams are hard though... and girls like him....", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "MACM 101": {
+            "comment": "'AWESOME teacher. Do anything you can to get into his classes.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

@@ -1,63 +1,21 @@
 {
-    "first_name": "Ladislav", 
-    "last_name": "Stacho", 
+    "first_name": "Thomas", 
+    "last_name": "Shermer", 
     "course_rating": {
-        "math 308": {
-            "comment": "'not good", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "MATH 152": {
-            "comment": "'He should learn english before teaching math...It should be manditory to take english before teaching...jeez. Examples:sin-sinus, cosin-cosinus,etc. determine-deetermine,subtract-substract,calculus-calcouluus,comparison-compilation, and the list goes on..", 
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "Math152": {
-            "comment": "'Yah.. he needs to learn English before teaching math (or any other courses). And his handwritting needs to improve too, somehow I can\\'t read what he writes for most of the time. ><\"", 
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "MACM201": {
-            "comment": "\"Just read the book and don't go on his assignments, exams are way harder.", 
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "MACM 300": {
-            "comment": "\"*Very* dedicated and enthusiastic prof, made the material fascinating and challenging and brought it alive. His accent didn't interfere, just added to the fun. Great prof for this course.", 
+        "CMPT379": {
+            "comment": "\"Projects were difficult for the class, but exams were relatively simple and fair. Very good prof, and he's willing to help if you ask him.", 
             "clarity": "4", 
             "helpfulness": "5", 
-            "easiness": "2"
-        }, 
-        "math 152": {
-            "comment": "\"most interesting accent i've ever heard.\\r nice person but... i think his accent is harder to understand than the course material.", 
-            "clarity": "1", 
-            "helpfulness": "3", 
-            "easiness": "4"
-        }, 
-        "MATH242": {
-            "comment": "'This is the first time that he teaches analysis, overall well done, his accent is somehow confusing,but not a big deal since we are already familiar with the material.Exams are so easy, the avg is like 70%. An easy A+ for me!", 
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "5"
-        }, 
-        "Math 152": {
-            "comment": "'His notes are nothing like his test questions. And extremely hard final exam.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "MACM 201": {
-            "comment": "\"Once you get used to accent and notes, he's aiight. Funny stare and Russian accent. Vvrraight?!", 
-            "clarity": "3", 
-            "helpfulness": "4", 
             "easiness": "3"
+        }, 
+        "MACM101": {
+            "comment": "'He is always very helpful and patient in explaining all the tough concepts. One of the best profs in SFU!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.4"
+    "helpfulness": "4.5", 
+    "easiness": "2.2", 
+    "clarity": "3.8"
 }

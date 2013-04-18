@@ -1,0 +1,33 @@
+{
+    "first_name": "Ze-Nian", 
+    "last_name": "Li", 
+    "course_rating": {
+        "CMPT 365": {
+            "comment": "'I got A- for ENSC 424, which is also the Multimedia course. However,I am still not able to follow how this guy teach.His assignments have nothing to do with the materials he would like to test.His exams keep focusing on useless, tiny things from the book.Even with prior experience in this area,I still complain about the way he teaches this course", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 414 (": {
+            "comment": "'excellent prof. Very knowledgable, also knows how to teach and motivate students", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT414": {
+            "comment": "\"He's knowledgeable and always able to give extra help to students. Greatly recommend to take this course with him.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT365": {
+            "comment": "'tough professor and TA ever.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.5", 
+    "easiness": "1.4", 
+    "clarity": "2.1"
+}

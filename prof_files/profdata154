@@ -1,0 +1,63 @@
+{
+    "first_name": "Lou", 
+    "last_name": "Hafer", 
+    "course_rating": {
+        "CMPT150": {
+            "comment": "\"His lectures seem to be unrelated to the assignments and exams.  Assignments are very very very hard, the hardest that I have ever had in a course I've taken so far.  Midterm wwere also pretty difficult, class average was in the mid 30%.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt 471": {
+            "comment": "'pretty easy and he makes the content somewhat interesting. \\r but somehow he went against his grading scheme and might give a higher final grade to a student with a lower final mark than another.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "cmpt 250": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT471": {
+            "comment": "'simply worst ever! Never ever take his class! cant believe that I already have taken it!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 250": {
+            "comment": "'Absoutely ridiculous, He has no communication skils, Find it hard to filter all the \"big\" words that he\\'s using and find a point to what he\\'s blabbering about. Useless!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt250": {
+            "comment": "'44% of the class got a grade of D or lower. I strongly suggest you do not take this course with him unless you already know all the material in advance.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt471": {
+            "comment": "'hard, hard, too hard. And he cares nothing~ Why someboday says \"Very Easy\"?", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 471": {
+            "comment": "'I was happy with Mr. Haffer.  He may seem hard because he expects you to do some self-learning with the extra references he gives you but this is something you should be greatful for. Class averages may be low but final grades are curved.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT250": {
+            "comment": "\"Hard Hard Hard.  Assignments don't make any sense to me at all and I've read through the text book several times.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "1.5", 
+    "clarity": "2.4"
+}

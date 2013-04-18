@@ -1,0 +1,39 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "cmpt120": {
+            "comment": "'useless prof and worst class.Take this class if u wanna lower ur cgpa", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT307": {
+            "comment": "\"Can't deliver the material", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT120": {
+            "comment": "\"Very hard prof. His final exam was very difficult, his Ta's are useless, and his assignments are very hard,", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT150": {
+            "comment": "'Very hard assignments and unfair marking on tests.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT225": {
+            "comment": "'I don`t want to see him ever again in my life. Don`t take the course with him unless you are one of those genius computing science students who loves to spend hours and hours for just one of his assignments. He does not scale at all. I wonder how many people got A+ and how many failed.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

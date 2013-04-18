@@ -1,0 +1,81 @@
+{
+    "first_name": "Diana", 
+    "last_name": "Cukierman", 
+    "course_rating": {
+        "CMPT 310": {
+            "comment": "\"No question she is a nice prof. No question she is passionate. However, if you are taking CMPT 310 (AI), DO NOT TAKE IT WITH HER. You do not learn ANYTHING in the class. She spent half of the semester teaching PROLOG, and doesn't get to some AI programming until the end of the semester. A waste of time and money.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Cmpt150": {
+            "comment": "'The model professor. Clear, concise, and super nice! I  failed first midterm, but after talking to Diana and listening to her lectures everything became crystal clear. I ended up getting B+.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT125": {
+            "comment": "'I love her! very clear teaching, but too many projects killed our time and effort... Midterms are fair", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "macm 101": {
+            "comment": "'helpful and friendly. her lectures seemed somewhat chaotic though.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "MACM 101": {
+            "comment": "'Simply one of the best. I have never had a Proff that i actually felt that they wanted me to do good. she is super nice and attentive. the material is hard but she ellaborates it very well. exams are a bit tight on time but very fair! in total - my favorite!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 150": {
+            "comment": "\"She's a very nice prof.  Her notes are decent, and the assignments/exams were straightforward (no surprises).", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT310": {
+            "comment": "\"Diana's very nice (she even told us she would not be offended if we fell asleep in her class).  Unfortunately when she taught us 310 it ended up covering almost entirely Prolog and she gave maybe 30 minutes each to some other fundamental AI like neural networks.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt125": {
+            "comment": "'definitely a nice prof.  cares about students + mark easy", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT120": {
+            "comment": "\"She's really helpful and teaches the material well enough for beginners to understand. Highly recommended for anyone who needs to take CMPT classes.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT 125": {
+            "comment": "\"I agree, for CMPT 125, she didn't do a good job. I had MACM with her before, that was alright. But not this course", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Macm 101": {
+            "comment": "'She gave me a good first impression, but when the course goes on, I feel disappointed. also, midterm 2 was hard!", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "Macm101": {
+            "comment": "'She is very clear and very nice. The Assignments may appear difficult,but the midterm and final are way easier than the assignments...", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "4.2", 
+    "easiness": "3.3", 
+    "clarity": "3.7"
+}

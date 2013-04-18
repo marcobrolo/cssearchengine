@@ -1,39 +1,33 @@
 {
-    "first_name": "Tom", 
-    "last_name": "Shermer", 
+    "first_name": "Kay", 
+    "last_name": "Wiese", 
     "course_rating": {
-        "CMPT379": {
-            "comment": "\"If you want to take a class where you don't really have to do much work, just study for the exams, take his.  Assignments are really easy and take almost no time to do.  Lectures follow the book, so skip if you want to.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "\\xa0": {
-            "comment": "'Teaches well, but is a careless and pompous undergrad advisor", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "CMPT 361": {
-            "comment": "'I have learned less in this course than any other because of this professor.  He enjoys leaving exams till the last minute (I think he writes them an hour or two before time).  His exams and assignments are riddled with error.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "macm 101": {
+            "comment": "'78% midterm, 59% final average. 11/92 people failed the course because they failed the final. (thats his rule)... best to study assigments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
         }, 
         "MACM101": {
-            "comment": "'no comments", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+            "comment": "'I highly recommend Dr. Wiese.  Very clear, helpful and patient.  Obvious he really knows his stuff.  He makes the course easy for you; and only tests you on relevant material. (and the cheat sheet really takes the stress out of the exam)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
         }, 
-        "CM": {
-            "comment": "'No Comments", 
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "1"
+        "MACM 101": {
+            "comment": "'One of the best professors for teaching MACM 101. Midterm was extremely easy. As long as you attend lecture and do the homework/review questions, you can easily get 80%+", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "macm101": {
+            "comment": "'He was a great teacher. I did great for the midterm (A), then I slacked off after that. I only completed half of every assignment, which was a big mistake. JUST fully complete the assignments and study for the final (which was, whether  I had continued to study hard or not throughout the course, harder than the midterm)and you will get ur A or B.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.9", 
-    "easiness": "1.8", 
-    "clarity": "3.0"
+    "helpfulness": "3.8", 
+    "easiness": "4.2", 
+    "clarity": "4.5"
 }

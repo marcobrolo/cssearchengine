@@ -1,0 +1,75 @@
+{
+    "first_name": "Steven", 
+    "last_name": "Pearce", 
+    "course_rating": {
+        "MACM101": {
+            "comment": "'Definately an interesting professor, but not always the best academically. He keeps his classes interesting with jokes, but his notes are barely legible, he often rambles, and his tests are unbelievably hard. Be prepared to put in a lot of extra time.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "macm101": {
+            "comment": "'He makes no sense of the material. There is almost no point in attending lectures, except his material he covers on the overhead is on the test instead of text material. He makes jokes to cover for his lack of teaching skills.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 100": {
+            "comment": "\"he can't teach", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "macm 101": {
+            "comment": "'Can be funny at times. During evaluation time he jokedly told us all to give him a bad review and gave us all the finger! He also dressed up as a hobo at halloween and tried to mug a student.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Cmpt 100": {
+            "comment": "'Decent teacher, made it a very fun and easy going class.  However, his emails were late or non existent whenever he cancelled class, which often meant me going up all the way and the class is cancelled.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "cmpt100": {
+            "comment": "\"funny dude, has clear sense of what he's thinking, but virtually no sense of what he's supposed to be teaching. Can be a great guy to talk to in the coffee bar, but man, cmpt100...", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "PHYS390": {
+            "comment": "'weak", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "Macm 101": {
+            "comment": "'Didnt learn too much in class, atleast his jokes keeps you awake.  But then the more jokes the less you learn, and that class is just crazy.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 320": {
+            "comment": "\"If you don't mind a prof that has limited knowledge on what he is teaching, inappropriate offensive jokes, lewd behaviour and frequent profanity, then Pearce is a satisfactory prof.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "MACM 101": {
+            "comment": "'Waste too much time joking around, otherwise a very good prof.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt150": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.3", 
+    "easiness": "2.4", 
+    "clarity": "2.4"
+}

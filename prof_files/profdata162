@@ -1,0 +1,15 @@
+{
+    "first_name": "Philippe", 
+    "last_name": "Giabbanelli", 
+    "course_rating": {
+        "CMPT225": {
+            "comment": "'Great availability (e-mail, extra appointments, ...). Willing to help. Assignments and labs are a bit long but challenging. Lots of feedback!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "1.5", 
+    "clarity": "2.9"
+}

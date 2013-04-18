@@ -1,27 +1,51 @@
 {
-    "first_name": "Janice", 
-    "last_name": "Regan", 
+    "first_name": "Herbert", 
+    "last_name": "Tsang", 
     "course_rating": {
-        "CMPT 101": {
-            "comment": "'Introduction... HA!!! If you have no previous java programming experience you will painfully regret taking this course... at least with this prof. She has some breathing problem and needs to take breaks bet/ words, it creates a lot of ambiguity.", 
+        "Cmpt275": {
+            "comment": "\"Hard prof, but his course is hard to fail. His exam is pretty hard to prepare, because his ppt(lecture slide) is ambiguous. You'd better read more book...", 
             "clarity": "1", 
-            "helpfulness": "3", 
+            "helpfulness": "2", 
             "easiness": "1"
         }, 
-        "CMPT 371": {
-            "comment": "'Make a Computer course beome a Physic course, make everyone sleep. I count 90%+ sleeping/day dreaming", 
+        "cmpt275": {
+            "comment": "'I love his class. He is knowledgeable about the subject matter with a lot of real life experience. Awesome! He basically follow the text book, which is fine with me. The test and exam are not easy but the grading is fair. I would definetly take another class with him. No problem in recommending his class to my friends.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT275": {
+            "comment": "\"Worse prof in my university experience. He reads off his slides, expects you to memorize definitions from the text's glossary and has ambiguous expectations. He used our class to gain fame and publicity (built an iPhone app). Does not coordinate with the TA at all. I do not recommend taking 275 with him at all.", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "CMPT371": {
-            "comment": "'Ahh the course sucks and she makes it sooo much harder by giving long (i mean looong) assignments and who knows about the exams", 
+        "CMPT276": {
+            "comment": "'Good class, bad prof. Avoid when possible.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT363": {
+            "comment": "\"He asks you to choose what to do for the project, but he has specific project topics he prefers. Lectures were pretty boring, and he didn't teach the material very well, although the midterm/final wasn't that hard. tldr - not very good at teaching, only take this course with him if you want to work on a project cmpt275-style.", 
             "clarity": "1", 
-            "helpfulness": "4", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT361": {
+            "comment": "\"He's boring, the worst prof I have ever had. He knows nothing about OpenGL, and he said we should do something interesting in this course but force us to do things everybody thinks it sucks.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT365": {
+            "comment": "'I would stay away from this instructor.  I hate how he likes to call out people in class.  He is not really clear on what he expects for the class project.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "1"
         }
     }, 
-    "helpfulness": "2.8", 
+    "helpfulness": "2.9", 
     "easiness": "2.0", 
-    "clarity": "2.4"
+    "clarity": "2.8"
 }

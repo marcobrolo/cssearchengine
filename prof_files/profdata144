@@ -1,0 +1,69 @@
+{
+    "first_name": "Art", 
+    "last_name": "Liestman", 
+    "course_rating": {
+        "CMPT307": {
+            "comment": "\"Engaging prof, wry but lively sense of humour (as long as you don't ask stupid questions, you should be fine...).  Midterms and quizzes were hard but fair.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT 307": {
+            "comment": "'Funny as far as CS profs go, which is to say, not very funny at all. Good teaching style.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT405": {
+            "comment": "'entertaining and fair", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 308": {
+            "comment": "'Only had tests...  He made it really hard to learn the material. (no answer keys", 
+            "clarity": "4", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 308": {
+            "comment": "'Nice teacher...compared to others who teach this course", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "comment": "'final was just way too hard!!!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt405": {
+            "comment": "\"final was hard, but this guy is the funniest in comp sci. he's into arts (pottery) as his first name suggests as well. very smart and sympathetic.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT308": {
+            "comment": "'Disappeared for a quarter of the semester, left a grad student to teach us. The class became hopelessly lost and dwindled far behind. Upon return he was indignant and arrogant, trundling forward as the class dwindled behind. One of the few courses where I swear I could feel the animosity between the students and prof permeating the air around me.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT376": {
+            "comment": "\"Art is great - he is a fantastic teacher and really knows his stuff. I am glad I didn't get him for 307 though! This writing course was a piece of cake, although I was a bit dissapointed with my grade. I had 86% and ended up with a B+, was hoping for an A range but not a big deal. Highly recommended :)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "macm 101": {
+            "comment": "'Funny guy, great prof. Made lectures interesting", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.8", 
+    "easiness": "2.4", 
+    "clarity": "4.0"
+}

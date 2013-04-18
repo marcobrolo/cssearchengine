@@ -1,0 +1,27 @@
+{
+    "first_name": "Philippe", 
+    "last_name": "Giabbanelli", 
+    "course_rating": {
+        "cmpt120": {
+            "comment": "\"The material was tough. Most of us were forced to take that class and honestly we'd rather not be here... But the prof really worked to make entertaining lectures! He was very available for help, like he'd come to the labs to give extra help on top of TA, and he gave us a super detailed feedback for the projects.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Cmpt120": {
+            "comment": "\"His slides and animations are great for teaching these confusing concepts. He is very willing to help his students. Its unfair that he is receiving all these hateful comments. Maybe some of you will appreciate him once you've had a few more profs at SFU...but i forgive you.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT120": {
+            "comment": "\"He spent too much time on the easy stuff, not enough on the hard stuff in his lectures, and he would just sometimes start using new code without even telling us what the code meant. I talked to him about it before, but he didn't change his teaching style at all to help us. His final project was ridiculous and very difficult.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "1.5", 
+    "clarity": "2.9"
+}

@@ -1,0 +1,51 @@
+{
+    "first_name": "Ted", 
+    "last_name": "Kirkpatrick", 
+    "course_rating": {
+        "CMPT363": {
+            "comment": "\"Glad I didn't take a REAL cmpt course with this guy, he's very low on talent - not even close to the esteem of other profs.  I dreaded every moment of class with him because he just doesn't seem to say anything of meaning.  The course was very easy but unfairly marked.  Work hard or don't work at all and you'll still get the same grade.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "CMPT383": {
+            "comment": "'Nice guy, very easy course, but very slow. The only imperfect thing is that he never gives feedback and comments on homework.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }, 
+        "cmpt120": {
+            "comment": "'lecture is ok, but the final grade is really unfair!!! For example, he gives B when you actually can get A. Do not expect a high grade from him.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "cmpt363": {
+            "comment": "'went to class once every other week just studied notes from first 2 weeks and got an A. hes boring to listen to very repetetive not prepared, and his example lack imaginaiton. whole course spent criticizing websites. lame but good for those who need gpa boost they give him lot of good reviews here!", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "Cmpt120": {
+            "comment": "'Prof is helpful during his office hour, really wants you to figure out for yourself how to solve your problem while giving little hints. Lectures are a little boring but informative, bring a coffee to keep awake. Nice professor, will miss him.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "comment": "\"He's a good, fair professor. A bit disorganized but lectures are still interesting and he's clearly very knowledgeable in the material.", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT376": {
+            "comment": "'A nice guy, however the class was very disorganized. The marking is EXTREMELY slow. Don\\'t count on your drafts being used for the final papers. Feedback is little to none. The marks seem like they were picked out of a hat and given. It\\'s like \"hey this paper looks good you can have an A, but this paper sucks so you can have a D\".", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.6", 
+    "easiness": "3.9", 
+    "clarity": "3.4"
+}

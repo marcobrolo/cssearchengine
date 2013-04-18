@@ -1,45 +1,69 @@
 {
-    "first_name": "Manuel", 
-    "last_name": "Zahariev", 
+    "first_name": "Susan", 
+    "last_name": "Kozel", 
     "course_rating": {
-        "CMPT": {
-            "comment": "'Awesome teacher, class was fun...", 
+        "IART 300": {
+            "comment": "'Too Artsy!!", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "Yoga": {
+            "comment": "'Only easy if she knows your name! Otherwise you get killed by the RANDOM MARK GENERATOR. LAME!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "IART 319": {
+            "comment": "'n/a", 
             "clarity": "4", 
             "helpfulness": "3", 
             "easiness": "4"
         }, 
-        "CMPT 307": {
-            "comment": "'One of those clueless SFU profs.  One of many.", 
+        "INTD2?": {
+            "comment": "'WHAT THE?!", 
             "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+            "helpfulness": "2", 
+            "easiness": "4"
         }, 
-        "CMPT307": {
-            "comment": "\"Probably my best professor ever!...He's so knowledgable and really can communicate. You'll learn A LOT from his class. Would take him any time again. Too bad he's a sessional.", 
+        "ks": {
+            "comment": "'excellent,once you see past the artsiness..nice person,and helpful,knowledgable...gotta love that accent", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Yoga100": {
+            "comment": "'Nice Yoga teacher", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "2"
+            "easiness": "5"
         }, 
-        "CMPT 212": {
+        "Iart 413-4', u'15": {
+            "comment": "\"The interactive installation course was a blast. Susan has an amazing personality. I was with her for 2 semesters in a row and she is definately the type of person I enjoyed listening to and learning from.  The class is easy if you respect her and DO the work and show that you're making an effort.  She motivates you even if your project sucks.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "\\xa0": {
             "comment": "'No Comments", 
             "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "2"
+            "helpfulness": "4", 
+            "easiness": "5"
         }, 
-        "CMPT 363": {
-            "comment": "'Funny cool enthusiastic approachable so on so on everything you can ask for in a professor.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
+        "IAT 321": {
+            "comment": "\"She's smart. The class is easy, topics are interesting, the yoga part is a great strech, but attendance in 3rd year university!??? come on!!! Are we back to middle school??", 
+            "clarity": "4", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "cmpt 307": {
-            "comment": "'He made a tough course a lot more interesting than it could have been.", 
+        "IART328": {
+            "comment": "\"she's the easiest and most laidback instructor ever!!", 
             "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "2"
+            "helpfulness": "4", 
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "3.9", 
-    "easiness": "2.3", 
-    "clarity": "3.7"
+    "helpfulness": "3.2", 
+    "easiness": "3.6", 
+    "clarity": "3.3"
 }

@@ -1,21 +1,57 @@
 {
-    "first_name": "Kevin", 
-    "last_name": "McQuiggin", 
+    "first_name": "Eric", 
+    "last_name": "Yang", 
     "course_rating": {
-        "Comp101": {
-            "comment": "'Amazing Instructor!", 
-            "clarity": "5", 
-            "helpfulness": "5", 
+        "IAT 167": {
+            "comment": "'Accent is hard to understand, but unlike others I found the lecture slides helpful. Provides the general coding info but expects you to figure out how to make it work for your assignment. Difficulty escalates after first assignment, had to meet with my TA many times for help.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "IAT-167": {
+            "comment": "'I don\\'t what is going on all along the lecture. I don\\'t really understand his accent. He refer everything as \"guy\" from the variable to the microphone. The assignment requirement is unclear. I don\\'t know how can I do it. The slide is useless. The course syllabus escalated too fast. I can easily manage the first assignment and lost after that...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "IAT410": {
+            "comment": "'This is like my 3rd class with Eric, and while he is an exceptionally nice guy I either avoid taking a class with him.  Very hard to understand him due to his heavy accent. His lectures are pointless because of this, but he does make the notes available online. He still makes attendance mandatory. He could be good, just needs to learn english", 
+            "clarity": "1", 
+            "helpfulness": "4", 
             "easiness": "3"
         }, 
-        "cmpt123": {
-            "comment": "'This is my first computing science class! I am getting a good mark because he makes the course material so interesting. His exams and quizzes are fairly easy as long as you go over the slices! He is the best prof i have ever had in sfu!", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
+        "IAT167": {
+            "comment": "\"More or less got used to his accent later in the semester, but honestly his lecture is not helpful and boring, everything is in the slides. Sometimes the codes in the slides can be useful for assignment, totally lost after assignment 2..can't believe I gonna have another class with him next semester", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "IAT352": {
+            "comment": "\"Worst prof I've had yet.  I've been a straight A student up until his class, which I worked my butt off in only to receive a C+.  He is extremely out of touch with his students, very hard to understand, boring, and an all around bad teacher.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "IAT265": {
+            "comment": "\"Heavy accents. I don't think he really knows Java. Don't need to go to the lecs as he copied&pasted the info including ppt all from the Internet. During final proj time he gets stuck very often trying to help out students.  You don't learn anything in the labs because all you do is typing out the codes printed on the handout.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT118": {
+            "comment": "'worst teacher. lectures are pointless", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "IAT204": {
+            "comment": "'Hard to understand", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "5.0", 
-    "easiness": "4.0", 
-    "clarity": "4.8"
+    "helpfulness": "2.5", 
+    "easiness": "3.1", 
+    "clarity": "1.8"
 }

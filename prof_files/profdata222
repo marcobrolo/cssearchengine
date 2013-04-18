@@ -1,0 +1,63 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "CMPT 300": {
+            "comment": "'Learn a lot, fun blah blah...but the price you pay.....", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt150": {
+            "comment": "'Nice instructor, assignments and exams are hard, but you really can learn a lot", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "MACM101": {
+            "comment": "'Assignments are hard(dunno where he digs them out from).  Final was fairly", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT 150": {
+            "comment": "'He is extremely hard on all the assignments/exam.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 150,": {
+            "comment": "'Bart rulez!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "comp 150": {
+            "comment": "'he i so the greatest... teaches us kids bridge!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Macm 101": {
+            "comment": "'Great teaching style... lots of fun!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "MACM 101": {
+            "comment": "'*REALLY* good proffessor...you learn a lot easily...hard assigments and exams =(", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT150": {
+            "comment": "\"Didn't like his style of teaching at all!!", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

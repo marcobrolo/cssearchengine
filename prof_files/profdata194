@@ -1,0 +1,33 @@
+{
+    "first_name": "Petra", 
+    "last_name": "Berenbrink", 
+    "course_rating": {
+        "Cmpt 307": {
+            "comment": "'Bad handwriting, abit arrogant. The things she covered in class did not help us", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT307": {
+            "comment": "'Ambiguos writing, arrogant, keep saying \"You should know this and that...\"", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 307": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 307": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "2.4", 
+    "clarity": "1.7"
+}

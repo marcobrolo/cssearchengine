@@ -1,0 +1,33 @@
+{
+    "first_name": "Janice", 
+    "last_name": "Regan", 
+    "course_rating": {
+        "CMPT 101": {
+            "comment": "'Teaches from the text, and easily gets flustered and nervous.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "cmpt 101": {
+            "comment": "'she seems quite nervous and blushes much... i find it quite hard to listen to someone that pauses at every word.  i think she might be new.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 371": {
+            "comment": "'boring as hell", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT371": {
+            "comment": "'Ahh the course sucks and she makes it sooo much harder by giving long (i mean looong) assignments and who knows about the exams", 
+            "clarity": "1", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
+    "clarity": "2.4"
+}

@@ -1,33 +1,27 @@
 {
-    "first_name": "Colin", 
-    "last_name": "Stewart", 
+    "first_name": "S.Cenk", 
+    "last_name": "Sahinalp", 
     "course_rating": {
-        "CMPT110": {
-            "comment": "\"One of the best profs ever. funny and uses a lot of cultural refrences (telling us to not bit torrent to download the VB program cus SFU has a download archive area). swears in his lectures. Course was A LOT better than the surrey version of CMPT 110. quizzes are open book, open notes. MT and Final, you're allowed to bring 4 page cheatsheet!", 
+        "CMPT711": {
+            "comment": "\"It's fun watching the undergrads fails, but it still really tough .  I feel so sorry for all the undergrads taking this course with us.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT891": {
+            "comment": "'He is so smart!", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "5"
+            "easiness": "3"
         }, 
-        "CMPT120": {
-            "comment": "'HE IS A VERY INTERESTING GUY AND KNOWS WHAT HE IS TALKING ABOUT ALTHOUGH HE READS THROUGH HIS NOTES. HIS NOTES ARE VERY CLEAR BUT DONT BE DECIEVED .....WHEN THE GUY SAYS HE IS GOING TO FAIL ONE THIRD OF THE CLASS HE WILL FAIL IT. SO I HIGHLY RECOMMEND TAKE ANOTHER PROFF BUT HAVE HIS NOTES. HIS MARKING IS ALLOVER THE PLACE. DONT TAKE THIS PROFF.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "2"
-        }, 
-        "CMPT165": {
-            "comment": "'Tok this course distance ed! Wouldn\\'t suggest you do if you cant handle elarning by yourself and guess/check type methods. Programming requires a lot of testing and re-testing. The webct forums were littered with \"im lsot, help\", \"i have no clue what to do\". And I guess thats why when I got a 77 it turned out to be an A.", 
-            "clarity": "4", 
-            "helpfulness": "3", 
-            "easiness": "2"
-        }, 
-        "Cmpt110": {
-            "comment": "'His notes are very clear but in lecture he just read over the lecture note. He is very helpful when you asking not hw and projects related question. However, his exams are extremely hard and he expects more than what he taught. Lastly, he says he will fail 1/3 of class of students, he means it!  I suggest, obtains his note and take with other prof.", 
+        "CMPT889": {
+            "comment": "'No Comments", 
             "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
+            "helpfulness": "2", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "2.6", 
-    "clarity": "3.9"
+    "helpfulness": "2.2", 
+    "easiness": "2.0", 
+    "clarity": "2.8"
 }

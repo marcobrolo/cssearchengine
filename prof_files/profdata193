@@ -1,0 +1,75 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Dixon", 
+    "course_rating": {
+        "cmpt150": {
+            "comment": "'One of the best Prof I have ever met in the computing scicenc. Strong recommend to take his cmpt150. Organization is very good, teaching is very good. He is very patient and always try to help students.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Cmpt 250": {
+            "comment": "'Final is hard as hell, but the prof is a great guy.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt 150": {
+            "comment": "'Excellent prof, but exams are hard; assignments are doable but require a good deal of time and effort.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT384": {
+            "comment": "'nice use of the english language...willing to clarify what is not understood in lectures and assignments...fair exams, grading, and grade assignment (curving)...fair but hard exams...", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 250": {
+            "comment": "\"He is so elegant that can't be described in words. Not only is he a great professor, he is a real man that hardly can be found in our era. He is always glad to help and never let students to be disappointed. He posts his neatly prepared lecture notes on the website. He is really a gret SENIOR LECTURER as his title specifies.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 150, ', u'250": {
+            "comment": "\"Despite the difficult midterms and finals, he's very helpful and carries a positive attitude towards students. The lectures are boring, but you really can't blame due to a lack of interesting course material.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt250": {
+            "comment": "'Assignments take 8-24 hours each. The prof can help out a lot if you seek help in person. If you wanna stay awake in lectures, bring a case of Red Bull.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT 150 +', u' 250": {
+            "comment": "\"Very good prof. He might be a bit monotone lecturing but he's very organized, and does a excellent job presenting complex info in a clear manner. You learn a lot in his class. Assignments are hard but he prepares you well for them. Exams are easy compared to assignments and grading is fair. Gives option to drop midterm  if you do poorly on midterms", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 150": {
+            "comment": "\"Read others' compliments about his teaching. I just want to mention that usually we rarely see Santa Claus type of people with his hotness. He is so energetic - we couldn't catch up with him when rushing into the classroom one day. Hot and cute type! Try!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT 150/2', u'50": {
+            "comment": "'hard, boring, but still knows his**** and is still a good prof", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT150": {
+            "comment": "'Wonderful prof whose notes are very easy to understand... Very helpful!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "4.1", 
+    "easiness": "2.3", 
+    "clarity": "4.1"
+}

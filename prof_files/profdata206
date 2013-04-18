@@ -1,0 +1,57 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "CMPT470": {
+            "comment": "'Great guy, definitely top 5 at SFU. Tells it like it is, and actually cares about students.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "Cmpt165": {
+            "comment": "'unlike what the course description said, this course is NOT suitable for non-cmptsci majors with no programming background.  the first half was fine (a breeze even)...but once the programming stuff kicks in, ur on ur own.  prog asgnments were hard considering it was a dist.ed class...if ur gonna take 165, i suggest the on-campus lecture section", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt165": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT475": {
+            "comment": "\"Be wary of him! He has one of the worst qualities a prof could have:favouritism!\\r If you are in the little circle of hist friends and favourite student you are fine. Otherwise, don't try to get on his bad side. And that's not just what I say.\\r Also, he is very subjective as opposed to being objective.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt120": {
+            "comment": "'-", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt470": {
+            "comment": "\"This is not a mandatory course, so don't take it if u have a choice. Greg is OK, but too much work.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "comment": "'Good prof, a bit boring, easy to follow, seems intimidated by the class (never looks up), cute jokes. Breaks the course down into baby steps which seem easy at the time but are impressive when you look back at the end. A very good course for your first semester.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "CMPT165": {
+            "comment": "'WOW! Whatever you do, DO NOT take this course through distance education.  First half alright, second half brutal.  You get no help, questions that are answered through email, a week later are vague.  Take this course on campus, or avoid taking it.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

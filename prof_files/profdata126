@@ -1,0 +1,45 @@
+{
+    "first_name": "Mark", 
+    "last_name": "Drew", 
+    "course_rating": {
+        "cmpt 365": {
+            "comment": "'loved the multimedia projects, but lectures were very difficult to follow for non-native-english speakers. no textbook used.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT828": {
+            "comment": "'He is one the most knowledgeable professors I have ever seen. He explains very clean with lots of enthusiasm. Very patiently  explains the stuff over and over if necessary. Very funny and energetic. TOTALLY INSPIRING.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT880": {
+            "comment": "'Just a super amazing Prof. So helpful and kind. If anyone out there likes to work with color images with a World re-known Prof, Dr. Drew is the guy. Not only will he guide you to do great, state of the art research, but also he will hook you up with endless top industry professionals (if this is your thing). SUPERB!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT 365": {
+            "comment": "\"Knows his material very well, maybe a little too well, as he assumes we should easily be able to follow his chicken scratch notes. Doesn't know how to TEACH, and midterm/final was misleading. VERY disorganized prof. Good sense of humor but that's the only good thing about him.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT110": {
+            "comment": "'confusing and confused. in one hour of class he taught for less than half.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT365": {
+            "comment": "'great prof.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.4", 
+    "easiness": "2.9", 
+    "clarity": "2.9"
+}

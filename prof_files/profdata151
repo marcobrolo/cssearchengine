@@ -1,0 +1,75 @@
+{
+    "first_name": "Ramesh", 
+    "last_name": "Krishnamurti", 
+    "course_rating": {
+        "CMPT 307": {
+            "comment": "'Awful teaching style. The only good point is the easy marking in exams...", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "cmpt710": {
+            "comment": "'He is the best prof I had in SFU. He is clever, kind and modest. He is interested in the course material and welcomes you to talk to him at any time.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT705": {
+            "comment": "\"Very boring algorithm class. He didn't bother even talking a little bit louder so that the second row students could have hear him. Very unfair exam and horrible final grades.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt165": {
+            "comment": "\"I am a fourth year, 3.8 GPA student. I took this class DE by the recommendation of my advisor. I failed the class, the final, and the midterm. The midterm is held after the drop deadline, there is no additional help from the Prof or TA's. If you're not already familiar with computer programing.. stay far away from this class.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 307,4', u'05": {
+            "comment": "\"very good explanations.  Extremely intelligent prof.  Doesn't rush his lectures like other profs.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Comp711": {
+            "comment": "'Very good teacher, has his own style. Easy to talk to and can always get help from - highly recommended", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT405": {
+            "comment": "'Very good professor, explained material well, even though it was at times difficult. I learned a lot in the course under him. He simplifies some proofs in the textbook so attending lectures is essential. He is somewhat soft-spoken, so I suggest sitting near the front. Exams were somewhat difficult and consisted of 2-5 questions, but they were fair.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 405": {
+            "comment": "\"People aren't fair to him, he's not that bad... just very disorganized.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt 307": {
+            "comment": "'Awful. The worst prof i had at sfu. Not interested in teaching, no notes, writes on blackboard, horrible explanations, no clear solutions for exams and assignment. Run from him at all costs. Course is kinda hard on top of things.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt-710": {
+            "comment": "'Very nice, kind and helpful. He is extremely smart and yet modest.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT165": {
+            "comment": "\"Boring lectures (you can skip everyday and still understand cuz he posts notes) , very easy (like 10minutes per week) labs and assignments. (This coming from someone who've taken CMPT 120/125 before)  Midterm is fair, and covers a little of each topic. Overall, take the course because it's a GPA booster, not because the prof is a great guy and all.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "2.6", 
+    "easiness": "2.4", 
+    "clarity": "2.2"
+}

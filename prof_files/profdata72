@@ -1,8 +1,39 @@
 {
-    "first_name": "Torsten", 
-    "last_name": "M\\xf6ller", 
-    "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "first_name": "Pavol", 
+    "last_name": "Hell", 
+    "course_rating": {
+        "cmpt307": {
+            "comment": "\"Good teacher, hard topic, he did well to help most of the students pass and his class always has more people passing, so i guess that means he's easier or a better teacher than other people for this class", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT307": {
+            "comment": "\"He's an awesome prof.  Heaven is a good word to describe him.  In what was always talked as the hardest CS class, he made it seem pretty understandable with simple concepts, etc.  Everyone did well in his class.  So take him!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM 201": {
+            "comment": "'Good prof good lectures", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "MACM101": {
+            "comment": "\"Great prof, the course is hard if you've never seen any of this stuff before but he does a good job with explaining it.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Macm 201": {
+            "comment": "\"A very good prof.  Course is not bad, if you spent time do/understand all the assignments.  I think it's good that he made the noisy people be quite.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "4.1", 
+    "easiness": "2.4", 
+    "clarity": "4.0"
 }

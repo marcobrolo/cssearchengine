@@ -1,33 +1,27 @@
 {
-    "first_name": "Herbert", 
-    "last_name": "Tsang", 
+    "first_name": "Frank", 
+    "last_name": "Vandenberg", 
     "course_rating": {
-        "CMPT363": {
-            "comment": "\"This course is suppose to be easy, but he made it like 275, and was very tedious and not very helpful.  I'll take it with another prof is I were you.  The class can easily fail, and require more work than necessary. I wonder why he's still teaching.  Breaks my self-esteem when I ask a question, make me look stupid every time. :(", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
         "CMPT275": {
-            "comment": "\"Enjoyed his class a lot and I will be happy to take any other class that he teaches. His expectations are very clear. I don't know why some crazy students complaint about having to know the definitions of terms, for me, I see no problem at all. The TA was awesome, he helped us a great deal too! I highly recommend taking CMPT 275 with him!", 
+            "comment": "\"He is nice and teaches well. Exams are fair. Only thing is you will get a LOT of homework, every week actually. Be prepared to put in the time and don't take too many other classes. Also, he often isn't clear about what he expects for the HW.", 
             "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "4"
-        }, 
-        "CMPT361": {
-            "comment": "'I enjoyed the computer graphics class. Since this class is not about OpenGL, but computer graphics, I think it is OK. We are working on an interesting projects.", 
-            "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "2"
         }, 
-        "CMPT365": {
-            "comment": "'Keep away from us! No demonstration of rational thought or constructive criticism. Guard your name, he make you do anything! Also, in denial as he believes enough time for semester group project. Start mid Feb after 7+ futile negotiations! Is project \"open idea\"? Unchanged when enter-left this course. Can\\'t believe he\\'s teaching another CMPT course", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "Cmpt275": {
+            "comment": "'Great prof, brings a lot of real world perspective into a class that could easily be very boring otherwise. Examples are good but should only be looked at as samples.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt275": {
+            "comment": "'Very nice and approachable prof. Class is very relevant and final project is a good thing to have in interviews. Be prepared to write tonnes!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.9", 
-    "easiness": "2.0", 
-    "clarity": "2.8"
+    "helpfulness": "5.0", 
+    "easiness": "2.7", 
+    "clarity": "4.3"
 }

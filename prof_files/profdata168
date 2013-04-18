@@ -1,0 +1,45 @@
+{
+    "first_name": "Bobby", 
+    "last_name": "Chan", 
+    "course_rating": {
+        "MACM101": {
+            "comment": "\"he's so cute!O(\\u2229_\\u2229)O~~ also he's ready to answer ur questions all the time!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT165": {
+            "comment": "\"He is extremely nice and helpful and his exams are fair. He's also pretty cute lol", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPTE150": {
+            "comment": "'He is brilliant,calm and always willing to explain to my understanding. Keep it up Bobby.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT150": {
+            "comment": "\"If he could teach all my cmpt courses, I wouldn't hav to use ratemyprofs.com ever again!! Dont be fooled by his age, although he's a student himself I think?, he was an excellent prof who explained the topics and information well.  He used slides to teach 150 and gave relevant exmples in lecture.  His midterms were fair and based on exactly whatwas", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "Cmpt165": {
+            "comment": "\"He's good and extremely helpful ! :)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt150": {
+            "comment": "'best cmpt prof i met so far.in last day lecture, everyone stand up and applaud for him.strongly recommand to take everything with him.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "4.9", 
+    "easiness": "3.5", 
+    "clarity": "4.8"
+}

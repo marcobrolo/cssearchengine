@@ -1,27 +1,57 @@
 {
-    "first_name": "Ladislav", 
-    "last_name": "Stacho", 
+    "first_name": "Richard", 
+    "last_name": "Vaughan", 
     "course_rating": {
-        "Math154": {
-            "comment": "\"This is the worst prof of my whole entire existence! I do not like to hate on people, but he is just a dissaster and a half! Once again... worst prof ever!!! He doesn't explain anything, just reads what it says on the notes. His exams were extremely hard and were not relavent to what he said to study or what he taught.The class average was a fail!", 
+        "Cmpt 300": {
+            "comment": "\"If you are taking courses to learn, this is 'THE' course to take!!! He has very interesting assignments and I would recommend him to anyone that asks. If you are in it for easy marks I would seriously not consider taking this course with him.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt300": {
+            "comment": "\"Great Prof !!!!! I love this guy. He made everything interesting and didn't go too far into details. Gave an excellent sample midterm, with questions that appeared on the actual one. EX. for 3 marks, what is an Operating System? great guy. I got an A-. I spent a lot of time on his projects, but i actually learned about operating systems. Go for it!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT300": {
+            "comment": "'Basically everything that can be said about Dr. Vaughan already has been.  He is an awesome prof, speaks English clearly, is not boring, is interested in the subject, gives interesting homework and his exams are not too hard.  I am going to take CMPT401 with him.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 300": {
+            "comment": "'learnt nothing but \"what\\'s slacking\"!!!", 
             "clarity": "1", 
             "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 431": {
+            "comment": "\"Doesn't know his own slides. Frequently misspeaks in class. Was so slow releasing the assignment two guidelines that he cancelled it altogether and shifted that weight to the other two assignments (one which was already complete). He seems like a very intelligent man, but he definitely needs to sort himself out.", 
+            "clarity": "1", 
+            "helpfulness": "3", 
             "easiness": "1"
         }, 
-        "MATH154": {
-            "comment": "'Extremely hard to understand. Overhead notes are impossible to read if you dont sit in the front of the 400+ person class.", 
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "2"
+        "cmpt 300": {
+            "comment": "'Great prof. Relatively easy on material, lots of material though. Great for linux people. Generally a nice person.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
         }, 
-        "MACM201": {
-            "comment": "\"He is a nice guy, but his class is very boring. His overheads are straight from the text and his explanations aren't so clear. However, his midterms are pretty easy and straight forward, just do all his assignments and you'll do more than fine. His final was a lot tougher though, he ask too many specific difficult questions. But overall he is ok.", 
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "3"
+        "CMPT431": {
+            "comment": "'Great Prof, would learn again. A++", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPT 128": {
+            "comment": "'The \"Vaughanator\" is pretty cool, but I really hate him using the black board, it\\'s impossible to read there. My friend asked him to write on the overhead, he refused and told him to sit closer to the board. But anyways, overall, i wasted around 8-9 hours of my time working on his midterm 3....", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.4"
+    "helpfulness": "3.5", 
+    "easiness": "3.0", 
+    "clarity": "3.5"
 }

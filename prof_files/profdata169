@@ -1,0 +1,57 @@
+{
+    "first_name": "Ramesh", 
+    "last_name": "Krishnamurti", 
+    "course_rating": {
+        "CMPT 307": {
+            "comment": "\"disorganized, doesn't devote enough time", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT110": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }, 
+        "cmpt307": {
+            "comment": "\"very disorganized, worst prof i've ever had", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 250": {
+            "comment": "'worst prof i ever had", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 110": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 307": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "macm": {
+            "comment": "'cou;dt undestand this guy.made me quitcomp sci", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 110": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.6", 
+    "easiness": "2.4", 
+    "clarity": "2.2"
+}

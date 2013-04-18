@@ -1,15 +1,15 @@
 {
-    "first_name": "Chris", 
-    "last_name": "Schmidt", 
+    "first_name": "Amin", 
+    "last_name": "Sharifi", 
     "course_rating": {
-        "CMPT120": {
-            "comment": "\"The prof doesn't know how to teach, he just assume all other students are expert. this course is just an introductory course to programming, and he never explain through examples, only main theories which we can just read off the textbook... the assignments are extremely hard, tests are so hard too.. avg was very low~ OVERALL WORST PROF I HAVE HAD!", 
+        "CMPT125": {
+            "comment": "\"His classes are totally useless, less than half the class attend his lectures regularly.  I, along with many other people used our textbook as the only reference to do the assignments and study.  The times that i've attended his lecture, he seemed to be afraid or unsure of what he was teaching and alot of the time he teaches useless stuff.", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }
     }, 
-    "helpfulness": "1.1", 
-    "easiness": "1.6", 
-    "clarity": "1.1"
+    "helpfulness": "2.5", 
+    "easiness": "3.0", 
+    "clarity": "2.2"
 }

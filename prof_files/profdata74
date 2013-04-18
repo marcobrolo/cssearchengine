@@ -1,27 +1,21 @@
 {
-    "first_name": "Salahuddin", 
-    "last_name": "Muntaseer", 
+    "first_name": "Oren", 
+    "last_name": "Shklarsky", 
     "course_rating": {
-        "cmpt120": {
-            "comment": "'He is a very nice guy, very helpful if you go to his office hour. He is willing to give examples and explain to you. Not many assignment but they are time consuming, prepare them as early as you can", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
+        "CMPT 166": {
+            "comment": "\"Assignment is really difficult, and he doesn't teach nothing. just reading notes. Do not take this course if he is instructor of this course.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "CMPT120": {
-            "comment": "'No Comments", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "CMPT 125": {
-            "comment": "\"Doesn't teach much in lecture, and what he does teach can be learned in much less time by reading the textbook or finding tutorials online. Seems like a nice guy but doesn't know how to teach.", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "2"
+        "CMPT166": {
+            "comment": "'Hard assignment, bad teaching! bad professor!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "4.7", 
-    "easiness": "3.9", 
-    "clarity": "4.3"
+    "helpfulness": "1.0", 
+    "easiness": "1.0", 
+    "clarity": "1.0"
 }

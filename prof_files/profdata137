@@ -1,0 +1,51 @@
+{
+    "first_name": "Wo-Shun", 
+    "last_name": "Luk", 
+    "course_rating": {
+        "cmpt 354": {
+            "comment": "\"the assignment doesn't make any sense coz his english is so horrible... midterm is the same... final is the same... what more to say? I don't know how he manage to stay in SFU with his english, even the TA has no idea what the prof wants :)", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt354": {
+            "comment": "'no", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT454": {
+            "comment": "'Assignments are usually short but you have to know every detail in order to do well. Exams are easy. I really learned a lot from this course.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT354": {
+            "comment": "\"dont read mine. Read other comments on this proff. I'd rather fail this one and pick another proff next time. I learnt nothing. This could be useful you know?", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 354": {
+            "comment": "\"He can't teach, bad english. I understand Martin Yan's english in food network much better than his english. Very difficult final exam! Not recommended.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt354": {
+            "comment": "\"Terrible professor, his notes are worthless since you can't understand half of it and not all the material is from the text book, you should also study some links provided in his slides along with the reference book. His class is boring and useless, he basically reads from his slides and everyone's sleep during his class.final exam was super hard.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 354": {
+            "comment": "\"The worst prof i have ever had. Please don't take him, you will just waste your money. Even if you somehow manage to get a decent grade, you'll have learned nothing. His assignments are long and boring. Midterm is hard and doesn't make any sense. His english is just terrible. Definate NONO, again NO", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.1", 
+    "easiness": "2.4", 
+    "clarity": "1.9"
+}

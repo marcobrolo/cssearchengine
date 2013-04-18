@@ -1,0 +1,33 @@
+{
+    "first_name": "Diana", 
+    "last_name": "Cukierman", 
+    "course_rating": {
+        "CMPT 310": {
+            "comment": "'Very well thought out teaching style. Provided a broad background of the subject and used many invited speakers to compliment her lectures. One of the best CMPT profs at SFU!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt150": {
+            "comment": "\"She's a nice prof... but i personally dont understand a thing she teaches... maybe it's her teaching style... or maybe it's mine learning style... when she was tryin to teach conversion of binary... i was very confused... even tho it's SUPPOSE to be very simple... (i know it's simple since i learned it in High Scool) when she taught it. not simple", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "MACM101": {
+            "comment": "'Great Prof.", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "MACM101 CM', u'PT150": {
+            "comment": "'why doesn\\'t she post all assignment solution on webpage?!?!  so inconvenient to go to her office board and check.    anyways, she \"looks\" trying hard to teach.  Her notes are very messy.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "4.2", 
+    "easiness": "3.3", 
+    "clarity": "3.7"
+}

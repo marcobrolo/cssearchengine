@@ -1,51 +1,45 @@
 {
-    "first_name": "Jan", 
-    "last_name": "Manuch", 
+    "first_name": "Manuel", 
+    "last_name": "Zahariev", 
     "course_rating": {
-        "CMPT212": {
-            "comment": "\"His lecture notes are unclear and hard to understand. He speaks unclearly and too softly during lectures (I can't hear much of what he says). He understands the material, but have a hard time putting it into words.", 
+        "CMPT 120": {
+            "comment": "'Pros: Nice guy 1-1, and his clases are fricken hilarious! The way he laughs, and the way he laughs at his own jokes while nobody is laughing makes me laugh. Cons: No clue what kind of relevance his lectures have, and his skeleton \"notes\" are brief and practically useless.", 
             "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "3"
-        }, 
-        "CMPT 307": {
-            "comment": "'No Comments", 
-            "clarity": "2", 
             "helpfulness": "4", 
-            "easiness": "1"
+            "easiness": "2"
         }, 
-        "CMPT 225": {
-            "comment": "'This guy needs to learn to speak english.", 
+        "CMPT-120": {
+            "comment": "\"Manuel is a very down to earth teacher. If you ask for help, he will help you and if you don't, that's your own problem. Great teacher for programming, not too sure about MACM 101.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt120": {
+            "comment": "'Maneul...what can I say? Am I laughing with or at you? He has a hard time explaining projects and his lectures are really quite pointless...coming from a person who ACTUALLY goes to them...a rarity.", 
             "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "MATH157": {
-            "comment": "'Jano (Ya-Know) cannot teach for his life. He had to scale both mid-terms significantly and trimmed the total of the final exam from 100 to 75. His inability to translate his knowledge infuriates you as you pay nearly $500 to listen to a person who just arrived from Europe. Lastly, his tests are non calculator and are EXTREMELY hard.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "MATH308": {
-            "comment": "\"308 is as easy as upper maths get.  Course pace is slow due to proofs (of which a good deal aren't really necessary).  I skipped most lectures and relied mainly on textbook.", 
-            "clarity": "2", 
-            "helpfulness": "3", 
-            "easiness": "5"
-        }, 
-        "Math157": {
-            "comment": "'Lets put it this way: when you have to scale both midterms because the class average was a definite fail- we know there is an issue. He tries his best- but he should really stick to what he knows. The material is easy; but he cant teach it.", 
-            "clarity": "2", 
             "helpfulness": "1", 
             "easiness": "2"
         }, 
-        "cmpt225": {
-            "comment": "'nice guy, however, speaks not clear enough and give lectures without interacting with students. However, he seems really care. If u ask him a question, he will explain to u in detail. I say, attitude counts too.", 
+        "CMPT120": {
+            "comment": "'Friendly..BUT a really bad communicator .. often end up laughing by himself (literally) in lectures which are not helpful for Lab assignments at all. Students must develop strong interests and study by themselves in order to survive..", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt 120": {
+            "comment": "\"Manuelz is awesome. One of the first university profs I've ever had and he's probably the reason I dont skip class. Makes lectures fun, and has sense of humor. A+++++. I would deffinately pick him for another class.", 
             "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "MACM 101": {
+            "comment": "'He\\'s an average prof for teaching math....He uses a lot of math terms in his teaching. It was hard to understand his saying in the beginning, but once used to his language...it\\'s ok. btw, he likes to use the word \"cool\" for everything....=_=", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.5", 
-    "easiness": "2.7", 
-    "clarity": "1.9"
+    "helpfulness": "3.7", 
+    "easiness": "3.5", 
+    "clarity": "2.9"
 }

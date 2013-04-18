@@ -1,39 +1,57 @@
 {
-    "first_name": "Wo-Shun", 
-    "last_name": "Luk", 
+    "first_name": "", 
+    "last_name": "Woodbury", 
     "course_rating": {
-        "CMPT454": {
-            "comment": "'Average at best.", 
-            "clarity": "2", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "CMPT 354": {
-            "comment": "'Professor does not speak or understand English whether it be verbal or written.  Assignments are not useful from a theoretical or practical standpoint.  His lectures are a huge waste of time, and the midterm is irrelevant.", 
+        "IAT801": {
+            "comment": "'big ego, condescending, narrow minded, ****", 
             "clarity": "1", 
             "helpfulness": "1", 
-            "easiness": "1"
+            "easiness": "3"
         }, 
-        "CMPT354": {
-            "comment": "'horrible teaching. hard midterm, not enough time to finish it. internets, his english is poor on top of being a bad lecturer. not recommended", 
+        "ITEC 272": {
+            "comment": "'Good Luck!! He\\'s supposedly a \"genious\" who threw away all other graphics books and made his own!", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "IAT405": {
+            "comment": "\"Condescending, rude, and confusing. Wasn't present for a good proportion of the classes due to his side project and then docked marks because he hadn't heard our explanations which we gave to the other profs who DID show up. It's appalling that SFU still has him for the course when our feedback clearly indicates he isn't qualified to do so.", 
             "clarity": "1", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "Comp. Grap', u'hics": {
+            "comment": "'Wake me up when his lecture is over.", 
+            "clarity": "2", 
             "helpfulness": "2", 
             "easiness": "1"
         }, 
-        "Cmpt 354": {
-            "comment": "\"He can't teach, bad english. I understand Martin Yan's english in food network much better than his english. Very difficult final exam! Not recommended.", 
+        "IAT899": {
+            "comment": "'An obstructive and somewhat offensive and ego driven teacher who actively works against those who do to agree with his viewpoint.  Far too political - his departmental political situation effected this student.  A difficult person who should not be teaching.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "ITEC 407": {
+            "comment": "\"He's helpful as long as you know what to ask.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "Graphics": {
+            "comment": "'Please stop thinking in the class and start teaching.", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "cmpt354": {
-            "comment": "\"I don't why people underrate this professor. He is one of the best profs I ever had. Lecture slides are extremely useful, and he always willing to help the students. At first you may find it difficult to follow him, but eventually you will get to used to his teaching.Exams are not that hard if you fully understand the content of lecture slides.", 
-            "clarity": "4", 
-            "helpfulness": "5", 
-            "easiness": "5"
+        "271/2/3": {
+            "comment": "'Ahhhhhhhhhhhhhhhhhhhhhhhhh!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.1", 
-    "easiness": "2.4", 
-    "clarity": "1.9"
+    "helpfulness": "1.9", 
+    "easiness": "2.3", 
+    "clarity": "1.5"
 }

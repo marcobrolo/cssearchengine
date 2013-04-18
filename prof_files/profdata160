@@ -1,0 +1,51 @@
+{
+    "first_name": "Jim", 
+    "last_name": "Delgrande", 
+    "course_rating": {
+        "CMPT 310": {
+            "comment": "\"I wish I had never taken a course with him.  He had errors throughout his exams.  Didn't come to class for at least 2 full weeks of the semester and tested on material he didn't cover, even though he promised not to.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 310": {
+            "comment": "'Assignments are fair. Exams are fair. In general a not too useful but enjoyable course.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT300": {
+            "comment": "\"Jim falls short as a prof. His explanations to a very technical material are often messy and with a lack of direction. Not to mention, his chicken scratch writing is just impossible to make out so good luck taking notes. Written assignments are straight-forward but don't be surprised to get a couple of coding assignments that will kick your a$$.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "cmpt310": {
+            "comment": "'Overall, he is a nice professor.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT411": {
+            "comment": "'Do not take this course with him.  Grad students in the combined class but graded the same as undergrads.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT354": {
+            "comment": "\"Jim doesn't know the material all that well and was not willing to help with clarifying on the assignments. The course itself is very useful however.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "CMPT310": {
+            "comment": "'Very explanatory slides; enjoys helping students get high grades.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "2.6", 
+    "clarity": "3.2"
+}

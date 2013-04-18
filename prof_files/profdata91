@@ -1,33 +1,33 @@
 {
-    "first_name": "Ted", 
-    "last_name": "Kirkpatrick", 
+    "first_name": "Alicja", 
+    "last_name": "Pierzynska", 
     "course_rating": {
-        "cmpt 383": {
-            "comment": "'No Comments", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT 383": {
-            "comment": "'Easy contents but hard exams.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "Cmpt 363": {
-            "comment": "'Gotta be the easiest class in Cmpt Sci", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
-        }, 
-        "CMPT 363": {
-            "comment": "'Sometimes unorganized, but a good prof. Lots of in-class practise, which is the best way to learn this material (practice, review, evaluate eachothers\\' work). Nice guy, great UI anecdotes. Always concerned about the \\'UI\\' of the classroom! (\"Can you see that there? Is that too bright/blurry/dark/small?\") :)", 
+        "CMPT125": {
+            "comment": "'friendly", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "4"
+        }, 
+        "cmpt150": {
+            "comment": "\"assignment(singular) took like 50 hours to complete. bad if you have to work part time, and full time study. she's helpful, but frankly hard to understand. good luck if you get her. she's a nice person.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT250": {
+            "comment": "'Assignments are more like projects. take with this prof if this is the only course you have. Expects you to use refrence books from libraries. assigned reading are form those. overall terrible proff expects students to do way too much in the amount of time.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT150": {
+            "comment": "\"The course itself is pretty boring. But if you can do the assignments, midterms & finals should be straightforward! But the assignments were long and consumes a lot of your time. But she's very helpful and makes your life easier when you make an effort to go see her during her office hour :)", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
         }
     }, 
     "helpfulness": "3.6", 
-    "easiness": "3.9", 
-    "clarity": "3.4"
+    "easiness": "2.7", 
+    "clarity": "2.9"
 }

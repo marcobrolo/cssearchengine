@@ -1,27 +1,27 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
+    "first_name": "Tariq", 
+    "last_name": "Nuruddin", 
     "course_rating": {
-        "Cmpt 320": {
-            "comment": "'No Comments", 
+        "COM100": {
+            "comment": "\"He's funny", 
             "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT150": {
+            "comment": "'he is not clear on what he teaches. He doesnt explain things very well either, most of the class is confused by his way of teaching", 
+            "clarity": "1", 
             "helpfulness": "2", 
             "easiness": "1"
         }, 
-        "cmpt320": {
-            "comment": "'No Comments", 
-            "clarity": "4", 
-            "helpfulness": "3", 
+        "cmpt150": {
+            "comment": "\"Really lazy and unorganized, unfair in marking, hard to understand, not enough domination on topics, makes lot of mistakes but if you do the same you'll lose your mark. When you made an appointment with him, you should not expect to see him on time. On the other hand he usually tries to be nice and show that he's confident...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "3"
-        }, 
-        "MACM 101": {
-            "comment": "'No Comments", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
         }
     }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "helpfulness": "1.3", 
+    "easiness": "1.9", 
+    "clarity": "1.3"
 }

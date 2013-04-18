@@ -1,0 +1,57 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Dixon", 
+    "course_rating": {
+        "CMPT150": {
+            "comment": "\"The course is difficult for those without prior experience, as the learning curve is logarithmic. Don't fall behind or else it's game over. Software isn't free, so it's hard to work at home. Don't take with other hard courses.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt150": {
+            "comment": "\"The old man doesn't know how to teach.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "comp411": {
+            "comment": "'Covers material very fast, have to keep up. Good assignments - tend to take a lot of time.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT384": {
+            "comment": "'A true professor. Well organized and clear. Very approachable and available to help...", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT110": {
+            "comment": "'If you never took programming before, dont take this course; especially not distance ed. Never even seen the guy or heard from him once throughout the entire semester. The assignments are ridiculously hard and time consuming. The TA was very helpful though.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT250": {
+            "comment": "'Although I am really bad at computing and my grade is not good, I want to say, he is a good prof.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt250": {
+            "comment": "'I suggest people should take cmpt 250 with this prof. You will learn alot from him. His lecture notes are very clear and useful, but his exams are extremely hard. Assignments are hard and long, you have no time to sleep if you want to finish the assignments on time", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "macm101": {
+            "comment": "\"Tough class, don't do macm in distance ed. Dr. Dixon's assignments were extremely difficult, as was his final.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "4.1", 
+    "easiness": "2.3", 
+    "clarity": "4.1"
+}

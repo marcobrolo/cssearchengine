@@ -1,0 +1,69 @@
+{
+    "first_name": "Brian", 
+    "last_name": "Funt", 
+    "course_rating": {
+        "cmpt361": {
+            "comment": "'One of the best profs out there.  He tries his best to help you learn what the course is about.  There was some difficult math in this course but he worked hard at making sure you understood it.  If you need help he has no problem helping you and is very encouraging.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT461": {
+            "comment": "\"His exams were easy but irrelated to the course. Don't need any math skill to pass his course. Do not expect to learn anything from him. He is not a good prof.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "CMPT102": {
+            "comment": "'Always willining to help. Sometimes confuses himself during lectures. Overall a relatively nice guy", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "Cmpt102": {
+            "comment": "\"An approachable educator who definitely knows what he's teaching. His lecture slides are useful, though basic. So, you need to master the in class examples to complete the homework. Though he is decent at explaining things, I found the TA even more helpful than him. My only suggestion for Dr. Funt is that he boil down to simpler terms when teaching", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPTXXX": {
+            "comment": "\"He's definitely not a nice guy. The worst professor in computer science department.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT412": {
+            "comment": "\"nice prof, very helpful. It's better to learn from him than other computer vision books.Assignments are useful and pratical, exams are relatively hard.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "\\xa0": {
+            "comment": "'He is not as nice as he looks. Students who are strong in math should be able to tell that his math concepts are very poor. His teaching is brief because he is unable to explain in detail. Marking is not consistent. Not helpful at all. He is the worst of the worst.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt102": {
+            "comment": "\"Dr. Funt is a very helpful,funny, caring teacher. He even me offered extra help outside the course content. One of the best professors I've had. A+ hands down. Very clear and reasonable in all testing and teaching aspects.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT361": {
+            "comment": "'A very nice prof. Does a pretty good job at making complex concepts easier to understand. Tries to do his best to make you do well. Exams are easy if you studied. Rather interesting assignments. NOTE: This course is not recommended for people with weak math basis.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "cpmt102": {
+            "comment": "'great prof. hard exam.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "3.0", 
+    "clarity": "3.1"
+}

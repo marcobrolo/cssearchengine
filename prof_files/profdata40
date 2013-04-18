@@ -1,21 +1,57 @@
 {
-    "first_name": "Gabor", 
-    "last_name": "Tardos", 
+    "first_name": "Zhong", 
+    "last_name": "Zhang", 
     "course_rating": {
-        "CMPT710": {
-            "comment": "'He is absolutely very knowledgeable and cares a lot about the students. On the other hand, the way he presents the lectures is kind of messy and not very decent.", 
-            "clarity": "3", 
-            "helpfulness": "5", 
+        "CMPT 300": {
+            "comment": "\"Pretty good. Lots of writing, and the three-hour course was trying, but that's not his fault. Fair assignments, relatively easy tests, good coverage of the material.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT300": {
+            "comment": "\"before i take his class, i really liked OS..after taking cmpt300 with this prof who doesn't even speak english and word his exams in english...i hate OS what so ever...and stupid curving too..85%=A- and 80%=B-..avoid this prof what so ever..", 
+            "clarity": "1", 
+            "helpfulness": "2", 
             "easiness": "2"
         }, 
-        "CMPT307": {
-            "comment": "'No Comments", 
-            "clarity": "5", 
-            "helpfulness": "5", 
+        "cmpt300": {
+            "comment": "'How could he shamelessly be a teacher? Always trembling his voice when teaching, he even cannot speak a clear long sentence. I never see a professor who looks so stupid as him.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT401": {
+            "comment": "'This guy made me hate OS and why does he even get to teach!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 250": {
+            "comment": "\"I dont get it. Why do we pay tuition when in return, all we get is a guy who's difficult in expressing? HORRIBLE 'teacher' if you can call him that. Unclear and lack of communication in class!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
             "easiness": "2"
+        }, 
+        "cmpt401": {
+            "comment": "'Oh my god! I can not imgine SFU have such a professor. Bad lucks had me to take 300 and 401 he taught. If I had a chance to choose again, I will sleep home instead of taking his lecture:(.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT400": {
+            "comment": "\"Poorest teacher I have ever had. Not only boring and pointless, but annoyoing. He actually reads out the course material, no clarity, just repetition, no insight, bad english. BTW, assignments and exams did suck. DON'T TAKE this class with him.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 401": {
+            "comment": "'although his english is not that good, but very detailed notes and very approachable. exam is fair and I think he is a very nice prof.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "4.8", 
-    "easiness": "2.0", 
-    "clarity": "4.1"
+    "helpfulness": "2.3", 
+    "easiness": "2.4", 
+    "clarity": "1.9"
 }

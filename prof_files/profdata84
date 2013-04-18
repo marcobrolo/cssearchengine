@@ -1,27 +1,39 @@
 {
-    "first_name": "Valentine", 
-    "last_name": "Kabanets", 
+    "first_name": "Ladislav", 
+    "last_name": "Stacho", 
     "course_rating": {
-        "cmpt307": {
-            "comment": "'An extremely hard subject taught clearly. Cares a lot for students. Answers questions thoroughly. Gives challenging homework but fair tests.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "4"
+        "MATH155": {
+            "comment": "'His accent is hilarious but it might take you a while to get used to it. His midterms were very similar to homework questions and examples he did in class, but the averages were still terrible. However he will scale the final mark. If he gives you a sample final, actually go over it!!! a few questions on our final were the exact same.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
         }, 
-        "CMPT307": {
-            "comment": "\"I never was very good at math. However, his teaching is very good. You understand the core concepts quite well. Also, his assignments/exams and their marking are very fair, unlike many other math courses I've taken. As long as you put effort into the class, you will do OK. Everyone I've talked to likes him, and I'm not surprised.", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "5"
+        "Math154": {
+            "comment": "\"This is the worst prof of my whole entire existence! I do not like to hate on people, but he is just a dissaster and a half! Once again... worst prof ever!!! He doesn't explain anything, just reads what it says on the notes. His exams were extremely hard and were not relavent to what he said to study or what he taught.The class average was a fail!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }, 
-        "cmpt 308": {
-            "comment": "'Fair assignments + Midterm. Final..i didn\\xe8t pass.", 
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "3"
+        "MATH154": {
+            "comment": "\"Watch out people. This prof is really bad. Study the assignments, practice questions. Stacho rambles on and on in class, and doesn't know what he's saying. He makes so many mistakes in his calculations, and the second midterm we got had a FAIL average. Wonder what the final exam average will be...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "math154": {
+            "comment": "'At first I thought he was an alright prof. His notes are somewhat useless and he skips important examples. The first midterm was alright, but his second midterm killed the class. It was all on concept and there was only 2 questions with a total of 10 on a 40 question test that were actually from the assignments.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "MACM201": {
+            "comment": "'All his notes are based entirely off the textbook... i think the course could have been easier if he offered a different viewpoint from the text. If learning from the text is your thing, youll do fine. Hes a nice guy otherwise, and he tries hard.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "4.5", 
+    "helpfulness": "2.7", 
     "easiness": "2.8", 
-    "clarity": "4.4"
+    "clarity": "2.4"
 }

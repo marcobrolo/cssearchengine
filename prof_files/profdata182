@@ -1,0 +1,63 @@
+{
+    "first_name": "Lou", 
+    "last_name": "Hafer", 
+    "course_rating": {
+        "ENSC 250": {
+            "comment": "\"He doesn't know how to teach. Period.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 250": {
+            "comment": "'His class is hard...", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT 150": {
+            "comment": "'No Comment.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT 250": {
+            "comment": "'He assumes you understand how everything works before you entered this class.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 471": {
+            "comment": "'PUNK face , style, hehehe", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 250": {
+            "comment": "\"don't take his class if you have a choice", 
+            "clarity": "4", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMP 250": {
+            "comment": "\"Man, I am telling you. If you have his class, just drop it. Don't even bother trying. He doesn't seem to care about the class's low average grade. Once I stayed until 11:00pm Sunday night just to finish a crazy assign. Still,I got 60% for that assignment!", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "Cmpt250": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "1.5", 
+    "clarity": "2.4"
+}

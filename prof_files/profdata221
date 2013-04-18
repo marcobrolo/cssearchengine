@@ -1,0 +1,63 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "cmpt 250": {
+            "comment": "'this class was a breeze. he covered the material mostly, but did I really learn anything? hmm. learned way more in 150 with dixon", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "cmpt 165": {
+            "comment": "\"He looks nice, but he gives you too much stuff without making sure you understand. and he just keeps moving on. If this were a 300 or 400 course,this would be understandable. But this is an 100 intro course, please don't scare students away", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT165": {
+            "comment": "'First part of the course is fun, second part is hell. Courseware is not really related to the assignments. This is not an intro course, some programming background is definitly required.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT 250": {
+            "comment": "\"not enough examples.MT was easy but if you'r never exposed to some of the examples, they could be HARD!final was VERY HARD; not like the MT!!Boring teacher,makes u wanna sleep or leave and even annoying sometimes.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT 165": {
+            "comment": "\"His lectures are just reading out from the Study Guide... pointless. It's a tough class unless you have experiencing with HTML or programming beforehand. Tends to talk about his own irrelevant personal life in his lecture, out of nowhere... ???", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "165": {
+            "comment": "'Very fun course. Learn HTML and design. Read the book, do the assignments and you are gauranteed to get an A.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt165": {
+            "comment": "'Comon greg . the class average for the mid term is like 50 %. Is it too hard? Forget that is it an intro class or not? I t is a joke. he should set you up for this before hand. Should be exposed that you need prior experience in this subject!and n", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT250": {
+            "comment": "'I wonder why not he just post the course notes instead of going to classroom and say nothing. But his course is absolutely easy, and you wont learn any useful things in his lecture.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "css165": {
+            "comment": "'This class is not intro. Never take this class as an intro. I have fairley good knowledge in this stuff and it si hard for me. Greg your class is a joke! Way to hard change the title and make sure there are prereq. needed? BS", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

@@ -1,0 +1,27 @@
+{
+    "first_name": "Chris", 
+    "last_name": "Bastone", 
+    "course_rating": {
+        "Cmpt320": {
+            "comment": "'Class required alot of work. Overall good class. I thought presentations were pointless. It was not a bad class. If i had to take Cmpt 320 i would do it with him again.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "CMPT320": {
+            "comment": "'Enlightening and inspiring. Be prepared to read, research and write. Comp sci students need this perspective!", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "cmpt320": {
+            "comment": "\"He is serious about teaching, but he is not good at it. His TA absolutely sucks.(worst TA ever had) On top of that, he himself isn't very helpful at all. Do not recommend him for cmpt320.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.0", 
+    "easiness": "2.3", 
+    "clarity": "3.2"
+}

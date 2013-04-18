@@ -1,0 +1,99 @@
+{
+    "first_name": "John", 
+    "last_name": "Edgar", 
+    "course_rating": {
+        "IntroTo VB": {
+            "comment": "'A very good teaching style. Agreed that this class is more difficult that Comp Sci majors will have you believe, though. Does he remind anyone else of Pete Townsend?", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT110": {
+            "comment": "'Such a nice guy, extremely helpful. good sense of humor and of course, a good teacher.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT 125": {
+            "comment": "\"Wacky humour is good.  Accent is fun. With previous experience in programming, I find his labs a snap, but people around me are floundering.  He should be teaching higher level students- he doesn't quite know how to handle people who are clueless about programming.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT128": {
+            "comment": "\"One of the best teacher at SFU. His class is well organized: great lectures (you are learning great programming skill), good notes (but don't miss lectures!), good labs (content of labs are rich). Assignments and exams are challenging but if you follow lectures+labs and spend enough time, no need to worry to much about them. Just enjoy learning!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt354": {
+            "comment": "'His slide are crazie good, and he is the best teacheer around.......!!!!!!!!!!!!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "ITEC 240-2": {
+            "comment": "'Summer semester, Surrey campus. Extremely helpful - writes lengthy documents to help us understand, beneficial to those who actually ask for help. Got my first A+ in programming!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 225": {
+            "comment": "'The man, even though he screws up, makes fun of the fact he screwed up and keeps going. got to enjoy it!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "comment": "\"the course material was quite challenging, and the prof wasn't that good in explaining & teaching", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT225": {
+            "comment": "\"In all my four years at SFU, John Edgar is honestly the BEST teacher of any class I've ever taken. He has a genuine interest in the subject, a great sense of humour and his lectures are extremely helpful. I was abysmal at all things computer-science, and now it all makes perfect sense. Do yourself a favour and take his a class with John Edgar.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "cmpt 118": {
+            "comment": "\"The best professor I have ever had. Do take classes with him you won't regret it.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT354": {
+            "comment": "'A easy and useful course in CS.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "Cmpt 354": {
+            "comment": "\"He dishes out far too much work that takes forever to complete. His classes are boring. He is constantly going off topic witterng about stuff that's happening in his life.I found him pompous. He never gave a straight answer to a question. Hated the class.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt120": {
+            "comment": "'funny and extremely helpful~good prof...but honestly,i do not  recommend people who have no programming background to take this course!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "cmpt 110": {
+            "comment": "'I took this course a while back. His lectures are rather boring and uninformative. When asked questions, he would be like \"i dont know\" etc. Format of midterm vs final threw me off.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt225": {
+            "comment": "'Amazing Prof...Very funny guy..will keep you interested by making fun of him self and bringing in mods of games he has coded. Very Helpful and material is not too tough...one of the best cmpt courses i have taken for sure", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "4.0", 
+    "easiness": "3.0", 
+    "clarity": "3.9"
+}

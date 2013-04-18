@@ -1,27 +1,45 @@
 {
-    "first_name": "Anoop", 
-    "last_name": "Sarkar", 
+    "first_name": "Eric", 
+    "last_name": "Yang", 
     "course_rating": {
-        "CMPT 379": {
-            "comment": "'Writing a compiler is a fair bit of work so beware the assignments.  Was an interesting class with pretty good notes (although perhaps a little overemphasis on grammars --- his research focus)", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "2"
+        "118/265": {
+            "comment": "'thick accent. nice enough, just not clear.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
         }, 
-        "CMPT413": {
-            "comment": "'Great prof with great passion toward natural language processing.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "2"
+        "TECH 149": {
+            "comment": "'he speaks no english well, kinda pain in the axx sometimes, he should be a ok teacher", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "4"
         }, 
-        "CMPT379": {
-            "comment": "\"On one hand,he is a nice and funny person.on the other hand, he doesn't really teach you anything,or he doesn't know how to teach.Notes are confusing rather than enlightening.Instructi0ns for Assignments are vague, you have to guess what he expects you to do.That being said, he seems to be better than the other prof(Shermer) who teachs 379 tho", 
+        "tech 149": {
+            "comment": "'He wore the same old roots sweater and grey pants every single day for the first 9 weeks.  Accent can be difficult for some to decipher. Skeptical of his knowledge with regard to Python. Can be baffaled with BS.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "Tech 149": {
+            "comment": "\"Has a strong chinese accent. That's the only thing I'll have to complain about. He's not mean or strict at all. The course is very easy if you have even a bit of programming/computer background.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }, 
+        "cmpt 118": {
+            "comment": "'the man is hard to understand yet his quirky act is entertainment for the bored.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "cmpt118": {
+            "comment": "'No Comments", 
             "clarity": "3", 
             "helpfulness": "3", 
-            "easiness": "2"
+            "easiness": "5"
         }
     }, 
-    "helpfulness": "3.8", 
-    "easiness": "2.2", 
-    "clarity": "4.0"
+    "helpfulness": "2.5", 
+    "easiness": "3.1", 
+    "clarity": "1.8"
 }

@@ -1,8 +1,45 @@
 {
-    "first_name": "Ouldooz", 
-    "last_name": "Karimi", 
-    "course_rating": {}, 
-    "helpfulness": "", 
-    "easiness": "", 
-    "clarity": ""
+    "first_name": "Colin", 
+    "last_name": "Stewart", 
+    "course_rating": {
+        "CMPT165": {
+            "comment": "'Nice teacher~ and easy mark~ but you need to really understand your exercises and do your exercises and projects~! Final was not hard as projects~ and He curves the final,so you can get better grade!", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT125": {
+            "comment": "\"AWESOME PROF! Young, energetic and helpful. Clear and complete notes. Too bad, he'll leave, just after two weeks. I don't know how well he knows about computing science but he definitely knows how to teach a first year CS class which most of the other profs at SFU don't.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 165": {
+            "comment": "\"Great Prof. Had him a year ago, don't know if he still teaches here. Notes crystal clear, simple and goes over things in lecture very well. Assignments easy but projects may need a little bit of effort. Marks & tests very fairly", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt120": {
+            "comment": "\"The final exam was pass or fail for the whole couse no matter if you did well before. You are expect to work super hard in his class. forget about having fun if you don't already enjoy programming.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "CMPT120": {
+            "comment": "\"Gives you a penny and expects a million dollars. Course is VERY difficult. Would not recommend to students who are not planning to major in comp sci. This course is a gpa killer. Prof's grading schemes are utterly ridiculous and unfair as well. In hindsight, wouldn't go near this course with a 50 foot stick.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt165": {
+            "comment": "'The amount of work you have to put in his class is too much. lots of projects, exercises and quizes. you can learn things from him but this requires lots of time to spend on this course..", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.8", 
+    "easiness": "2.6", 
+    "clarity": "3.9"
 }

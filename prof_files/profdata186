@@ -1,0 +1,75 @@
+{
+    "first_name": "Brad", 
+    "last_name": "Bart", 
+    "course_rating": {
+        "cmpt120": {
+            "comment": "'Hard but useful", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "Cmpt307": {
+            "comment": "'We were lucky that this semester brad had taught this course. Really enjoyed the course and learned a lot, I am glad that I took the course him", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "MACM101": {
+            "comment": "\"Knows his stuff and presents it with wit; those who get on his bad side will be humiliated with extreme prejudice. Don't worry - this only happens if you're ignorant. I personally am not doing to well at this class; this is less the fault of Brad, whom I believe is fair, but do not underestimate the class simply because it is a 101 class.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "cmpt307": {
+            "comment": "'I would say avoid courses by Brad Bart.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "\"Most assignments (especially the later ones) are very time consuming to do and require you to think outside the box. The questions on the midterm and final were a lot easier than the assignments, so don't worry if you don't completely get the assignments. You just have to understand the concept. Other than that, Brad is a typical lecturer!", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "comment": "'No comments... Final was a hell...", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "macm 101": {
+            "comment": "'person below me probably is the bottom 10% of the class. averages are 55-58% for both midterms. scaled to a c+", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "2"
+        }, 
+        "CMPT225": {
+            "comment": "'I do not really know what I can say..just avoid him at all the cost unless you are one of those 4.0 GPA computing science students who loves to spent hours and hours on his stuff. The course is hard, but the thing i really hated was his personality not the course. He always wants to say \" I am the best\" He thinks he is funny but not even clos", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "Cmpt120": {
+            "comment": "\"It's very hard to not pay attention in class, since he's very good at explaining concepts. He makes the lecture interesting, and his examples of programs are excellent. I wish he can teach most of my courses.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "comment": "\"DONT TAKE HIS CLASS. That's a disaster!!!! Averages of exams are below 50%, I think 40% of student will fail the class. It just a 100 level course, he made it as a 400 level course!!!!!! And I don't think those things he taught are useful in my following study.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT150": {
+            "comment": "\"Most people will give this prof a bad rating because it's hard to get high grades on assignments, and because he won't just tell you how to do something, he'll force you to figure it out after giving you some clues.  I've had him for CMPT 120 as well and for both courses he gave very hard assignments, but the tests ended up being easy in comparison", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "2.0", 
+    "clarity": "3.3"
+}

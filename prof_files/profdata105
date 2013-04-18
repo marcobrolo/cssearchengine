@@ -1,0 +1,39 @@
+{
+    "first_name": "Ghassan", 
+    "last_name": "Hamarneh", 
+    "course_rating": {
+        "CMPT340": {
+            "comment": "'He is a great prof, very nice, calm and knowledgeable. If you have interest in biomedics, definitely take his class. I have never received as much feedback or help from any professor at sfu so far.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT829": {
+            "comment": "'I always get excited and energetic about my project, when I talk to him. He is very very knowledgeable, patient, super helpful and a nice person. I should say he is one of the BEST.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "CMPT102": {
+            "comment": "\"He was very unhelpful. Lectures consist of him reading from the textbook and typing out examples IN the book. Tries to avoid answering questions at all costs. He wants you to direct all questions to the TA. This course just seems like it's an afterthought, like he doesn't really want to be teaching it.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 419": {
+            "comment": "'Very patient and helpful!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Cmpt 340": {
+            "comment": "'Great prof. Lots of work though. Really good notes and the course work is interestind.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "4.3", 
+    "easiness": "2.2", 
+    "clarity": "4.3"
+}

@@ -1,0 +1,27 @@
+{
+    "first_name": "Kevin", 
+    "last_name": "McQuiggin", 
+    "course_rating": {
+        "Comp101": {
+            "comment": "'Amazing Instructor!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT120": {
+            "comment": "\"Attendance recommended, but not mandatory. Doesn't control class very well, too nice to tell everyone to shut up or leave. Assignments were helpful, however the marking scheme is very unclear. Midterm was very fair.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt123": {
+            "comment": "'This is my first computing science class! I am getting a good mark because he makes the course material so interesting. His exams and quizzes are fairly easy as long as you go over the slices! He is the best prof i have ever had in sfu!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "5.0", 
+    "easiness": "4.0", 
+    "clarity": "4.8"
+}

@@ -1,0 +1,39 @@
+{
+    "first_name": "Uwe", 
+    "last_name": "Glaesser", 
+    "course_rating": {
+        "CMPT375": {
+            "comment": "\"Overall a very helpful and nice prof. Constantly encourage students to ask questions. Very informative lecture notes. For the exams, just study the lecture notes and you'll do well. One thing to keep in mind is that he can sometimes stay on one slide for too long.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT475": {
+            "comment": "'if you like Abstract State Machine , this is your man.I have no problem with it, but please change the course title to \"introduction to Abstract State Machine\". I didn\\'t learn much about \"software engineering\".He\\'s horrible at explaning very basic concepts. however he is a very nice guy and most likely want fail you on exams", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT 475": {
+            "comment": "'Like theory? A lot? Then why are you taking a class in Software Engineering? If you want to learn some ASM or AsmL this is the class for you. Too bad no person in industry has ever heard of it.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "Cmpt 475/7', u'45": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt475": {
+            "comment": "\"Very nice professor! Extremely helpful when you go to his office during the office hour. He is very patient at explaining concepts that one doesn't understand. Exams and assignments are marked fair. By the way, all the assignments have to be done in groups. So it's better to take this class with someone you know!!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.9", 
+    "easiness": "3.1", 
+    "clarity": "2.6"
+}

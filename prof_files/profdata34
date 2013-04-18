@@ -1,21 +1,81 @@
 {
-    "first_name": "Hao\"Richard\"", 
-    "last_name": "Zhang", 
+    "first_name": "Steve", 
+    "last_name": "Dipaola", 
     "course_rating": {
-        "CMPT 250": {
-            "comment": "\"can't operate a microphone", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "Cmpt250": {
-            "comment": "'a very nice prof...try very hard to teach cmpt250", 
-            "clarity": "3", 
+        "IAT 241": {
+            "comment": "'Awesome prof :) Very engaging, easy to pay attention when listening to him. Above all, quite the funny guy :P", 
+            "clarity": "4", 
             "helpfulness": "5", 
             "easiness": "5"
+        }, 
+        "ITEC 323": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "ITEC323": {
+            "comment": "'great but sometimes goes on tangents...?", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "ITec322": {
+            "comment": "'Is a good teacher and a has done some pretty cool stuff.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "iat 241": {
+            "comment": "\"Steve is cool. EA sucks, Pixar rules. Don't tell anybody Steve said that :-)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "IAT342": {
+            "comment": "\"Super cool teacher, I'm not particularily interested in animation though.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Animation": {
+            "comment": "'Never get you the answers you are looking for. Find the solution yourself.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "ITEC 3XX": {
+            "comment": "'Good Stories, very interesting if you like animation and games.", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "IART 416": {
+            "comment": "\"Amazing teacher! Don't know where he gets all that energy but if you haven't taken his class, you haven't yet lived. This guy is amazing, he can take any crappy idea and turn it into jaw-droppingly good stuff!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "IAT445": {
+            "comment": "'Huge passion for 3D animation and sharing it with students. The technical aspects are much less focused on than the actual knowledge of 3D.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "IART 327": {
+            "comment": "'Great guy! Love how he tries to integrate real-world work atmosphere into class.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.3", 
-    "clarity": "2.2"
+    "helpfulness": "4.4", 
+    "easiness": "4.0", 
+    "clarity": "4.3"
 }

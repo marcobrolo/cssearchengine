@@ -1,0 +1,69 @@
+{
+    "first_name": "Bob", 
+    "last_name": "Hadley", 
+    "course_rating": {
+        "CMPT 310": {
+            "comment": "\"Never available for extra help. His office hours are useless since he doesn't really answer any of your questions. And if you have time conflicts with his office hour, then too bad, you'll have to ask him stuff through email coz he does not make apptment.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt 310": {
+            "comment": "'Course Materials were not too difficult. Like others said, instructions on course project were main sent in email...very frustrating trying to go over each of those emails...", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }, 
+        "CMPT320": {
+            "comment": "\"He's a good prof for this class.  His teaching style is what anyone in liberal arts courses might be used to so a bit different from CS, but it's an easy writing course.  Just write properly and in English and it's at least a B- from what I remember, especially since there's no specifically right answer always.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt 418": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 320": {
+            "comment": "'\"Write an essay in one paragraph or less...\" - midterm question.  Genuinely interested in course; tends to spend much longer per subject than necessary.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "cmpt320": {
+            "comment": "'Worst teacher i ever had. Notes totally disorganized. Writes so fast that you cant even catch up. Very confusing, and he expects you to have Very specific details on a book that put me to sleep. If you need to take cmpt 320. More work but WAY better teacher.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt 419": {
+            "comment": "'This was the only truely cognitive science course at SFU.  The custom courseware was great.  Spent a good bit of time dealing with the philosophical issues.  Not recommended for typical CMPT students who dream of a cubical with 8 computers to program on", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT 418": {
+            "comment": "\"This is what a cognitive science course should be!  This prof is all about connectionism and this is his pet course, and I think it is where he shines.  Expect lots of discussion, less implementation.  Students with a real interest in AI, cogsci, and/or neural nets will love it, the rest will hate it.  Don't whine because you get challenged.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 320": {
+            "comment": "\"he won't give you a sample midterm or final, he believes the reason why other profs give sample midterms is so that they can get higher evaluation from students!  seriously what a stupid excuse.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "CMPT826": {
+            "comment": "'good", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.7", 
+    "clarity": "2.7"
+}

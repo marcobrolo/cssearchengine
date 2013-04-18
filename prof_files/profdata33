@@ -1,39 +1,39 @@
 {
-    "first_name": "Anne", 
-    "last_name": "Lavergne", 
+    "first_name": "Herbert", 
+    "last_name": "Tsang", 
     "course_rating": {
-        "CMPT275": {
-            "comment": "'Software engineering by this prof is a joke. Makes you do all kinds of useless planning, and only 2 weeks to implement. Not to mention every time you ask about the requirements she changes them. Team evaluation is a complete joke as well. You evaluate in the open which is guaranteed to cause a rukus. AVOID AT ALL COST.", 
+        "signals": {
+            "comment": "\"hahaha all 5's yeah right", 
             "clarity": "1", 
             "helpfulness": "1", 
             "easiness": "1"
         }, 
-        "CPMT125": {
-            "comment": "'She seems nice, and she is able to verbalize some of the harder concepts easily, but i found her to be more interested in the planning than the codeing. I would have prefered less focus on the planning and more on the codeing. I do not think she is a fair marker. I will think twice before taking a class with her again.", 
-            "clarity": "3", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "CMPT128": {
-            "comment": "'SO EASY! I AM LOOKING FORWARD FOR HER FUTURE CLASSES! LOVE YOU ANNE LAVERGNE!", 
+        "Signals": {
+            "comment": "'No Comments", 
             "clarity": "5", 
             "helpfulness": "5", 
             "easiness": "5"
         }, 
-        "CMPT165": {
-            "comment": "\"Good prof, she gives lots of demonstrations. She makes the material easy to understand, and is easier than the distance prof (from what I've heard from my friends). But beware, there is NO textbook for this on-campus version of the course. It might be tough for some people, because Python is covered in only 3 weeks, so the schedule is pretty tight.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "cmpt165": {
-            "comment": "'useless too wordy and never indicate how to program by python...i dont even know she is teaching cmpt....", 
+        "ITEC237-9": {
+            "comment": "\"Watch out. He DOES pick on people. If he doesn't like your attitude, he'll say you are being disrespectful, and lower your grade.", 
             "clarity": "1", 
             "helpfulness": "1", 
-            "easiness": "5"
+            "easiness": "1"
+        }, 
+        "itec239": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "ITEC 238": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
         }
     }, 
-    "helpfulness": "2.7", 
-    "easiness": "2.8", 
-    "clarity": "2.7"
+    "helpfulness": "2.0", 
+    "easiness": "2.3", 
+    "clarity": "2.2"
 }

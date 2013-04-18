@@ -1,0 +1,93 @@
+{
+    "first_name": "Greg", 
+    "last_name": "Baker", 
+    "course_rating": {
+        "CMPT 307": {
+            "comment": "'Just the right amount of work and complexity. Fair.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "macm101": {
+            "comment": "'I hope he... uggh.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "Cmpt 250": {
+            "comment": "'Good job Greg, keep up the excellent teaching", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt 201": {
+            "comment": "'Great lectures, reads the class well", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt 165": {
+            "comment": "'Pretty easy course!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "CMPT 250,": {
+            "comment": "\"One of the best profs I've had", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 250": {
+            "comment": "'Excellent prof, assignments re-enforce material", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT 165": {
+            "comment": "\"Got B+, but didn't like his attitude towards students.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "cmpt 102": {
+            "comment": "'class is relatively easy. he gives very detailed notes. the assignments and exams are fair.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "macm 101": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt250": {
+            "comment": "'nice and easy", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "\\xa0": {
+            "comment": "'Always ready to help, You can guarentee to get high grade if you study hard", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT165": {
+            "comment": "'homeworks and exams are fair....", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "MACM 101": {
+            "comment": "'easy course, prof doesnt really have good teaching skills, explains stuff okay", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.2", 
+    "easiness": "3.0", 
+    "clarity": "3.3"
+}

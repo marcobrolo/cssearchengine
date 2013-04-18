@@ -1,0 +1,39 @@
+{
+    "first_name": "David", 
+    "last_name": "Mitchell", 
+    "course_rating": {
+        "cmpt 101": {
+            "comment": "\"Worst prof ever!  Late for almost ever class including the midterm.  Can't answer any questions, and does not take any time to prepare students for tests.  Should not be  a prof!!!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 101": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "CMPT126": {
+            "comment": "\"This professor really sucks.\\r -Messy notes\\r -tedious lectures\\r -you ask him a question and he doesnt even know the answer.\\r -he's not familiar with java.wtf..he should at least study it for a bit before teaching it.\\r -his mid term...so many programming questions and the questions aren't really clear", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "cmpt101": {
+            "comment": "'NOTE: Class does not start at 30 past the hour like the sfu calendar says but at  35 minnutes pased the hour. He was late EVERY class. A very disorganized teacher. Make sure you do all assignments properly, for the exams are based on them.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "Cmpt101": {
+            "comment": "\"Doesn't him just encourage you to read the book. The book is far more helpful than him. Read the whole book, do his assignments right, and you get an A+.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.8", 
+    "clarity": "1.8"
+}

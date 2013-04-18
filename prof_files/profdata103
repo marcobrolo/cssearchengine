@@ -1,0 +1,75 @@
+{
+    "first_name": "Janice", 
+    "last_name": "Regan", 
+    "course_rating": {
+        "Cmpt275": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt371": {
+            "comment": "\"Although she is sometimes a bit unorganized (e.g.: forgets to put stuff up on the website in time), she's very friendly and willing to answer any and all questions. She has lots of office hours. Assignments are reasonable, but sometimes ambiguously worded. Exams involve lots of writing.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT471": {
+            "comment": "\"she's the worst of all time. Making us to do assignment 1 which extend to the deadline of assignment 3 and still we need to hand in assignment 2 3 on time. She's trying to make us learn so much but she doesn't give a working instruction. if someone is able to learn all that, it's self-learn not she taught us.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT300": {
+            "comment": "\"Good prof who's interested in teaching and explaining.  If the student shows extra interest, she'll go out of her way to help if there's need.  Very fair exams if you know what you're doing, even though they're really long and you're expected to write like your life depends on it, the marking is fair overall.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT275": {
+            "comment": "'Spr 2007. Typical SE, require immense flex time for work & group meetings & (in)famous CS overnight final deliverable cram. Very rewarding learning if can handle 4m of agony. Regan lec clearly & help all class issues (SQL, SVN, Caucus) to get prjs going. But boring lecs, prj never clear explain, heavy hwk disregard other courses, strict marker & TA", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "cmpt 128": {
+            "comment": "'worst prof, never cover enough info for assignments and midterms, tests r freaking long, questions r unclear, too many typo mistakes in assignments and tests...", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt 104": {
+            "comment": "'too much work, often extended b/c notes in classes are insufficient; most students have computer programming background; can be intimitated to new comers", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "cmpt471": {
+            "comment": "'The first assignment is quite heavy but do not get scared by it. This is the biggest by far of all of the assignments.This is a great class as long as you want to learn about internet protocols and you should attend most classes if you can! Beware of the length of her notes.Try to study early for the final otherwise you will have to read 500 pages", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt 275": {
+            "comment": "'completly unfair marking, exams super long, very boring useless lectures, (she just reads off of slides) only good thing is she likes computers....", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT128": {
+            "comment": "'Garbage", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "CMPT 275": {
+            "comment": "'She\\'s pleasant, and delivers a decent lecture- It\\'s a boring Powerpoint deal, though. \\r Her 275 tests take speed, but aren\\'t too hard if you know that.\\r The marking is harsh, very picky.\\r The assignments are unbalanced, and lead to a  coding crunch that will eat your soul. Even if she says not to- code early. \\r If you know \"Word\", you\\'ll do fine.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "2.8", 
+    "easiness": "2.0", 
+    "clarity": "2.4"
+}

@@ -1,8 +1,69 @@
 {
-    "first_name": "Allen", 
-    "last_name": "Pike", 
-    "course_rating": {}, 
-    "helpfulness": "4.0", 
-    "easiness": "4.0", 
-    "clarity": "5.0"
+    "first_name": "Jim", 
+    "last_name": "Bizzocchi", 
+    "course_rating": {
+        "IART": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "5"
+        }, 
+        "Narrative": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "IART 404": {
+            "comment": "\"He's just fun and inspired! :)", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "IART 222": {
+            "comment": "'Enthusiastic, energetic instructor who provides students with an understanding of the subject matter for the course.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "iart": {
+            "comment": "'jimbiz > you", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "IA": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "IART222": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "IART 325": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "IART 326": {
+            "comment": "'hrmmm....dont know about it.", 
+            "clarity": "4", 
+            "helpfulness": "2", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "4.4", 
+    "easiness": "3.6", 
+    "clarity": "4.4"
 }

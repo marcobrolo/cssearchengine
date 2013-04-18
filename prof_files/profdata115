@@ -1,0 +1,39 @@
+{
+    "first_name": "Jian", 
+    "last_name": "Pei", 
+    "course_rating": {
+        "CMPT 354": {
+            "comment": "\"Super easy.  Class average is currently around 95%... what this means for final grades we'll see.  Interesting project and decent lectures.  He is clear and seems to understand what to say to convey the material clearly and efficiently.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "300": {
+            "comment": "'The bst teaching skills in the whole department.  A super nice guy.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "cmpt 300": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt300": {
+            "comment": "'He is a very good, helpful, and knowledgeable instructor", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt 454": {
+            "comment": "'He is a nice person, but not very clear on the lecture and notes", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "4.0", 
+    "easiness": "3.1", 
+    "clarity": "3.8"
+}

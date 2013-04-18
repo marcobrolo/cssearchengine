@@ -1,39 +1,21 @@
 {
-    "first_name": "Ke", 
-    "last_name": "Wang", 
+    "first_name": "Brian", 
+    "last_name": "Funt", 
     "course_rating": {
-        "CMPT454": {
-            "comment": "'As long as you listen and understand in the lecture, you will do great without too much effort. Midterm and Final requires thinking, not just writing out from the book.", 
+        "CMPT102": {
+            "comment": "'good teacher, very friendly, if are inclined to any math type course, this will be a breez", 
             "clarity": "4", 
-            "helpfulness": "4", 
+            "helpfulness": "5", 
             "easiness": "5"
         }, 
-        "CMPT 454": {
-            "comment": "\"Explains things well if you're okay with the accent, but exams are killer.", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "3"
-        }, 
-        "454": {
+        "Graphics": {
             "comment": "'No Comments", 
-            "clarity": "4", 
-            "helpfulness": "4", 
-            "easiness": "5"
-        }, 
-        "cmpt 454": {
-            "comment": "\"You'll do well in his course as long as you understand his accent.  Killer final exam, but nice curve.", 
             "clarity": "5", 
             "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "CMPT354": {
-            "comment": "'He is best prof I had so far at SFU. His teaching is crystal. He always encourages audience raise questions and always answered them. As the result, the whole class is so much engaged. Advice: please attend lectures, do the exercise he asked.", 
-            "clarity": "5", 
-            "helpfulness": "4", 
-            "easiness": "4"
+            "easiness": "2"
         }
     }, 
-    "helpfulness": "3.7", 
-    "easiness": "3.3", 
-    "clarity": "3.9"
+    "helpfulness": "5.0", 
+    "easiness": "3.7", 
+    "clarity": "4.7"
 }

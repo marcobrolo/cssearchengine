@@ -1,0 +1,39 @@
+{
+    "first_name": "Philippe", 
+    "last_name": "Giabbanelli", 
+    "course_rating": {
+        "CMPT120": {
+            "comment": "\"Ridiculous. No weekly homework assignments, no textbook... Irrelvant research project. He's smart, and can be quit helpful if you know what questions to ask, but not a great teacher in general. Very unprofessional in emails. The little bit I learned and actually understood in this class was in result of helpful websites I found by myself.", 
+            "clarity": "1", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "cmpt120": {
+            "comment": "\"The material is challenging but the prof supports us a lot. He always answers emails fast, and spent lots of time helping on the projects! I think I learnt a lot on the project... it wasn't easy but that was worth it.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "CMPTD200": {
+            "comment": "\"his lecture notes sometimes are unclear, and it's hilarious that the final project is related to biology (only 10% of cs)... overall, he is a nice guy", 
+            "clarity": "4", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT225": {
+            "comment": "'Assignments and labs are vigorous and extremely challenging for the student comin out of CMPT125. He replies quickly w lot of info when u email him. Mt was HARD, and instead of scaling, he gives HARD inclass quizzes that lets u raise ur mark if you get all the questions correct. No review classes to help w/ MT. lab attendance not mandatory.", 
+            "clarity": "2", 
+            "helpfulness": "4", 
+            "easiness": "1"
+        }, 
+        "Cmpt120": {
+            "comment": "'The final project is ridiculous.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "3.5", 
+    "easiness": "1.5", 
+    "clarity": "2.9"
+}

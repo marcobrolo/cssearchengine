@@ -1,0 +1,63 @@
+{
+    "first_name": "Mike", 
+    "last_name": "Evans", 
+    "course_rating": {
+        "CmptA": {
+            "comment": "\"Look, If you don't go to class, dont read the text book, and dont like to get involved in class discussion... you'll fail his class GAURANTEED.             His teaching style is to make you think about the bigger picture. It's ture he wont teach syntax, and if you want to worry yourself about syntax then move to India and become a code m0nkey", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "cmpt125": {
+            "comment": "'DO NOT TAKE HIS COURSE IF YOU DO NOT WANT TO FAIL", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT300": {
+            "comment": "\"Exams and projects are very hard. Doesn't explain a lot of the stuff and expects students to study the textbook/internet/other sources and learn on their own. His notes are worthless, and he skips a lot of them in class, just explaining the basics. Avoid taking class with him if you have the option.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "1"
+        }, 
+        "CMPT126": {
+            "comment": "'DO NOT TAKE IT WITH HIM", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPTD100": {
+            "comment": "'AVOID THIS GUY AT ALL COSTS....... His classes are poorly presented has no idea on some of the most basic things that computer professors should know about computers and definitely doesn\\'t know any of the material he is teaching. He\\'s supposed to be teaching java but all he talks about is \"Concepts\" and how much better C++ is than java.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT125": {
+            "comment": "'Why don\\'t you teach in the field of mathematics , Mr. \"Mathematician\"? Oh right, because you cannot even do simple calculations, such as 7*3 in your head, yet you claim that the way that computer scientists think is stupid. Sorry, but you shouldn\\'t teach computing science either.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt126": {
+            "comment": "\"Ridiculous prof. Is an elitist. Uses conflated language in lecture and assignment instructions. Stuff in lecture does not even help you. May as well borrow a book in the library and learn Java yourself. TA's were nice though.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt225": {
+            "comment": "\"Worst prof ever!! can't learn anything from him.. what a waste of time and money. Written english is terrible. Can't understand what he's asking. avg exams marks is about 50 because nobody understand the questions. very defensive when confront him. Won't explain any langange related problems.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT225": {
+            "comment": "\"Terrible lecturer, bad at teaching, don't listen to any of the good reviews.Likes to look at the big picture and not worry about the fine details inside that is truly needed to be a professional in the computing field. I got a B+, but I feel I picked up dirty programming because of his refusal to teach proper techniques. Don't Take a class with him", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }
+    }, 
+    "helpfulness": "1.9", 
+    "easiness": "2.0", 
+    "clarity": "2.0"
+}

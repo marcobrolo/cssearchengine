@@ -1,69 +1,8 @@
 {
-    "first_name": "Steven", 
-    "last_name": "Pearce", 
-    "course_rating": {
-        "cmpt 100": {
-            "comment": "'No Comments", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }, 
-        "CMPT 100": {
-            "comment": "'No Comments", 
-            "clarity": "2", 
-            "helpfulness": "2", 
-            "easiness": "3"
-        }, 
-        "Cmpt 100": {
-            "comment": "'This professor is the funniest professor i even seen", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "2"
-        }, 
-        "cmpt275": {
-            "comment": "'He always forces to laugh on his joke", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "3"
-        }, 
-        "320": {
-            "comment": "'he has a way of making a potentially boring subject very interesting", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "campt 320": {
-            "comment": "'No Comments", 
-            "clarity": "1", 
-            "helpfulness": "2", 
-            "easiness": "2"
-        }, 
-        "CMPT 320": {
-            "comment": "'Take this course!  He treats you respectfully if you are a serious student.  You will learn a lot, but you have to be willing to learn first.", 
-            "clarity": "2", 
-            "helpfulness": "4", 
-            "easiness": "4"
-        }, 
-        "\\xa0": {
-            "comment": "'Great fun, but you had better know EVERYTHING for the exam", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "MACM 101": {
-            "comment": "'Great guy! Jokes in class made the class more fun.  Expect to get some politically incorrect comments. :)", 
-            "clarity": "5", 
-            "helpfulness": "5", 
-            "easiness": "3"
-        }, 
-        "MACM 201": {
-            "comment": "\"Don't tease students who make very little mistake in class. A prof without care.", 
-            "clarity": "3", 
-            "helpfulness": "3", 
-            "easiness": "1"
-        }
-    }, 
-    "helpfulness": "2.3", 
-    "easiness": "2.4", 
-    "clarity": "2.4"
+    "first_name": "Torsten", 
+    "last_name": "M\\xf6ller", 
+    "course_rating": {}, 
+    "helpfulness": "", 
+    "easiness": "", 
+    "clarity": ""
 }

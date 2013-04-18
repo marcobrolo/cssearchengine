@@ -1,21 +1,45 @@
 {
-    "first_name": "Alireza", 
-    "last_name": "Khodabakhshi", 
+    "first_name": "Evgenia", 
+    "last_name": "Ternovska", 
     "course_rating": {
-        "CMPT102": {
-            "comment": "'His ex code posted online is full of errors. Then he corrects them in class &screws up more. Assignments &exams r very hard. GPA killer. then again im an mbb major who for some reason HAS to take this course for the degree. no idea why and its completely unrelated.", 
+        "CMPT883": {
+            "comment": "\"I turned in an assignment and received 2/100 on it.  When I submitted it to a second professor for re-grading, he gave me 87/100 and advised me to drop the course because it was known that Evgenia didn't like my supervisor and was clearly taking it out on me.  She was so rude to me in class it was shocking; I've never not gotten along with a prof!", 
             "clarity": "2", 
             "helpfulness": "1", 
-            "easiness": "1"
+            "easiness": "2"
         }, 
-        "CMPT225": {
-            "comment": "\"Useless lectures... reads off of PPT which is uploaded on the course website. Assignment code given is full of holes and you spend hours wondering WTF it won't compile... and if it doesn't compile you get 0 (no part marks). Exams are hard. Assignments are hard. Labs are hard...ish. Assignments are frequently changed/extended. Avoid if possible.", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
+        "Macm101": {
+            "comment": "\"She's hot. She does her best to explain the stuff. Overall a good teacher. But the has a very thick Russian accent.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT777": {
+            "comment": "'Unlike other professors at SFU, Professor Ternovska genuinely cares about her students and makes sure they fully understand the material.  The course was very difficult and at times a bit too fast paced (due to it being an intersession course) but she was always available for help via email and office hours.  Great prof!", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "CMPT477": {
+            "comment": "'Not very hard. Not too many materials. Easy to follow. She is a very good marker. You can get a high mark as A or A+ even if you did very bad on the Midterm. She is trying her best to give students best marks.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "cmpt477": {
+            "comment": "'good prof. easy A+", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "MACM101": {
+            "comment": "'For the MACM lecture, she simply just read through the powerpoint and did not give further explanation. And also you have to stay very close to her during the lecture cause the strong accent and low voice made it harder to understand sometimes.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
         }
     }, 
-    "helpfulness": "1.6", 
-    "easiness": "2.0", 
-    "clarity": "1.6"
+    "helpfulness": "2.5", 
+    "easiness": "2.4", 
+    "clarity": "2.2"
 }

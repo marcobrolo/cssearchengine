@@ -1,0 +1,21 @@
+{
+    "first_name": "John", 
+    "last_name": "Edgar", 
+    "course_rating": {
+        "CMPT 354": {
+            "comment": "'Good prof, best exam marking time ever!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt 354": {
+            "comment": "'No Comments", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }
+    }, 
+    "helpfulness": "4.0", 
+    "easiness": "3.0", 
+    "clarity": "3.9"
+}

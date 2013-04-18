@@ -1,27 +1,21 @@
 {
-    "first_name": "Steve", 
-    "last_name": "Shen", 
+    "first_name": "Daniel", 
+    "last_name": "Weiskopf", 
     "course_rating": {
-        "CMPT 165": {
-            "comment": "'If you see his name on your schedule...    commit suicide.  He will never know anything, this is his quote when you ask a question... \"I don\\'t know, maybe you did something wrong,\" and also \"You may not know something, but thas ok, you don\\'", 
-            "clarity": "1", 
-            "helpfulness": "1", 
+        "cmpt461": {
+            "comment": "'No Comments", 
+            "clarity": "2", 
+            "helpfulness": "2", 
             "easiness": "1"
         }, 
-        "cmpt 165": {
-            "comment": "'never helpful, NEVER u ask him something what\\'s the problem. he will tell u that \"somehting\" is wrong. that \"something\" which u will never know", 
-            "clarity": "1", 
-            "helpfulness": "1", 
-            "easiness": "1"
-        }, 
-        "CMPT165": {
-            "comment": "'he calls the tech support for no reason almost every class.... probably the tech guy is speaking his language also which is \"i dont know! maybe u did something wrong!!!!\"", 
-            "clarity": "1", 
-            "helpfulness": "1", 
+        "CMPT770": {
+            "comment": "'nice guy (at least seems to be). Never listen to his \"do less on you course project, do more on your thesis\".", 
+            "clarity": "2", 
+            "helpfulness": "2", 
             "easiness": "1"
         }
     }, 
-    "helpfulness": "1.2", 
-    "easiness": "2.3", 
-    "clarity": "1.1"
+    "helpfulness": "2.0", 
+    "easiness": "1.0", 
+    "clarity": "2.0"
 }

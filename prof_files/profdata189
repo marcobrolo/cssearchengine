@@ -1,0 +1,57 @@
+{
+    "first_name": "Anne", 
+    "last_name": "Lavergne", 
+    "course_rating": {
+        "cmpt": {
+            "comment": "\"She teaches you the basics and then tests you on unbelievably hard topics.  It's like teaching students addition and then testing them on calculus.  I did well cuz i'm a computer geek, but I really didn't like her teaching methods.  No wonder half the class got an A and the other half failed.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt275": {
+            "comment": "\"Don't even think about it. Wait for a different prof.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT 201": {
+            "comment": "\"Assignments were dead easy, but took some time, midterms also dead easy, as was the final exam.  But what I can't understand is how she scaled the course, went into the final with an A in the course, came out a lot lower, she said she needed more distribution, maybe pressure from CMPT faculty?", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "4"
+        }, 
+        "CMPT275": {
+            "comment": "\"She never really answer any questions from students, but she expects you to work quiet a lot. It's a actually a 5 credits course. If you take more than one course or have a part time job, drop all other courses and quit the job before taking this course.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CMPT225": {
+            "comment": "'She was a really bad prof. Not helpful with questions, crazy hard midterms. Marks very harsh!!\\r Beware!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "5"
+        }, 
+        "cmpt201/27', u'5": {
+            "comment": "'fairly easy, but 275 is a ton of work, make sure you get in a good group if you want a good mark.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "CMPT165": {
+            "comment": "'Anne is extremely friendly and willing to help. She has the same teaching style as an elementary teacher; lots of colour, drawings, animation, (somewhat corny, but amusing) jokes. Her midterm was easy and labs are very simple, normally taking no more than 15 minutes. However, her assignments CAN get complex and tedious. Take 165 with her! Easy A!", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "5"
+        }, 
+        "cmpt225": {
+            "comment": "\"Doesn't care about students, very selfish. Exams are not realated to what she thought...lecturing is confusing, not helpful", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.7", 
+    "easiness": "2.8", 
+    "clarity": "2.7"
+}
