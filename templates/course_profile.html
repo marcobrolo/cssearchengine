@@ -81,6 +81,8 @@
 				<div class="other-score"><span>OVERALL SCORE</span>: {{p.1|floatformat:1}}</div>
 			</div>
 			{% endfor %}
+			{% else %}
+			<p>Course engine has no records of anyone else teaching this course</p>
 			{% endif %}
 
 		</div>
