@@ -43,34 +43,30 @@
 		<div class="instructor-info">
 			<div class="instructor-name"><span>Instructor: </span>{{professor.first_name}} {{professor.last_name}}</div>
 			<div>
-				<div class="profile-pic"></div>
+				<div class="profile-pic"><img src="{{STATIC_URL}}pics/{{pic}}" alt="{{professor.first_name}} {{professor.last_name}}"></div>
 				<div class="score">
 					<div>
 						<div class="overall-heading">OVERALL SCORE</div>
-						<div class="overall-score">{% if overall == "NULL" %}
-  														Theres no rating, rate now!
-  													{% else %}
-  														{{overall}} / 5.0
-													{% endif %}</div>
+						<div class="overall-score">{{overall|floatformat:1}} / 5.0</div>
 					</div>
 
 					<div class="subscores">
 						<div class="clarity subscore">
 							<div class="subscore-heading">CLARITY</div>
-							<div class="subscore-value">{{professor.clarity}}</div>
+							<div class="subscore-value">{{professor.clarity|floatformat:1}}</div>
 						</div>
 						<div class="helpfulness subscore">
 							<div class="subscore-heading">HELPFULNESS</div>
-							<div class="subscore-value">{{professor.helpfulness}}</div>
+							<div class="subscore-value">{{professor.helpfulness|floatformat:1}}</div>
 						</div>
 						<div class="easiness subscore">
 							<div class="subscore-heading">EASINESS</div>
-							<div class="subscore-value">{{professor.easiness}}</div>
+							<div class="subscore-value">{{professor.easiness|floatformat:1}}</div>
 						</div>
 					</div>
 
 					<div class="comments">
-						<div class="comments-count"><img src="{{ STATIC_URL }}images/comments.png" alt="Comments"><a href="#">Comments from fellow students</a></div>
+						<div class="comments-count"><img src="{{ STATIC_URL }}images/comments.png" alt="Comments">&nbsp;{{comments.count}} comment{{comments.count|pluralize}} from fellow students below</div>
 					</div>
 				</div>
 			</div>
@@ -80,13 +76,27 @@
 
 	<div id="footer">
 		<div id="footer-inner">
-			<div class="footer-heading">Other's who've taught this course</div>
-
-			{% for comment in comments %}
-				<div class="other">
-					<div class="other-name"><a href="#"><span>{{comment.comments}}</span></a></div>
+			{% if comments %}
+			<div class="footer-heading">Reviews from fellow peers
+				<div class="comment-legend">
+					<span class="clarity">Clarity</span> <span class="helpfulness">Helpfulness</span> <span class="easiness">Easiness</span>
 				</div>
+			</div>
+			{% for comment in comments %}
+			{% if comment.comments and comment.comments.strip %}
+			<div class="comment-wrapper">
+				<div class="comment-course">Course: <span>{{comment.course}}</span>&nbsp;
+					<span class="comment-score clarity">{{comment.clarity|floatformat:1}}</span>
+					<span class="comment-score helpfulness">{{comment.helpfulness|floatformat:1}}</span>
+					<span class="comment-score easiness">{{comment.easiness|floatformat:1}}</span>
+				</div>
+				<p class="comment">{{comment.comments}}</p>
+			</div>
+			{% endif %}
 			{% endfor %}
+			{% else %}
+			<div class="footer-heading">Currently No Reviews</div>
+			{% endif %}
 		</div>
 	</div>
 </body>

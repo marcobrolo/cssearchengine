@@ -11,14 +11,12 @@ from haystack.query import SearchQuerySet
 from haystack.views import FacetedSearchView
 from django.contrib.humanize.templatetags.humanize import intcomma
 
-def prof_score_average(prof_id):
-    PR = CourseRating.objects.filter(prof=prof_id)
-    helpfulness = PR.aggregate(Avg('helpfulness'))
-    clarity = PR.aggregate(Avg('clarity'))
-    easiness = PR.aggregate(Avg('easiness'))
-    if not (clarity['clarity__avg'] is None or helpfulness['helpfulness__avg'] is None or  easiness['easiness__avg'] is None):
-        return helpfulness['helpfulness__avg'], clarity['clarity__avg'], easiness['easiness__avg']
-    return 0,0,0
+
+def _checkNone(item):
+    if item is None:
+        return 0.0
+    return item
+
 
 def find_best_prof_for_course(course_id):
     # find the best prof for the given courseID
@@ -62,6 +60,7 @@ def find_best_prof_for_course(course_id):
     #print best_prof, best_avg
     return best_prof, best_avg, best_helpfulness, best_clarity, best_easiness
 
+
 def search_page(request):
     return render_to_response('home.html', RequestContext(request))
 
@@ -75,27 +74,23 @@ def professor_profile(request, prof_id):
     overall = "NULL"
     professor = Prof.objects.get(pk=prof_id)
     CR = CourseRating.objects.filter(prof=prof_id)
-    helpfulness, clarity, easiness = prof_score_average(prof_id)
-    # check to see if prof even has any ratings yet
-    if not (helpfulness==0 and clarity == 0 and easiness == 0):
-        overall = (helpfulness + clarity + easiness)/3.0
-    else:
-        # no ratings NULL check on template to put more info asking to rate prof
-        overall = "NULL"
-
-
-    clarity = professor.clarity
-    helpfulness = professor.helpfulness
-    easiness = professor.easiness
-    # return object to template so it can acess professor attributes easier
-    # probably very insecure and non conventional
+    helpfulness = _checkNone(professor.helpfulness)
+    clarity = _checkNone(professor.clarity)
+    easiness = _checkNone(professor.easiness)
+    overall = (clarity + helpfulness + easiness) / 3
+    pics_root  = '../static/pics/'
+    profilepic = 'placeholder.png'
+    print pics_root + professor.first_name.lower() + professor.last_name.lower()
+    try:
+        open(pics_root + professor.first_name.lower() + professor.last_name.lower() + '.jpg', 'r')
+        profilepic = professor.first_name.lower() + professor.last_name.lower() + '.jpg'
+    except IOError:
+        pass
     context = {
-            'professor' : professor,
-            'clarity': clarity,
-            'helpfulness': helpfulness,
-            'easiness': easiness,
-            'overall' : overall,
-            'comments' : CR
+        'professor': professor,
+        'overall': overall,
+        'comments': CR,
+        'pic': profilepic
     }
     return render_to_response('professor_profile.html', context, context_instance=RequestContext(request))
 
@@ -125,13 +120,13 @@ def course_profile(request, course_id):
     #	overall = (clarity['clarity__avg'] + helpfulness['helpfulness__avg'] + easiness['easiness__avg'] )/3
 
     context = {
-            'course': course,
-            'comments': CR,
-            'clarity': clarity['clarity__avg'],
-    		'helpfulness': helpfulness['helpfulness__avg'],
-    		'easiness': easiness['easiness__avg'],
-    		'overall': best_avg,
-            'best_prof': best_prof
+        'course': course,
+        'comments': CR,
+        'clarity': clarity['clarity__avg'],
+		'helpfulness': helpfulness['helpfulness__avg'],
+		'easiness': easiness['easiness__avg'],
+		'overall': best_avg,
+        'best_prof': best_prof
     }
     return render_to_response('course_profile.html', context, context_instance=RequestContext(request))
 
