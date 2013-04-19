@@ -102,16 +102,19 @@ def course_profile(request, course_id):
     other_profs = None
     # figure out whos best prof and his score for this course
     best_prof_id, best_avg, helpfulness, clarity, easiness = find_best_prof_for_course(course_id)
-    other_profs_id = CourseRating.objects.filter(course=course_id).exclude(prof=best_prof_id).values_list('prof__id').distinct()
-    other_profs = []
-    for p in other_profs_id:
-        comment_ratings = CourseRating.objects.filter(prof=p[0], course=course_id)
-        averages = comment_ratings.aggregate(Avg('helpfulness'), Avg('clarity'), Avg('easiness'))
-        overall_score = 0.0
-        for avg in averages:
-            overall_score += float(averages[avg])
-        overall_score /= 3
-        other_profs.append((Prof.objects.get(pk=p[0]), overall_score))
+    try:
+        other_profs_id = CourseRating.objects.filter(course=course_id).exclude(prof=best_prof_id).values_list('prof__id').distinct()
+        other_profs = []
+        for p in other_profs_id:
+            comment_ratings = CourseRating.objects.filter(prof=p[0], course=course_id)
+            averages = comment_ratings.aggregate(Avg('helpfulness'), Avg('clarity'), Avg('easiness'))
+            overall_score = 0.0
+            for avg in averages:
+                overall_score += float(averages[avg])
+                overall_score /= 3
+                other_profs.append((Prof.objects.get(pk=p[0]), overall_score))
+    except:
+        pass
 
     # print other_profs
     # do edge case, if no RMP record of any prof teaching this course
@@ -119,17 +122,15 @@ def course_profile(request, course_id):
         best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
     except:
         disclaimer = "No records of profesors teaching this course."
-        best_prof = Prof(first_name=disclaimer, last_name="", helpfulness='0', clarity ='0', easiness='0')
-        print("NO PROF FOR THIS COURSE?", best_prof_id)
 
     pics_root  = '../static/pics/'
     profilepic = 'placeholder.png'
-    print pics_root + best_prof.first_name.lower() + best_prof.last_name.lower()
-    try:
-        open(pics_root + best_prof.first_name.lower() + best_prof.last_name.lower() + '.jpg', 'r')
-        profilepic = best_prof.first_name.lower() + best_prof.last_name.lower() + '.jpg'
-    except IOError:
-        pass
+    if best_prof:
+        try:
+            open(pics_root + best_prof.first_name.lower() + best_prof.last_name.lower() + '.jpg', 'r')
+            profilepic = best_prof.first_name.lower() + best_prof.last_name.lower() + '.jpg'
+        except IOError:
+            pass
 
     context = {
         'course': course,

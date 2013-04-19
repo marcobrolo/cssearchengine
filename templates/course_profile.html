@@ -37,7 +37,7 @@
 			</tr>
 			<tr class="highlight">
 				<td class="info-type">Course Engine Recommends:</td>
-				<td>{{best_prof.first_name}} {{best_prof.last_name}}</td>
+				<td>{{best_prof.first_name|default:'No one. Course engine has no records of anyone teaching this course'}} {{best_prof.last_name}}</td>
 			</tr>
 		</table>
 
