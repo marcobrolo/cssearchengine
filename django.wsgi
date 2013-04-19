@@ -4,7 +4,7 @@ import os, sys
 #make sure app's modules can be found
 sys.path.append('/home/mark')
 sys.path.append('/home/mark/cssearchengine')
-os.environ['DJANGO_SETTINGS_MODULE'] = 'settings'
+os.environ['DJANGO_SETTINGS_MODULE'] = 'cssearchengine.settings'
 
 os.chdir("/home/mark/cssearchengine")
 
