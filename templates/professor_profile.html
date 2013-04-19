@@ -11,7 +11,7 @@
 <!-- HEADER -->
 	<div id="header">
 		<div id="header-inner">
-			<a href="#"><img src="{{ STATIC_URL }}images/sfusmall.png" alt="SFU Courses Engine"></a>
+			<a href="#"><img src="{{ STATIC_URL }}images/sfusmall.png" alt="SFU Courses Engine"></a> <p>Course Engine</p>
 		</div>
 	</div>
 <!-- END HEADER -->
@@ -83,7 +83,7 @@
 				</div>
 			</div>
 			{% for comment in comments %}
-			{% if comment.comments and comment.comments.strip %}
+
 			<div class="comment-wrapper">
 				<div class="comment-course">Course: <span>{{comment.course}}</span>&nbsp;
 					<span class="comment-score clarity">{{comment.clarity|floatformat:1}}</span>
@@ -92,7 +92,7 @@
 				</div>
 				<p class="comment">{{comment.comments}}</p>
 			</div>
-			{% endif %}
+
 			{% endfor %}
 			{% else %}
 			<div class="footer-heading">Currently No Reviews</div>

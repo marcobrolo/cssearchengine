@@ -11,6 +11,17 @@ body {
   width: 880px;
   margin: 0 auto;
 }
+
+#header-inner p {
+	display: inline-block;
+	position: absolute;
+	margin-top: 24px;
+	margin-left: 15px;
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 1.8em;
+	font-weight: bold;
+	color: #555;
+}
 #wrapper {
   margin: 0 auto;
   width: 722px;
@@ -79,7 +90,7 @@ body {
 }
 .profile-pic {
   float: left;
-  width: 200px;
+  width: 180px;
   height: 220px;
   border: 1px solid #cccccc;
 }

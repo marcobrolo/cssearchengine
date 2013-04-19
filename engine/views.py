@@ -105,10 +105,18 @@ def course_profile(request, course_id):
     try:
         best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
     except:
-        disclaimer = "No record of proffesors teaching this course, rate now!"
-        best_prof = Prof.objects.create(first_name=disclaimer, last_name="", helpfulness='0', clarity ='0', easiness='0')
+        disclaimer = "No records of profesors teaching this course."
+        best_prof = Prof(first_name=disclaimer, last_name="", helpfulness='0', clarity ='0', easiness='0')
         print("NO PROF FOR THIS COURSE?", best_prof_id)
 
+    pics_root  = '../static/pics/'
+    profilepic = 'placeholder.png'
+    print pics_root + best_prof.first_name.lower() + best_prof.last_name.lower()
+    try:
+        open(pics_root + best_prof.first_name.lower() + best_prof.last_name.lower() + '.jpg', 'r')
+        profilepic = best_prof.first_name.lower() + best_prof.last_name.lower() + '.jpg'
+    except IOError:
+        pass
     #print "best prof is ", best_prof.first_name, best_prof.last_name, best_avg
 
     #clarity = CourseRating.objects.filter(course=course_id).aggregate(Avg('clarity'))
@@ -126,7 +134,8 @@ def course_profile(request, course_id):
 		'helpfulness': helpfulness['helpfulness__avg'],
 		'easiness': easiness['easiness__avg'],
 		'overall': best_avg,
-        'best_prof': best_prof
+        'best_prof': best_prof,
+        'pic': profilepic
     }
     return render_to_response('course_profile.html', context, context_instance=RequestContext(request))
 
