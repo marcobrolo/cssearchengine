@@ -10,7 +10,7 @@ from haystack.forms import ModelSearchForm, HighlightedSearchForm
 from haystack.query import SearchQuerySet
 from haystack.views import FacetedSearchView
 from django.contrib.humanize.templatetags.humanize import intcomma
-
+import os
 
 def _checkNone(item):
     if item is None:
@@ -78,11 +78,13 @@ def professor_profile(request, prof_id):
     clarity = _checkNone(professor.clarity)
     easiness = _checkNone(professor.easiness)
     overall = (clarity + helpfulness + easiness) / 3
-    pics_root  = '../static/pics/'
+    #use this for local
+    #pics_root = "../static/pics"
+    pics_root  = "/home/mark/cssearchengine/static/pics/"
     profilepic = 'placeholder.png'
     print pics_root + professor.first_name.lower() + professor.last_name.lower()
     try:
-        open(pics_root + professor.first_name.lower() + professor.last_name.lower() + '.jpg', 'r')
+        f = open(pics_root + professor.first_name.lower() + professor.last_name.lower() + '.jpg', 'r')
         profilepic = professor.first_name.lower() + professor.last_name.lower() + '.jpg'
     except IOError:
         pass

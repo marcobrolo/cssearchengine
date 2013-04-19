@@ -6,6 +6,7 @@ body {
   border-bottom: 6px solid #cccccc;
   margin-bottom: 30px;
   padding: 10px 0;
+  position: relative;
 }
 #header-inner {
   width: 880px;
@@ -13,9 +14,9 @@ body {
 }
 
 #header-inner p {
-	display: inline-block;
+	display: inline;
 	position: absolute;
-	margin-top: 24px;
+	top: 10px;
 	margin-left: 15px;
 	font-family: Helvetica, Arial, sans-serif;
 	font-size: 1.8em;
