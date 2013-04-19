@@ -1,0 +1,69 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Chan", 
+    "course_rating": {
+        "CMPT 301": {
+            "comment": "'I learn nothing from his class. He teaches 1 or the 3 hrs every week! Shame!", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "cmpt470": {
+            "comment": "'prof is meh.  the class itself is the worst i have taken in my entire university career (no, really).", 
+            "clarity": "1", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }, 
+        "Cmpt301": {
+            "comment": "\"Best CMPT course I've ever taken.  I was taking pages of notes simply because he made MIS sound so interesting.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "BUS478": {
+            "comment": "'Anthony is hilarious. He definitely made a night class more bearable. I really learned in his class. Very practical. His marking is pretty easy going. He likes to poke fun at people every now and then, which might annoy people, but it is all for good fun. Midterm: Super easy. All MC. Brings treats to share with class! Effective prof for sure!", 
+            "clarity": "5", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CMPT301": {
+            "comment": "'His lectures are interactive and fun; I never fallen asleep in one of his lectures. His lectures are based more on his personal experience with the subject than the textbook.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "BUS 362": {
+            "comment": "\"Don't understang those guys who complained about him. He is just an awesome prof with lots of flexibility. Exams were super fair, what you learn exactly was tested; nothing tricky. Cool course.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "CMPT470": {
+            "comment": "\"Animated would have to be the best word to describe this teacher.  He makes class reasonably interesting.  Assignments are well targeted to actual things you may see out in the field.  Very considerate of midterm schedules for other courses.  Invites students out for beer after class at the pub!  Wouldn't think twice about taking his class again.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "cmpt 301": {
+            "comment": "'Stuck up attitude, twitches face all the time, does praying motion with hands.", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "5"
+        }, 
+        "Bus478": {
+            "comment": "\"He's the best prof in SFU", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "bus 466": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "3.7", 
+    "easiness": "3.3", 
+    "clarity": "3.8"
+}

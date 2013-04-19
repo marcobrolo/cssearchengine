@@ -1,0 +1,39 @@
+{
+    "first_name": "Anthony", 
+    "last_name": "Chan", 
+    "course_rating": {
+        "CMPT301": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "CMPT 301": {
+            "comment": "'No Comments", 
+            "clarity": "3", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "\\xa0": {
+            "comment": "'No Comments", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }, 
+        "cmpt301": {
+            "comment": "\"This guy is funny.  He's class is very interactive and interesting.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "bus 466": {
+            "comment": "'just wastes your time - i learn nothing", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.7", 
+    "easiness": "3.3", 
+    "clarity": "3.8"
+}

@@ -1,0 +1,63 @@
+{
+    "first_name": "Paul", 
+    "last_name": "Tupper", 
+    "course_rating": {
+        "MATH232": {
+            "comment": "'Exams were variations of homework questions and simple textbook examples. Assignments were fairly straightforward.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "math232": {
+            "comment": "'exam questions are fair for the most part. his notes are well-prepared and organised. during the second half of the semester, as the concepts become more difficult, he moves a bit too fast, but this can easily be solved by pre-reading the sections. good teacher overall", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "algeb100": {
+            "comment": "'no comment", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "MATH 232": {
+            "comment": "'A good course to practice self-learning with the lovely textbook.", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "mathd100": {
+            "comment": "'he is really good teacher", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }, 
+        "MATH 419": {
+            "comment": "'Malicious marker. I would highly not recommend taking courses with him. Did not learn much.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "MACM409": {
+            "comment": "\"Very good teacher. He's good at conveying complicated concepts and goes through material at a very good pace. Assignments were way too easy (just simple MATLAB code), but midterms and final were kinda unfair: they focused on practical, numerical examples, whereas the lectures focused on theory. Course material was quite useful.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "MATH470": {
+            "comment": "'This is one of the best math classes I ever took. Enjoyed a lot in the course. The material is very interesting and his teaching style is superb. If you want to take an easy 400 level Math course, take this one!!", 
+            "clarity": "3", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "Math232": {
+            "comment": "'Sucks....really. He dose a lot of mistakes in class and his lecturing is so fast.and he cannot explain well on some of the lecture", 
+            "clarity": "1", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.0", 
+    "easiness": "3.0", 
+    "clarity": "3.1"
+}

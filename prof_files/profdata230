@@ -1,0 +1,45 @@
+{
+    "first_name": "Andrei", 
+    "last_name": "Bulatov", 
+    "course_rating": {
+        "Macm101": {
+            "comment": "\"The man actually tries to teach. People criticize him for unclarity. Cut him some slack, the guy is not an English prof. For an elementary course, he does a great job and I respect that. If you don't understand, attend tutorials and ASK QUESTIONS. Don't sit there like other people and stare at the board. You'll be fine.", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "MACM101": {
+            "comment": "\"Great prof. Has a good sense of humour. MACM is supposed to be somewhat confusing for people who take it for the first time. But he communicates the material to the students well. He's also very patient during his office hours. Confusing, difficult course, but great prof.", 
+            "clarity": "4", 
+            "helpfulness": "4", 
+            "easiness": "3"
+        }, 
+        "CMPT307": {
+            "comment": "\"One if the best prof's I've ever had! 307 is famous for being very hard, but I can swear no one else can make it easier than him. Still the content is rough but it's the best deal you can get!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "CMPT705": {
+            "comment": "'Not a  good instructor...so stubborn.", 
+            "clarity": "2", 
+            "helpfulness": "2", 
+            "easiness": "1"
+        }, 
+        "CMPT404": {
+            "comment": "'AVOID! Nice guy, but lecture material and textbook reading did not prepare us for the assignments, quizzes, and final exam. Assignments, quizzes and exams were very difficult. Very difficult class that could have been made easier than it was.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "macm101": {
+            "comment": "'Best Prof for MACM 101! His powerpoints are more helpful than the (Grimaldi) textbook, when you go to his office hour for help, he will be extremely helpful! Has a cool accent, sometimes funny during lecture. MACM is a hard course, I recommend you take it with him.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }
+    }, 
+    "helpfulness": "3.1", 
+    "easiness": "2.4", 
+    "clarity": "3.0"
+}

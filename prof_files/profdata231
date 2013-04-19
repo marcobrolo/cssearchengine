@@ -1,0 +1,45 @@
+{
+    "first_name": "Richard", 
+    "last_name": "Frank", 
+    "course_rating": {
+        "cmpt110": {
+            "comment": "\"absolutely the worst teacher i've ever had in my entire life. he messed up the examples in most lectures. asignments are not based on lectures at all. his exams are JOKES!!!i can't go into detail because the word limit and i can't stress this enough...AVOID this guy!!! dont even think about it!", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "1"
+        }, 
+        "CRIM480": {
+            "comment": "'He is a great prof! really interesting and helpful.  He has a sense of humor and always there to help students! definitely recommended!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Crim380": {
+            "comment": "'Spends too much time on research and does not remark test where the TA clearly made many mistakes.", 
+            "clarity": "3", 
+            "helpfulness": "1", 
+            "easiness": "3"
+        }, 
+        "CMPT110": {
+            "comment": "'Take only if you are interested in the subject. Boring lectures and assignments, poor marking.", 
+            "clarity": "2", 
+            "helpfulness": "3", 
+            "easiness": "3"
+        }, 
+        "CRIM380": {
+            "comment": "\"Boring class, readings were useless and his jokes are lame. Exams are all short answers. Memorize his slides inside out and you'll do ok.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "crim380": {
+            "comment": "'Test questions are very convoluted, almost treats the class as a secondary hobby to his research. Only does tests in one format (short answer) because he \"doesn\\'t know how\" to do other formats ie. multiple choice. Does not know answers to many questions asked during lecture. (I\\'m not sure, I don\\'t know, etc.) Boring, TA marks extremely unfair/hard.", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "2.4", 
+    "easiness": "2.7", 
+    "clarity": "3.1"
+}

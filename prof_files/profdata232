@@ -1,0 +1,21 @@
+{
+    "first_name": "Andrei", 
+    "last_name": "Bulatov", 
+    "course_rating": {
+        "CMPT409": {
+            "comment": "'You have to follow what he says very carefully and do your own research outside of class in order to keep up in the course. He is very current in what he teaches so you will learn A LOT!", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "1"
+        }, 
+        "MACM101": {
+            "comment": "\"He doesn't know how to teach, period.", 
+            "clarity": "2", 
+            "helpfulness": "1", 
+            "easiness": "2"
+        }
+    }, 
+    "helpfulness": "3.1", 
+    "easiness": "2.4", 
+    "clarity": "3.0"
+}

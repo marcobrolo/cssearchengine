@@ -1,0 +1,75 @@
+{
+    "first_name": "Michael", 
+    "last_name": "Monagan", 
+    "course_rating": {
+        "Macm 401": {
+            "comment": "'Gives long assignments, which are worth a large portion of your grade.  Lots of feedback on your work.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Macm 202": {
+            "comment": "'Excellent, Best professor", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "MATH158": {
+            "comment": "'Excellent Prof!!! midterms are easy~ assignments are little bit long but really helpful. the best part is he allows you bring a two-side cheat-sheet on final~~!!! HIGHLY RECOMMENDED!", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "5"
+        }, 
+        "MACM202": {
+            "comment": "'No Comments", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "3"
+        }, 
+        "Math 332": {
+            "comment": "'this guy is quite helpful.", 
+            "clarity": "5", 
+            "helpfulness": "4", 
+            "easiness": "4"
+        }, 
+        "various": {
+            "comment": "'Assigns lots of work, but the questions are always worth your time and effort.  Very good lectures.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "Math340": {
+            "comment": "'Excellent Prof. He really knows his subject well. Rings and Fields have been one of the most interesting courses I have taken. If you complete all the homework you will do fine!", 
+            "clarity": "3", 
+            "helpfulness": "4", 
+            "easiness": "2"
+        }, 
+        "MACM 202": {
+            "comment": "'Dr. Monagon is one of the best professors I have ever had. In class he goes through material at a very good pace so you never really get lost. His exams are very straight forward. I would recommend taking classes offered by him.", 
+            "clarity": "4", 
+            "helpfulness": "5", 
+            "easiness": "2"
+        }, 
+        "MACM401": {
+            "comment": "\"He won't scale our marks so you get what you did on assignments and midterms. Class notes are quite tedious and lots of writing which is totally avoidable. Instead of proving theorems, I would rather have Maple in front of me and go over sample question related to assignments during class. I would say.. his class is extremely boring and not helpful", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "2"
+        }, 
+        "MATH 158": {
+            "comment": "\"First two months were okay but after that he started being very sloppy, vague explanations, assigns questions that we weren't taught in class. Did not teach us how to do the very basic assignment questions, leaving students clueless and confused. Makes many mistakes during lectures", 
+            "clarity": "3", 
+            "helpfulness": "2", 
+            "easiness": "3"
+        }, 
+        "MATH340": {
+            "comment": "'Very clear, very fair, not very hard.  Loves using MAPLE to program (whether necessary to course or not, but give him credit he helped program it), so keep this in mind.  Final exam is marked hard though, but all in all a great professor.", 
+            "clarity": "5", 
+            "helpfulness": "5", 
+            "easiness": "4"
+        }
+    }, 
+    "helpfulness": "4.5", 
+    "easiness": "3.2", 
+    "clarity": "4.5"
+}
