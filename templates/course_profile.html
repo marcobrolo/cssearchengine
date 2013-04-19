@@ -65,10 +65,6 @@
 							<div class="subscore-value">{{easiness|floatformat:1|intcomma}}</div>
 						</div>
 					</div>
-
-					<div class="comments">
-						<div class="comments-count"><img src="{{ STATIC_URL }}images/comments.png" alt="Comments"><a href="#">Comments from fellow students</a></div>
-					</div>
 				</div>
 			</div>
 		</div>
@@ -78,17 +74,14 @@
 	<div id="footer">
 		<div id="footer-inner">
 			<div class="footer-heading">Other's who've taught this course</div>
-			{% for comment in comments %}
+			{% if other_profs %}
+			{% for p in other_profs %}
 			<div class="other">
-				<div class="other-name"><a href="#"><span>{{comment.comments}}</span> </a></div>
-			<!-- </br>
-				<div class="other-name"><a href="#"><span>{{comment.easiness}}</span> </a></div>
-			</br>
-				<div class="other-name"><a href="#"><span>{{comment.clarity}}</span> </a></div>
-			</br>
-				<div class="other-name"><a href="#"><span>{{comment.helpfulness}}</span> </a></div> -->
+				<div class="other-name"><a href="/professor/{{p.0.id}}/"><span>{{p.0.first_name}} {{p.0.last_name}}</span></a></div>
+				<div class="other-score"><span>OVERALL SCORE</span>: {{p.1|floatformat:1}}</div>
 			</div>
 			{% endfor %}
+			{% endif %}
 
 		</div>
 	</div>

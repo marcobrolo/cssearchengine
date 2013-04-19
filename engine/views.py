@@ -99,8 +99,21 @@ def course_profile(request, course_id):
     course = Course.objects.get(pk=course_id)
     CR = CourseRating.objects.filter(course=course_id)
     best_prof = ''
+    other_profs = None
     # figure out whos best prof and his score for this course
     best_prof_id, best_avg, helpfulness, clarity, easiness = find_best_prof_for_course(course_id)
+    other_profs_id = CourseRating.objects.filter(course=course_id).exclude(prof=best_prof_id).values_list('prof__id').distinct()
+    other_profs = []
+    for p in other_profs_id:
+        comment_ratings = CourseRating.objects.filter(prof=p[0], course=course_id)
+        averages = comment_ratings.aggregate(Avg('helpfulness'), Avg('clarity'), Avg('easiness'))
+        overall_score = 0.0
+        for avg in averages:
+            overall_score += float(averages[avg])
+        overall_score /= 3
+        other_profs.append((Prof.objects.get(pk=p[0]), overall_score))
+
+    # print other_profs
     # do edge case, if no RMP record of any prof teaching this course
     try:
         best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
@@ -117,15 +130,6 @@ def course_profile(request, course_id):
         profilepic = best_prof.first_name.lower() + best_prof.last_name.lower() + '.jpg'
     except IOError:
         pass
-    #print "best prof is ", best_prof.first_name, best_prof.last_name, best_avg
-
-    #clarity = CourseRating.objects.filter(course=course_id).aggregate(Avg('clarity'))
-    #helpfulness = CourseRating.objects.filter(course=course_id).aggregate(Avg('helpfulness'))
-    #easiness = CourseRating.objects.filter(course=course_id).aggregate(Avg('easiness'))
-
-    #overall = 0
-    #if not (clarity['clarity__avg'] is None or helpfulness['helpfulness__avg'] is None or  easiness['easiness__avg'] is None):
-    #	overall = (clarity['clarity__avg'] + helpfulness['helpfulness__avg'] + easiness['easiness__avg'] )/3
 
     context = {
         'course': course,
@@ -135,6 +139,7 @@ def course_profile(request, course_id):
 		'easiness': easiness['easiness__avg'],
 		'overall': best_avg,
         'best_prof': best_prof,
+        'other_profs': other_profs,
         'pic': profilepic
     }
     return render_to_response('course_profile.html', context, context_instance=RequestContext(request))
