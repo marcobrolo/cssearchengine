@@ -11,8 +11,16 @@ from haystack.query import SearchQuerySet
 from haystack.views import FacetedSearchView
 from django.contrib.humanize.templatetags.humanize import intcomma
 
+def prof_score_average(prof_id):
+    PR = CourseRating.objects.filter(prof=prof_id)
+    helpfulness = PR.aggregate(Avg('helpfulness'))
+    clarity = PR.aggregate(Avg('clarity'))
+    easiness = PR.aggregate(Avg('easiness'))
+    if not (clarity['clarity__avg'] is None or helpfulness['helpfulness__avg'] is None or  easiness['easiness__avg'] is None):
+        return helpfulness['helpfulness__avg'], clarity['clarity__avg'], easiness['easiness__avg']
+    return 0,0,0
 
-def prof_overall(course_id):
+def find_best_prof_for_course(course_id):
     # find the best prof for the given courseID
     best_prof = ''
     best_avg = 0.0
@@ -64,11 +72,32 @@ def results_page(request):
 
 def professor_profile(request, prof_id):
     # retrieve prof info from database
+    overall = "NULL"
     professor = Prof.objects.get(pk=prof_id)
     CR = CourseRating.objects.filter(prof=prof_id)
+    helpfulness, clarity, easiness = prof_score_average(prof_id)
+    # check to see if prof even has any ratings yet
+    if not (helpfulness==0 and clarity == 0 and easiness == 0):
+        overall = (helpfulness + clarity + easiness)/3.0
+    else:
+        # no ratings NULL check on template to put more info asking to rate prof
+        overall = "NULL"
+
+
+    clarity = professor.clarity
+    helpfulness = professor.helpfulness
+    easiness = professor.easiness
     # return object to template so it can acess professor attributes easier
     # probably very insecure and non conventional
-    return render_to_response('professor_profile.html', {'professor': professor, 'comments': CR}, context_instance=RequestContext(request))
+    context = {
+            'professor' : professor,
+            'clarity': clarity,
+            'helpfulness': helpfulness,
+            'easiness': easiness,
+            'overall' : overall,
+            'comments' : CR
+    }
+    return render_to_response('professor_profile.html', context, context_instance=RequestContext(request))
 
 
 def course_profile(request, course_id):
@@ -76,7 +105,7 @@ def course_profile(request, course_id):
     CR = CourseRating.objects.filter(course=course_id)
     best_prof = ''
     # figure out whos best prof and his score for this course
-    best_prof_id, best_avg, helpfulness, clarity, easiness = prof_overall(course_id)
+    best_prof_id, best_avg, helpfulness, clarity, easiness = find_best_prof_for_course(course_id)
     # do edge case, if no RMP record of any prof teaching this course
     try:
         best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
