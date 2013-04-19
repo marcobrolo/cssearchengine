@@ -47,7 +47,11 @@
 				<div class="score">
 					<div>
 						<div class="overall-heading">OVERALL SCORE</div>
-						<div class="overall-score">3.8 / 5.0</div>
+						<div class="overall-score">{% if overall == "NULL" %}
+  														Theres no rating, rate now!
+  													{% else %}
+  														{{overall}} / 5.0
+													{% endif %}</div>
 					</div>
 
 					<div class="subscores">
