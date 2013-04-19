@@ -112,7 +112,7 @@ def course_profile(request, course_id):
             for avg in averages:
                 overall_score += float(averages[avg])
                 overall_score /= 3
-                other_profs.append((Prof.objects.get(pk=p[0]), overall_score))
+            other_profs.append((Prof.objects.get(pk=p[0]), overall_score))
     except:
         pass
 
@@ -121,7 +121,7 @@ def course_profile(request, course_id):
     try:
         best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
     except:
-        disclaimer = "No records of profesors teaching this course."
+        pass
 
     pics_root  = '../static/pics/'
     profilepic = 'placeholder.png'
