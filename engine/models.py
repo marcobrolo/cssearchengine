@@ -10,7 +10,8 @@ class Prof(models.Model):
     helpfulness = models.DecimalField(max_digits=2, decimal_places=1)
     clarity = models.DecimalField(max_digits=2, decimal_places=1)
     easiness = models.DecimalField(max_digits=2, decimal_places=1)
-
+    home_page = models.CharField(max_length=20)
+    profile_page = models.CharField(max_length=20)
     def __unicode__(self):
         return self.fullname()
 

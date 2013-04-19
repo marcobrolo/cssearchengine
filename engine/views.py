@@ -116,7 +116,7 @@ def course_profile(request, course_id):
     except:
         pass
 
-    # print other_profs
+    print other_profs
     # do edge case, if no RMP record of any prof teaching this course
     try:
         best_prof = Prof.objects.get(pk=best_prof_id) # find the best prof obj from id
@@ -132,6 +132,7 @@ def course_profile(request, course_id):
         except IOError:
             pass
 
+    print other_profs
     context = {
         'course': course,
         'comments': CR,

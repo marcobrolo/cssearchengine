@@ -36,6 +36,7 @@ with con:
         	prof_list_db_lastname.append(row[1])
         	prof_firstname_id_dict[row[2]] = row[0]
         	prof_list_db_dict[row[1]] = prof_firstname_id_dict
+        	prof_list_db_fullname.append((row[2]+row[1]))
         else:
         	prof_firstname_id_dict[row[2]] = row[0]
         	for key, value in prof_list_db_dict[row[1]].iteritems():
@@ -89,7 +90,7 @@ while(1):
 	course_clarity = '0'
 	course_easiness ='0'
 	course_helpfulness ='0'
-	print course_list, "\n"
+	#print course_list, "\n"
 
 	#figure out alternative names and same last names
 	if prof_name_last in prof_list_db_lastname:
@@ -99,10 +100,10 @@ while(1):
 			#print "WTF", possible_prof
 			#find same last name dif first name
 			if lev.ratio(possible_prof, prof_name_first) > lev_ratio:
-				print"fixing name", prof_name_full, prof_name_first, possible_prof
+				#print"fixing name", prof_name_full, prof_name_first, possible_prof
 				prof_name_first = possible_prof
 				prof_name_full = prof_name_first+profs["last_name"]
-				print "now", prof_name_full
+				#print "now", prof_name_full
 
 	for courseID, rank in course_list.iteritems():
 		course_clarity = '0'
@@ -118,7 +119,7 @@ while(1):
 			course_name = word_split[0]
 			course_number = word_split[1]
 		except:
-			print "ERROR:::::::::::::::::: ", courseID, file_name
+			#print "ERROR:::::::::::::::::: ", courseID, file_name
 			invalid_course_names.append((courseID, file_name))
 			continue
 
@@ -126,7 +127,6 @@ while(1):
 			#print courseID, " is not a valid course"
 			continue
 		else:
-			print course_name
 			for rank_name, rank_score in rank.iteritems():
 				if rank_name == "clarity":
 					course_clarity = rank_score
@@ -144,14 +144,14 @@ while(1):
 					if key == prof_name_first:
 						db_id = value
 				if db_id == '':
-					print "EEEEEEEEEEEEE db_id not avail maybe matching prof dictionary no good"
+					print "EEEEEEEEEEEEE db_id not avail maybe matching prof dictionary no good", prof_name_first, prof_name_last, db_id
 				if prof_name_check in prof_list_db_lastname:
 					cur.execute("insert into engine_courserating (course_id, prof_id, easiness, helpfulness, clarity, comments) values (?, ?, ?, ?, ?, ?)",
 		            (course_list_db_dict[courseID_db], str(db_id), course_easiness, course_helpfulness, course_clarity, course_comment))
 		    		con.commit()
-		    		print("finish commiting to db")
+		    		#print("finish commiting to db")
 		    	elif prof_name_check not in prof_list_db_lastname:
-		    		print "ERROR", prof_name_check, "not in db"
+		    		print "ERROR", prof_name_full, "not in db"
 		    #else:
 		    #	print "ERROR:", courseID_db, " no in db"
 #trim ro strip nanmes

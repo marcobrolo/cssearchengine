@@ -31,3 +31,10 @@ class ProfComments(Item):
     comment = Field()
     prof_first_name = Field()
     prof_last_name = Field()
+
+class ProfLink(Item):
+    first_name = Field()
+    last_name = Field()
+    profile_page = Field()
+    home_page = Field()
+    

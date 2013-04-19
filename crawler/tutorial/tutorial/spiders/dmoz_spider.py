@@ -1,7 +1,7 @@
 from scrapy.spider import BaseSpider
 from scrapy.selector import HtmlXPathSelector
 from tutorial.items import DmozItem
-from tutorial.items import RateMyProfItem, Prof
+from tutorial.items import RateMyProfItem, Prof, ProfLink
 from scrapy.contrib.spiders import CrawlSpider, Rule
 from scrapy.contrib.linkextractors.sgml import SgmlLinkExtractor
 from scrapy.http.request import Request
@@ -15,18 +15,31 @@ class SFU_faculty_spider(BaseSpider):
     name = "sfufaculty"
     allowed_domains = ["cs.sfu.ca"]
     start_urls =[
-        "http://www.cs.sfu.ca/people/faculty.html"
+        #"http://www.cs.sfu.ca/people/faculty.html"
+        "http://www.cs.sfu.ca/people/emeriti.html"
+
     ]
 
     def parse(self, response):
         first_name = ''
         last_name = ''
-        prof_list = {}
+        home_page = ''
+        profile_page = ''
+        prof_list = []
 
         hxs = HtmlXPathSelector(response)
         sites = hxs.select('//div[@class="textimage section"]')
         for site in sites:
+            first_name = ''
+            last_name = ''
+            home_page = ''
+            profile_page = ''
+            prof = ProfLink()
             name_scrap = site.select('div[@class="ruled"]/div[@class="text"]/h3/text()').extract()
+            if not name_scrap:
+                name_scrap = site.select('div[@class="centred ruled"]/div[@class="text"]/h4/text()').extract()
+                if not name_scrap:
+                    name_scrap = site.select('div[@class="ruled"]/div[@class="text"]/h4/text()').extract()
             name_scrap = str(name_scrap)[3:-2]
             print name_scrap
             name_scrap = name_scrap.split(",")[0]
@@ -39,9 +52,25 @@ class SFU_faculty_spider(BaseSpider):
                 except:
                     print name_scrap
                     last_name = name_scrap[1]
-
             print first_name, last_name
+            prof_site = site.select('div[@class="ruled"]/div[@class="text"]/p/a').extract()
+            for site1 in prof_site:
+                site1=str(site1)
+                #print site1
+                if "Home Page" in site1:
+                    site1 = site1.split("\"")
+                    home_page = site1[1]
 
+                elif "Profile" in site1 and "Contact" in site1:
+                    site1 = site1.split("\"")
+                    profile_page = "www.cs.sfu.ca" + site1[1]
+            print "profile", profile_page, "home", home_page
+            prof['first_name'] = first_name
+            prof['last_name'] = last_name
+            prof['home_page'] = home_page
+            prof['profile_page'] = profile_page
+            prof_list.append(prof)
+        return prof_list
 
 
 class RMPSpider(BaseSpider):
@@ -105,13 +134,22 @@ class RMPSpider(BaseSpider):
         hxs = HtmlXPathSelector(response)
         sites = hxs.select('//div[@class="profName"]')
         items = []
-        for site in sites:
-            prof_link = site.select('a/@href').extract()
-            print "we are visiting", site.select('a/text()').extract()
-            
-            next_page = "http://www.ratemyprofessors.com/" + str(prof_link)[3:-2]            
-            if next_page:
-                yield Request(next_page, self.parseProfProfile)
+ #       for site in sites:
+ #           prof_link = site.select('a/@href').extract()
+ #           print "we are visiting", site.select('a/text()').extract()
+ #           
+ #           next_page = "http://www.ratemyprofessors.com/" + str(prof_link)[3:-2]            
+ #           if next_page:
+ #               yield Request(next_page, self.parseProfProfile)
+        extra_prof_sites =[
+            'http://www.ratemyprofessors.com/ShowRatings.jsp?tid=970256',
+            'http://www.ratemyprofessors.com/ShowRatings.jsp?tid=45487',
+            'http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1542627',
+            'http://www.ratemyprofessors.com/ShowRatings.jsp?tid=289896',
+            'http://www.ratemyprofessors.com/ShowRatings.jsp?tid=1334764'
+        ]
+        for sites in extra_prof_sites:
+            yield Request(sites, self.parseProfProfile)
         filename = "files/" + response.url.split("/")[-1]
         
         
